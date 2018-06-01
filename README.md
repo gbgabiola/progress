@@ -2,15 +2,32 @@
 
 In each folder, separated by year, are my notes, etc related to what I'm studying, doing, learning...
 
+<!-- You can find my name on the list here [speedstudy](https://github.com/P1xt/speedstudy#progress), My goal is to see how many points I can rack up by December 31, 2018. -->
+
+## 2018
+
+My goals are to
+* to focus and be proficient with Python and JavaScript
+* learning while building useful projects
+* increase my confidence and join the network of communications
+* learn more by contributing to an open source project
+
 ## Progress
 
-Current Book: 
-Current Course:  
+Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
+Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 0  
 Total Points earned: 
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
+| WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
+| WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
+| WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
+| WIP | Course | 500 | [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 |  |  |  |  |
 
 
@@ -144,6 +161,58 @@ Additional books can be found [here](https://github.com/P1xt/speedstudy/blob/mas
 *   Clone your favorite browser extension, or create one you wish existed.
 *   Clone your favorite mobile app, or create one you wish existed.
 *   Any project you want to build - the above are all just ideas for if you're stuck for an idea - really, just build what you want!
+
+---
+
+## Helpful links
+
+* [surge.sh](https://surge.sh/)
+* [heroku](https://www.heroku.com/)
+* [Glitch](https://glitch.com/)
+* [MDN](https://developer.mozilla.org/en-US/)
+* [YDKJS](https://github.com/getify/You-Dont-Know-JS/)
+* For when you need assets/ideas
+  * [pixabay](https://pixabay.com/)
+  * [Unsplash](https://unsplash.com/)
+  * [Pexels](https://www.pexels.com/)
+  * [LibreStock](http://librestock.com/)
+  * [Google Fonts](https://fonts.google.com/)
+  * [FlatIcon's Free Icon Sets](https://www.flaticon.com/packs?license=selection&order_by=1)
+* Official Docs
+  * [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+  * [MDN HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - for exploring all that HTML has to offer
+  * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)- for exploring all that CSS has to offer
+  * [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)- for exploring all that JavaScript has to offer
+  * [Flask](http://flask.pocoo.org/) - Python microframework
+  * [Django](https://www.djangoproject.com/) - Python framework
+  * [Sass](http://sass-lang.com/guide) - supercharged CSS, for more check [Getting Sassy with CSS](http://www.sassshop.com/)
+  * [Node.js](https://nodejs.org/en/docs/) - should be your primary reference for building backend projects
+  * [Express](https://expressjs.com/) - an excellent framework to accompany Node.js on the backend
+  * [MongoDB](https://docs.mongodb.com/) - for storing data
+  * [Mongoose](http://mongoosejs.com/) - access to MongoDB from Node.js made easy(er)
+  * [Passport.js](http://passportjs.org/) - remember this link when you have to setup a login system
+  * [D3](https://d3js.org/) - for creating awesome graphs and charts
+  * [AngularJS](https://angularjs.org/) - option for creating single page apps on the frontend
+  * [Angular](https://angular.io/) - option for creating single page apps on the frontend
+  * [React](https://reactjs.org/) - option for creating single page apps on the frontend
+  * [Vue](https://vuejs.org/) - option for creating single page apps on the frontend
+  * [Redux](http://redux.js.org/) - for managing state in a single page app
+  * [Mocha](https://mochajs.org/) - venture into testing
+  * [Karma](https://karma-runner.github.io/1.0/index.html) - venture into testing
+  * [Jest](https://facebook.github.io/jest/) - venture into testing
+  * [Webpack](https://webpack.github.io/) - module bundler for use in your build process (so you can minify your HTML/CSS/JavaScript among other things and deliver an optimized build to production)
+  * [Babel](http://babeljs.io/) - makes the new JavaScript work on old browsers (or node versions for that matter)
+  * [Gulp](https://gulpjs.com/) - for automating your workflow
+  * [ESLint](https://eslint.org/) - for helping to keep your code clean
+  * [Prettier](https://prettier.io/) - more help keeping your code clean
+  * [Travis](https://travis-ci.org/) - continuous deployment (how to trigger a build/deploy whenever you commit your changes via git)
+
+* **Full Paths**:
+  * [p1xt-guides](https://github.com/P1xt/p1xt-guides)
+  * [FCC](https://www.freecodecamp.org/)
+  * [OSSU](https://github.com/ossu/computer-science)
+  * [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+  * [The Odin Project](https://www.theodinproject.com/)
 
 ---
 
