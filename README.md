@@ -7,7 +7,7 @@ In each folder, separated by year, are my notes, etc related to what I'm studyin
 ## 2018
 
 My goals are to
-* to focus and be proficient with Python and JavaScript
+* focus and be proficient with Python and JavaScript
 * learning while building useful projects
 * increase my confidence and join the network of communications
 * learn more by contributing to an open source project
