@@ -8,7 +8,7 @@ In each folder, separated by year, are my notes, etc related to what I'm studyin
 
 My goals are to
 * focus and be proficient with Python and JavaScript
-* learning while building useful projects
+* learn while building useful projects
 * increase my confidence and join the network of communications
 * learn more by contributing to an open source project
 
@@ -17,10 +17,11 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 0  
-Total Points earned: 
+Total Points earned: 15
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
+| 04-06-18 | Blog Post on any topic | 15 | [A bright future for GitHub](https://blog.github.com/2018-06-04-github-microsoft/) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
