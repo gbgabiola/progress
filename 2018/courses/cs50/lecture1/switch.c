@@ -6,7 +6,7 @@
 int main(void)
 {
     // Prompt user for answer
-    char c = get_char("Answer: ");
+    char c = get_char("answer: ");
 
     // Check answer
     switch (c)

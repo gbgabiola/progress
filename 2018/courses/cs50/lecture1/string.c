@@ -5,6 +5,6 @@
 
 int main(void)
 {
-    string s = get_string("Name: ");
+    string s = get_string("name: ");
     printf("hello, %s\n", s);
 }
