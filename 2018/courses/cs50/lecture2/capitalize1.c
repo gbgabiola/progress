@@ -1,4 +1,4 @@
-// Capitalize using ctype library (and unnecessary condition)
+// Capitalizes string using ctype library (and an unnecessary condition)
 
 #include <cs50.h>
 #include <ctype.h>
@@ -8,10 +8,10 @@
 int main(void)
 {
     string s = get_string("before: ");
-    printf("after: ");
+    printf("after:  ");
     for (int i = 0, n = strlen(s); i < n; i++)
     {
-        if (isLower(s[i]))
+        if (islower(s[i]))
         {
             printf("%c", toupper(s[i]));
         }

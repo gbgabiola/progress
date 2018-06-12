@@ -1,3 +1,5 @@
+// Capitalizes a string
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -5,7 +7,7 @@
 int main(void)
 {
     string s = get_string("before: ");
-    printf("after: ");
+    printf("after:  ");
     for (int i = 0, n = strlen(s); i < n; i++)
     {
         if (s[i] >= 'a' && s[i] <= 'z')

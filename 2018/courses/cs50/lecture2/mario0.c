@@ -1,6 +1,8 @@
+// Prints four question marks
+
 #include <stdio.h>
 
 int main(void)
 {
-    print("????\n");
+    printf("????\n");
 }

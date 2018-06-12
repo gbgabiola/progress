@@ -21,48 +21,62 @@
 
 
 #include <cs50.h>
-#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int main(int argc, string argv[])
 {
-    // Check if correct # of arguments given
-    if (argc != 2 && !isdigit(argv[1]))
+    // Ensuring only one key is input
+    // if the user did not include a key in the command line then return an error
+    if (argc != 2)
     {
-        printf("Wrong number of arguments. Please try again.\n");
-
+        // display the error
+        printf("ERROR: You can only enter one key.\n");
         return 1;
     }
 
-    // Convert input to int type
-    int k = atoi(argv[1]);
+    // Assigning key
+    long k = strtol(argv[1], NULL, 10);
 
-    // Get text to encode
-    string p = get_string();
+    // Requesting plain text
+    string pText = get_string("plaintext: ");
+    int pLength = strlen(pText);
 
-    // Loop through text
-    for (int i = 0, n = strlen(p); i < n; i++)
+    printf("ciphertext: ");
+
+    // Adding key (k) to plain text (p)
+    for (int i = 0; i < pLength; i++)
     {
-        // Keep case of letter
-        if (isupper(p[i]))
+        int p = (int) pText[i];
+        int c;
+
+        if (65 <= p && p <= 90)
         {
-            // Get modulo number and add to appropriate case
-            printf("%c", 'A' + (p[i] - 'A' + k) % 26);
+            c = (k % 26) + p;
+
+            if (c > 90)
+            {
+                c = (c - 91) + 65;
+            }
+
+            printf("%c", (char) c);
         }
-        else if (islower(p[i]))
+        else if (97 <= p && p <= 122)
         {
-            printf("%c", 'a' + (p[i] - 'a' + k) % 26);
+            c = (k % 26) + p;
+
+            if (c > 122)
+            {
+                c = (c - 123) + 97;
+            }
+
+            printf("%c", (char) c);
         }
         else
         {
-            // return unchanged
-            printf("%c", p[i]);
+            printf("%c", (char) p);
         }
     }
-
-    printf("\n");
-
-    return 0;
+    printf("\n"); /* add more comments to make it more readable */
 }

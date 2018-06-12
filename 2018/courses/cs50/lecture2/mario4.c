@@ -1,3 +1,5 @@
+// Prints a square of bricks, sized as specified by user
+
 #include <cs50.h>
 #include <stdio.h>
 
@@ -10,7 +12,7 @@ int main(void)
         n = get_int("Positive number: ");
     }
     while (n <= 0);
-    
+
     // Print out this many rows
     for (int i = 0; i < n; i++)
     {
@@ -19,6 +21,6 @@ int main(void)
         {
             printf("#");
         }
-        print("\n");
+        printf("\n");
     }
 }

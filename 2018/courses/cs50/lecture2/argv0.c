@@ -11,6 +11,6 @@ int main(int argc, string argv[])
     }
     else
     {
-        printf("hello, world\n")
+        printf("hello, world\n");
     }
 }
