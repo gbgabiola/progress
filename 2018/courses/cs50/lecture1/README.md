@@ -1,16 +1,35 @@
 # Lecture 1 - C
 
-Learned in this lesson using bullets:
-* access Cloude IDE
-* write a source code
-* Run a source code through compiler to get a machine code
-* write a first program in C
-* use a comment // for future reference or for future programmers
-* integer & floating point arithmetic
-* use conditions and relational operators
-* if, else if else, and switch
-* while loop, for loop
-* Booelean - true or false, yes or no, 1 or 0
-* introduce to CLI
-* learned to test the code
-* learned to style the code using comments 
+## Examples
+
+### Types 
+
+1. `hello.c`
+1. `string.c`
+1. `int.c`
+1. `ints.c`
+1. `floats.c`
+1. `temperature.c`
+
+### Control Flow
+
+1. `conditions.c`
+1. `noswitch.c`
+1. `switch.c`
+
+### Abstraction
+
+1. `return.c`
+1. `positive.c`
+1. `cough*.c`
+
+### Representation
+
+1. `overflow.c`
+1. `imprecision.c`
+
+## Extra Examples
+
+- `parity.c`
+- `sign.c`
+- `sizes.c`
