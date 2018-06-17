@@ -15,97 +15,97 @@ JavaScript is a high-level programming language that all modern web browsers sup
 * [Increment a Number with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/increment-a-number-with-javascript)
 * [Decrement a Number with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/decrement-a-number-with-javascript)
 * [Create Decimal Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript)
-* [Multiply Two Decimals with JavaScript]()
-* Divide One Decimal by Another with JavaScript
-* Finding a Remainder in JavaScript
-* Compound Assignment With Augmented Addition
-* Compound Assignment With Augmented Subtraction
-* Compound Assignment With Augmented Multiplication
-* Compound Assignment With Augmented Division
-* Declare String Variables
-* Escaping Literal Quotes in Strings
-* Quoting Strings with Single Quotes
-* Escape Sequences in Strings
-* Concatenating Strings with Plus Operator
-* Concatenating Strings with the Plus Equals Operator
-* Constructing Strings with Variables
-* Appending Variables to Strings
-* Find the Length of a String
-* Use Bracket Notation to Find the First Character in a String
-* Understand String Immutability
-* Use Bracket Notation to Find the Nth Character in a String
-* Use Bracket Notation to Find the Last Character in a String
-* Use Bracket Notation to Find the Nth-to-Last Character in a String
-* Word Blanks
-* Store Multiple Values in one Variable using JavaScript Arrays
-* Nest one Array within Another Array
-* Access Array Data with Indexes
-* Modify Array Data With Indexes
-* Access Multi-Dimensional Arrays With Indexes
-* Manipulate Arrays With push()
-* Manipulate Arrays With pop()
-* Manipulate Arrays With shift()
-* Manipulate Arrays With unshift()
-* Shopping List
-* Write Reusable JavaScript with Functions
-* Passing Values to Functions with Arguments
-* Global Scope and Functions
-* Local Scope and Functions
-* Global vs. Local Scope in Functions
-* Return a Value from a Function with Return
-* Understanding Undefined Value returned from a Function
-* Assignment with a Returned Value
-* Stand in Line
-* Understanding Boolean Values
-* Use Conditional Logic with If Statements
-* Comparison with the Equality Operator
-* Comparison with the Strict Equality Operator
-* Practice comparing different values
-* Comparison with the Inequality Operator
-* Comparison with the Strict Inequality Operator
-* Comparison with the Greater Than Operator
-* Comparison with the Greater Than Or Equal To Operator
-* Comparison with the Less Than Operator
-* Comparison with the Less Than Or Equal To Operator
-* Comparisons with the Logical And Operator
-* Comparisons with the Logical Or Operator
-* Introducing Else Statements
-* Introducing Else If Statements
-* Logical Order in If Else Statements
-* Chaining If Else Statements
-* Golf Code
-* Selecting from Many Options with Switch Statements
-* Adding a Default Option in Switch Statements
-* Multiple Identical Options in Switch Statements
-* Replacing If Else Chains with Switch
-* Returning Boolean Values from Functions
-* Return Early Pattern for Functions
-* Counting Cards
-* Build JavaScript Objects
-* Accessing Object Properties with Dot Notation
-* Accessing Object Properties with Bracket Notation
-* Accessing Object Properties with Variables
-* Updating Object Properties
-* Add New Properties to a JavaScript Object
-* Delete Properties from a JavaScript Object
-* Using Objects for Lookups
-* Testing Objects for Properties
-* Manipulating Complex Objects
-* Accessing Nested Objects
-* Accessing Nested Arrays
-* Record Collection
-* Iterate with JavaScript While Loops
-* Iterate with JavaScript For Loops
-* Iterate Odd Numbers With a For Loop
-* Count Backwards With a For Loop
-* Iterate Through an Array with a For Loop
-* Nesting For Loops
-* Iterate with JavaScript Do...While Loops
-* Profile Lookup
-* Generate Random Fractions with JavaScript
-* Generate Random Whole Numbers with JavaScript
-* Generate Random Whole Numbers within a Range
-* Use the parseInt Function
-* Use the parseInt Function with a Radix
-* Use the Conditional (Ternary) Operator
-* Use Multiple Conditional (Ternary) Operators
+* [Multiply Two Decimals with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-decimals-with-javascript)
+* [Divide One Decimal by Another with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript)
+* [Finding a Remainder in JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/finding-a-remainder-in-javascript)
+* [Compound Assignment With Augmented Addition](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-addition)
+* [Compound Assignment With Augmented Subtraction](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-subtraction)
+* [Compound Assignment With Augmented Multiplication](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
+* [Compound Assignment With Augmented Division](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-division)
+* [Declare String Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables)
+* [Escaping Literal Quotes in Strings](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/escaping-literal-quotes-in-strings)
+* [Quoting Strings with Single Quotes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/quoting-strings-with-single-quotes)
+* [Escape Sequences in Strings](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/escape-sequences-in-strings/)
+* [Concatenating Strings with Plus Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-plus-operator)
+* [Concatenating Strings with the Plus Equals Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
+* [Constructing Strings with Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/constructing-strings-with-variables)
+* [Appending Variables to Strings](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/appending-variables-to-strings)
+* [Find the Length of a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string)
+* [Use Bracket Notation to Find the First Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string)
+* [Understand String Immutability](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understand-string-immutability)
+* [Use Bracket Notation to Find the Nth Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-character-in-a-string)
+* [Use Bracket Notation to Find the Last Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-last-character-in-a-string)
+* [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+* [Word Blanks](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/word-blanks)
+* [Store Multiple Values in one Variable using JavaScript Arrays](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays)
+* [Nest one Array within Another Array](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array)
+* [Access Array Data with Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
+* [Modify Array Data With Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+* [Access Multi-Dimensional Arrays With Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
+* [Manipulate Arrays With push()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+* [Manipulate Arrays With pop()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+* [Manipulate Arrays With shift()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
+* [Manipulate Arrays With unshift()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+* [Shopping List](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
+* [Write Reusable JavaScript with Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+* [Passing Values to Functions with Arguments](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
+* [Global Scope and Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
+* [Local Scope and Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+* [Global vs. Local Scope in Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+* [Return a Value from a Function with Return](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+* [Understanding Undefined Value returned from a Function](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+* [Assignment with a Returned Value](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
+* [Stand in Line](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
+* [Understanding Boolean Values](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
+* [Use Conditional Logic with If Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
+* [Comparison with the Equality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+* [Comparison with the Strict Equality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
+* [Practice comparing different values](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/practice-comparing-different-values)
+* [Comparison with the Inequality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-inequality-operator)
+* [Comparison with the Strict Inequality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-inequality-operator)
+* [Comparison with the Greater Than Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-operator)
+* [Comparison with the Greater Than Or Equal To Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
+* [Comparison with the Less Than Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-operator)
+* [Comparison with the Less Than Or Equal To Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-or-equal-to-operator)
+* [Comparisons with the Logical And Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator)
+* [Comparisons with the Logical Or Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator)
+* [Introducing Else Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-statements)
+* [Introducing Else If Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-if-statements)
+* [Logical Order in If Else Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/logical-order-in-if-else-statements)
+* [Chaining If Else Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/chaining-if-else-statements)
+* [Golf Code](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
+* [Selecting from Many Options with Switch Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/selecting-from-many-options-with-switch-statements)
+* [Adding a Default Option in Switch Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/adding-a-default-option-in-switch-statements)
+* [Multiple Identical Options in Switch Statements](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/multiple-identical-options-in-switch-statements)
+* [Replacing If Else Chains with Switch](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch)
+* [Returning Boolean Values from Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions)
+* [Return Early Pattern for Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/return-early-pattern-for-functions)
+* [Counting Cards](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/counting-cards)
+* [Build JavaScript Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects)
+* [Accessing Object Properties with Dot Notation](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-dot-notation)
+* [Accessing Object Properties with Bracket Notation](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-bracket-notation)
+* [Accessing Object Properties with Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)
+* [Updating Object Properties](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties)
+* [Add New Properties to a JavaScript Object](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object)
+* [Delete Properties from a JavaScript Object](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/delete-properties-from-a-javascript-object)
+* [Using Objects for Lookups](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups)
+* [Testing Objects for Properties](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/testing-objects-for-properties)
+* [Manipulating Complex Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulating-complex-objects)
+* [Accessing Nested Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects)
+* [Accessing Nested Arrays](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays)
+* [Record Collection](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection)
+* [Iterate with JavaScript While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops)
+* [Iterate with JavaScript For Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops)
+* [Iterate Odd Numbers With a For Loop](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop)
+* [Count Backwards With a For Loop](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/count-backwards-with-a-for-loop)
+* [Iterate Through an Array with a For Loop](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop)
+* [Nesting For Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops)
+* [Iterate with JavaScript Do...While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops)
+* [Profile Lookup](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+* [Generate Random Fractions with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-fractions-with-javascript)
+* [Generate Random Whole Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-with-javascript)
+* [Generate Random Whole Numbers within a Range](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-within-a-range)
+* [Use the parseInt Function](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function)
+* [Use the parseInt Function with a Radix](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function-with-a-radix)
+* [Use the Conditional (Ternary) Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator)
+* [Use Multiple Conditional (Ternary) Operators](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
