@@ -109,3 +109,7 @@ JavaScript is a high-level programming language that all modern web browsers sup
 * [Use the parseInt Function with a Radix](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function-with-a-radix)
 * [Use the Conditional (Ternary) Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator)
 * [Use Multiple Conditional (Ternary) Operators](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
+
+---
+
+Credits to [FreeCodeCamp](https://www.freecodecamp.org/)
