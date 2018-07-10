@@ -16,13 +16,15 @@ My goals are to
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
-Courses Completed: 0  
-Total Points earned: 30
+Courses Completed: 1  
+Total Points earned: 230
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
 | 04-06-18 | Blog Post on any topic | 15 | [A bright future for GitHub](https://blog.github.com/2018-06-04-github-microsoft/) |
 | 06-06-18 | Blog Post on any topic | 15 | [The beginning of an adventure: 13 Weeks of JavaScript](https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533) |
+| 07-06-18 | Udemy Course | 100 | [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/) |
+| 07-07-18 | Basic Project | 100 | [Omnifood](https://genesisgabiola.github.io/omnifood/) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
@@ -160,6 +162,27 @@ Total Points earned: 30
 
 
 ## Extras
+* [x] Course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
+* [ ] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+* [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
+* [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
+* [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
+* [ ] Course: [The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/)
+* [ ] Course: [The Complete Web Developer Course 2.0](https://www.udemy.com/the-complete-web-developer-course-2/)
+* [ ] Course: [The Modern Python 3 Bootcamp](https://www.udemy.com/the-modern-python3-bootcamp/)
+* [ ] Course: [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
+* [ ] Course: [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)
+* [ ] Course: [Learn and Understand NodeJS](https://www.udemy.com/understand-nodejs/)
+* [ ] Course: [ES6 Javascript: The Complete Developer's Guide](https://www.udemy.com/javascript-es6-tutorial/)
+* [ ] Course: [Node with React: Fullstack Web Development](https://www.udemy.com/node-with-react-fullstack-web-development/)
+* [ ] Course: [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/)
+* [ ] Course: [Webpack 2: The Complete Developer's Guide](https://www.udemy.com/webpack-2-the-complete-developers-guide/)
+* [ ] Course: [Modern React with Redux](https://www.udemy.com/react-redux/)
+* [ ] Course: [Advanced React and Redux: 2018 Edition](https://www.udemy.com/react-redux-tutorial/)
+* [ ] Course: [React 16 - The Complete Guide (incl. React Router 4 & Redux)](https://www.udemy.com/react-the-complete-guide-incl-redux/)
+* [ ] Course: [The Complete React Web Developer Course (with Redux)](https://www.udemy.com/react-2nd-edition/)
+* [ ] Course: [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)
+* [ ] Course: [Complete Python Bootcamp: Go from zero to hero in Python 3](https://www.udemy.com/complete-python-bootcamp/)
 * [ ] Course: [Intro to JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)
 * [ ] Course: [Calculus One](https://www.coursera.org/learn/calculus1)
 * [ ] Course: [Calculus Two: Sequences and Series]
