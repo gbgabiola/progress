@@ -2,7 +2,7 @@
 
 * [x] [Omnifood](https://genesisgabiola.github.io/omnifood/)
 * [ ] [Natours](https://genesisgabiola.github.io/natours/)
-* [ ] [Tribute Page](https://genesisgabiola.github.io/tribute-page/)
+* [x] [Tribute Page](https://genesisgabiola.github.io/tribute-page/)
 * [ ] [Survey Form](https://genesisgabiola.github.io/survey-form/)
 * [ ] [Product Landing Page](https://genesisgabiola.github.io/product-landing/)
 * [ ] [Technical Documentation Page](https://genesisgabiola.github.io/technical-documentation/)
