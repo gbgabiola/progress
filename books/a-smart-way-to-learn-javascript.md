@@ -164,6 +164,55 @@ following statement, 0 is assigned to the variable.
 
 ## Chapter 6 - Math expressions: Unfamiliar operators
 
+To increments and decrements the variable by 1.
+
+```js
+num++;
+num--;
+// is just the same as
+num = num + 1;
+num = num - 1;
+```
+
+You can use these expressions in an assignment.  
+
+```js
+var num = 1;
+var newNum = num++;
+```
+
+The original value of `num` is assigned to `newNum`, and `num` is incremented afterward. If `num` is originally assigned 1 in the first statement, the second
+statement boosts its value to 2. `newNum` gets the original value of `num`, 1.
+
+```js
+var num = 1;
+var newNum = ++num;
+```
+
+In the statements above, both `num` and `newNum` wind up with a value of 2.
+If you put the minuses after the variable, the new variable is assigned the original value,
+and the first variable is decremented.
+
+```js
+var num = 1;
+var newNum = num--;
+```
+
+`num` is decremented to 0, and `newNum` gets the original value of `num`, 1.
+
+But if you put the minuses before the variable, `newNum` is assigned the decremented, not the original, value. Both `num` and `newNum` wind up with a value of 0.
+
+```js
+var num = 1;
+var newNum = --num;
+```
+
+
+## Chapter 7 - Math expressions: Eliminating ambiguity
+
+
+
+
 
 ### Interactive Coding exercise:
 - [Chapter 1](http://www.asmarterwaytolearn.com/javascript/1.html)
@@ -171,3 +220,5 @@ following statement, 0 is assigned to the variable.
 - [Chapter 3](http://www.asmarterwaytolearn.com/javascript/3.html)
 - [Chapter 4](http://www.asmarterwaytolearn.com/javascript/4.html)
 - [Chapter 5](http://www.asmarterwaytolearn.com/javascript/5.html)
+- [Chapter 6](http://www.asmarterwaytolearn.com/javascript/6.html)
+- [Chapter 7](http://www.asmarterwaytolearn.com/javascript/7.html)
