@@ -210,8 +210,71 @@ var newNum = --num;
 
 ## Chapter 7 - Math expressions: Eliminating ambiguity
 
+In JavaScript as in algebra, the ambiguity is cleared up by precedence rules. You can finesse
+the issue by using parentheses to eliminate ambiguity. Parens override all the built-in precedence rules. They force JavaScript to complete operations enclosed by parens before completing any other operations.
+
+When you use parens to make your intentions clear to JavaScript, it also makes your code
+easier to grasp, both for other coders and for you when you're trying to understand your own
+code a year down the road.
+
+`var resultOfComputation = (2 * 4) * 4 + 2;`
+
+By placing the first multiplication operation inside parentheses, you've told JavaScript to
+do that operation first. But then what? The order could be..
+
+1. Multiply 2 by 4.
+2. Multiply that product by 4.
+3. Add 2 to it.  
+...giving `resultOfComputation` a value of 34.  
+Or the order could be...
+   1. Multiply 2 by 4.
+   2. Multiply that product by the sum of 4 and 2.  
+   ...giving resultOfComputation a value of 48.  
+   The solution is more parentheses.
+
+If you want the second multiplication to be done before the 2 is added, write this..
+
+`resultOfComputation = ((2 * 4) * 4) + 2;`
+
+But if you want the product of 2 times 4 to be multiplied by the number you get when you total 4 and 2, write this...
+
+`resultOfComputation = (2 * 4) * (4 + 2)`
 
 
+## Chapter 8 - Concatenating text strings
+
+When the user provided her name, we assigned it to the variable `userName`.
+
+`alert("Thanks, " + userName + "!");`
+
+Using the plus operator, the code combines—concatenates—three elements into the
+message: the string "Thanks, " plus the string represented by the variable `userName` plus the string "!"
+
+**Note** that the first string includes a space. Without it, the alert would read,
+"Thanks,Susan!".
+
+You can assign a concatenation to a variable.
+
+```js
+var message = "Thanks, ";
+var userName = "Susan";
+var banger = "!";
+var customMess = message + userName + banger;
+alert(customMess); // Thanks, Susan!
+```
+
+If you put numbers in quotes, JavaScript concatenates them as strings rather than adding
+them.
+
+`alert("2" + "2");`  
+displays the message`"22"` 
+
+`alert("2 plus 2 equals " + 2 + 2);`  
+...JavaScript automatically converts the numbers to strings, and displays the message "2
+plus 2 equals 22".
+
+
+## Chapter 9 - Prompts
 
 
 ### Interactive Coding exercise:
@@ -222,3 +285,4 @@ var newNum = --num;
 - [Chapter 5](http://www.asmarterwaytolearn.com/javascript/5.html)
 - [Chapter 6](http://www.asmarterwaytolearn.com/javascript/6.html)
 - [Chapter 7](http://www.asmarterwaytolearn.com/javascript/7.html)
+- [Chapter 8](http://www.asmarterwaytolearn.com/javascript/8.html)
