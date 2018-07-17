@@ -2,7 +2,6 @@
 
 
 ## Chapter 1 - Alerts
-
 `alert` is a keyword—that is, a word that has special meaning for JavaScript. It means,
 "Display, in an alert box, the message that follows.
 
@@ -22,7 +21,6 @@ statements end with a curly bracket instead of a semicolon).
 
 
 ## Chapter 2 - Variables for Strings
-
 A variable is created when you write `var` (for variable) followed by the name that you
 choose to give it. It takes on a particular value when you assign the value to it. This is a JavaScript statement that creates the variable `name` and assigns the value "Mark" to it.
 
@@ -49,7 +47,6 @@ declaration statement comes first.
 You _can use_ just any word (as long as it doesn't break the rules of variable-naming), but you'll want to give your variables meaningful names, because it'll help you and other coders understand your code.
 
 ## Chapter 3 - Variables for Numbers
-
 You can also assign a number to a variable. Unlike a string, a number is not enclosed in quotes. A number, or any combination of characters starting with a number, can't be used as a variable name. If it's a number, JavaScript rejects it as a variable.
 
 `var weight = 150;`
@@ -101,7 +98,6 @@ alert(caseQty);
 
 
 ## Chapter 4 - Variable Names Legal and Illegal
-
 Rules in naming variables.
 - You can't enclose it in
 quotation marks.
@@ -163,7 +159,6 @@ following statement, 0 is assigned to the variable.
 
 
 ## Chapter 6 - Math expressions: Unfamiliar operators
-
 To increments and decrements the variable by 1.
 
 ```js
@@ -209,7 +204,6 @@ var newNum = --num;
 
 
 ## Chapter 7 - Math expressions: Eliminating ambiguity
-
 In JavaScript as in algebra, the ambiguity is cleared up by precedence rules. You can finesse
 the issue by using parentheses to eliminate ambiguity. Parens override all the built-in precedence rules. They force JavaScript to complete operations enclosed by parens before completing any other operations.
 
@@ -242,7 +236,6 @@ But if you want the product of 2 times 4 to be multiplied by the number you get 
 
 
 ## Chapter 8 - Concatenating text strings
-
 When the user provided her name, we assigned it to the variable `userName`.
 
 `alert("Thanks, " + userName + "!");`
@@ -275,6 +268,81 @@ plus 2 equals 22".
 
 
 ## Chapter 9 - Prompts
+A _prompt box_ asks the user for some information and provides a response field for her answer.
+
+Prompt code is like alert code, with two differences.
+- In a prompt, you need a way to capture the user's response. That means you need to start by declaring a variable, followed by an equal sign.
+- In a prompt, you can specify a second string. This is the default response that appears in the field when the prompt displays. If the user leaves the default response as-is and just clicks **OK**, the default response is assigned to the variable. It's up to you whether you
+include a default response.
+
+Assigning the strings to variables, then specify the variables instead of strings inside the parentheses.
+
+```js
+var question = "Your species?";
+var defaultAnswer = "human";
+var spec = prompt(question, defaultAnswer);
+```
+
+The user's response is a text string. Even if the response is a number, it comes back as a string.
+
+```js
+var numberOfCats = prompt("How many cats?");
+var tooManyCats = numberOfCats + 1;
+// example you enter number 3
+// "3" + 1 = "31"
+```
+
+All responses to prompts come back as strings. When the string, "3", is linked with a plus to the number, 1,
+JavaScript converts the 1 to a string and concatenates.
+
+If the user enters nothing and clicks **OK**, the variable is assigned an empty string: "" If the user clicks **Cancel**, the variable is assigned a special value, **null**.
+
+**Coding alternatives to be aware of:**
+- Some coders write `window.prompt` instead of, simply, `prompt`. This is a highly formal but perfectly correct way to write it. Most coders prefer the short form. We'll stick to the short form in this training.
+- Some coders would use single rather than double quotation marks. This is legal, as long as it's a matching pair
+
+
+## Chapter 10 - if statements
+You prompt that asks, "Where does the Pope live?". If the user answers correctly, display an alert congratulating him.
+
+```js
+var x = prompt("Where does the Pope live?");
+if (x === "Vatican") {
+  alert("Correct!");
+}
+```
+
+If the user enters "Vatican" in the prompt field, the congratulations alert displays. If he enters something else, nothing happens.  
+An if statement always begins with if, then a space betweet if and parenthesis.
+It's purely a matter of style, but common style rules sanction this inconsistency.
+
+Following the `if` keyword-plus-space is the condition that's being tested—does the variable that's been assigned the user's response have a value of "Vatican"?  
+The condition is enclosed in parentheses.  
+If the condition tests true, something happens. Any number of statements might execute.
+
+The first line of an if statement ends with an opening curly bracket. An entire if statement ends with a closing curly bracket on its own line. Note that this is an exception to the rule that a statement ends with a semicolon. It's common to omit the semicolon when it's a complex statement that's paragraph-like and ends in a curly bracket.
+
+Equal sign ( `=` ) is reserved for _assigning_ a value to a variable. If you're _testing_ a variable for a value, you can't use the single equal sign.  
+If you forget this rule and use a single equal sign when you should use the triple equal sign, the code won't run properly.  
+You can also use a variable instead of a string, and when a condition is met, you can have any number of statements execute.
+
+```js
+var correctAnswer = "Vatican";
+if (x === correctAnswer) {
+  score++;
+  userIQ = "genius";
+  alert("Correct!");
+}
+```
+
+**Coding alternatives to be aware of:**
+- Some coders write simple if statements without curly brackets, which is legal. Some put the opening curly bracket on its own line. Some put the whole if statement, if it's simple, on a single line.
+- In most cases, a double equal sign `==` is just as good as a triple equal sign `===`. To keep things simple, always use the triple equal sign.
+
+
+## Chapter 11 - Comparison operators
+
+
 
 
 ### Interactive Coding exercise:
@@ -286,3 +354,6 @@ plus 2 equals 22".
 - [Chapter 6](http://www.asmarterwaytolearn.com/javascript/6.html)
 - [Chapter 7](http://www.asmarterwaytolearn.com/javascript/7.html)
 - [Chapter 8](http://www.asmarterwaytolearn.com/javascript/8.html)
+- [Chapter 9](http://www.asmarterwaytolearn.com/javascript/9.html)
+- [Chapter 10](http://www.asmarterwaytolearn.com/javascript/10.html)
+- [Chapter 11](http://www.asmarterwaytolearn.com/javascript/11.html)
