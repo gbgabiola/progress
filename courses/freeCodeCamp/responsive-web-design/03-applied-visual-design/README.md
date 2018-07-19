@@ -1,0 +1,54 @@
+# [Applied Visual Design](https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/)
+
+- [x] Create Visual Balance Using the text-align Property
+- [x] Adjust the Width of an Element Using the width Property
+- [x] Adjust the Height of an Element Using the height Property
+- [x] Use the strong Tag to Make Text Bold
+- [x] Use the u Tag to Underline Text
+- [x] Use the em Tag to Italicize Text
+- [x] Use the del Tag to Strikethrough Text
+- [x] Create a Horizontal Line Using the hr Element
+- [x] Adjust the background-color Property of Text
+- [x] Adjust the Size of a Header Versus a Paragraph Tag
+- [x] Add a box-shadow to a Card-like Element
+- [x] Decrease the Opacity of an Element
+- [x] Use the text-transform Property to Make Text Uppercase
+- [x] Set the font-size for Multiple Heading Elements
+- [x] Set the font-weight for Multiple Heading Elements
+- [x] Set the font-size of Paragraph Text
+- [x] Set the line-height of Paragraphs
+- [x] Adjust the Hover State of an Anchor Tag
+- [x] Change an Element's Relative Position
+- [x] Move a Relatively Positioned Element with CSS Offsets
+- [x] Lock an Element to its Parent with Absolute Positioning
+- [x] Lock an Element to the Browser Window with Fixed Positioning
+- [x] Push Elements Left or Right with the float Property
+- [x] Change the Position of Overlapping Elements with the z-index Property
+- [x] Center an Element Horizontally Using the margin Property
+- [x] Learn about Complementary Colors
+- [x] Learn about Tertiary Colors
+- [x] Adjust the Color of Various Elements to Complementary Colors
+- [x] Adjust the Hue of a Color
+- [x] Adjust the Tone of a Color
+- [x] Create a Gradual CSS Linear Gradient
+- [x] Use a CSS Linear Gradient to Create a Striped Element
+- [x] Create Texture by Adding a Subtle Pattern as a Background Image
+- [x] Use the CSS Transform scale Property to Change the Size of an Element
+- [x] Use the CSS Transform scale Property to Scale an Element on Hover
+- [x] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+- [x] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
+- [x] Create a Graphic Using CSS
+- [x] Create a More Complex Shape Using CSS and HTML
+- [x] Learn How the CSS @keyframes and animation Properties Work
+- [x] Use CSS Animation to Change the Hover State of a Button
+- [x] Modify Fill Mode of an Animation
+- [x] Create Movement Using CSS Animation
+- [x] Create Visual Direction by Fading an Element from Left to Right
+- [x] Animate Elements Continually Using an Infinite Animation Count
+- [x] Make a CSS Heartbeat using an Infinite Animation Count
+- [x] Animate Elements at Variable Rates
+- [x] Animate Multiple Elements at Variable Rates
+- [x] Change Animation Timing with Keywords
+- [x] Learn How Bezier Curves Work
+- [x] Use a Bezier Curve to Move a Graphic
+- [x] Make Motion More Natural Using a Bezier Curve
