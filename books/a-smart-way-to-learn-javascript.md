@@ -475,14 +475,10 @@ This can be read in either of two ways:
   | | |
   | --- | --- |
   | Over 65 or under 21 | Resident of U.S. |
-  |
 
 - If the person is over 65 and living anywhere or is under 21 and a resident of the U.S.
-
-  | | |
-  | --- | --- |
+ 
   | Over 65 | under 21 and U.S. resident |
-  |
 
 It's the same problem  when you combine mathematical expressions. And solved it the same way: with parentheses.  
 If the subject is over 65 and a U.S. resident, it's a pass. Or, if the subject is under 21 and a U.S. resident, it's a pass.
@@ -499,6 +495,121 @@ if (age > 65 || (age < 21 && res === "U.S.")) {
 
 
 ## Chapter 14 - if statements nested
+If either of the first conditions is true, and, in addition, the third
+condition is true, then `g` is assigned `h`. Otherwise, `e` is assigned `f`.
+
+```js
+if ((x === y || a === b) && c === d) {
+  g = h;
+}
+else {
+  e = f;
+}
+```
+
+Another way using _nesting_.
+
+```js
+if (c === d) {
+  if (x === y) {
+    g = h;
+  }
+  else if (a === b) {
+    g = h;
+  }
+  else {
+    e = f;
+  }
+}
+else {
+  e = f;
+}
+```
+
+Nest levels are communicated to JavaScript by the positions of the curly brackets. There are three blocks nested inside the top-level _if_. If the condition tested by the top-level _if_—that `c` has the same value as `d`—is false, none of the blocks nested inside executes. The opening curly bracket on line 1 and the closing curly bracket on line 11 enclose all the nested code, telling JavaScript that everything inside is second-level.
+
+For readability, a lower level is indented 2 spaces beyond the level above it.
+
+In the relatively simple set of tests and outcomes it's better to use the more concise structure of multiple conditions. But when things get really complicated, nested ifs are a good way to go.
+
+
+## Chapter 15 - Arrays
+```js
+var city0 = "Atlanta";
+var city1 = "Baltimore";
+var city2 = "Chicago";
+var city3 = "Denver";
+var city4 = "Los Angeles";
+var city5 = "Seattle";
+```
+
+```js
+alert("Welcome to " + city3); // Welcome to Denver
+```
+
+Ordinary variable has a single value assigned to it.  
+**Array** is a variable that can have multiple values assigned to it.
+
+```js
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+```
+
+JavaScript numbers the different values, or elements, automatically. (You can control the numbering yourself by defining
+elements individually.
+
+And you refer to each element by writing the array name which is `cities` in this case, followed by a number enclosed in square brackets. `cities[0]` is "Atlanta", `cities[1]` is "Baltimore", and so on..  
+Because JavaScript automatically numbers array elements, you have no say in the numbering. The first element in the list always has an _index_ of 0, the second element an index of 1, and so on.
+
+
+This is the same alert in the beginning of this chapter, but now specifying an array element instead of an ordinary variable.
+
+```js
+alert("Welcome to " + cities[3]); // Welcome to Denver
+```
+
+An array can be assigned any type of value that you can assign to ordinary variables. You can even mix the different types in the same array (not that you would ordinarily want to).
+
+`var mixedArray = [1, "Bob", "Now is", true];`
+
+**Things to keep in mind:**
+- The first item always has an index of 0, not 1. This means that if the last item in the list has an index of 9, there are 10 items in the list.
+- The same naming rules with ordinary variables apply. Only letters, numbers, `$` and `_` are legal. The first character can't be a number. No spaces.
+- Coders often prefer to make array names plural—`cities` instead of `city`, since an array is a list of things.
+- Like an ordinary variable, you declare an array only once. If you assign new values to an array that has already been declared, you drop the `var`.
+
+
+## Chapter 16 - Arrays: Adding and removing elements
+In variable, you can declare it empty, one that doesn't have a value. Then assign or change the value, that's the same with an array. This is an empty array.
+
+`var pets = []`
+
+Assume that the array `pets` has already been declared. This is how you assign values to it.
+
+```js
+pets[0] = "dog";
+pets[1] = "cat";
+pets[2] = "bird";
+```
+
+If you refer to `pets[4]` which is not assigned, you'll get `undefined`.  
+If you assign a new value to an array element that already has one, the old value is
+replaced by the new one.
+
+**pop** keyword, you can remove the last element of an array.  
+Suppose you have an array, `pets`, whose elements are "dog", "cat", and "bird". The following code deletes the last element, "bird", leaving a two-element array.
+
+`pets.pop();`
+
+
+**push** keyword, you can add one or more elements to the end of an array.  
+Suppose you have that same array consisting of "dog", "cat", and "bird". The following code adds two new elements to the end of the array.
+
+`pets.push("fish", "ferret");`
+
+
+## Chapter 17 - Arrays: Removing, inserting, and extracting elements
+
+
 
 
 
@@ -515,3 +626,9 @@ if (age > 65 || (age < 21 && res === "U.S.")) {
 - [Chapter 9](http://www.asmarterwaytolearn.com/javascript/9.html)
 - [Chapter 10](http://www.asmarterwaytolearn.com/javascript/10.html)
 - [Chapter 11](http://www.asmarterwaytolearn.com/javascript/11.html)
+- [Chapter 12](http://www.asmarterwaytolearn.com/javascript/12.html)
+- [Chapter 13](http://www.asmarterwaytolearn.com/javascript/13.html)
+- [Chapter 14](http://www.asmarterwaytolearn.com/javascript/14.html)
+- [Chapter 15](http://www.asmarterwaytolearn.com/javascript/15.html)
+- [Chapter 16](http://www.asmarterwaytolearn.com/javascript/16.html)
+- [Chapter 17](http://www.asmarterwaytolearn.com/javascript/17.html)
