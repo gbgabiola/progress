@@ -341,6 +341,164 @@ if (x === correctAnswer) {
 
 
 ## Chapter 11 - Comparison operators
+`===` is a type of _comparison operator_, specifically an
+equality operator, to _compare_ two things to see if they're _equal_.
+
+You can use the equality operator to compare a variable with a string, a variable with a number, a variable with a math expression, or a variable with a variable. And you can use it to compare various combinations.
+
+```js
+if (fullName === "Mark" + " " + "Myers") {
+if (fullName === firstName + " " + "Myers") {
+if (fullName === firstName + " " + "Myers") {
+if (fullName === firstName + " " + lastName) {
+if (totalCost === 81.50 + 135) {
+if (totalCost === materialsCost + 135) {
+if (totalCost === materialsCost + laborCost) {
+if (x + y === a - b) {
+```
+
+When you're comparing strings, the equality operator is case-sensitive. "Rose" does not equal "rose."
+
+`!==`, is the opposite of `===`. It means _is not equal to_.
+
+```js
+if (yourTicketNumber !== 487208) {
+  alert("Better luck next time.");
+}
+```
+
+Like `===`, the not-equal operator can be used to compare numbers, strings, variables, math expressions, and combinations.  
+Like `===`, string comparisons using the not-equal operator are case-sensitive. It's true that "Rose" `!==` "rose".
+
+### 4 more comparison operators, usually used to compare numbers.
+- `>` is greater than
+- `<` is less than
+- `>=` is greater than or equal to
+- `<=` is less than or equal to
+
+All conditions are true in here:
+```js
+if (1 > 0) {
+if (0 < 1) {
+if (1 >= 0) {
+if (1 >= 1) {
+if (0 <= 1) {
+if (1 <= 1) {
+```
+
+**Coding alternatives to be aware of:**
+- Just as the double equal sign can usually be used instead of the triple equal sign, `!=` can usually be used instead of `!==`.
+
+
+## Chapter 12 - if...else and else if statements
+If the condition is false we can do it like this..
+
+```js
+var x = prompt("Where does the Pope live?");
+if (x === "Vatican") {
+  alert("Correct!");
+}
+if (x !== "Vatican") {
+  alert("Wrong answer");
+}
+```
+
+but it is much better, concise and, more readable if we do it like these..
+
+```js
+if (x === "Vatican") {
+  alert("Correct!");
+}
+else {
+  alert("Wrong answer");
+}
+```
+
+The _else_ part has exactly the same formatting as the _if_ part.  
+As in the _if_ part, any number of statements can execute within the _else_ part.
+
+**_else if_** is used if all tests above have failed and you want to test another condition.
+
+```js
+var correctAnswer = "Vatican";
+if (x === correctAnswer) {
+  alert("Correct!");
+}
+else if (x === "Rome") {
+  alert("Incorrect but close");
+}
+else {
+  alert("Incorrect");
+}
+```
+In a series of if tests, JavaScript stops testing whenever a condition tests true.
+
+**Coding alternatives to be aware of:**
+- There are so many ways to format if statements and their variations that the range of possibilities is almost endless.
+
+
+## Chapter 13 - Testing sets of conditions
+If the condition is met, one or
+more statements execute. But if we need to meet two conditions in order to succeed the test, then we can use `&&` (**AND**) to chain any number of conditions together.
+
+If a guy weighs more than 300 pounds, he's just a great big guy. But if he
+weighs more than 300 pounds _and_ runs 40 yards in under 6 seconds? You're going to invite him to try out for the NLF as a lineman.
+
+```js
+if (weight > 300 && time < 6 && age > 17 && gender === "male") {
+  alert("Come to our tryout!");
+}
+else {
+  alert("Come to our cookout!");
+}
+```
+
+If any or all of the conditions are true
+`||` (**OR**) to test if any or all of the set of conditions are true.
+
+```js
+if (SAT > avg || GPA > 2.5 || sport === "football") {
+  alert("Welcome to Bubba State!");
+}
+else {
+  alert("Have you looked into appliance repair?");
+}
+```
+
+Combine any number of _and_ and _or_ conditions. 
+
+`if (age > 65 || age < 21 && res === "U.S.") {`
+
+This can be read in either of two ways:
+- If the person is over 65 or under 21 and, in addition to either of these conditions, is also a resident of the U.S. Under this interpretation, both columns need to be true in the following table to qualify as a pass.
+
+  | | |
+  | --- | --- |
+  | Over 65 or under 21 | Resident of U.S. |
+  |
+
+- If the person is over 65 and living anywhere or is under 21 and a resident of the U.S.
+
+  | | |
+  | --- | --- |
+  | Over 65 | under 21 and U.S. resident |
+  |
+
+It's the same problem  when you combine mathematical expressions. And solved it the same way: with parentheses.  
+If the subject is over 65 and a U.S. resident, it's a pass. Or, if the subject is under 21 and a U.S. resident, it's a pass.
+
+```js
+if ((age > 65 || age < 21) && res === "U.S.") {
+```
+
+If the subject is over 65 and living anywhere, it's a pass. Or, if the subject is under 21 and living in the U.S., it's a pass.
+
+```js
+if (age > 65 || (age < 21 && res === "U.S.")) {
+```
+
+
+## Chapter 14 - if statements nested
 
 
 
