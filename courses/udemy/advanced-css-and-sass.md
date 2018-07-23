@@ -27,11 +27,11 @@
 
 
 ### **How CSS Works Behind the Scenes**
-Load HTML => Parse HTML => Document Object Model (DOM) => Render tree
+Load HTML -> Parse HTML -> Document Object Model (DOM) -> Render tree
 
-Parse HTML => Load CSS => Parse CSS [Resolve conflicting CSS declarations (cascade), Process final CSS values] => CSS Object Model (CSSOM) => Render tree
+Parse HTML -> Load CSS -> Parse CSS [Resolve conflicting CSS declarations (cascade), Process final CSS values] -> CSS Object Model (CSSOM) -> Render tree
 
-Render tree => Website rendering: visual formatting model => Final rendered website
+Render tree -> Website rendering: visual formatting model -> Final rendered website
 
 
 ### **How CSS is Parsed Part 1 The Cascade and Specificity**
@@ -106,15 +106,14 @@ p {
 }
 ```
 
-|  | width (paragraph) | padding (paragraph) | font-size (root) | font-size (section) | font-size (paragraph) |
-|-|-|-|-|-|-|
-| 1. Declared value (autor declarations| 140px | - | - | 1.5rem | - |
-| 2. Cascaded value (after cascade) | 66% | - | 16px (browser default) | 1.5rem | - |
-| 3. Specified value (defaulting, if there's no cascaded value) | 66% | 0px (initial value) | 16px | 1.5rem | 24px |
-| 4. Computed value (converting relative values to absolute) | 66% | 0px | 16px | 24px (1.5 * 16px) | 24px |
-| 5. Used value (final calculations, based on layout) | 184.8px | 0px | 16px | 24px | 24px |
-| 6. Actual value (browser and device restrictions) | 185px | 0px | 16px | 24px | 24px |
-|  |  |  |  |  |  |
+| | width (paragraph) | padding (paragraph) | font-size (root) | font-size (section) | font-size (paragraph) |
+| - |-|-|-|-|-|
+| 1. Declared value (autor declarations                         | 140px   | -   | - | 1.5rem | - |
+| 2. Cascaded value (after cascade)                             | 66%     | -   | 16px (browser default) | 1.5rem | - |
+| 3. Specified value (defaulting, if there's no cascaded value) | 66%     | 0px (initial value) | 16px | 1.5rem | 24px |
+| 4. Computed value (converting relative values to absolute)    | 66%     | 0px | 16px | 24px (1.5 * 16px) | 24px |
+| 5. Used value (final calculations, based on layout)           | 184.8px | 0px | 16px | 24px | 24px |
+| 6. Actual value (browser and device restrictions)             | 185px   | 0px | 16px | 24px | 24px |
 
 
 How Units are Converted from Relative to Absolute (PX) in order to calculate `Computed value` and `Used value`
@@ -139,16 +138,15 @@ header {
 }
 ```
 
-|  | Example (x) | How to convert to pixels | Results in pixels |
-| - | - | - | - |
-| % (fonts) | 150% | x% * parent's computed font-size | 24px |
-| % (lengths) | 10% | x% * parent's computed **width** | 100px |
-| em (fonts) | 3em | x * parent computed font-size | 72px (3 * 24) |
-| em (lengths) | 2em | x * **current element** computed font-size | 48px |
-| rem | 10rem | x *  **root** computed font-size | 160px |
-| vh | 90vh | x * 1% of viewport height | 90% of the current viewport height |
-| vw | 80vw | x * 1% of viewport width | 80% of the current viewport width |
-|  |  |  |  |
+|              | Example (x) | How to convert to pixels         | Results in pixels                  |
+| ------------ | ----------- | -------------------------------- | ---------------------------------- |
+| % (fonts)    | 150%        | x% * parent's computed font-size | 24px                               |
+| % (lengths)  | 10%         | x% * parent's computed **width** | 100px                              |
+| em (fonts)   | 3em         | x * parent computed font-size    | 72px (3 * 24)                      |
+| em (lengths) | 2em         | x * **current element** computed font-size | 48px                     |
+| rem          | 10rem       | x *  **root** computed font-size | 160px                              |
+| vh           | 90vh        | x * 1% of viewport height        | 90% of the current viewport height |
+| vw           | 80vw        | x * 1% of viewport width         | 80% of the current viewport width  |
 
 
 ### **How CSS is Parsed Part 3 Inheritance**
@@ -270,7 +268,7 @@ Algorithm that calculates box and determines the layout of theses boxes, for eac
 
 
 ### **CSS Architecture Components and BEM**
-THINK => BUILD => ARCHITECT MINDSET
+THINK -> BUILD -> ARCHITECT MINDSET
 1. **THINK** about the layout of your webpage or web app before writing code.
    - **COMPONENT-DRIVEN DESIGN**
      - **Modular building blocks** that makes up interfaces
@@ -303,7 +301,7 @@ THINK => BUILD => ARCHITECT MINDSET
 ## Introduction to Sass and NPM
 **SASS** is a CSS preprocessor, an extension of CSS that adds power and elegance to the basic language.
 
-`SASS SOURCE CODE` => Sass compiler => `COMPILED CSS CODE`
+`SASS SOURCE CODE` -> Sass compiler -> `COMPILED CSS CODE`
 
 **MAIN SASS FEATURES**
 - **Variables**: for reusable values such as colors, font-sizes, spacing, etc.
@@ -360,3 +358,161 @@ The steps to be able to use SASS in the project:
 
 - `npm run compile:sass` to watch and load it the file.
 
+---
+
+## Advanced Responsive Design
+### Mobile-First vs Desktop-First and Breakpoints
+RESPONSIVE DESIGN STRATEGIES
+
+Desktop-First
+- Start writing CSS for the desktop: large screen
+- Then, media queries shrink design to smaller screens
+    ```css
+    html { font-size: 20px; }
+    @media (max-width: 600px) {
+        html { font-size: 16px; }
+    }
+    ```
+
+Mobiel-First
+- Start writing CSS for mobile devices: small screen
+- Then, media queries expand design to a large desktop screen
+- Forces us to reduce websites and apps to the absolute essentials
+    ```css
+    html { font-size: 16px; }
+    @media (min-width: 600px) {
+        html { font-size: 20px; }
+    }
+    ```
+
+RESPONSIVE DESIGN STRATEGIES: MAX-WIDTH and MIN-WIDTH
+
+Desktop-First
+- infinity -> 1200px 
+Our initial desktop-first goes here
+
+- 600px -> 0px  
+`max-width: 600px` -> **Maximum** width at which media query still applies  
+(iswidth <= 600px ?)
+
+- 900px -> 600px  
+`max-width: 900px`  
+(iswidth <= 900px ?)
+
+500px -> Media queries don't add any importance or specifity to selectors, so code order matters - **media queries at the end**
+
+- 1200px -> 900px  
+`max-width: 1200px`  
+(iswidth <= 1200px ?)
+
+Mobile-First
+- 600px -> 900px  
+(iswidth >= 600px ?)  
+`min-width: 600px` -> **Minimum** width at which media query starts to apply
+
+- 900px -> 1200px  
+(iswidth >= 900px ?)  
+`min-width: 900px`
+
+- 1200px -> infinity  
+(iswidth >= 1200px ?)  
+`min-width: 1200px`
+
+Mobile-First PROS
+- 100% optimised for the mobile experience
+- Reduces websites and apps to the absolute essentials
+- Results in smaller, faster and more efficient products
+- Prioritizes content over aesthetic design, which may be desirable
+
+Mobile-First CONS
+- The desktop version might feel overly empty and simplistic
+- More difficult and counterintuitive to develop
+- Less creative freedom, making it more difficult to create distinctive products
+- Clients are used to see a desktop version of the site as a prototype
+- Do your users even use the mobile internet? What's the purpose of your website?
+
+**Note:** No matter what you choose, always keep both desktop and mobile in mind.
+
+
+SELECTING OUR BREAKPOINTS: THE OPTIONS
+- BAD
+  - use the popular device as the breakpoints, like apple, ipad
+  - ignoring all the user of other devices
+  - it's not future proof, not reusable and maintainable code
+
+- GOOD
+  - we check all the most used device width in the internet
+  - group them together in a logical way, then pick a breakpoint from that
+  - a lot better than the first way because we use a lot of devices and most popular width
+  - not setting breakpoints for the specific point but between similar devie width
+
+- PERFECT
+  - ignore devices altogether and only look your content in your design
+  - begin in one size either mobile or desktop and then start increasing or decreasing your screen width
+  - then as soon as the design breaks which means the design no longer work or look okay then insert a new breakpoint.
+  - just put a breakpointa whenever your design starts to look weird and out of place
+  - don't think any device at all
+  - this approach is extremely difficult and many people are not doing it
+
+SELECTING OUR BREAKPOINTS: A GOOD APPROACH
+
+PHONE ONLY
+300px -> 600px
+
+
+| 0px - 600px | 600px - 900px  | 900px -1200px    | 1200px - 1800px | 1800px ---> |
+| ----------- | -------------- | ---------------- | --------------- | ----------- |
+| 320 x 568   | 720 x 1280     | 1024 x 768       | 1280 x 800      | 1920 x 1080 |
+| 360 x 640   | 768 x 1024     |                  | 1280 x 1024     |             |
+| 375 x 667   |                |                  | 1366 x 768      |             |
+| 480 x 800   |                |                  | 1440 x 900      |             |
+|             |                |                  | 1600 x 900      |             |
+| PHONE ONLY  | TABLET PORTRAIT| TABLET LANDSCAPE |     DESKTOP     | BIG DESKTOP |
+
+
+### Responsive Images
+The goal of responsive images is to serve the **right image** to the **right screen size** and device, in order to avoid downloading unnecessary large images on smaller screens.
+
+WHEN TO USE RESPONSIVE IMAGES: THE 3 USE CASES
+- RESOLUTION SWITCHING: Large screen -> Small screen `(Decrease image resolution on smaller screen)`
+- DENSITY SWITCHING: @2x screen (high-res) -> @1x screen (low-res) `(Half the image resolution on @1x screen)`
+- ART DIRECTION: Lasrge screen -> Small screen -> Image details were preserved, but the image is different `(Different image on smaller screen)`
+
+### Setting up a Simple Build Process with NPM Scripts
+
+**Build Process** is a sequence of task that we perform automatically after we finish developing a product, or a certain feature of a product. And the result of the build process are one or more final files which are ready for production which means ready to be deployed to the web server.
+
+- COMPILATION -> start with the main sass file then compile it to a css file
+- CONCATENATION -> merge the content of the css file with the css in an icon font file, 2 css file into 1
+- PREFIXING -> automatically add prefixes
+- COMPRESSING -> compress the whole code
+
+---
+
+## Philosophy Behind Flexbox
+**FLEXBOX**
+- is a new module in CSS3 that makes it easy to align elements to one another, in different directions and order.
+- the main idea behind flexbox is to give the container the ability to expand and to shrink elements to best use all the available space.
+- replaces float layouts, using less, and more readable and logical code.
+- completely changes the way that we build one-dimensional layouts.
+
+Flex container -> Flex items
+```css
+display: flex
+(display: flex-inline)
+```
+
+CONTAINER Properties
+- `flex-direction: row` | row-reverse | column | column-reverse
+- `flex-wrap: no-wrap` | wrap | wrap-reverse
+- `justify-content: flex-start` | flex-end | center | space-between | space-around | space-evenly
+- `align-items: stretch` | flex-start | flex-end | center | baseline
+- `align-content: stretch` | flex-start | flex-end | center | space-between | space-around
+
+ITEM Properties
+- `align-self: auto` | stretch | flex-start | flex-end | center | baseline
+- `order: 0` | <integer>
+- `flex: 0 1 auto` | <int> <int> <len>
+  - `flex-grow: 0` | <integer>
+  - `flex-shrink: 1` | <integer>
+  - `flex-basis: auto` | <length>
