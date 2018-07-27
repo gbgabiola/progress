@@ -516,3 +516,47 @@ ITEM Properties
   - `flex-grow: 0` | <integer>
   - `flex-shrink: 1` | <integer>
   - `flex-basis: auto` | <length>
+
+
+---
+
+## WHY CSS Grid - A Whole New Mindset
+**CSS GRID**
+- is a brand new module that brings a two-dimensional grid system to CSS for the first time.
+- replaces float layouts, using less, and more readable and logical CSS and HTML.
+- CSS Grid works perfectly together with Flexbox, which is best to handle one-dimentsional components and layouts.
+- completely changes the way that we envision and build two-dimensional layouts.
+
+Grid container -> Grid items
+```css
+display: grid
+(display: grid-inline)
+```
+
+CONTAINER Properties
+- `grid template`
+  - `grid-template-rows`
+  - `grid-template-columns`
+  - `grid-template-areas`
+- `grid-gap`
+  - `grid-row-gap`
+  - `grid-column-gap`
+- `justify-items`
+- `align-items`
+- `justify-content`
+- `align-content`
+- `grid-auto-rows`
+- `grid-auto-columns`
+- `grid-auto-flow`
+
+ITEM Properties
+- `grid-area`
+  - `grid-row`
+    - `grid-row-start`
+    - `grid-row-end`
+  - `grid-column`
+    - `grid-column-start`
+    - `grid-column-end`
+- `justify-self`
+- `align-self`
+- `order`
