@@ -302,7 +302,7 @@ If the user enters nothing and clicks **OK**, the variable is assigned an empty 
 - Some coders would use single rather than double quotation marks. This is legal, as long as it's a matching pair
 
 
-## Chapter 10 - if statements
+## Chapter 10 - _if_ statements
 You prompt that asks, "Where does the Pope live?". If the user answers correctly, display an alert congratulating him.
 
 ```js
@@ -390,7 +390,7 @@ if (1 <= 1) {
 - Just as the double equal sign can usually be used instead of the triple equal sign, `!=` can usually be used instead of `!==`.
 
 
-## Chapter 12 - if...else and else if statements
+## Chapter 12 - _if...else_ and _else if_ statements
 If the condition is false we can do it like this..
 
 ```js
@@ -472,13 +472,11 @@ Combine any number of _and_ and _or_ conditions.
 This can be read in either of two ways:
 - If the person is over 65 or under 21 and, in addition to either of these conditions, is also a resident of the U.S. Under this interpretation, both columns need to be true in the following table to qualify as a pass.
 
-  | | |
-  | --- | --- |
-  | Over 65 or under 21 | Resident of U.S. |
+  `Over 65 or under 21 | Resident of U.S.`
 
 - If the person is over 65 and living anywhere or is under 21 and a resident of the U.S.
  
-  | Over 65 | under 21 and U.S. resident |
+  `Over 65 | under 21 and U.S. resident`
 
 It's the same problem  when you combine mathematical expressions. And solved it the same way: with parentheses.  
 If the subject is over 65 and a U.S. resident, it's a pass. Or, if the subject is under 21 and a U.S. resident, it's a pass.
@@ -494,7 +492,7 @@ if (age > 65 || (age < 21 && res === "U.S.")) {
 ```
 
 
-## Chapter 14 - if statements nested
+## Chapter 14 - _if_ statements nested
 If either of the first conditions is true, and, in addition, the third
 condition is true, then `g` is assigned `h`. Otherwise, `e` is assigned `f`.
 
@@ -554,8 +552,7 @@ Ordinary variable has a single value assigned to it.
 var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
 ```
 
-JavaScript numbers the different values, or elements, automatically. (You can control the numbering yourself by defining
-elements individually.
+JavaScript numbers the different values, or elements, automatically. (You can control the numbering yourself by defining elements individually.
 
 And you refer to each element by writing the array name which is `cities` in this case, followed by a number enclosed in square brackets. `cities[0]` is "Atlanta", `cities[1]` is "Baltimore", and so on..  
 Because JavaScript automatically numbers array elements, you have no say in the numbering. The first element in the list always has an _index_ of 0, the second element an index of 1, and so on.
@@ -592,14 +589,12 @@ pets[2] = "bird";
 ```
 
 If you refer to `pets[4]` which is not assigned, you'll get `undefined`.  
-If you assign a new value to an array element that already has one, the old value is
-replaced by the new one.
+If you assign a new value to an array element that already has one, the old value is replaced by the new one.
 
 **pop** keyword, you can remove the last element of an array.  
 Suppose you have an array, `pets`, whose elements are "dog", "cat", and "bird". The following code deletes the last element, "bird", leaving a two-element array.
 
 `pets.pop();`
-
 
 **push** keyword, you can add one or more elements to the end of an array.  
 Suppose you have that same array consisting of "dog", "cat", and "bird". The following code adds two new elements to the end of the array.
@@ -608,9 +603,224 @@ Suppose you have that same array consisting of "dog", "cat", and "bird". The fol
 
 
 ## Chapter 17 - Arrays: Removing, inserting, and extracting elements
+**shift** method to remove an element from the beginning of an array.  
+Suppose you have an array, `pets`, whose elements are "dog", "cat", and "bird". The following removes the first element, "dog", leaving you with a two-element array.
+
+`pets.shift();`
+
+**unshift** method to add one or more elements to the beginning of an array.
+
+`pets.unshift("fish", "ferret");`
+
+**splice** method to insert one or more elements anywhere in an array, while
+optionally removing one or more elements that come after it.  
+Suppose you have an array with the elements "dog", "cat", "fly", "bug", "ox". The following code adds "pig", "duck", and "emu" after "cat" while removing "fly" and "bug".
+
+`pets.splice(2, 2, "pig", "duck", "emu");`
+
+The first digit inside the parentheses is the index of the position where you want to start adding if you're adding and deleting if you're deleting. The second digit is the number of existing elements to remove, starting with the first element that comes after the element(s) that you're splicing in. The code above leaves you with an array consisting of "dog", "cat", "pig", "duck", "emu", and "ox".  
+You could make additions without removing any elements.
+adds "pig", "duck", and "emu" without removing any elements
+
+`pets.splice(2, 0, "pig", "duck", "emu")`
+
+You can also remove elements without adding any. If you start with the elements "dog", "cat", "fly", "bug", and "ox", the following code removes two elements starting at index 3—"bug" and "ox". This leaves "dog", "cat", and "fly".
+
+`pets.splice(2, 2);`
+
+Use the `slice` method to copy one or more consecutive elements in any position and put them into a new array. If you start with an array, pets, consisting of "dog", "cat", "fly", "bug", and "ox", the following code copies "fly" and "bug" to the new array `noPets` and leaves the
+original array, `pets`, unchanged.
+
+`var noPets = pets.slice(2, 4);`
+
+The first digit inside the parentheses is the index of the first element to be copied. The second digit is the index of the element after the last element to be copied.  
+**Two things could trip you up here:**
+- Since the first index number inside the parentheses specifies the first element to be copied, you might think the second index number specifies the last element to be copied. In fact, the second number specifies the index number of the element after the last element to be copied.
+- You must assign the sliced elements to an array. It could, of course, be the same array from which you're doing the slicing. In that case, you'd be reducing the original array to only the copied elements.
 
 
+## Chapter 18 - Loops
+In coding, suppose you've offered to check if the user's city is one of the 5 cleanest in the U.S. The user has entered her city, and you've assigned her city to the variable `cityToCheck`.  
+You've already assigned the list of the 5 cleanest cities to the array `cleanestCities`.
 
+`var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];`
+
+Now you go through the array to see if there's a match with the user's city. If there is, you display an alert telling the user her city is one of the cleanest. If there's no match, you display an alert telling the user her city isn't on the list
+
+```js
+if (cityToCheck === cleanestCities[0]) {
+  alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[1]) {
+  alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[2]) {
+  alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[3]) {
+  alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[4]) {
+  alert("It's one of the cleanest cities");
+}
+else {
+  alert("It's not on the list");
+}
+```
+
+In JavaScrit, there is **_for loop_**.
+
+```js
+for (var i = 0; i <= 4; i++) {
+  if (cityToCheck === cleanestCities[i]) {
+    alert("It's one of the cleanest cities");
+  }
+}
+```
+
+The three specifications that define the loop are inside the parentheses.
+1. A variable that counts iterations and also serves as the changing array index is declared and set to a starting value, in this case 0.
+2. The limit on the loop is defined. In this case, the loop is to keep running as long as the counter doesn't exceed 4. Since the counter, in this case, is starting at 0, the loop will run 5 times.
+3. What happens to the counter at the end of every loop. In this case, the counter is incremented each time.
+
+The three specifications inside the parentheses are always in the same order:
+1. What to call the counter (usually i) and what number to start it at (typically 0)
+2. How many loops to run (in this case, the number of elements in the array)
+3. How to change the counter after each iteration (typically to add 1 each time through)
+
+**Things to keep in mind:**
+- In the example, the counter, `i`, serves two purposes. It keeps track of the number of iterations so looping can halt at the right point. And it serves as the index number of the array, allowing the code to progress through all the elements of the array as the counter increments with each iteration.
+- There is nothing sacred about using `i` as the counter. You can use any legal variable name. But coders usually use `i` because it keeps the first line compact, and because coders understand that `i` stands for "iteration."
+- In the example, the initial count is 0, the index number of the first element of the array. But it could be any number, depending on your needs.
+- In the example, the counter increments with each iteration. But, depending on your needs, you can decrement it, increase it by 2, or change it in some other way each time through
+- In the example, We specify that the loop is to run as long as `i <= 4`. Alternatively, I could have specified `i < 5`. Either way, since the counter starts at 0, the loop runs 5 times.
+
+
+## Chapter 19 - _for_ loops: Flags, Booleans, array length, and loopus interruptus
+If a match between the user's city and the list of cleanest cities is found, a confirming alert displays. But if there is no match, nothing happens. If no match is found, we need to display an alert saying so.  
+We do it with a flag. A flag is just a variable that starts out with a default value that you give it, and then is switched to a different value under certain conditions.
+
+`var matchFound = "no"; // let's say this is the flag`
+
+If a match is found, the value of the flag is changed. At the end, if the flag _hasn't_ been changed—if it still has the original value of "no"—it means no match was found, and so we display an alert saying the city isn't on the list.
+
+```js
+var matchFound = "no";
+for (var i = 0; i <= 4; i++);
+  if (cityToCheck === cleanestCities[i]) {
+    matchFound = "yes";
+    alert("It's one of the cleanest cities");
+  }
+}
+if (matchFound === "no") {
+  alert("It's not on the list");
+}
+```
+
+This works, but rather than assigning the strings "no" and "yes" to the switch, it's conventional to use the _Boolean_ values `false` and `true`.
+
+```js
+var matchFound = false;
+for (var i = 0; i <= 4; i++);
+  if (cityToCheck === cleanestCities[i]) {
+    matchFound = true;
+    alert("It's one of the cleanest cities");
+  }
+}
+if (matchFound === false) {
+  alert("It's not on the list");
+}
+```
+
+There are only two Booleans, `true` and `false`. Note that they aren't enclosed in quotes.
+
+Next is that it potentially wastes computing cycles. Suppose on the second loop a match is found and the alert displays. The way the loop is coded, the loop goes on looping all the way to the end. This is unnecessary, since we got our answer in the second loop. The problem is solved with the keyword `break`.
+
+```js
+var matchFound = false;
+for (var i = 0; i <= 4; i++);
+  if (cityToCheck === cleanestCities[i]) {
+    matchFound = true;
+    alert("It's one of the cleanest cities");
+    break;
+  }
+}
+if (matchFound === false) {
+  alert("It's not on the list");
+}
+```
+
+
+Lastly, we assume that the number of elements in the array is known, but what if it isn't? JavaScript has a way of finding out. The following code assigns the number of elements in the array `cleanestCities` to the variable `numElements`.
+
+`var numElements = cleanestCities.length;`
+
+Now we can limit the number of loops to the count that JavaScript comes up with.
+
+```js
+var numElements = cleanestCities.length;
+var matchFound = false;
+for (var i = 0; i < numElements; i++);
+  if (cityToCheck === cleanestCities[i]) {
+    matchFound = true;
+    alert("It's one of the cleanest cities");
+    break;
+  }
+}
+if (matchFound === false) {
+  alert("It's not on the list");
+}
+```
+
+Now the loop keeps going as long as `i` is less than the number of elements. (Since the `length` number is 1-based and the `i` number is 0-based, we need to stop 1 short of the length.)
+
+
+## Chapter 20 - _for_ loops nested
+Atlantic Records has hired you and me to generate a list of names for future rap stars. To make things easy, we'll start by making separate lists of some first names and last names.
+
+      | First names | Last names |
+      | ----------- | ---------- |
+      | BlueRay     | Zzz        |
+      | Upchuck     | Burp       |
+      | Lojack      | Dogbone    |
+      | Gizmo       | Droop      |
+      | Do-Rag      |            |
+
+By combining each of the first names with each of the last names, we can generate 20 different full names for rappers.  
+Starting with "BlueRay," we go through the list of last names, generating...
+- BlueRay Zzz
+- BlueRay Burp
+- BlueRay Dogbone
+- BlueRay Droop
+
+We move to the next first name, "Upchuck." Again, we go through the list of last names, generating...
+- Upchuck Zzz
+- Upchuck Burp
+- Upchuck Dogbone
+- Upchuck Droop
+
+And so on, combining each first name with each last name.  
+But look, why not have JavaScript do the repetitive work? We'll use nested for statements.
+
+```js
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+for (var i = 0; i < firstNames.length; i++) {
+  for (var j = 0; j < lastNames.length; j++) {
+    fullNames.push(firstNames[i] + lastNames[j]);
+  }
+}
+```
+
+**Things to think about:**
+- The inner loop runs a complete cycle of iterations on each iteration of the outer loop. If the outer loop counter is i and the inner loop counter is j, j will loop through 0, 1, 2, and all the way to the end while i is on 0. Then i will increment to 1, and j will loop through all of its values again. The outer loop is the minute hand of a clock. The inner loop is the second hand.
+- You can have as many levels of nesting as you like.
+- A nested loop is indented 2 spaces beyond its outer loop
+
+
+## Chapter 21 - Changing case
+..
 
 
 
@@ -632,3 +842,6 @@ Suppose you have that same array consisting of "dog", "cat", and "bird". The fol
 - [Chapter 15](http://www.asmarterwaytolearn.com/javascript/15.html)
 - [Chapter 16](http://www.asmarterwaytolearn.com/javascript/16.html)
 - [Chapter 17](http://www.asmarterwaytolearn.com/javascript/17.html)
+- [Chapter 18](http://www.asmarterwaytolearn.com/javascript/18.html)
+- [Chapter 19](http://www.asmarterwaytolearn.com/javascript/19.html)
+- [Chapter 20](http://www.asmarterwaytolearn.com/javascript/20.html)
