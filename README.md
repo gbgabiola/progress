@@ -17,7 +17,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 1  
-Total Points earned: 330
+Total Points earned: 530
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -26,6 +26,8 @@ Total Points earned: 330
 | 07-06-18 | Udemy Course | 100 | [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/) |
 | 07-07-18 | Basic Project | 100 | [Omnifood](https://genesisgabiola.github.io/omnifood/) |
 | 07-11-18 | Basic Project | 100 | [Jesus Christ Tribute Page](http://genesisgabiola.github.io/tribute-page) |
+| 07-19-18 | Basic Project | 100 | [Natours](https://genesisgabiola.github.io/natours/) |
+| 07-26-18 | Basic Project | 100 | [Trillo](https://genesisgabiola.github.io/trillo/) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
