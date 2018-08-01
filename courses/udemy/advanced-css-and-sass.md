@@ -560,3 +560,8 @@ ITEM Properties
 - `justify-self`
 - `align-self`
 - `order`
+
+### 3 methods in organizing CSS grid
+- LINE NUMBERS
+- LINE NAMES
+- NAME GRID AREAS
