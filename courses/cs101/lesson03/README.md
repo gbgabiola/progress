@@ -1,0 +1,23 @@
+# Lesson 3 - How to Manage Data
+Data - Learning to Crawl
+- Indexing on a lists and strings
+- Nested lists.
+- differences of lists and strings
+- Mutation - is that you can change the value of the list after it was created.
+  - lists is mutable, String is immutable
+  - list is a set of anything, strings is a set of characters
+  - Aliasing
+  - `.append()` - adding a new element at the end of the list
+  - `+` - works like concatenation
+  - `len()` short for length, produces an output a number of length of the list
+- How Computers Store Data
+  - capacitor
+  - DRAM
+  - latency - time to retrive a value
+  - cost
+  - memory hierarchy
+- Loops of Lists
+  - for loops and while loops
+- `.index()` method
+- `in` operator, `not in` can be use also
+- `.pop()` operator - mutate the list by removing and returning its last element
