@@ -16,8 +16,8 @@ My goals are to
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
-Courses Completed: 2  
-Total Points earned: 730
+Courses Completed: 3  
+Total Points earned: 845
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -30,6 +30,8 @@ Total Points earned: 730
 | 07-26-18 | Basic Project | 100 | [Trillo](https://genesisgabiola.github.io/trillo/) |
 | 07-31-18 | Udemy Course | 100 | [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/) |
 | 07-31-18 | Basic Project | 100 | [Nexter](https://genesisgabiola.github.io/nexter/) |
+| 08-10-18 | Udemy Course | 100 | [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/) |
+| 10-11-18 | Blog Post on any topic | 15 | [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
@@ -166,6 +168,7 @@ Total Points earned: 730
 ## Extras
 - [x] Course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
 - [x] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+- [x] Course: [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
 - [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
