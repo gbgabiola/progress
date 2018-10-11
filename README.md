@@ -17,7 +17,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 3  
-Total Points earned: 845
+Total Points earned: 920
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -31,7 +31,12 @@ Total Points earned: 845
 | 07-31-18 | Udemy Course | 100 | [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/) |
 | 07-31-18 | Basic Project | 100 | [Nexter](https://genesisgabiola.github.io/nexter/) |
 | 08-10-18 | Udemy Course | 100 | [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/) |
-| 10-11-18 | Blog Post on any topic | 15 | [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27) |
+| 10-08-18 | Blog Post on any topic | 15 | [5 THINGS EVERY CODE NEWBIE NEEDS TO KNOW](https://learntocodewith.me/posts/what-new-coders-must-know/) |
+| 10-09-18 | Blog Post on any topic | 15 | [RECOMMENDED RESOURCES AND TOOLS FOR BEGINNERS](https://learntocodewith.me/tools/) |
+| 10-09-18 | Blog Post on any topic | 15 | [Brief History of the Internet](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
+| 10-10-18 | Blog Post on any topic | 15 | [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27) |
+| 10-11-18 | Blog Post on any topic | 15 | [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) |
+| 10-11-18 | Blog Post on any topic | 15 | [Web 101 for Dummies or Everything You Wanted to Know About the Web But Were Afraid to Ask!](https://www.educause.edu/ir/library/html/cmr9939/cmr9939.html) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
@@ -41,7 +46,7 @@ Total Points earned: 845
 
 ## **Web Development with Computer Science Foundations**
 
-## Tier 1 - get started
+## Tier 1 - Get started
 
 - [ ] Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
 - [ ] Book: [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures)
@@ -62,7 +67,7 @@ Total Points earned: 845
 - [ ] Project: Build an online Towers of Hanoi solver that accepts a tower height between 5 and 10, and then displays a graphical (animated) solution, iteratively moving each piece until the puzzle is solved
 - [ ] Project: Pick a template from [here](http://www.free-css.com/free-css-templates) and create a new template with it as your inspiration (do not use its assets)
 
-## Tier 2 - strengthen your foundation
+## Tier 2 - Strengthen your foundation
 
 - [ ] Course: [How to Code: Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)
 - [ ] Course: [How to Code: Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x)
@@ -88,7 +93,7 @@ Total Points earned: 845
 - [ ] Project: Complete all challenges from the [Code Jam Qualification Round 2015](https://code.google.com/codejam/contest/6224486/dashboard)
 - [ ] Project: Pick a template from [here](http://www.free-css.com/free-css-templates) and create a new template with it as your inspiration (do not use its assets)
 
-## Tier 3 - build on the foundation
+## Tier 3 - Build on the foundation
 
 - [ ] Course: [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] Course: [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
@@ -113,7 +118,7 @@ Total Points earned: 845
 - [ ] Project: Pick a template from [here](http://www.free-css.com/free-css-templates) and create a new template with it as your inspiration (do not use its assets)
 - [ ] Project: Clone FaceBook - yes, all the functionality. See [here](http://www.theodinproject.com/courses/ruby-on-rails/lessons/final-project) for a list of requirements you should fullfill.
 
-## Tier 4 - polish the rough edges
+## Tier 4 - Polish the rough edges
 
 - [ ] Project: Read up on [Travis CI](https://travis-ci.org/) - try to incorporate it into any project in active development or which you intend to keep running on the web
 - [ ] Course: [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!)
