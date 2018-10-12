@@ -10,6 +10,8 @@ For example:
 
 Nest your text field inside a `form` element, and add the `action="/submit-cat-photo"` attribute to the form element.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

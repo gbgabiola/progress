@@ -10,6 +10,8 @@ You can create placeholder text like so:
 
 Set the `placeholder` value of your text `input` to "cat photo URL".
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

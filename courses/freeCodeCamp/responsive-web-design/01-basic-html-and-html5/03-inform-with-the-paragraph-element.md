@@ -10,6 +10,8 @@ You can create a paragraph element like this:
 
 Create a `p` element below your `h2` element, and give it the text "Hello Paragraph".
 
+## Solution
+
 ```html
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>

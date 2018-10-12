@@ -10,6 +10,8 @@ The current value of the `href` attribute is a link that points to "http://freec
 
 For example: `href="#"`
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

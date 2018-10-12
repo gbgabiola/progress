@@ -23,6 +23,8 @@ Here's an example of the page structure:
 
 Add a `DOCTYPE` tag for HTML5 to the top of the blank HTML document in the code editor. Under it, add opening and closing `html` tags, which wrap around an `h1` element. The heading can include any text.
 
+## Solution
+
 ```html
 <!DOCTYPE html>
 <html>

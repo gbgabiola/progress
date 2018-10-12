@@ -22,6 +22,8 @@ Here's an example of a page's layout:
 
 Edit the markup so there's a `head` and a `body`. The `head` element should only include the `title`, and the `body` element should only include the `h1` and `p`.
 
+## Solution
+
 ```html
 <!DOCTYPE html>
 <html>

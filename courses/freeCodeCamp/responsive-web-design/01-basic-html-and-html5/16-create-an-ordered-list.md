@@ -20,6 +20,8 @@ would create a numbered list of "Garfield" and "Sylvester".
 
 Create an ordered list of the top 3 things cats hate the most.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

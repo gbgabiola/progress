@@ -22,6 +22,8 @@ Remove the `target="_blank"` attribute from the anchor tag since this causes the
 
 Then add an `id` attribute with a value of "footer" to the `<footer>` element at the bottom of the page.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>
@@ -36,6 +38,5 @@ Then add an `id` attribute with a value of "footer" to the `<footer>` element at
   <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
 
 </main>
-
 <footer id="footer">Copyright Cat Photo App</footer>
 ```

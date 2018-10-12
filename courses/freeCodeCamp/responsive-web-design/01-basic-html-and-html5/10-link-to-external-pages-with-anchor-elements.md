@@ -12,6 +12,8 @@ Then your browser will display the text **"this links to freecodecamp.org"** as 
 
 Create an `a` element that links to `http://freecatphotoapp.com` and has "cat photos" as its `anchor text`.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

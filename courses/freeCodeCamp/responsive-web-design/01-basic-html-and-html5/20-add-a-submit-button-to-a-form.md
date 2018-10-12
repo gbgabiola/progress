@@ -10,6 +10,8 @@ Here's an example submit button:
 
 Add a button as the last element of your `form` element with a type of `submit`, and "Submit" as its text.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

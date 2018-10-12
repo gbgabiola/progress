@@ -10,6 +10,8 @@ Make your text `input` a `required` field, so that your user can't submit the fo
 
 Then try to submit the form without inputting any text. See how your HTML5 form notifies you that the field is required?
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

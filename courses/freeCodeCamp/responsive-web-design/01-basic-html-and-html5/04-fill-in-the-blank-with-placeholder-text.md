@@ -10,6 +10,8 @@ Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use 
 
 Replace the text inside your `p` element with the first few words of this kitty ipsum text: `Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.`
 
+## Solution
+
 ```html
 <h1>Hello World</h1>
 

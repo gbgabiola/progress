@@ -8,6 +8,8 @@ Here you'll need to end the comment before your `h2` element begins.
 
 Comment out your `h1` element and your `p` element, but not your `h2` element.
 
+## Solution
+
 ```html
 <!--
 <h1>Hello World</h1>

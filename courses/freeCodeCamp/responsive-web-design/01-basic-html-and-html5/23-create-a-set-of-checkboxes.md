@@ -18,6 +18,8 @@ Here's an example of a checkbox:
 
 Add to your form a set of three checkboxes. Each checkbox should be nested within its own `label` element. All three should share the `name` attribute of `personality`.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

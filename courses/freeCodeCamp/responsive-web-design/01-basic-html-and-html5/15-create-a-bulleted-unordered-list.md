@@ -19,6 +19,8 @@ would create a bullet point style list of "milk" and "cheese".
 
 Remove the last two `p` elements and create an unordered list of three things that cats love at the bottom of the page.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

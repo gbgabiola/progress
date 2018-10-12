@@ -8,6 +8,8 @@ Let's remove the unnecessary elements so we can start building our CatPhotoApp.
 
 Delete your `h1` element so we can simplify our view.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 

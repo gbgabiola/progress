@@ -15,6 +15,8 @@ Create a second `p` element after the existing `p` element with the following ki
 
 Wrap the paragraphs with an opening and closing `main` tag.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 

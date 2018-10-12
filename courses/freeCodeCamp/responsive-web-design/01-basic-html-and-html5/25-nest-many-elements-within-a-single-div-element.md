@@ -12,6 +12,8 @@ Nest your "Things cats love" and "Things cats hate" lists all within a single `d
 
 Hint: Try putting your opening `div` tag above your "Things cats love" `p` element and your closing `div` tag after your closing `ol` tag so that both of your lists are within one `div`.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>

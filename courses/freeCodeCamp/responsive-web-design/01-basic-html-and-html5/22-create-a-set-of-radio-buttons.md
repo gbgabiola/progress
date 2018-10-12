@@ -28,6 +28,8 @@ It is considered best practice to set a `for` attribute on the `label` element, 
 
 Add a pair of radio buttons to your form, each nested in its own label element. One should have the option of `indoor` and the other should have the option of `outdoor`. Both should share the `name` attribute of `indoor-outdoor` to create a radio group.
 
+## Solution
+
 ```html
 <h2>CatPhotoApp</h2>
 <main>
