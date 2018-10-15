@@ -1,8 +1,8 @@
-Functions and Variables Quiz
+# Functions and Variables Quiz
 
 1. What does the following function call log to console:
 
-```javascript
+```js
 function log() {
   console.log(greeting);
   var greeting = 'Hello!';
@@ -16,7 +16,7 @@ log();
 
 2. What does the following function call log to console:
 
-```javascript
+```js
 log();
 function log() {
   console.log(greeting);
@@ -30,7 +30,7 @@ function log() {
 
 3. What does the following function call log to console:
 
-```javascript
+```js
 log();
 var log = function() {
   console.log(greeting);
@@ -44,7 +44,7 @@ var log = function() {
 
 4. What does the following function log to console:
 
-```javascript
+```js
 function log(s) {
   var s = 'Mr. X';
   console.log(s);
