@@ -58,3 +58,7 @@ This section covers some of the basic tools developers use to create their own v
 - [x] [Learn How Bezier Curves Work](50-learn-how-bezier-curves-work.md)
 - [x] [Use a Bezier Curve to Move a Graphic](51-use-a-bezier-curve-to-move-a-graphic.md)
 - [x] [Make Motion More Natural Using a Bezier Curve](52-make-motion-more-natural-using-a-bezier-curve.md)
+
+---
+
+Credits to [FreeCodeCamp](https://www.freecodecamp.org/)

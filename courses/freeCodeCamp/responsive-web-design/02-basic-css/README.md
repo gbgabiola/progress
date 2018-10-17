@@ -62,3 +62,7 @@ In this section, you'll see how adding CSS styles to the elements of your CatPho
 - [x] [Cascading CSS variables](42-cascading-css-variables)
 - [x] [Change a variable for a specific area](43-change-a-variable-for-a-specific-area.md)
 - [x] [Use a media query to change a variable](44-use-a-media-query-to-change-a-variable.md)
+
+---
+
+Credits to [FreeCodeCamp](https://www.freecodecamp.org/)
