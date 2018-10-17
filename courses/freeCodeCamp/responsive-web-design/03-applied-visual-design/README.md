@@ -1,54 +1,60 @@
 # [Applied Visual Design](https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/)
 
-- [x] Create Visual Balance Using the text-align Property
-- [x] Adjust the Width of an Element Using the width Property
-- [x] Adjust the Height of an Element Using the height Property
-- [x] Use the strong Tag to Make Text Bold
-- [x] Use the u Tag to Underline Text
-- [x] Use the em Tag to Italicize Text
-- [x] Use the del Tag to Strikethrough Text
-- [x] Create a Horizontal Line Using the hr Element
-- [x] Adjust the background-color Property of Text
-- [x] Adjust the Size of a Header Versus a Paragraph Tag
-- [x] Add a box-shadow to a Card-like Element
-- [x] Decrease the Opacity of an Element
-- [x] Use the text-transform Property to Make Text Uppercase
-- [x] Set the font-size for Multiple Heading Elements
-- [x] Set the font-weight for Multiple Heading Elements
-- [x] Set the font-size of Paragraph Text
-- [x] Set the line-height of Paragraphs
-- [x] Adjust the Hover State of an Anchor Tag
-- [x] Change an Element's Relative Position
-- [x] Move a Relatively Positioned Element with CSS Offsets
-- [x] Lock an Element to its Parent with Absolute Positioning
-- [x] Lock an Element to the Browser Window with Fixed Positioning
-- [x] Push Elements Left or Right with the float Property
-- [x] Change the Position of Overlapping Elements with the z-index Property
-- [x] Center an Element Horizontally Using the margin Property
-- [x] Learn about Complementary Colors
-- [x] Learn about Tertiary Colors
-- [x] Adjust the Color of Various Elements to Complementary Colors
-- [x] Adjust the Hue of a Color
-- [x] Adjust the Tone of a Color
-- [x] Create a Gradual CSS Linear Gradient
-- [x] Use a CSS Linear Gradient to Create a Striped Element
-- [x] Create Texture by Adding a Subtle Pattern as a Background Image
-- [x] Use the CSS Transform scale Property to Change the Size of an Element
-- [x] Use the CSS Transform scale Property to Scale an Element on Hover
-- [x] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
-- [x] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
-- [x] Create a Graphic Using CSS
-- [x] Create a More Complex Shape Using CSS and HTML
-- [x] Learn How the CSS @keyframes and animation Properties Work
-- [x] Use CSS Animation to Change the Hover State of a Button
-- [x] Modify Fill Mode of an Animation
-- [x] Create Movement Using CSS Animation
-- [x] Create Visual Direction by Fading an Element from Left to Right
-- [x] Animate Elements Continually Using an Infinite Animation Count
-- [x] Make a CSS Heartbeat using an Infinite Animation Count
-- [x] Animate Elements at Variable Rates
-- [x] Animate Multiple Elements at Variable Rates
-- [x] Change Animation Timing with Keywords
-- [x] Learn How Bezier Curves Work
-- [x] Use a Bezier Curve to Move a Graphic
-- [x] Make Motion More Natural Using a Bezier Curve
+Visual Design in web development is a broad topic. It combines typography, color theory, graphics, animation, and page layout to help deliver a site's message. The definition of good design is a well-discussed subject, with many books on the theme.
+
+At a basic level, most web content provides a user with information. The visual design of the page can influence its presentation and a user's experience. In web development, HTML gives structure and semantics to a page's content, and CSS controls the layout and appearance of it.
+
+This section covers some of the basic tools developers use to create their own visual designs.
+
+- [x] [Create Visual Balance Using the text-align Property](01-create-visual-balance-using-the-text-align-property.md)
+- [x] [Adjust the Width of an Element Using the width Property](02-adjust-the-width-of-an-element-using-the-width-property.md)
+- [x] [Adjust the Height of an Element Using the height Property](03-adjust-the-height-of-an-element-using-the-height-property.md)
+- [x] [Use the strong Tag to Make Text Bold](04-use-the-strong-tag-to-make-text-bold.md)
+- [x] [Use the u Tag to Underline Text](05-use-the-u-tag-to-underline-text.md)
+- [x] [Use the em Tag to Italicize Text](06-use-the-em-tag-to-italicize-text.md)
+- [x] [Use the s Tag to Strikethrough Text](07-use-the-s-tag-to-strikethrough-text.md)
+- [x] [Create a Horizontal Line Using the hr Element](08-create-a-horizontal-line-using-the-hr-element.md)
+- [x] [Adjust the background-color Property of Text](09-adjust-the-background-color-property-of-text.md)
+- [x] [Adjust the Size of a Header Versus a Paragraph Tag](10-adjust-the-size-of-a-header-versus-a-paragraph-tag.md)
+- [x] [Add a box-shadow to a Card-like Element](11-add-a-box-shadow-to-a-card-like-element.md)
+- [x] [Decrease the Opacity of an Element](12-decrease-the-opacity-of-an-element.md)
+- [x] [Use the text-transform Property to Make Text Uppercase](13-use-the-text-transform-property-to-make-text-uppercase.md)
+- [x] [Set the font-size for Multiple Heading Elements](14-set-the-font-size-for-multiple-heading-elements.md)
+- [x] [Set the font-weight for Multiple Heading Elements](15-set-the-font-weight-for-multiple-heading-elements.md)
+- [x] [Set the font-size of Paragraph Text](16-set-the-font-size-of-paragraph-text.md)
+- [x] [Set the line-height of Paragraphs](17-set-the-line-height-of-paragraphs.md)
+- [x] [Adjust the Hover State of an Anchor Tag](18-adjust-the-hover-state-of-an-anchor-tag.md)
+- [x] [Change an Element's Relative Position](19-change-an-elements-relative-position.md)
+- [x] [Move a Relatively Positioned Element with CSS Offsets](20-move-a-relatively-positioned-element-with-css-offsets.md)
+- [x] [Lock an Element to its Parent with Absolute Positioning](21-lock-an-element-to-its-parent-with-absolute-positioning.md)
+- [x] [Lock an Element to the Browser Window with Fixed Positioning](22-lock-an-element-to-the-browser-window-with-fixed-positioning.md)
+- [x] [Push Elements Left or Right with the float Property](23-push-elements-left-or-right-with-the-float-property.md)
+- [x] [Change the Position of Overlapping Elements with the z-index Property](24-change-the-position-of-overlapping-elements-with-the-z-index-property.md)
+- [x] [Center an Element Horizontally Using the margin Property](25-center-an-element-horizontally-using-the-margin-property.md)
+- [x] [Learn about Complementary Colors](26-learn-about-complementary-colors.md)
+- [x] [Learn about Tertiary Colors](27-learn-about-tertiary-colors.md)
+- [x] [Adjust the Color of Various Elements to Complementary Colors](28-adjust-the-color-of-various-elements-to-complementary-colors.md)
+- [x] [Adjust the Hue of a Color](29-adjust-the-hue-of-a-color.md)
+- [x] [Adjust the Tone of a Color](30-adjust-the-tone-of-a-color.md)
+- [x] [Create a Gradual CSS Linear Gradient](31-create-a-gradual-css-linear-gradient.md)
+- [x] [Use a CSS Linear Gradient to Create a Striped Element](32-use-a-css-linear-gradient-to-create-a-striped-element.md)
+- [x] [Create Texture by Adding a Subtle Pattern as a Background Image](33-create-texture-by-adding-a-subtle-pattern-as-a-background-image.md)
+- [x] [Use the CSS Transform scale Property to Change the Size of an Element](34-use-the-css-transform-scale-property-to-change-the-size-of-an-element.md)
+- [x] [Use the CSS Transform scale Property to Scale an Element on Hover](35-use-the-css-transform-scale-property-to-scale-an-element-on-hover.md)
+- [x] [Use the CSS Transform Property skewX to Skew an Element Along the X-Axis](36-use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-axis.md)
+- [x] [Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis](37-use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-axis.md)
+- [x] [Create a Graphic Using CSS](38-create-a-graphic-using-css.md)
+- [x] [Create a More Complex Shape Using CSS and HTML](39-create-a-more-complex-shape-using-css-and-html.md)
+- [x] [Learn How the CSS @keyframes and animation Properties Work](40-learn-how-the-css-keyframes-and-animation-properties-work.md)
+- [x] [Use CSS Animation to Change the Hover State of a Button](41-use-css-animation-to-change-the-hover-state-of-a-button.md)
+- [x] [Modify Fill Mode of an Animation](42-modify-fill-mode-of-an-animation.md)
+- [x] [Create Movement Using CSS Animation](43-create-movement-using-css-animation.md)
+- [x] [Create Visual Direction by Fading an Element from Left to Right](44-create-visual-direction-by-fading-an-element-from-left-to-right.md)
+- [x] [Animate Elements Continually Using an Infinite Animation Count](45-animate-elements-continually-using-an-infinite-animation-count.md)
+- [x] [Make a CSS Heartbeat using an Infinite Animation Count](46-make-a-css-heartbeat-using-an-infinite-animation-count.md)
+- [x] [Animate Elements at Variable Rates](47-animate-elements-at-variable-rates.md)
+- [x] [Animate Multiple Elements at Variable Rates](48-animate-multiple-elements-at-variable-rates.md)
+- [x] [Change Animation Timing with Keywords](49-change-animation-timing-with-keywords.md)
+- [x] [Learn How Bezier Curves Work](50-learn-how-bezier-curves-work.md)
+- [x] [Use a Bezier Curve to Move a Graphic](51-use-a-bezier-curve-to-move-a-graphic.md)
+- [x] [Make Motion More Natural Using a Bezier Curve](52-make-motion-more-natural-using-a-bezier-curve.md)
