@@ -16,8 +16,8 @@ My goals are to
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
-Courses Completed: 3  
-Total Points earned: 1035
+Courses Completed: 5  
+Total Points earned: 1135
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -39,7 +39,8 @@ Total Points earned: 1035
 | 10-11-18 | Blog Post on any topic | 15 | [Web 101 for Dummies or Everything You Wanted to Know About the Web But Were Afraid to Ask!](https://www.educause.edu/ir/library/html/cmr9939/cmr9939.html) |
 | 10-16-18 | Egghead Course | 100 | [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) |
 | 10-17-18 | Blog Post on any topic | 15 | [Developers that constantly want to learn new things, here’s a tip!](https://codeburst.io/developers-that-constantly-want-to-learn-new-things-heres-a-tip-7a16e42302e4) |
-| WIP | Udemy Course | 100 | [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) |
+| 10-18-18 | Blog Post on any topic | 15 | [Two Things about Conditionals in JavaScript](http://rmurphey.com/blog/2012/12/10/js-conditionals) |
+| 10-19-18 | Udemy Course | 100 | [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
