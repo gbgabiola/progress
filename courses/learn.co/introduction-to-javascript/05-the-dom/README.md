@@ -1,4 +1,4 @@
-# jQuery
+# The DOM
 
 - [Introduction to the DOM](01-intro-to-the-dom.md)
 - [The DOM](02-the-dom.md)
