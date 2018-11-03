@@ -2,8 +2,6 @@
 
 In each folder, separated by courses, books, and others are my notes, related to what I'm studying, doing, or learning...
 
-<!-- You can find my name on the list here [speedstudy](https://github.com/P1xt/speedstudy#progress), My goal is to see how many points I can rack up by December 31, 2018. -->
-
 ## 2018
 
 My goals are to
@@ -17,7 +15,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 5  
-Total Points earned: 1290
+Total Points earned: 1390
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -44,6 +42,7 @@ Total Points earned: 1290
 | 10-24-18 | Blog Post Tutorial | 40 | [Understand JavaScript Callback Functions and Use Them](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/) |
 | 10-30-18 | Blog Post on any topic | 15 | [Case Study: How I Got the Highest Grade in my Discrete Math Class](http://calnewport.com/blog/2008/11/25/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/) |
 | 10-31-18 | Basic Project | 100 | [The Bible \| Tribute Page](http://genesisgabiola.github.io/freeCodeCamp-projects/tribute-page) |
+| 11-02-18 | Basic Project | 100 | [Survey Form for Developers](http://genesisgabiola.github.io/freeCodeCamp-projects/survey-form) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
