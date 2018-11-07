@@ -14,10 +14,10 @@ My goals are to
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
-Courses Completed: 5  
-Total Points earned: 1490
+Courses Completed: 6  
+Total Points earned: 1640
 
-| Date Finished | Activity                  | Points | Links  |           
+| Date Finished | Activity | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
 | 04-06-18 | Blog Post on any topic | 15 | [A bright future for GitHub](https://blog.github.com/2018-06-04-github-microsoft/) |
 | 06-06-18 | Blog Post on any topic | 15 | [The beginning of an adventure: 13 Weeks of JavaScript](https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533) |
@@ -44,6 +44,8 @@ Total Points earned: 1490
 | 10-31-18 | Basic Project | 100 | [The Bible \| Tribute Page](http://genesisgabiola.github.io/freeCodeCamp-projects/tribute-page) |
 | 11-02-18 | Basic Project | 100 | [Survey Form for Developers](http://genesisgabiola.github.io/freeCodeCamp-projects/survey-form) |
 | 11-03-18 | Learn.co | 100 | [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/) |
+| 11-05-18 | Udemy Course | 100 | [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/) |
+| 11-06-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
@@ -181,6 +183,7 @@ Total Points earned: 1490
 - [x] Course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
 - [x] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
 - [x] Course: [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
+- [x] Course: [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
 - [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
