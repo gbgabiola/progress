@@ -6,6 +6,6 @@
 - [x] [nexter](https://genesisgabiola.github.io/nexter/)
 - [x] [Tribute Page](https://genesisgabiola.github.io/freeCodeCamp-projects/tribute-page/)
 - [x] [Survey Form](https://genesisgabiola.github.io/freeCodeCamp-projects/survey-form/)
-- [ ] [Product Landing Page](https://genesisgabiola.github.io/freCodeCamp-projects/product-landing/)
-- [ ] [Technical Documentation Page](https://genesisgabiola.github.io/freeCodeCamp-projects/technical-documentation/)
+- [x] [Product Landing Page](https://genesisgabiola.github.io/freeCodeCamp-projects/product-landing-page/)
+- [ ] [Technical Documentation Page](https://genesisgabiola.github.io/freeCodeCamp-projects/technical-documentation-page/)
 - [ ] [Personal Portfolio Webpage](https://genesisgabiola.github.io/freeCodeCamp-projects/portfolio/)

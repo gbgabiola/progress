@@ -15,7 +15,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
 Courses Completed: 6  
-Total Points earned: 1640
+Total Points earned: 1890
 
 | Date Finished | Activity | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -46,6 +46,9 @@ Total Points earned: 1640
 | 11-03-18 | Learn.co | 100 | [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/) |
 | 11-05-18 | Udemy Course | 100 | [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/) |
 | 11-06-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
+| 11-08-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
+| 11-09-18 | Basic Project | 100 | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/freeCodeCamp-projects/product-landing-page/) |
+| 11-11-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
