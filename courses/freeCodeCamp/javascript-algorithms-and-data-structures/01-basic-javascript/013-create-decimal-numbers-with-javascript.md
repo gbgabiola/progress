@@ -1,4 +1,4 @@
-# [Basic JavaScript: Create Decimal Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript/)
+# [Create Decimal Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript/)
 
 We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as _floating point_ numbers or _floats_.
 
@@ -8,6 +8,8 @@ Not all real numbers can accurately be represented in _floating point_. This can
 ---
 
 Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
+
+## Solution
 
 ```js
 var myDecimal = 5.7;

@@ -1,4 +1,4 @@
-# [Basic JavaScript: Comparison with the Equality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
+# [Comparison with the Equality Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
 There are many _Comparison Operators_ in JavaScript. All of these operators return a boolean `true` or `false` value.
 
@@ -28,15 +28,24 @@ In order for JavaScript to compare two different `data types` (for example, `num
 
 Add the `equality operator` to the indicated line so that the function will return "Equal" when `val` is equivalent to `12`
 
+## Setup
+
 ```js
 // Setup
 function testEqual(val) {
-  if (val == 12) {
+  if (val) { // Change this line
     return "Equal";
   }
   return "Not Equal";
 }
-
 // Change this value to test
-testEqual(12); // Equal
+testEqual(10);
+```
+
+## Solution
+
+```js
+if (val == 12) {}
+
+testEqual(12); // "Equal"
 ```

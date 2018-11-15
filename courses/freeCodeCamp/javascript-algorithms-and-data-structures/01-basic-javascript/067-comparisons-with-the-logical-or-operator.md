@@ -1,8 +1,8 @@
-# [Basic JavaScript: Comparisons with the Logical Or Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator)
+# [Comparisons with the Logical Or Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator)
 
-The _logical or_ operator ( `||` ) returns true if either of the _operands_ is `true`. Otherwise, it returns `false`.
+The _logical or_ operator (`||`) returns true if either of the _operands_ is `true`. Otherwise, it returns `false`.
 
-The _logical or_ operator is composed of two pipe symbols ( `|` ). This can typically be found between your Backspace and Enter keys.
+The _logical or_ operator is composed of two pipe symbols (`|`). This can typically be found between your Backspace and Enter keys.
 
 The pattern below should look familiar from prior waypoints:
 
@@ -29,15 +29,30 @@ return "Yes";
 
 Combine the two if statements into one statement which returns `"Outside"` if `val` is not between `10` and `20`, inclusive. Otherwise, return `"Inside"`.
 
+## Setup
+
 ```js
 function testLogicalOr(val) {
-
-  if (val < 10 || val > 20 ) {
+  // Only change code below this line
+  if (val) {
     return "Outside";
   }
+  if (val) {
+    return "Outside";
+  }
+  // Only change code above this line
   return "Inside";
 }
-
 // Change this value to test
+testLogicalOr(15);
+```
+
+## Solution
+
+```js
+if (val < 10 || val > 20) {
+  return "Outside";
+}
+
 testLogicalOr(15); // "Inside"
 ```

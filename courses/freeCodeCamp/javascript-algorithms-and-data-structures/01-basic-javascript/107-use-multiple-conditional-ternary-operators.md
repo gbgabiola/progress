@@ -1,4 +1,4 @@
-# [Basic JavaScript: Use Multiple Conditional (Ternary) Operators](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
+# [Use Multiple Conditional (Ternary) Operators](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
 
 In the previous challenge, you used a single `conditional operator`. You can also chain them together to check for multiple conditions.
 
@@ -30,19 +30,21 @@ function findGreaterOrEqual(a, b) {
 
 Use multiple `conditional operators` in the `checkSign` function to check if a number is positive, negative or zero.
 
+## Setup
+
 ```js
 function checkSign(num) {
-  return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
 }
-
-checkSign(10); // "positive"
+checkSign(10);
 ```
 
-additional check if input is not a valid input
-```js
-function checkSign(num) {
-  return (num === 0) ? "zero" : (num > 0) ? "positive" : (num < 0) ? "negative" : "Not valid";
-}
+## Solution
 
-checkSign(10);
+```js
+return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
+
+// additional check if input is not a valid input
+return (num === 0) ? "zero" : (num > 0) ? "positive" : (num < 0) ? "negative" : "Not valid";
+
+checkSign(10); // "positive"
 ```

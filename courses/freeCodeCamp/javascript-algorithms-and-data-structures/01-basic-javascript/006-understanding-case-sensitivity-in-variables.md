@@ -1,4 +1,4 @@
-# [Basic JavaScript: Understanding Case Sensitivity in Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-case-sensitivity-in-variables/)
+# [Understanding Case Sensitivity in Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/understanding-case-sensitivity-in-variables)
 
 In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
 
@@ -19,6 +19,22 @@ var thisVariableNameIsSoLong;
 
 Modify the existing declarations and assignments so their names use _camelCase_.
 Do not create any new variables.
+
+## Setup
+
+```js
+// Declarations
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Assignments
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;
+```
+
+## Solution
 
 ```js
 // Declarations

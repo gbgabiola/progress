@@ -1,4 +1,4 @@
-# [Basic JavaScript: Manipulating Complex Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulating-complex-objects)
+# [Manipulating Complex Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulating-complex-objects)
 
 Sometimes you may want to store data in a _flexible Data Structure_. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of _strings_, _numbers_, _booleans_, _arrays_, _functions_, and _objects_.
 
@@ -47,6 +47,8 @@ You will need to place a comma after every object in the array, unless it is the
 
 Add a new album to the `myMusic` array. Add `artist` and `title` strings, `release_year` number, and a `formats` array of strings.
 
+## Setup
+
 ```js
 var myMusic = [
   {
@@ -59,16 +61,22 @@ var myMusic = [
       "LP"
     ],
     "gold": true
-  },
-  {
-    "artist": "Chris Tomlin",
-    "title": "Arriving",
-    "release_year": 2004,
-    "formats": [
-      "CD",
-      "Cassette",
-      "LP"
-    ]
   }
+  // Add record here
 ];
+```
+
+## Solution
+
+```js
+{
+  artist: "Chris Tomlin",
+  title: "Arriving",
+  release_year: 2004,
+  formats: [
+    "CD",
+    "Cassette",
+    "LP"
+  ]
+}
 ```

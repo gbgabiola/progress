@@ -1,10 +1,12 @@
-# [Basic JavaScript: Use the Conditional (Ternary) Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator/)
+# [Use the Conditional (Ternary) Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator/)
 
 The _conditional operator_, also called the _ternary operator_, can be used as a one line if-else expression.
 
 The syntax is:
 
-`condition ? statement-if-true : statement-if-false;`
+```js
+condition ? statement-if-true : statement-if-false;
+```
 
 The following function uses an if-else statement to check a condition:
 
@@ -31,10 +33,18 @@ function findGreater(a, b) {
 
 Use the `conditional operator` in the `checkEqual` function to check if two numbers are equal or not. The function should return either true or false.
 
+## Setup
+
 ```js
 function checkEqual(a, b) {
-  return a === b ? true : false;
 }
+checkEqual(1, 2);
+```
+
+## Solution
+
+```js
+return a === b ? true : false;
 
 checkEqual(1, 2); // false
 ```

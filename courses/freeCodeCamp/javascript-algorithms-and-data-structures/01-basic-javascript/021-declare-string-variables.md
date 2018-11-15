@@ -1,4 +1,4 @@
-# [Basic JavaScript: Declare String Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables/)
+# [Declare String Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables/)
 
 Previously we have used the code
 
@@ -9,6 +9,8 @@ Previously we have used the code
 ---
 
 Create two new `string` variables: `myFirstName` and `myLastName` and assign them the values of your first and last name, respectively.
+
+## Solution
 
 ```js
 var myFirstName = "Genesis";

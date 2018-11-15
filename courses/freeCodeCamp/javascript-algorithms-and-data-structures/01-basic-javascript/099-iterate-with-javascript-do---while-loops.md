@@ -1,4 +1,4 @@
-# [Basic JavaScript: Iterate with JavaScript Do...While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops/)
+# [Iterate with JavaScript Do...While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops/)
 
 You can run the same code multiple times by using a loop.
 
@@ -49,13 +49,22 @@ Let's try getting a `do...while` loop to work by pushing values to an array.
 
 Change the `while` loop in the code to a `do...while` loop so that the loop will push the number 10 to `myArray`, and `i` will be equal to `11` when your code finishes running.
 
+## Setup
+
 ```js
-// Setup
 var myArray = [];
 var i = 10;
 
-do {
+// Only change code below this line.
+while (i < 5) {
   myArray.push(i);
   i++;
-} while (i < 5);
+}
+```
+
+```js
+do {
+  myArray.push(i);
+  i++
+} while (i < 10);
 ```

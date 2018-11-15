@@ -1,4 +1,4 @@
-# [Basic JavaScript: Add Two Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-two-numbers-with-javascript/)
+# [Add Two Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-two-numbers-with-javascript/)
 
 `Number` is a data type in JavaScript which represents numeric data.
 
@@ -15,6 +15,14 @@ myVar = 5 + 10; // assigned 15
 ---
 
 Change the `0` so that sum will equal `20`.
+
+## Setup
+
+```js
+var sum = 10 + 0;
+```
+
+## Solution
 
 ```js
 var sum = 10 + 10;

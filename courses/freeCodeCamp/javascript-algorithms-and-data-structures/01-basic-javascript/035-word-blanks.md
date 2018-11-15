@@ -1,4 +1,4 @@
-# [Basic JavaScript: Word Blanks](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/word-blanks)
+# [Word Blanks](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/word-blanks)
 
 We will now use our knowledge of strings to build a "[Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence. Here's an example of an incomplete sentence.
 
@@ -18,14 +18,23 @@ You will need to use the string concatenation operator `+` to build a new string
 
 You will also need to account for spaces in your string, so that the final sentence has spaces between all the words. The result should be a complete sentence.
 
+## Setup
+
 ```js
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-
-  var result = "I have a " + myNoun + ", and he's really " + myAdjective + ", but he " + myVerb + ", so " + myAdverb;
-
+  // Your code below this line
+  var result = "";
+  // Your code above this line
   return result;
 }
-
 // Change the words here to test your function
 wordBlanks("dog", "big", "ran", "quickly");
+```
+
+## Solution
+
+```js
+var result = "The " + myNoun + " is so " + myAdjective + ", that I " + myVerb + " very " + myAdverb;
+
+// "The dog is so big, that I ran very quickly"
 ```

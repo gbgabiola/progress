@@ -1,4 +1,4 @@
-# [Basic JavaScript: Use the parseInt Function](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function)
+# [Use the parseInt Function](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function)
 
 The `parseInt()` function parses a string and returns an integer. Here's an example:
 
@@ -10,10 +10,18 @@ The above function converts the string "007" to an integer 7. If the first chara
 
 Use `parseInt()` in the `convertToInteger` function so it converts the input string `str` into an integer, and returns it.
 
+## Setup
+
 ```js
 function convertToInteger(str) {
-  return parseInt(str);
 }
+convertToInteger("56");
+```
+
+## Solution
+
+```js
+return parseInt(str);
 
 convertToInteger("56"); // 56
 ```

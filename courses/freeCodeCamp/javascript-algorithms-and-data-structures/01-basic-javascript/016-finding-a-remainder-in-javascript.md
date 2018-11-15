@@ -1,8 +1,8 @@
-# [Basic JavaScript: Finding a Remainder in JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/finding-a-remainder-in-javascript/)
+# [Finding a Remainder in JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/finding-a-remainder-in-javascript/)
 
 The _remainder_ operator `%` gives the remainder of the division of two numbers.
 
-**Example**  
+**Example**
 
 ```js
 5 % 2 = 1 because
@@ -20,11 +20,19 @@ In mathematics, a number can be checked to be even or odd by checking the remain
 ```
 
 **Note**  
-The _remainder_ operator is sometimes incorrectly referred to as the "modulus" operator. It is very similar to modulus, but does not work properly with negative numbers. */
+The _remainder_ operator is sometimes incorrectly referred to as the "modulus" operator. It is very similar to modulus, but does not work properly with negative numbers.
 
 ---
 
 Set `remainder` equal to the remainder of `11` divided by `3` using the remainder (`%`) operator.
+
+## Setup
+
+```js
+var remainder;
+```
+
+## Solution
 
 ```js
 var remainder = 11 % 3;

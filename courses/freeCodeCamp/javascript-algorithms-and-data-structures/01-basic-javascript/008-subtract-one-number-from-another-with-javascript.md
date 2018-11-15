@@ -1,4 +1,4 @@
-# [Basic JavaScript: Subtract One Number from Another with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/subtract-one-number-from-another-with-javascript/)
+# [Subtract One Number from Another with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/subtract-one-number-from-another-with-javascript/)
 
 We can also subtract one number from another.
 
@@ -14,6 +14,14 @@ myVar = 12 - 6; // assigned 6
 
 Change the `0` so the difference is `12`.
 
+## Setup
+
 ```js
-var difference = 45 - 33; // 12
+var difference = 45 - 0;
+```
+
+## Solution
+
+```js
+var difference = 45 - 33;
 ```

@@ -1,4 +1,4 @@
-# [Basic JavaScript: Use Bracket Notation to Find the First Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string)
+# [Use Bracket Notation to Find the First Character in a String](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string)
 
 `Bracket notation` is a way to get a character at a specific `index` within a string.
 
@@ -10,11 +10,18 @@ For example, the character at index 0 in the word "Charles" is "C". So if `var f
 
 Use _bracket notation_ to find the first character in the `lastName` variable and assign it to `firstLetterOfLastName`.
 
+## Setup
+
 ```js
-// Setup
 var firstLetterOfLastName = "";
 var lastName = "Lovelace";
 
 // Only change code below this line
-firstLetterOfLastName = lastName[0];
+firstLetterOfLastName = lastName;
+```
+
+## Solution
+
+```js
+firstLetterOfLastName = lastName[0]; // "L"
 ```

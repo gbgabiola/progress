@@ -1,4 +1,4 @@
-# [Basic JavaScript: Accessing Nested Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects)
+# [Accessing Nested Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects)
 
 The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
 
@@ -25,8 +25,9 @@ ourStorage.desk.drawer; // "stapler"
 
 Access the `myStorage` object and assign the contents of the `glove box` property to the `gloveBoxContents` variable. Use bracket notation for properties with a space in their name.
 
+## Setup
+
 ```js
-// Setup
 var myStorage = {
   "car": {
     "inside": {
@@ -38,6 +39,11 @@ var myStorage = {
     }
   }
 };
+var gloveBoxContents = undefined; // Change this line
+```
 
+## Solution
+
+```js
 var gloveBoxContents = myStorage.car.inside["glove box"];
 ```

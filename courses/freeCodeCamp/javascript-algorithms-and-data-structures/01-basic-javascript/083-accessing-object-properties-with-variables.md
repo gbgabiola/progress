@@ -1,4 +1,4 @@
-# [Basic JavaScript: Accessing Object Properties with Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)
+# [Accessing Object Properties with Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)
 
 Another use of bracket notation on objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table.
 
@@ -33,14 +33,22 @@ Note that we do _not_ use quotes around the variable name when using it to acces
 
 Use the `playerNumber` variable to look up player `16` in `testObj` using bracket notation. Then assign that name to the `player` variable.
 
+## Setup
+
 ```js
-// Setup
 var testObj = {
   12: "Namath",
   16: "Montana",
   19: "Unitas"
 };
+// Only change code below this line;
+var playerNumber;       // Change this Line
+var player = testObj;   // Change this Line
+```
 
+## Solution
+
+```js
 var playerNumber = 16;
 var player = testObj[playerNumber];
 

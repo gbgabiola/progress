@@ -1,4 +1,4 @@
-# [Basic JavaScript: Iterate with JavaScript For Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops)
+# [Iterate with JavaScript For Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops)
 
 You can run the same code multiple times by using a loop.
 
@@ -6,7 +6,9 @@ The most common type of JavaScript loop is called a " `for loop` " because it ru
 
 For loops are declared with three optional expressions separated by semicolons:
 
-`for ([initialization]; [condition]; [final-expression])`
+```js
+for ([initialization]; [condition]; [final-expression])`
+```
 
 The `initialization` statement is executed one time only before the loop starts. It is typically used to define and setup your loop variable.
 
@@ -29,12 +31,17 @@ for (var i = 0; i < 5; i++) {
 
 Use a `for` loop to work to push the values 1 through 5 onto `myArray`.
 
-```js
-// Setup
-var myArray = [];
+## Setup
 
-for (var i = 0; i < 5;) {
-  i++
+```js
+var myArray = [];
+// Only change code below this line.
+```
+
+## Solution
+
+```js
+for (var i = 1; i <= 5; i++) {
   myArray.push(i);
 }
 ```

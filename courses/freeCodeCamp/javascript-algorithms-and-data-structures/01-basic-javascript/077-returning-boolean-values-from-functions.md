@@ -1,4 +1,4 @@
-# [Basic JavaScript: Returning Boolean Values from Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions)
+# [Returning Boolean Values from Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions)
 
 You may recall from [Comparison with the Equality Operator](https://learn.freecodecamp.org/waypoint-comparison-with-the-equality-operator) that all comparison operators return a boolean `true` or `false` value.
 
@@ -26,10 +26,25 @@ function isEqual(a,b) {
 
 Fix the function `isLess` to remove the `if/else` statements.
 
+## Setup
+
 ```js
 function isLess(a, b) {
-  return a < b;
+  // Fix this code
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
 }
 // Change these values to test
+isLess(10, 15);
+```
+
+## Solution
+
+```js
+return a < b;
+
 isLess(10, 15); // true
 ```

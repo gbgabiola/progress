@@ -9,9 +9,16 @@ Another data type is the _Boolean_. `Booleans` may only be one of two values: `t
 
 Modify the `welcomeToBooleans` function so that it returns `true` instead of `false` when the run button is clicked.
 
+## Setup
+
 ```js
 function welcomeToBooleans() {
-    
-return true;
+    return false; // Change this line
 }
+```
+
+## Solution
+
+```js 
+return true;
 ```

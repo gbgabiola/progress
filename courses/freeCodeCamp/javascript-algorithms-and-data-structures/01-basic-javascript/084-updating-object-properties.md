@@ -1,4 +1,4 @@
-# [Basic JavaScript: Updating Object Properties](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties)
+# [Updating Object Properties](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties)
 
 After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
@@ -25,18 +25,24 @@ Now when we evaluate `ourDog.name`, instead of getting "Camper", we'll get his n
 
 Update the `myDog` object's name property. Let's change her name from "Coder" to "Happy Coder". You can use either dot or bracket notation.
 
+## Setup
+
 ```js
-// Setup
 var myDog = {
   "name": "Coder",
   "legs": 4,
   "tails": 1,
   "friends": ["freeCodeCamp Campers"]
 };
+// Only change code below this line.
+```
 
+## Solution
+
+```js
 // Dot Notation
 myDog.name = "Happy Coder";
 
 // Bracket Notation
-// myDog["name"] = "Happy Coder";
+myDog["name"] = "Happy Coder";
 ```

@@ -1,4 +1,4 @@
-# [Basic JavaScript: Manipulate Arrays With pop()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+# [Manipulate Arrays With pop()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
 
 Another way to change the data in an array is with the `.pop()` function.
 
@@ -17,9 +17,14 @@ console.log(threeArr); // Returns [1, 4]
 
 Use the `.pop()` function to remove the last item from `myArray`, assigning the "popped off" value to `removedFromMyArray`.
 
-```js
-// Setup
-var myArray = [["John", 23], ["cat", 2]];
+## Setup
 
+```js
+var myArray = [["John", 23], ["cat", 2]];
+```
+
+## Solution
+
+```js
 var removedFromMyArray = myArray.pop(); // myArray = ["John", 23]
 ```

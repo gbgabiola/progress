@@ -1,6 +1,6 @@
-# Basic JavaScript: Declare JavaScript Variables
+# [Declare JavaScript Variables](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/declare-javascript-variables)
 
-In computer science, _data_ is anything that is meaningful to the computer. JavaScript provides seven different _data_ types which are `undefined`, `null`, `boolean`, `string`, `symbol`, `number`, and `object`.
+In computer science, _data_ is anything that is meaningful to the computer. JavaScript provides seven different _data types_ which are `undefined`, `null`, `boolean`, `string`, `symbol`, `number`, and `object`.
 
 For example, computers distinguish between numbers, such as the number `12`, and `strings`, such as `"12"`, `"dog"`, or `"123 cats"`, which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
 
@@ -24,6 +24,8 @@ Use the `var` keyword to create a variable called `myName`.
 
 **Hint**  
 Look at the `ourName` example if you get stuck.
+
+## Solution
 
 ```js
 var myName;

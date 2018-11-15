@@ -1,4 +1,4 @@
-# [Basic JavaScript: Iterate with JavaScript While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops)
+# [Iterate with JavaScript While Loops](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops)
 
 You can run the same code multiple times by using a loop.
 
@@ -19,13 +19,23 @@ Let's try getting a while loop to work by pushing values to an array.
 
 Push the numbers 0 through 4 to `myArray` using a `while` loop.
 
+## Setup
+
 ```js
 // Setup
 var myArray = [];
-var i = 0;
+// Only change code below this line.
+```
 
-while(i < 5) {
+## Solution
+
+```js
+var i = 0;
+// while (i < 5)
+while (i <= 4) {
   myArray.push(i);
   i++;
 }
+
+// 4
 ```

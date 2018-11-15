@@ -1,4 +1,4 @@
-# [Basic JavaScript: Return a Value from a Function with Return](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+# [Return a Value from a Function with Return](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 
 We can pass values into a function with _arguments_. You can use a `return` statement to send a value back out of a function.
 
@@ -6,7 +6,7 @@ We can pass values into a function with _arguments_. You can use a `return` stat
 
 ```js
 function plusThree(num) {
-return num + 3;
+  return num + 3;
 }
 var answer = plusThree(5); // 8
 ```
@@ -17,9 +17,17 @@ var answer = plusThree(5); // 8
 
 Create a function `timesFive` that accepts one argument, multiplies it by `5`, and returns the new value. See the last line in the editor for an example of how you can test your `timesFive` function.
 
+## Setup
+
 ```js
-function timesFive(x) {
-  return x * 5;
+console.log(timesFive(10));
+```
+
+## Solution
+
+```js
+function timesFive(n) {
+  return n * 5;
 }
 
 console.log(timesFive(10)); // 50

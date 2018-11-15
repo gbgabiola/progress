@@ -1,4 +1,4 @@
-# [Basic JavaScript: Passing Values to Functions with Arguments](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
+# [Passing Values to Functions with Arguments](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
 
 _Parameters_ are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "_passed_") into a function when it is called are known as _arguments_.
 
@@ -23,10 +23,12 @@ We have passed two arguments, `"Hello"` and `"World"`. Inside the function, `par
 1. Create a function called `functionWithArgs` that accepts two arguments and outputs their sum to the dev console.
 2. Call the function with two numbers as arguments.
 
+## Solution
+
 ```js
-function functionWithArgs(a, b) {
-  console.log(a + b);
+function functionWithArgs(x, y) {
+  console.log(x + y);
 }
 
-functionWithArgs(3, 4);
+functionWithArgs(10, 21);
 ```

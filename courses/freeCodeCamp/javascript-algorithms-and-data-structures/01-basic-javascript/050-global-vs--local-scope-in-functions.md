@@ -1,4 +1,4 @@
-# [Basic JavaScript: Global vs. Local Scope in Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+# [Global vs. Local Scope in Functions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
 
 It is possible to have both _local_ and _global_ variables with the same name. When you do this, the `local` variable takes precedence over the `global` variable.
 
@@ -18,15 +18,26 @@ The function `myFun` will return `"Head"` because the `local` version of the var
 
 Add a local variable to `myOutfit` function to override the value of `outerWear` with `"sweater"`.
 
-```js
-// Setup
-var outerWear = "T-Shirt";
+## Setup
 
+```js
+var outerWear = "T-Shirt";
 function myOutfit() {
-  var outerWear = "sweater";
-  
+  // Only change code below this line
+
+  // Only change code above this line
   return outerWear;
 }
+myOutfit();
+```
 
+## Solution
+
+```js
+var outerWear = "T-Shirt";
+function myOutfit() {
+  var outerWear = "sweater";
+  return outerWear;
+}
 myOutfit();
 ```

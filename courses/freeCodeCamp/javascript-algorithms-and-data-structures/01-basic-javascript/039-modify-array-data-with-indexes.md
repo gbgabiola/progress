@@ -1,4 +1,4 @@
-# [Basic JavaScript: Modify Array Data With Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+# [Modify Array Data With Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
 
 Unlike strings, the entries of arrays are _mutable_ and can be changed freely.
 
@@ -16,10 +16,17 @@ There shouldn't be any spaces between the array name and the square brackets, li
 
 Modify the data stored at index 0 of myArray to a value of 45.
 
+## Setup
+
 ```js
 // Setup
 var myArray = [18,64,99];
 
 // Only change code below this line.
+```
+
+## Solution
+
+```js
 myArray[0] = 45; // myArray now equals [45,64,99].
 ```

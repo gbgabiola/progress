@@ -1,4 +1,4 @@
-# [Basic JavaScript: Shopping List](Basic JavaScript: Shopping List)
+# [Shopping List](Basic JavaScript: Shopping List)
 
 Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
 
@@ -8,6 +8,14 @@ The first element in each sub-array should contain a string with the name of the
 
 There should be at least 5 sub-arrays in the list.
 
+## Setup
+
 ```js
-var myList = [["Chocolate", 30], ["Candies", 50], ["Ice Cream", 5], ["Gums", 20], ["Cotton Candy", 10]];
+var myList = [];
+```
+
+## Solution
+
+```js
+var myList = [["Piatos", 5], ["VCut", 1], ["Nova", 3], ["Cheezy", 4], ["Marshmallows", 2]];
 ```

@@ -1,4 +1,4 @@
-# [Basic JavaScript: Multiply Two Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-numbers-with-javascript/)
+# [Multiply Two Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-numbers-with-javascript/)
 
 We can also multiply one number by another.
 
@@ -14,6 +14,14 @@ myVar = 13 * 13; // assigned 169
 
 Change the 0 so that product will equal 80.
 
+## Setup
+
 ```js
-var product = 8 * 10; // 80
+var product = 8 * 0;
+```
+
+## Solution
+
+```js
+var product = 8 * 10;
 ```

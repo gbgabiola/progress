@@ -1,4 +1,4 @@
-# [Basic JavaScript: Iterate Odd Numbers With a For Loop](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop)
+# [Iterate Odd Numbers With a For Loop](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop)
 
 For loops don't have to iterate one at a time. By changing our `final-expression`, we can count by even numbers.
 
@@ -19,10 +19,16 @@ Let's change our `initialization` so we can count by odd numbers.
 
 Push the odd numbers from 1 through 9 to `myArray` using a `for` loop.
 
-```js
-// Setup
-var myArray = [];
+## Setup
 
+```js
+var myArray = [];
+// Only change code below this line.
+```
+
+## Solution
+
+```js
 for (var i = 1; i < 10; i += 2) {
   myArray.push(i);
 }

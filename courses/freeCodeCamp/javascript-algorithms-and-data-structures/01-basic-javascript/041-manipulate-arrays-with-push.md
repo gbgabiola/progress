@@ -1,4 +1,4 @@
-# [Basic JavaScript: Manipulate Arrays With push()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+# [Manipulate Arrays With push()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
 
 An easy way to append data to the end of an array is via the `push()` function.
 
@@ -14,9 +14,14 @@ arr.push(4);
 
 Push `["dog", 3]` onto the end of the `myArray` variable.
 
-```js
-// Setup
-var myArray = [["John", 23], ["cat", 2]];
+## Setup
 
+```js
+var myArray = [["John", 23], ["cat", 2]];
+```
+
+## Solution
+
+```js
 myArray.push(["dog", 3]); // myArray = [["John", 23], ["cat", 2], ["dog", 3]]
 ```

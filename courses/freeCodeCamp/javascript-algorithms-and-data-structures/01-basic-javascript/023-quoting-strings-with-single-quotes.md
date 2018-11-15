@@ -1,4 +1,4 @@
-# [Basic JavaScript: Quoting Strings with Single Quotes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/quoting-strings-with-single-quotes/)
+# [Quoting Strings with Single Quotes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/quoting-strings-with-single-quotes/)
 
 _String_ values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript.
 
@@ -30,6 +30,14 @@ The backslash `\` should not be be confused with the forward slash `/`. They do 
 Change the provided string to a string with single quotes at the beginning and end and no escape characters.
 
 Right now, the `<a>` tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
+
+## Setup
+
+```js
+var myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+```
+
+## Solution
 
 ```js
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';

@@ -1,4 +1,4 @@
-# [Basic JavaScript: Manipulate Arrays With unshift()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+# [Manipulate Arrays With unshift()](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
 
 Not only can you `shift` elements off of the beginning of an array, you can also `unshift` elements to the beginning of an array i.e. add elements in front of the array.
 
@@ -8,10 +8,15 @@ Not only can you `shift` elements off of the beginning of an array, you can also
 
 Add `["Paul",35]` to the beginning of the `myArray` variable using `unshift()`.
 
+## Setup
+
 ```js
-// Setup
 var myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
+```
 
-myArray.unshift(["Paul", 35]); // myArray = [["Paul", 35], ["John", 23], ["dog", 3]]
+## Solution
+
+```js
+myArray.unshift(["Paul", 35]); // myArray = [["Paul", 35], ["dog", 3]]
 ```

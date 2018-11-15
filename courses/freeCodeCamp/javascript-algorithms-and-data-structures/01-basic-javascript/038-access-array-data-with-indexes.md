@@ -1,4 +1,4 @@
-# [Basic JavaScript: Access Array Data with Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
+# [Access Array Data with Indexes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 
 We can access the data inside arrays using `indexes`.
 
@@ -19,9 +19,14 @@ There shouldn't be any spaces between the array name and the square brackets, li
 
 Create a variable called `myData` and set it to equal the first value of `myArray` using bracket notation.
 
+## Setup
 ```js
 // Setup
 var myArray = [50,60,70];
+```
 
-var myData =  myArray[0]; // 50
+## Solution
+
+```js
+var myData = myArray[0]; // 50
 ```

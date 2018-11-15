@@ -1,4 +1,4 @@
-# [Basic JavaScript: Build JavaScript Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects)
+# [Build JavaScript Objects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects)
 
 You may have heard the term `object` before.
 
@@ -35,11 +35,21 @@ Make an object that represents a dog called `myDog` which contains the propertie
 
 You can set these object properties to whatever values you want, as long `"name"` is a string, `"legs"` and `"tails"` are numbers, and `"friends"` is an array.
 
+## Setup
+
 ```js
 var myDog = {
-  "name": "Donald",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["Pinky", "Buchok", "Brusko"]
+  
+};
+```
+
+## Solution
+
+```js
+var myDog = {
+  name: "Donald",
+  legs: 4,
+  tails: 1,
+  friends: ["Bruno", "Pinky", "Tracy", "Buchok", "Brusko"]
 };
 ```

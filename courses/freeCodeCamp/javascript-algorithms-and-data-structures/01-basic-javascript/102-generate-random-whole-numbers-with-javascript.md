@@ -1,4 +1,4 @@
-# [Basic JavaScript: Generate Random Whole Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-with-javascript)
+# [Generate Random Whole Numbers with JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-with-javascript)
 
 It's great that we can generate random decimal numbers, but it's even more useful if we use it to generate random whole numbers.
 
@@ -10,7 +10,9 @@ Remember that `Math.random()` can never quite return a `1` and, because we're ro
 
 Putting everything together, this is what our code looks like:
 
-`Math.floor(Math.random() * 20);`
+```js
+Math.floor(Math.random() * 20);
+```
 
 We are calling `Math.random()`, multiplying the result by 20, then passing the value to `Math.floor()` function to round the value down to the nearest whole number.
 
@@ -18,11 +20,17 @@ We are calling `Math.random()`, multiplying the result by 20, then passing the v
 
 Use this technique to generate and return a random whole number between `0` and `9`.
 
+## Setup
+
 ```js
-var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
-
 function randomWholeNum() {
-
-  return Math.floor(Math.random() * 10);
+  // Only change code below this line.
+  return Math.random();
 }
+```
+
+## Solution
+
+```js
+return Math.floor(Math.random() * 10);
 ```

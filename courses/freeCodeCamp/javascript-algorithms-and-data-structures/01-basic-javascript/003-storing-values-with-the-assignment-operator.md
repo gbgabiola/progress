@@ -1,4 +1,4 @@
-# Basic JavaScript: Storing Values with the Assignment Operator
+# [Storing Values with the Assignment Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator)
 
 In JavaScript, you can store a value in a variable with the _assignment_ operator.
 
@@ -23,7 +23,19 @@ Assign the value `7` to variable `a`.
 
 Assign the contents of `a` to variable `b`.
 
+
+## Setup
+
 ```js
-var a = 7;
+var a;
+var b = 2;
+```
+
+## Solution
+
+```js
+a = 7;
 b = a;
+
+// 7
 ```
