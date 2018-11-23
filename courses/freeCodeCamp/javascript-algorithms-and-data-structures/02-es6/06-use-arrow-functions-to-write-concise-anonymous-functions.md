@@ -22,7 +22,9 @@ const myFunc = () => {
 
 When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword `return` as well as the brackets surrounding the code. This helps simplify smaller functions into one-line statements:
 
-`const myFunc= () => "value"`
+```js
+const myFunc= () => "value"
+```
 
 This code will still return `value` by default.
 
@@ -30,9 +32,21 @@ This code will still return `value` by default.
 
 Rewrite the function assigned to the variable `magic` which returns a new `Date()` to use arrow function syntax. Also make sure nothing is defined using the keyword `var`.
 
+## Setup
 ```js
-const magic = () => {
+var magic = function() {
   "use strict";
   return new Date();
 };
+```
+
+## Solution
+```js
+// one line solution
+const magic = () =>  new Date();
+
+// var magic = () => {
+//   "use strict";
+//   return new Date();
+// };
 ```

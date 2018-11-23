@@ -13,11 +13,25 @@ You can pass more than one argument into arrow functions as well.
 
 Rewrite the `myConcat` function which appends contents of `arr2` to `arr1` so that the function uses arrow function syntax.
 
+## Setup
 ```js
-const myConcat = (arr1, arr2) => {
+var myConcat = function(arr1, arr2) {
   "use strict";
   return arr1.concat(arr2);
 };
 // test your code
 console.log(myConcat([1, 2], [3, 4, 5]));
+```
+
+## Solution
+```js
+// one line solution
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+// const myConcat = (arr1, arr2) => {
+//   "use strict";
+//   return arr1.concat(arr2);
+// };
+
+console.log(myConcat([1, 2], [3, 4, 5])); //(5) [1, 2, 3, 4, 5]
 ```

@@ -20,23 +20,30 @@ As you can see, you can mutate the object `[5, 6, 7]` itself and the variable s 
 
 An array is declared as `const s = [5, 7, 2]`. Change the array to `[2, 5, 7]` using various element assignment.
 
+## Setup
 ```js
 const s = [5, 7, 2];
 function editInPlace() {
   "use strict";
-  // s = [2, 5, 7]; <- this is invalid
-  s[0] = 2, s[1] = 5, s[2] = 7;
+  // change code below this line
+  s = [2, 5, 7]; // <- this is invalid
+  // change code above this line
 }
 editInPlace();
 ```
 
-using sort:
+## Solution
 ```js
 const s = [5, 7, 2];
 function editInPlace() {
   "use strict";
-  // s = [2, 5, 7]; <- this is invalid
+
+  // using sort
   s.sort();
+  
+//   s[0] = 2;
+//   s[1] = 5;
+//   s[2] = 7;
 }
 editInPlace();
 ```

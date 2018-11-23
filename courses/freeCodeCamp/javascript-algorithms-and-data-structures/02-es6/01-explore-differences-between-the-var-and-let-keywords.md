@@ -39,6 +39,21 @@ x = 3.14; // throws an error because x is not declared
 
 Update the code so it only uses the `let` keyword.
 
+## Setup
+```js
+var catName;
+var quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
+```
+
+## Solution
 ```js
 let catName;
 let quote;
