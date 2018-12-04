@@ -1,34 +1,36 @@
 # [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions/)
 
-- [ ] Using the Test Method
-- [ ] Match Literal Strings
-- [ ] Match a Literal String with Different Possibilities
-- [ ] Ignore Case While Matching
-- [ ] Extract Matches
-- [ ] Find More Than the First Match
-- [ ] Match Anything with Wildcard Period
-- [ ] Match Single Character with Multiple Possibilities
-- [ ] Match Letters of the Alphabet
-- [ ] Match Numbers and Letters of the Alphabet
-- [ ] Match Single Characters Not Specified
-- [ ] Match Characters that Occur One or More Times
-- [ ] Match Characters that Occur Zero or More Times
-- [ ] Find Characters with Lazy Matching
-- [ ] Find One or More Criminals in a Hunt
-- [ ] Match Beginning String Patterns
-- [ ] Match Ending String Patterns
-- [ ] Match All Letters and Numbers
-- [ ] Match Everything But Letters and Numbers
-- [ ] Match All Numbers
-- [ ] Match All Non-Numbers
-- [ ] Restrict Possible Usernames
-- [ ] Match Whitespace
-- [ ] Match Non-Whitespace Characters
-- [ ] Specify Upper and Lower Number of Matches
-- [ ] Specify Only the Lower Number of Matches
-- [ ] Specify Exact Number of Matches
-- [ ] Check for All or None
-- [ ] Positive and Negative Lookahead
-- [ ] Reuse Patterns Using Capture Groups
-- [ ] Use Capture Groups to Search and Replace
-- [ ] Remove Whitespace from Start and End
+Regular expressions are special strings that represent a search pattern. Also known as "regex" or "regexp", they help programmers match, search, and replace text. Regular expressions can appear cryptic because a few characters have special meaning. The goal is to combine the symbols and text into a pattern that matches what you want, but only what you want. This section will cover the characters, a few shortcuts, and the common uses for writing regular expressions.
+
+- [x] [Using the Test Method](01-using-the-test-method.md)
+- [x] [Match Literal Strings](02-match-literal-strings.md)
+- [x] [Match a Literal String with Different Possibilities](03-match-a-literal-string-with-different-possibilities.md)
+- [x] [Ignore Case While Matching](04-ignore-case-while-matching.md)
+- [x] [Extract Matches](05-extract-matches.md)
+- [x] [Find More Than the First Match](06-find-more-than-the-first-match.md)
+- [x] [Match Anything with Wildcard Period](07-match-anything-with-wildcard-period.md)
+- [x] [Match Single Character with Multiple Possibilities](08-match-single-character-with-multiple-possibilities.md)
+- [x] [Match Letters of the Alphabet](09-match-letters-of-the-alphabet.md)
+- [x] [Match Numbers and Letters of the Alphabet](10-match-numbers-and-letters-of-the-alphabet.md)
+- [x] [Match Single Characters Not Specified](11-match-single-characters-not-specified.md)
+- [x] [Match Characters that Occur One or More Times](12-match-characters-that-occur-one-or-more-times.md)
+- [x] [Match Characters that Occur Zero or More Times](13-match-characters-that-occur-zero-or-more-times.md)
+- [x] [Find Characters with Lazy Matching](14-find-characters-with-lazy-matching.md)
+- [x] [Find One or More Criminals in a Hunt](15-find-one-or-more-criminals-in-a-hunt.md)
+- [x] [Match Beginning String Patterns](16-match-beginning-string-patterns.md)
+- [x] [Match Ending String Patterns](17-match-ending-string-patterns.md)
+- [x] [Match All Letters and Numbers](18-match-all-letters-and-numbers.md)
+- [x] [Match Everything But Letters and Numbers](19-match-everything-but-letters-and-numbers.md)
+- [x] [Match All Numbers](20-match-all-numbers.md)
+- [x] [Match All Non-Numbers](21-match-all-non-numbers.md)
+- [x] [Restrict Possible Usernames](22-restrict-possible-usernames.md)
+- [x] [Match Whitespace](23-match-whitespace.md)
+- [x] [Match Non-Whitespace Characters](24-match-non-whitespace-characters.md)
+- [x] [Specify Upper and Lower Number of Matches](25-specify-upper-and-lower-number-of-matches.md)
+- [x] [Specify Only the Lower Number of Matches](26-specify-only-the-lower-number-of-matches.md)
+- [x] [Specify Exact Number of Matches](27-specify-exact-number-of-matches.md)
+- [x] [Check for All or None](28-check-for-all-or-none.md)
+- [x] [Positive and Negative Lookahead](29-positive-and-negative-lookahead.md)
+- [x] [Reuse Patterns Using Capture Groups](30-reuse-patterns-using-capture-groups.md)
+- [x] [Use Capture Groups to Search and Replace](31-use-capture-groups-to-search-and-replace.md)
+- [x] [Remove Whitespace from Start and End](32-remove-whitespace-from-start-and-endmd.)
