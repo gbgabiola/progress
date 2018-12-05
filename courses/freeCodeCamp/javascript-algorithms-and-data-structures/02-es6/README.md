@@ -42,3 +42,7 @@ Not all browsers support ES6 features. If you use ES6 in your own projects, you 
 - [x] [Use * to Import Everything from a File](24-use--to-import-everything-from-a-file.md)
 - [x] [Create an Export Fallback with export default](25-create-an-export-fallback-with-export-default.md)
 - [x] [Import a Default Export](26-import-a-default-export.md)
+
+---
+
+Credits to [FreeCodeCamp](https://www.freecodecamp.org/)

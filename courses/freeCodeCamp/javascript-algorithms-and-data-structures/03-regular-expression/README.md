@@ -34,3 +34,7 @@ Regular expressions are special strings that represent a search pattern. Also kn
 - [x] [Reuse Patterns Using Capture Groups](30-reuse-patterns-using-capture-groups.md)
 - [x] [Use Capture Groups to Search and Replace](31-use-capture-groups-to-search-and-replace.md)
 - [x] [Remove Whitespace from Start and End](32-remove-whitespace-from-start-and-endmd.)
+
+---
+
+Credits to [FreeCodeCamp](https://www.freecodecamp.org/)
