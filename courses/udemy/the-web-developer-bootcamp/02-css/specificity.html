@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Specificity</title>
+  <style>
+    body {
+      color: red;
+    }
+
+    ul {
+      color: blue;
+    }
+
+    li {
+      color: orange;
+    }
+
+    .highlight {
+      color: yellow;
+    }
+
+    #special {
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+  <p>HELLO!!!</p>
+  <ul>
+    <li class="highlight" id="special">John</li>
+    <li>Paul</li>
+    <li>George</li>
+    <li class="highlight">Ringo</li>
+  </ul>
+
+</body>
+</html>

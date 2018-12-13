@@ -10,10 +10,10 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
   - Setup Developer Environment
   - Compare and contrast frontend and backend
   - Define the roles of HTML, CSS, and JavaScript
-- [ ] [Introduction to HTML](01-html)
-- [ ] [Intermediate HTML](01-html)
-- [ ] [Introduction to CSS](02-css)
-- [ ] [Intermediate CSS](02-css)
+- [x] [Introduction to HTML](01-html)
+- [x] [Intermediate HTML](01-html)
+- [x] [Introduction to CSS](02-css)
+- [x] [Intermediate CSS](02-css)
 - [ ] [Bootstrap](03-bootstrap)
 - [ ] [Introduction to JavaScript]()
 - [ ] Javascript Basics: Control Flow

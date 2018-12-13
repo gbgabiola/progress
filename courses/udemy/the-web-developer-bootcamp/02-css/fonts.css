@@ -1,0 +1,53 @@
+/* font-family */
+p {
+  font-family: Raleway;
+}
+
+h1 {
+  font-family: Indie Flower;
+}
+
+/* font-size */
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5em; 
+}
+
+p {
+  font-size: 2em;
+}
+
+span {
+  font-size: 2em;
+}
+
+/* font-weight */
+p {
+  font-weight: normal;
+}
+
+/* line-height */
+p {
+  line-height: 1.5;
+}
+
+/* text-align */
+h1 {
+  text-align: right;
+}
+
+p {
+  text-align: center;
+}
+
+/* text-decoration */
+h1 {
+  text-decoration: line-through;
+}
+
+p {
+  text-decoration: underline;
+}
