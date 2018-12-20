@@ -15,11 +15,11 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Introduction to CSS](02-css)
 - [x] [Intermediate CSS](02-css)
 - [x] [Bootstrap](03-bootstrap)
-- [ ] [Introduction to JavaScript](04-javascript)
-- [ ] Javascript Basics: Control Flow
-- [ ] Javascript Basics: Functions
-- [ ] Javascript Basics: Arrays
-- [ ] Javascript Basics: Objects
+- [x] [Introduction to JavaScript](04-javascript/01-intro-to-javascript)
+- [x] [Javascript Basics: Control Flow](04-javascript/02-control-flow)
+- [x] [Javascript Basics: Functions](04-javascript/03-functions)
+- [x] [Javascript Basics: Arrays](04-javascript/04-arrays)
+- [x] [Javascript Basics: Objects](04-javascript/05-objects)
 - [ ] DOM Manipulation
 - [ ] Advanced DOM Manipulation
 - [ ] Color Game **_project_**
