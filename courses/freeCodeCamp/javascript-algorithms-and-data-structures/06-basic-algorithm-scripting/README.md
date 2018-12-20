@@ -21,8 +21,8 @@ If you get stuck, try using `console.log()` to log variable values to the consol
 - [x] [Boo who](10-boo-who.md)
 - [x] [Title Case a Sentence](11-title-case-a-sentence.md)
 - [x] [Slice and Splice](12-slice-and-splice.md)
-- [ ] [Falsy Bouncer](13-falsy-bouncer.md)
-- [ ] [Where do I Belong](14-where-do-i-belong.md)
+- [x] [Falsy Bouncer](13-falsy-bouncer.md)
+- [x] [Where do I Belong](14-where-do-i-belong.md)
 - [ ] [Mutations](15-mutations.md)
 - [ ] [Chunky Monkey](16-chunky-monkey.md)
 
