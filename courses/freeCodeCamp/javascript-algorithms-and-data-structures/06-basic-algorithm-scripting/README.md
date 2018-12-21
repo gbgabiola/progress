@@ -23,8 +23,8 @@ If you get stuck, try using `console.log()` to log variable values to the consol
 - [x] [Slice and Splice](12-slice-and-splice.md)
 - [x] [Falsy Bouncer](13-falsy-bouncer.md)
 - [x] [Where do I Belong](14-where-do-i-belong.md)
-- [ ] [Mutations](15-mutations.md)
-- [ ] [Chunky Monkey](16-chunky-monkey.md)
+- [x] [Mutations](15-mutations.md)
+- [x] [Chunky Monkey](16-chunky-monkey.md)
 
 ---
 
