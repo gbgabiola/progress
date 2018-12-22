@@ -20,9 +20,9 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Javascript Basics: Functions](04-javascript/03-functions)
 - [x] [Javascript Basics: Arrays](04-javascript/04-arrays)
 - [x] [Javascript Basics: Objects](04-javascript/05-objects)
-- [ ] DOM Manipulation
-- [ ] Advanced DOM Manipulation
-- [ ] Color Game **_project_**
+- [x] [DOM Manipulation](05-dom-manipulation)
+- [x] [Advanced DOM Manipulation](05-dom-manipulation)
+- [x] [Color Game](color-game) **_project_**
 - [ ] Intro to jQuery
 - [ ] Advanced jQuery
 - [ ] Todo List **_project_**
