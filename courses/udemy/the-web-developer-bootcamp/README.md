@@ -23,10 +23,10 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [DOM Manipulation](05-dom-manipulation)
 - [x] [Advanced DOM Manipulation](05-dom-manipulation)
 - [x] [Color Game](color-game) **_project_**
-- [ ] Intro to jQuery
-- [ ] Advanced jQuery
-- [ ] Todo List **_project_**
-- [ ] Patatap Clone **_(OPTIONAL Project)_**
+- [x] [Intro to jQuery](06-jquery)
+- [x] [Advanced jQuery](06-jquery)
+- [ ] [Todo List]() **_project_**
+- [ ] [Patatap Clone]() **_(OPTIONAL Project)_**
 - [ ] Backend Basics
 - [ ] The Command Line
 - [ ] Node JS
