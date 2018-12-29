@@ -26,9 +26,9 @@ Your choice of programming approach depends on a few factors. These include the 
 - [x] [Understand the Prototype Chain](16-understand-the-prototype-chain.md)
 - [x] [Use Inheritance So You Don't Repeat Yourself](17-use-inheritance-so-you-dont-repeat-yourself.md)
 - [x] [Inherit Behaviors from a Supertype](18-inherit-behaviors-from-a-supertype.md)
-- [ ] [Set the Child's Prototype to an Instance of the Parent]()
-- [ ] [Reset an Inherited Constructor Property]()
-- [ ] [Add Methods After Inheritance]()
+- [x] [Set the Child's Prototype to an Instance of the Parent](19-set-the-childs-prototype-to-an-instance-of-the-parent.md)
+- [x] [Reset an Inherited Constructor Property](20-reset-an-inherited-constructor-property.md)
+- [x] [Add Methods After Inheritance](21-add-methods-after-inheritance.md)
 - [ ] [Override Inherited Methods]()
 - [ ] [Use a Mixin to Add Common Behavior Between Unrelated Objects]()
 - [ ] [Use Closure to Protect Properties Within an Object from Being Modified ]()Externally
