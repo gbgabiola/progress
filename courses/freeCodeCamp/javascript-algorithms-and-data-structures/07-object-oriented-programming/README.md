@@ -29,11 +29,11 @@ Your choice of programming approach depends on a few factors. These include the 
 - [x] [Set the Child's Prototype to an Instance of the Parent](19-set-the-childs-prototype-to-an-instance-of-the-parent.md)
 - [x] [Reset an Inherited Constructor Property](20-reset-an-inherited-constructor-property.md)
 - [x] [Add Methods After Inheritance](21-add-methods-after-inheritance.md)
-- [ ] [Override Inherited Methods]()
-- [ ] [Use a Mixin to Add Common Behavior Between Unrelated Objects]()
-- [ ] [Use Closure to Protect Properties Within an Object from Being Modified ]()Externally
-- [ ] [Understand the Immediately Invoked Function Expression (IIFE)]()
-- [ ] [Use an IIFE to Create a Module]()
+- [x] [Override Inherited Methods](22-override-inherited-methods.md)
+- [x] [Use a Mixin to Add Common Behavior Between Unrelated Objects](23-use-a-mixin-to-add-common-behavior-between-unrelated-objects.md)
+- [x] [Use Closure to Protect Properties Within an Object from Being Modified Externally](24-use-closure-to-protect-properties-within-an-object-from-being-modified-externally.md)
+- [ ] [Understand the Immediately Invoked Function Expression (IIFE)](25-understand-the-immediately-invoked-function-expression-iife.md)
+- [ ] [Use an IIFE to Create a Module](26-use-an-iife-to-create-a-module.md)
 
 ---
 
