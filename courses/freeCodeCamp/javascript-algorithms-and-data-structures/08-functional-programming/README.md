@@ -28,14 +28,14 @@ The functional programming software development approach breaks a program into s
 - [x] [Combine Two Arrays Using the concat Method](13-combine-two-arrays-using-the-concat-method.md)
 - [x] [Add Elements to the End of an Array Using concat Instead of push](14-add-elements-to-the-end-of-an-array-using-concat-instead-of-push.md)
 - [x] [Use the reduce Method to Analyze Data](15-use-the-reduce-method-to-analyze-data.md)
-- [ ] [Sort an Array Alphabetically using the sort Method]()
-- [ ] [Return a Sorted Array Without Changing the Original Array]()
-- [ ] [Split a String into an Array Using the split Method]()
-- [ ] [Combine an Array into a String Using the join Method]()
-- [ ] [Apply Functional Programming to Convert Strings to URL Slugs]()
-- [ ] [Use the every Method to Check that Every Element in an Array Meets a Criteria]()
-- [ ] [Use the some Method to Check that Any Elements in an Array Meet a Criteria]()
-- [ ] [Introduction to Currying and Partial Application]()
+- [x] [Sort an Array Alphabetically using the sort Method](16-sort-an-array-alphabetically-using-the-sort-method.md)
+- [x] [Return a Sorted Array Without Changing the Original Array](17-return-a-sorted-array-without-changing-the-original-array.md)
+- [x] [Split a String into an Array Using the split Method](18-split-a-string-into-an-array-using-the-split-method.md)
+- [ ] [Combine an Array into a String Using the join Method](19-combine-an-array-into-a-string-using-the-join-method.md)
+- [ ] [Apply Functional Programming to Convert Strings to URL Slugs](20-apply-functional-programming-to-convert-strings-to-url-slugs.md)
+- [ ] [Use the every Method to Check that Every Element in an Array Meets a Criteria](21-use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria.md)
+- [ ] [Use the some Method to Check that Any Elements in an Array Meet a Criteria](22-use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria.md)
+- [ ] [Introduction to Currying and Partial Application](23-introduction-to-currying-and-partial-application.md)
 
 ---
 
