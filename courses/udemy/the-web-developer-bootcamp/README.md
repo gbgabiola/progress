@@ -25,11 +25,14 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Color Game](color-game) **_project_**
 - [x] [Intro to jQuery](06-jquery)
 - [x] [Advanced jQuery](06-jquery)
-- [ ] [Todo List]() **_project_**
-- [ ] [Patatap Clone]() **_(OPTIONAL Project)_**
-- [ ] Backend Basics
-- [ ] The Command Line
-- [ ] Node JS
+- [x] [Todo List](todo-list) **_project_**
+- [x] [Patatap Clone](patatap-clone) **_(OPTIONAL Project)_**
+- [x] Backend Basics
+  - Review Internet Basics
+  - Static vs Dynamic Sites
+  - Stack/Back End Technologies
+- [x] [The Command Line](07-the-command-line)
+- [x] [Node JS](08-node.js)
 - [ ] Server Side Frameworks
 - [ ] Intermediate Express
 - [ ] Working With API's
