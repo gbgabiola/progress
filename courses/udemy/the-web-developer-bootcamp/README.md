@@ -35,12 +35,12 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Node JS](08-node.js)
 - [x] [Server Side Frameworks](09-server-side-frameworks)
 - [x] [Intermediate Express](09-server-side-frameworks)
-- [ ] Working With API's
+- [x] [Working With API's](10-working-with-apis)
 - [ ] YelpCamp: Basics **_project_**
-- [ ] Databases
+- [ ] [Databases](11-databases)
 - [ ] YelpCamp: Data Persistance **_project_**
-- [ ] RESTful Routing
-- [ ] Data Associations
+- [ ] [RESTful Routing](12-restful-routing)
+- [ ] [Data Associations](13-data-associations)
 - [ ] YelpCamp: Comments **_project_**
 - [ ] Authentication
 - [ ] YelpCamp: Adding Authentication **_project_**
