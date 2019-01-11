@@ -33,8 +33,8 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
   - Stack/Back End Technologies
 - [x] [The Command Line](07-the-command-line)
 - [x] [Node JS](08-node.js)
-- [ ] Server Side Frameworks
-- [ ] Intermediate Express
+- [x] [Server Side Frameworks](09-server-side-frameworks)
+- [x] [Intermediate Express](09-server-side-frameworks)
 - [ ] Working With API's
 - [ ] YelpCamp: Basics **_project_**
 - [ ] Databases
