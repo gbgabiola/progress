@@ -22,11 +22,11 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Javascript Basics: Objects](04-javascript/05-objects)
 - [x] [DOM Manipulation](05-dom-manipulation)
 - [x] [Advanced DOM Manipulation](05-dom-manipulation)
-- [x] [Color Game](color-game) **_project_**
+- [x] [Color Game](http://genesisgabiola.github.io/projects/color-game) **_project_**
 - [x] [Intro to jQuery](06-jquery)
 - [x] [Advanced jQuery](06-jquery)
-- [x] [Todo List](todo-list) **_project_**
-- [x] [Patatap Clone](patatap-clone) **_(OPTIONAL Project)_**
+- [x] [Todo List](http://genesisgabiola.github.io/projects/todo-list) **_project_**
+- [x] [Patatap Clone](http://genesisgabiola.github.io/projects/patatap-clone) **_(OPTIONAL Project)_**
 - [x] Backend Basics
   - Review Internet Basics
   - Static vs Dynamic Sites
@@ -37,146 +37,32 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Intermediate Express](09-server-side-frameworks)
 - [x] [Working With API's](10-working-with-apis)
 - [ ] YelpCamp: Basics **_project_**
-- [ ] [Databases](11-databases)
+- [x] [Databases](11-databases)
 - [ ] YelpCamp: Data Persistance **_project_**
 - [ ] [RESTful Routing](12-restful-routing)
 - [ ] [Data Associations](13-data-associations)
 - [ ] YelpCamp: Comments **_project_**
-- [ ] Authentication
+- [ ] [Authentication](14-authentication)
 - [ ] YelpCamp: Adding Authentication **_project_**
 - [ ] YelpCamp: Cleaning Up **_project_**
 - [ ] YelpCamp: Update and Destroy **_project_**
 - [ ] YelpCamp: UI Improvements **_project_**
-- [ ] Git and Github
-- [ ] Deploying
+- [ ] [Git and Github](15-git-and-github)
+- [ ] [Deploying]()
 - [ ] JavaScript: The Tricky Stuff
 
 
+## Sources
+*   [Udemy](https://www.udemy.com/the-web-developer-bootcamp/)
+*   [Slides](https://webdev.slides.com/coltsteele/)
+*   [C9 workspace](https://ide.c9.io/learnwithcolt/webdevbootcamp)
+
+---
+
+Credits to the author: Colt Steele
+
+
 <!-- 
-
-
-## Introduction to NodeJS
-- What is Node?
-- Why are we learning it?
-    - It's popular
-    - Javascript
-#### Using Node
-- Interact with node Console
-- Run a file with node
-
-## Introduction to Express
-- What is a framework? How is it different from a library?
-- What is Express?
-- Why are we using Express?
-
-#### Our first Express App!!!
-- Review an existing app (DogDemo)
-- Review HTTP response/request lifecycle
-- Create our own simple Express app!
-
-#### NPM Init aand Package.json
-- Use the `--save` flag to install packages
-- Explain what the package.json file does
-- Use `npm init` to create a new package.json
-
-#### More Routing!
-- Show the `*` route matcher
-- Write routes containing route parameters
-- Discuss route order
-
-## Introduction to NPM
-- Define NPM
-- Explain why NPM is awesome
-- Intro the packages we will end up using
-
-#### Installing and using packages
-- Use `npm install` to install a package
-- Use `require()` to include a package
-
-
-## More Express
-#### Rendering HTML and Templates
-- Use `res.render()` to render HTML(from an EJS file)
-- Explain what EJS is and why we use it
-- Pass variables to EJS templates
-
-#### EJS Control Flow
-- Show examples of control flow in EJS templates
-- Write if statements in an EJS file
-- Write loops in an EJS file
-
-#### Styles And Partials
-- Show how to properly inc;ude public assets
-- Properly configure our app to use EJS
-- Use partials to dry up our code
-
-#### Post Requests
-- Write post routes, and test them with Postman
-- Use a form to send a post request
-- Use body parser to get form data
-
-
-## Authentication
-#### Intro to Authentication
-- What tools are we using?
-    - Passport
-    - Passport Local
-    - Passport Local Mongoose
-- Walk through authentication flow
-- Discuss sessions
-    - Express-Session
-
-#### Authentication CodeAlong Part 1
-- Set up folder structure
-- Install needed packages
-- Add root route and template
-- Add secret route and template
-
-#### Authentication CodeAlong Part 2
-- Create User model
-- Configure Passport
-
-#### Authentication CodeAlong Part 3
-- Add Register routes
-- Add Register form
-
-#### Authentication CodeAlong Part 4
-- Add Login routes
-- Add Login form
-
-#### Authentication CodeAlong Part 5
-- Add Logout route
-- Add isLoggedIn middleware
-
-
-## Intro to Databases
-- What is a database
-    - A collection of information/data
-    - Has an interface
-- SQL(relational) vs NoSQL(non-relational)
-
-#### Intro to MongoDB
-- What is MongoDB?
-- Why are we using it?
-- Let's install it!
-
-#### Our first Mongo Commands
-- mongod
-- mongo
-- help
-- show dbs
-- use
-- insert
-- find
-- update
-- remove
-
-#### Mongoose
-- What is Mongoose?
-- Why are we using it?
-- Interact with a Mongo Database using Mongoose
-
-
 ## Introduction to Git
 - What is Git?
 - What is GitHub?
@@ -205,57 +91,7 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - Creating a repo on GitHub
 - Adding a remote
 - Pushing to GitHub
-
-
-## RESTful routing
-#### Introduction
-- Define REST and explain WHY it matters
-- List all 7 RESTful routes
-- show example of a RESTful routing in practice
-
-#### Blog Index
-- Setup the blog App
-- Create the Blog model
-- Add INDEX route and template
-
-#### Basic Layout
-- Add Header and Footer Partials
-- Include Semantic UI
-- Add Simple Nav Bar
-
-#### Putting the C in CRUD
-- Add NEW route
-- Add NEW template
-- Add CREATE route
-- Add CREATE template
-
-#### SHOWtime
-- Add SHOW route
-- Add SHOW template
-- Add links to show pages
-- Style show templates
-
-#### Edit/Update
-- Add Edit Route
-- Add Edit Form
-- Add Update Route
-- Add Update Form
-- Add Method-Override
-
-#### Destroy
-- Add Destroy route
-- Add Destroy form
-
-#### Final Updates
-- Sanitize blog body
-- Style index
-- Update REST table -->
-
-
-
-
-
-
+ -->
 
 
 
