@@ -39,7 +39,7 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [ ] YelpCamp: Basics **_project_**
 - [x] [Databases](11-databases)
 - [ ] YelpCamp: Data Persistance **_project_**
-- [ ] [RESTful Routing](12-restful-routing)
+- [x] [RESTful Routing](12-restful-routing)
 - [ ] [Data Associations](13-data-associations)
 - [ ] YelpCamp: Comments **_project_**
 - [ ] [Authentication](14-authentication)
