@@ -13,7 +13,7 @@
 - [x] [Convert HTML Entities](11-convert-html-entities.md)
 - [x] [Sum All Odd Fibonacci Numbers](12-sum-all-odd-fibonacci-numbers.md)
 - [x] [Sum All Primes](13-sum-all-primes.md)
-- [ ] [Smallest Common Multiple](14-smallest-common-multiple.md)
+- [x] [Smallest Common Multiple](14-smallest-common-multiple.md)
 - [ ] [Drop it](15-drop-it.md)
 - [ ] [Steamroller](16-steamroller.md)
 - [ ] [Binary Agents](17-binary-agents.md)
