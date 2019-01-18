@@ -14,7 +14,7 @@
 - [x] [Sum All Odd Fibonacci Numbers](12-sum-all-odd-fibonacci-numbers.md)
 - [x] [Sum All Primes](13-sum-all-primes.md)
 - [x] [Smallest Common Multiple](14-smallest-common-multiple.md)
-- [ ] [Drop it](15-drop-it.md)
+- [x] [Drop it](15-drop-it.md)
 - [ ] [Steamroller](16-steamroller.md)
 - [ ] [Binary Agents](17-binary-agents.md)
 - [ ] [Everything Be True](18-everything-be-true.md)
