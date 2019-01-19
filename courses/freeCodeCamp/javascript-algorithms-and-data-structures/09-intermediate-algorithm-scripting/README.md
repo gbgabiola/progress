@@ -1,4 +1,4 @@
-# [Intermediate Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/)
+# [Intermediate Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting)
 
 - [x] [Sum All Numbers in a Range](01-sum-all-numbers-in-a-range.md)
 - [x] [Diff Two Arrays](02-diff-two-arrays.md)
@@ -15,7 +15,7 @@
 - [x] [Sum All Primes](13-sum-all-primes.md)
 - [x] [Smallest Common Multiple](14-smallest-common-multiple.md)
 - [x] [Drop it](15-drop-it.md)
-- [ ] [Steamroller](16-steamroller.md)
+- [x] [Steamroller](16-steamroller.md)
 - [ ] [Binary Agents](17-binary-agents.md)
 - [ ] [Everything Be True](18-everything-be-true.md)
 - [ ] [Arguments Optional](19-arguments-optional.md)
