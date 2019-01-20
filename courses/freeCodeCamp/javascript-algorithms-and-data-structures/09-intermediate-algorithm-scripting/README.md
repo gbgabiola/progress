@@ -16,7 +16,7 @@
 - [x] [Smallest Common Multiple](14-smallest-common-multiple.md)
 - [x] [Drop it](15-drop-it.md)
 - [x] [Steamroller](16-steamroller.md)
-- [ ] [Binary Agents](17-binary-agents.md)
+- [x] [Binary Agents](17-binary-agents.md)
 - [ ] [Everything Be True](18-everything-be-true.md)
 - [ ] [Arguments Optional](19-arguments-optional.md)
 - [ ] [Make a Person](20-make-a-person.md)
