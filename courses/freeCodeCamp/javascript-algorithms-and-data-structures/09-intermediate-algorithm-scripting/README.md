@@ -17,7 +17,7 @@
 - [x] [Drop it](15-drop-it.md)
 - [x] [Steamroller](16-steamroller.md)
 - [x] [Binary Agents](17-binary-agents.md)
-- [ ] [Everything Be True](18-everything-be-true.md)
+- [x] [Everything Be True](18-everything-be-true.md)
 - [ ] [Arguments Optional](19-arguments-optional.md)
 - [ ] [Make a Person](20-make-a-person.md)
 - [ ] [Map the Debris](21-map-the-debris.md)
