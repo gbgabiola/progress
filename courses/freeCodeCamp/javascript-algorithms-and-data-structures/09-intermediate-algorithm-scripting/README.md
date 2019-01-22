@@ -18,7 +18,7 @@
 - [x] [Steamroller](16-steamroller.md)
 - [x] [Binary Agents](17-binary-agents.md)
 - [x] [Everything Be True](18-everything-be-true.md)
-- [ ] [Arguments Optional](19-arguments-optional.md)
+- [x] [Arguments Optional](19-arguments-optional.md)
 - [ ] [Make a Person](20-make-a-person.md)
 - [ ] [Map the Debris](21-map-the-debris.md)
 
