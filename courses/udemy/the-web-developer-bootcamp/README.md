@@ -36,19 +36,19 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 - [x] [Server Side Frameworks](09-server-side-frameworks)
 - [x] [Intermediate Express](09-server-side-frameworks)
 - [x] [Working With API's](10-working-with-apis)
-- [ ] YelpCamp: Basics **_project_**
+- [ ] [YelpCamp: Basics](http://genesisgabiola.github.io/yelp-camp) **_project_**
 - [x] [Databases](11-databases)
-- [ ] YelpCamp: Data Persistance **_project_**
+- [ ] [YelpCamp: Data Persistance](http://genesisgabiola.github.io/yelp-camp) **_project_**
 - [x] [RESTful Routing](12-restful-routing)
-- [ ] [Data Associations](13-data-associations)
-- [ ] YelpCamp: Comments **_project_**
-- [ ] [Authentication](14-authentication)
-- [ ] YelpCamp: Adding Authentication **_project_**
-- [ ] YelpCamp: Cleaning Up **_project_**
-- [ ] YelpCamp: Update and Destroy **_project_**
-- [ ] YelpCamp: UI Improvements **_project_**
-- [ ] [Git and Github](15-git-and-github)
-- [ ] [Deploying]()
+- [x] [Data Associations](13-data-associations)
+- [ ] [YelpCamp: Comments](http://genesisgabiola.github.io/yelp-camp) **_project_**
+- [x] [Authentication](14-authentication)
+- [ ] [YelpCamp: Adding Authentication](http://genesisgabiola.github.io/yelp-camp) **_project_**
+- [ ] [YelpCamp: Cleaning Up](http://genesisgabiola.github.io/yelp-camp) **_project_**
+- [ ] [YelpCamp: Update and Destroy](http://genesisgabiola.github.io/yelp-camp) **_project_**
+- [ ] [YelpCamp: UI Improvements](http://genesisgabiola.github.io/yelp-camp) **_project_**
+- [x] [Git and Github](15-git-and-github)
+- [x] [Deploying](16-deploying-demo)
 - [ ] JavaScript: The Tricky Stuff
 
 
@@ -62,52 +62,7 @@ The only course you need to learn web development - HTML, CSS, JS, Node, and Mor
 Credits to the author: Colt Steele
 
 
-<!-- 
-## Introduction to Git
-- What is Git?
-- What is GitHub?
-- Why should you care?
-- Novel writing analogy
-- Installing Git (not really)
 
-#### Git basics
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
-
-#### Git Checkout
-- `git log`
-- `git checkout`
-- `git revert --no-commit <commit_hash>..HEAD`
-
---------------under construction-----------------
-
-#### Cloning and GitHub Intro
-- What is GitHub?
-- Cloning an existing repo
-
-#### Pushing to GitHub
-- Creating a repo on GitHub
-- Adding a remote
-- Pushing to GitHub
- -->
-
-
-
-# links 
-- https://unsplash.com/
-- google fonts
-- https://fontawesome.com/
-- MDN
-- http://youmightnotneedjquery.com/
-- https://uigradients.com/
-- https://flatuicolors.com/
-- https://html5up.net/
-- https://stackshare.io/
-- https://www.programmableweb.com/
-- https://cssreference.io/
-- https://css-tricks.com/
 
 - https://www.pinterest.fr/robklaiss/ui-ux-gallery/?autologin=true
 - https://www.pinterest.fr/alexhyett/ui-design/?autologin=true
