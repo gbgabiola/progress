@@ -20,7 +20,7 @@
 - [x] [Everything Be True](18-everything-be-true.md)
 - [x] [Arguments Optional](19-arguments-optional.md)
 - [x] [Make a Person](20-make-a-person.md)
-- [ ] [Map the Debris](21-map-the-debris.md)
+- [x] [Map the Debris](21-map-the-debris.md)
 
 ---
 

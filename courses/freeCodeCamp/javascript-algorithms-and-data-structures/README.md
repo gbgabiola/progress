@@ -8,7 +8,7 @@
 - [x] [Basic Algorithm Scripting](06-basic-algorithm-scripting)
 - [x] [Object Oriented Programming](07-object-oriented-programming)
 - [x] [Functional Programming](08-functional-programming)
-- [ ] [Intermediate Algorithm Scripting](09-intermediate-algorithm-scripting)
+- [x] [Intermediate Algorithm Scripting](09-intermediate-algorithm-scripting)
 - [ ] [JavaScript Algorithms and Data Structures Projects](10-javascript-algorithms-and-data-structures)
 
 ---
