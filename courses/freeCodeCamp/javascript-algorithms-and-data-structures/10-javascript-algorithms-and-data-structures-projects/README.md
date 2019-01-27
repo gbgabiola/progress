@@ -6,7 +6,7 @@ In this section you will create the following small JavaScript programs:
 
 - [x] [Palindrome Checker](01-palindrome-checker.md)
 - [x] [Roman Numeral Converter](02-roman-numeral-converter.md)
-- [ ] [Caesars Cipher](03-caesars-cipher.md)
+- [x] [Caesars Cipher](03-caesars-cipher.md)
 - [ ] [Telephone Number Validator](04-telephone-number-validator.md)
 - [ ] [Cash Register](05-cash-register.md)
 
