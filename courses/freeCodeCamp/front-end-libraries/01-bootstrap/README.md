@@ -35,12 +35,12 @@ This section introduces some of the ways to use Bootstrap in your web projects.
 - [x] [Create Bootstrap Wells](23-create-bootstrap-wells.md)
 - [x] [Add Elements within Your Bootstrap Wells](24-add-elements-within-your-bootstrap-wells.md)
 - [x] [Apply the Default Bootstrap Button Style](25-apply-the-default-bootstrap-button-style.md)
-- [ ] [Create a Class to Target with jQuery Selectors](26-create-a-class-to-target-with-jquery-selectors.md)
-- [ ] [Add id Attributes to Bootstrap Elements](27-add-id-attributes-to-bootstrap-elements.md)
-- [ ] [Label Bootstrap Wells](28-label-bootstrap-wells.md)
-- [ ] [Give Each Element a Unique id](29-give-each-element-a-unique-id.md)
-- [ ] [Label Bootstrap Buttons](30-label-bootstrap-buttons.md)
-- [ ] [Use Comments to Clarify Code](31-use-comments-to-clarify-code.md)
+- [x] [Create a Class to Target with jQuery Selectors](26-create-a-class-to-target-with-jquery-selectors.md)
+- [x] [Add id Attributes to Bootstrap Elements](27-add-id-attributes-to-bootstrap-elements.md)
+- [x] [Label Bootstrap Wells](28-label-bootstrap-wells.md)
+- [x] [Give Each Element a Unique id](29-give-each-element-a-unique-id.md)
+- [x] [Label Bootstrap Buttons](30-label-bootstrap-buttons.md)
+- [x] [Use Comments to Clarify Code](31-use-comments-to-clarify-code.md)
 
 ---
 
