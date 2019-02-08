@@ -17,9 +17,9 @@ jQuery is one of the many libraries for JavaScript. It is designed to simplify s
 - [x] [Clone an Element Using jQuery](13-clone-an-element-using-jquery.md)
 - [x] [Target the Parent of an Element Using jQuery](14-target-the-parent-of-an-element-using-jquery.md)
 - [x] [Target the Children of an Element Using jQuery](15-target-the-children-of-an-element-using-jquery.md)
-- [ ] [Target a Specific Child of an Element Using jQuery]()
-- [ ] [Target Even Elements Using jQuery]()
-- [ ] [Use jQuery to Modify the Entire Page]()
+- [x] [Target a Specific Child of an Element Using jQuery](16-target-a-specific-child-of-an-element-using-jquery.md)
+- [x] [Target Even Elements Using jQuery](17-target-even-elements-using-jquery.md)
+- [x] [Use jQuery to Modify the Entire Page](18-use-jquery-to-modify-the-entire-page.md)
 
 ---
 
