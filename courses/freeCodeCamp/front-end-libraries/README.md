@@ -2,7 +2,7 @@
 
 - [x] [Bootstrap](01-bootstrap)
 - [x] [jQuery](02-jquery)
-- [ ] [Sass](03-sass)
+- [x] [Sass](03-sass)
 - [ ] [React](04-react)
 - [ ] [Redux](05-redux)
 - [ ] [React and Redux](06-react-and-redix)

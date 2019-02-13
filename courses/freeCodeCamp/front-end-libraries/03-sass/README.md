@@ -15,10 +15,10 @@ This section introduces the basic features of Sass.
 - [x] [Create Reusable CSS with Mixins](03-create-reusable-css-with-mixins.md)
 - [x] [Use @if and @else to Add Logic To Your Styles](04-use-if-and-else-to-add-logic-to-your-styles.md)
 - [x] [Use @for to Create a Sass Loop](05-use-for-to-create-a-sass-loop.md)
-- [ ] [Use @each to Map Over Items in a List](06-use-each-to-map-over-items-in-a-list.md)
-- [ ] [Apply a Style Until a Condition is Met with @while](07-apply-a-style-until-a-condition-is-met-with-while.md)
-- [ ] [Split Your Styles into Smaller Chunks with Partials](08-split-your-styles-into-smaller-chunks-with-partials.md)
-- [ ] [Extend One Set of CSS Styles to Another Element](09-extend-one-set-of-css-styles-to-another-element.md)
+- [x] [Use @each to Map Over Items in a List](06-use-each-to-map-over-items-in-a-list.md)
+- [x] [Apply a Style Until a Condition is Met with @while](07-apply-a-style-until-a-condition-is-met-with-while.md)
+- [x] [Split Your Styles into Smaller Chunks with Partials](08-split-your-styles-into-smaller-chunks-with-partials.md)
+- [x] [Extend One Set of CSS Styles to Another Element](09-extend-one-set-of-css-styles-to-another-element.md)
 
 ---
 
