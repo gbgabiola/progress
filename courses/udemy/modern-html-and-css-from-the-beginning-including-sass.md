@@ -718,3 +718,91 @@ The heigher the **z-index**, then the closer to you.
   background-color: orange;
 }
 ```
+
+### Aside: Visibility, Order & Negative Margin
+```css
+h1 {
+  /* Completely remove the content from the DOM */
+  display: none;
+
+   /* Hide the content but still takes up the space */
+  visibility: hidden;
+
+  /* Important flag to take precedence over the other styles */
+  color: red !important;
+  color: blue;
+
+  /* Negative margin is possible but its good to avoid it as much as possible */
+  margin-top: -30px;
+}
+```
+
+## Intro To Responsive Layouts
+### Responsive Design
+Using **HTML/CSS** to make a website or app layout adapt to different screen sizes
+- It is a necessity to build responsive layouts
+- Layouts should render on any form factor
+
+#### Practice To Use
+- Set the viewport/scale
+- Use fluid widths as oppose to fixed
+- Media queries - Different css styling for different screen sizes
+- Rem units over px
+- Mobile first method
+
+### Media Queries
+```css
+h1 { display: none; }
+
+/* Smartphones */
+@media(max-width: 500px) {
+  body { background-color: red; }
+  #smartphone h1 { display: block; }
+}
+
+/* Smartphones */
+@media(min-width: 501px) and (max-width: 768px) {
+  body { background-color: blue; }
+  #tablet h1 { display: block; }
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+  body { background-color: green; }
+  #normal h1 { display: block; }
+}
+
+/* Widescreen */
+@media(min-width: 1201px) {
+  body { background-color: black; }
+  #widescreen h1 { display: block; }
+}
+
+/* Landscape */
+@media(max-height: 500px) {
+  body { background-color: orange; }
+  #landscape h1 { display: block; }
+}
+```
+
+```html
+<!-- External media query stylesheet to apply only in a specific screen width -->
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+```
+
+### Em & Rem Units
+html or the root **font-size** is always gonna be **16px** by default.
+
+- Em units are based on their _parent_ element.
+- Rem is based on the _root_ element.
+
+Common thing that others do is setting their root element **font-size** to **10px** when using rem units, bacause it's easier to figure out what the sizes are gonna be.
+
+To make it even more responsive set the **font-size** to a _percentage_, **62.5%** which is gonna be **10px**.
+
+Another reason to use rem units is for _accesibility_ and _browser_ settings.
+
+### Vh & Vw Units
+Screen is always **100%** viewport size.
+
+Viewport sizes is great for landing page and is used more often for that.
