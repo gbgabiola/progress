@@ -2,10 +2,10 @@
 
 In each folder, separated by courses, books, and others are my notes, related to what I'm studying, doing, or learning...
 
-## 2018
+## 2018 & 2019
 
 My goals are to
-- focus and be proficient with Python and JavaScript
+- focus and be proficient with frontend and backend of JavaScript
 - learn while building useful projects
 - increase my confidence and join the network of communications
 - learn more by contributing to an open source project
@@ -13,7 +13,7 @@ My goals are to
 ## Progress
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
-Current Course: [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)  
+Current Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)  
 Courses Completed: 7  
 Total Points earned: 2390
 
@@ -188,6 +188,7 @@ Total Points earned: 2390
 - [x] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
 - [x] Course: [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
 - [x] Course: [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
+- [ ] Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
 - [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
