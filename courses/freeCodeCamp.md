@@ -4,7 +4,7 @@ You can earn each certification by completing its 5 final projects.
 
 - [ ] Responsive Web Design Certification (300 hours)
   - [x] [Basic HTML and HTML5](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
-  - [ ] [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
+  - [x] [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
   - [ ] [Applied Visual Design](https://learn.freecodecamp.org/responsive-web-design/applied-visual-design)
   - [ ] [Applied Accessibility](https://learn.freecodecamp.org/responsive-web-design/applied-accessibility)
   - [ ] [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles)
