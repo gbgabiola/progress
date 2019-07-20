@@ -15,7 +15,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)  
 Courses Completed: 7  
-Total Points earned: 2390
+Total Points earned: 2690
 
 | Date Finished | Activity | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -50,6 +50,9 @@ Total Points earned: 2390
 | 11-09-18 | Basic Project | 100 | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/freeCodeCamp-projects/product-landing-page/) |
 | 11-11-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
 | 11-18-18 | Coursera Course | 500 | [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn) |
+| 07-10-19 | Basic Project | 100 | [HBS](https://genesisgabiola.github.io/hbs) |
+| 07-13-19 | Basic Project | 100 | [bridgeledger](https://bridgeledger.netlify.com) |
+| 07-19-19 | Basic Project | 100 | [TechNews](https://tech-news.netlify.com/) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
