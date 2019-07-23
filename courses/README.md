@@ -8,6 +8,7 @@
 - [x] [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript)
 - [x] [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
 - [x] [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)
+- [x] [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)
 - [ ] [Intro to Computer Science - CS101](https://classroom.udacity.com/courses/cs101)
 - [ ] [Introduction to Computer Science - CS50](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/)
 - [ ] [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)

@@ -15,7 +15,7 @@ My goals are to
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
 Current Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)  
 Courses Completed: 7  
-Total Points earned: 2690
+Total Points earned: 2890
 
 | Date Finished | Activity | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
@@ -53,6 +53,8 @@ Total Points earned: 2690
 | 07-10-19 | Basic Project | 100 | [HBS](https://genesisgabiola.github.io/hbs) |
 | 07-13-19 | Basic Project | 100 | [bridgeledger](https://bridgeledger.netlify.com) |
 | 07-19-19 | Basic Project | 100 | [TechNews](https://tech-news.netlify.com/) |
+| 07-23-19 | Basic Project | 100 | [johndoe-portfolio](https://johndoe-portfolio.netlify.com/) |
+| 07-23-19 | Udemy Course | 100 | [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
 | WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
 | WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
 | WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
@@ -191,7 +193,7 @@ Total Points earned: 2690
 - [x] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
 - [x] Course: [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
 - [x] Course: [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
-- [ ] Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
+- [x] Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
 - [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
