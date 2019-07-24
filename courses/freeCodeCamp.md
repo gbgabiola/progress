@@ -6,7 +6,7 @@ You can earn each certification by completing its 5 final projects.
   - [x] [Basic HTML and HTML5](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5)
   - [x] [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
   - [x] [Applied Visual Design](https://learn.freecodecamp.org/responsive-web-design/applied-visual-design)
-  - [ ] [Applied Accessibility](https://learn.freecodecamp.org/responsive-web-design/applied-accessibility)
+  - [x] [Applied Accessibility](https://learn.freecodecamp.org/responsive-web-design/applied-accessibility)
   - [ ] [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles)
   - [ ] [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox)
   - [ ] [CSS Grid](https://learn.freecodecamp.org/responsive-web-design/css-grid)
