@@ -1,10 +1,29 @@
 # Front-End Web Development
 
+## Goal
+- Understand how websites work and how HTML, CSS and JavaScript contribute.
+- Understand how the internet works.
+- Start coding with HTML, CSS, and JavaScript.
+- Learn and understand git, GitHub and version control.
+- Use the Unix command line to become a power user and write bash commands.
+- Learn key troubleshooting and debugging skills to apply to the projects.
+
 ## What You'll Get in This Course
 - Starting Course for Beginners to Expert
 - 2019 Ready
 - Full-Stack
 - Vote for New Modules
+
+## How to Get the Most Out of the Course
+- Pause the video at around 10 minute mark and stop coding along, but instead understand the purpose of the code, then replicate the output of the code.
+- Use Cornell Note Taking System, review the notes with keywords and summary.
+- Change the speed phase of the video according on how you will understand it better.
+- Don't Skip anything...
+- Bookmark the section/topic you are struggling with, then come back to it later.
+- Persevere and put an effort/time to practice.
+  - Practice = Master
+- You will be stuck just like everybody else. 99% of the time, you were not the first person who've across that problem. So search google, stackoverflow, and etc.
+- Struggle is Good. Because you will improve and level up your skill.
 
 ## What You'll Need to Get Started - Setup Your Local Web Development Environment
 - Download and Install a Web Browser [Google Chrome](https://www.google.com/chrome/)
