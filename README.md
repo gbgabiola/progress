@@ -14,7 +14,7 @@ Course Created by Angela Yu
 
 ## Course Content
 - [x] [Front-End Web Development](01-front-end-web-development)
-- [ ] [Introduction to HTML](02-introduction-to-html)
+- [x] [Introduction to HTML](02-introduction-to-html)
 - [ ] [Intermediate HTML](03-intermediate-html)
 - [ ] [Introduction to CSS](04-introduction-to-css)
 - [ ] [Intermediate CSS](05-intermediate-css)
@@ -57,3 +57,4 @@ Course Created by Angela Yu
 - If you want to start your own startup by building your own websites and web apps.
 - If you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS
 - If you want to take ONE COURSE and learn everything you need to know about web development, take this course
+
