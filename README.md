@@ -13,52 +13,37 @@ My goals are to
 ## Progress
 
 Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
-Current Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)  
+Current Course: [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)  
 Courses Completed: 7  
-Total Points earned: 2890
 
-| Date Finished | Activity | Points | Links  |           
+| Date Finished | Activity | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
-| 04-06-18 | Blog Post on any topic | 15 | [A bright future for GitHub](https://blog.github.com/2018-06-04-github-microsoft/) |
-| 06-06-18 | Blog Post on any topic | 15 | [The beginning of an adventure: 13 Weeks of JavaScript](https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533) |
-| 07-06-18 | Udemy Course | 100 | [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/) |
-| 07-07-18 | Basic Project | 100 | [Omnifood](https://genesisgabiola.github.io/omnifood/) |
-| 07-11-18 | Basic Project | 100 | [Jesus Christ Tribute Page](http://genesisgabiola.github.io/tribute-page) |
-| 07-19-18 | Basic Project | 100 | [Natours](https://genesisgabiola.github.io/natours/) |
-| 07-26-18 | Basic Project | 100 | [Trillo](https://genesisgabiola.github.io/trillo/) |
-| 07-31-18 | Udemy Course | 100 | [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/) |
-| 07-31-18 | Basic Project | 100 | [Nexter](https://genesisgabiola.github.io/nexter/) |
-| 08-10-18 | Udemy Course | 100 | [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/) |
-| 10-08-18 | Blog Post on any topic | 15 | [5 THINGS EVERY CODE NEWBIE NEEDS TO KNOW](https://learntocodewith.me/posts/what-new-coders-must-know/) |
-| 10-09-18 | Blog Post on any topic | 15 | [RECOMMENDED RESOURCES AND TOOLS FOR BEGINNERS](https://learntocodewith.me/tools/) |
-| 10-09-18 | Blog Post on any topic | 15 | [Brief History of the Internet](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
-| 10-10-18 | Blog Post on any topic | 15 | [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27) |
-| 10-11-18 | Blog Post on any topic | 15 | [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) |
-| 10-11-18 | Blog Post on any topic | 15 | [Web 101 for Dummies or Everything You Wanted to Know About the Web But Were Afraid to Ask!](https://www.educause.edu/ir/library/html/cmr9939/cmr9939.html) |
-| 10-16-18 | Egghead Course | 100 | [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) |
-| 10-17-18 | Blog Post on any topic | 15 | [Developers that constantly want to learn new things, here’s a tip!](https://codeburst.io/developers-that-constantly-want-to-learn-new-things-heres-a-tip-7a16e42302e4) |
-| 10-18-18 | Blog Post on any topic | 15 | [Two Things about Conditionals in JavaScript](http://rmurphey.com/blog/2012/12/10/js-conditionals) |
-| 10-19-18 | Udemy Course | 100 | [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) |
-| 10-24-18 | Blog Post Tutorial | 40 | [Understand JavaScript Callback Functions and Use Them](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/) |
-| 10-30-18 | Blog Post on any topic | 15 | [Case Study: How I Got the Highest Grade in my Discrete Math Class](http://calnewport.com/blog/2008/11/25/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/) |
-| 10-31-18 | Basic Project | 100 | [The Bible \| Tribute Page](http://genesisgabiola.github.io/freeCodeCamp-projects/tribute-page) |
-| 11-02-18 | Basic Project | 100 | [Survey Form for Developers](http://genesisgabiola.github.io/freeCodeCamp-projects/survey-form) |
-| 11-03-18 | Learn.co Course | 100 | [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/) |
-| 11-05-18 | Udemy Course | 100 | [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/) |
-| 11-06-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
-| 11-08-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
-| 11-09-18 | Basic Project | 100 | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/freeCodeCamp-projects/product-landing-page/) |
-| 11-11-18 | HackerRank (10 problems) | 50 | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
-| 11-18-18 | Coursera Course | 500 | [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn) |
-| 07-10-19 | Basic Project | 100 | [HBS](https://genesisgabiola.github.io/hbs) |
-| 07-13-19 | Basic Project | 100 | [bridgeledger](https://bridgeledger.netlify.com) |
-| 07-19-19 | Basic Project | 100 | [TechNews](https://tech-news.netlify.com/) |
-| 07-23-19 | Basic Project | 100 | [johndoe-portfolio](https://johndoe-portfolio.netlify.com/) |
-| 07-23-19 | Udemy Course | 100 | [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
-| WIP | Course | 100 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
-| WIP | Book | 200 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
-| WIP | Duolingo | 100 | https://www.duolingo.com/genesisgabiola |
-| WIP | Course | 500 | [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) |
+| 07-06-18 | Udemy Course | [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/) |
+| 07-07-18 | Basic Project | [Omnifood](https://genesisgabiola.github.io/omnifood/) |
+| 07-19-18 | Basic Project | [Natours](https://genesisgabiola.github.io/natours/) |
+| 07-26-18 | Basic Project | [Trillo](https://genesisgabiola.github.io/trillo/) |
+| 07-31-18 | Udemy Course | [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/) |
+| 07-31-18 | Basic Project | [Nexter](https://genesisgabiola.github.io/nexter/) |
+| 08-10-18 | Udemy Course | [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/) |
+| 10-16-18 | Egghead Course | [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) |
+| 10-19-18 | Udemy Course | [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) |
+| 11-03-18 | Learn.co Course | [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/) |
+| 11-05-18 | Udemy Course | [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/) |
+| 11-11-18 | HackerRank (10 problems) | [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript), [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) |
+| 11-18-18 | Coursera Course | [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn) |
+| 07-10-19 | Basic Project | [HBS](https://genesisgabiola.github.io/hbs) |
+| 07-13-19 | Basic Project | [bridgeledger](https://bridgeledger.netlify.com) |
+| 07-19-19 | Basic Project | [TechNews](https://tech-news.netlify.com/) |
+| 07-23-19 | Basic Project | [johndoe-portfolio](https://johndoe-portfolio.netlify.com/) |
+| 07-23-19 | Udemy Course | [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
+| 07-30-19 | Basic Project | [The Bible \| Tribute Page](http://genesisgabiola.github.io/tribute-page/) |
+| WIP      | Basic Project | [Survey Form for Developers](http://genesisgabiola.github.io/survey-form/) |
+| WIP      | Basic Project | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/product-landing-page/) |
+| WIP      | Udemy Course | [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) |
+| WIP      | Course | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) |
+| WIP      | Book | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going) |
+| WIP      | Duolingo | https://www.duolingo.com/genesisgabiola |
+| WIP      | Course | [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) |
 |  |  |  |  |
 
 
@@ -154,46 +139,14 @@ Total Points earned: 2890
 - [ ] Project: Clone Slack - the functionality should be complete to the point that one user can create a room, invite other users, and all users of that room can real-time chat. The room should be secure and inaccessible to anyone but those invited.
 
 
-## Bonus List
-
-| Activity                                    | Points for completing | Activity type |
-| ------------------------------------------- | --------------------- | ------------- |
-| Basic Project                               | 100                   | project       |
-| Substantial Project                         | 200                   | project       |
-| Large Project                               | 300                   | project       |
-| Gigantic Project                            | 400                   | project       |
-| Duolingo or MosaLingua (1 level)            | 100                   | foundation    |
-| Book                                        | 200                   | foundation    |
-| Tutorial site (Udemy/Pluralsight/Egghead/Treehouse/etc) course                            | 100                   | foundation    |
-| University level course (Coursera/edX/MITOCW/etc)                    | 500                   | foundation    |
-| Physical Activity (30 minutes)                          | 10                    | foundation    |
-| Musical Instrument Practice (30 minutes)                          | 10                    | foundation    |
-| Khan Academy (30 minutes)                          | 10                    | foundation    |
-| Analytics Vidhya Competition                | 50                    | data-science  |
-| Crowd Analytix Competition                  | 50                    | data-science  |
-| Kaggle Competition                          | 50                    | data-science  |
-| Driven Data Competition                     | 50                    | data-science  |
-| Blog Post on any topic                      | 15                    | communication |
-| Blog Post Tutorial                          | 40                    | communication |
-| Video Tutorial                              | 50                    | communication |
-| Open Source PR                              | 50                    | communication |
-| Module to npm                               | 200                   | communication |
-| Team Up for a project                       | 100                   | communication |
-| Diary entry                                 | 5                     | communication |
-| CodeWars (10 problems)                      | 50                    | algorithms    |
-| CodinGame (1 Tier)                          | 100                   | algorithms    |
-| CodinGame (1 Bot Competition)               | 20                    | algorithms    |
-| HackerRank (10 problems)                    | 50                    | algorithms    |
-| Google Code Jam (1 round from past contest) | 100                   | algorithms    |
-
-
 
 ## Extras
 - [x] Course: [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
 - [x] Course: [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
 - [x] Course: [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
 - [x] Course: [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
-- [x] Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning) |
+- [x] Course: [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning/)
+- [ ] Course: [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 - [ ] Course: [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] Course: [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] Course: [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
