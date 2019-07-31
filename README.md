@@ -14,10 +14,10 @@ Course Created by Angela Yu
 
 ## Course Content
 - [x] [Front-End Web Development](01-front-end-web-development)
-- [x] [Introduction to HTML](02-introduction-to-html)
-- [ ] [Intermediate HTML](03-intermediate-html)
-- [ ] [Introduction to CSS](04-introduction-to-css)
-- [ ] [Intermediate CSS](05-intermediate-css)
+- [x] [Introduction to HTML](02-html)
+- [x] [Intermediate HTML](02-html)
+- [ ] [Introduction to CSS]()
+- [ ] [Intermediate CSS]()
 - [ ] [Introduction to Bootstrap 4]()
 - [ ] [Intermediate Bootstrap]()
 - [ ] [Introduction to Javascript ES6]()
@@ -43,6 +43,8 @@ Course Created by Angela Yu
 - [ ] [Putting Everything Together]()
 - [ ] [Deploying Your Web Application]()
 - [ ] [Boss Level Challenge 4 - Blog Website Upgrade]()
+- [ ] [Build Your Own RESTful API From Scratch]()
+- [ ] [Authentication & Security]()
 - [ ] [Bonus Module: Design School 101]()
 - [ ] [Bonus Module: Ask Angela Anything]()
 
