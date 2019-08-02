@@ -225,6 +225,45 @@ There are two types of font family names:
   - E.g. Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy.
 
 
+### Sizing
+
+If you haven't set the font size anywhere on the page, then it is the browser default, which is often `16px`.
+
+#### Absolute-size
+
+- **Pixels (`px`)** `font-size` is a good choice when you need pixel accuracy. 
+  - is static.
+  - is an OS-independent and cross-browser way of literally telling the browsers to render the letters at exactly the number of pixels in height that you specified.
+
+#### Relative-size 
+
+- **Percentage (`%`)** value, is relative to the parent element's `font-size`.
+- **`em`** value is dynamic.
+  - is equal to the size of the font that applies to the parent of the element in question.
+  - `1em` = `16px`, and `2em` = `32px`.
+  - formula = desired element pixel value / parent element `font-size` in pixels.
+- **`rem`** values were invented in order to sidestep the compounding problem.
+  - values are relative to the root `html` element, not the parent element.
+  - it lets you specify a `font-size` in a relative fashion without being affected by the size of the parent, thereby eliminating compounding.
+
+### Font Properties
+
+- **`font-size` property** sets the size of the font. This property is also used to compute the size of `em`, `ex`, and other relative `<length>` units.
+- **`font-weight` property** sets the weight (or boldness) of the font. The weights available depend on the `font-family` you are using.
+- **`line-height` property** sets the height of a line box.
+  - commonly used to set the distance between lines of text.
+- **`color` property** sets the foreground `color` value of an element's text and text decorations, and sets the currentcolor value.
+- **`text-decoration` property** sets the appearance of decorative lines on text.
+
+### CSS Float and Clear
+
+**`float` property** places an element on the left or right side of its container, allowing text and inline elements to wrap around it.
+  - will remove the element from the normal flow of the page, though still remaining a part of the flow (in contrast to `absolute` positioning).
+
+**`clear` property** sets whether an element must be moved below (cleared) _floating_ elements that precede it.
+  - property applies to floating and non-floating elements.
+
+
 ## Resources
 
 - [Toasty Technology's classic 90s style website](http://toastytech.com/evil/index.html)
@@ -236,3 +275,5 @@ There are two types of font family names:
 - [Emojipedia](https://emojipedia.org/)
 - [Interactive Box Model Demo](http://markusvogl.com/web1/interactive_box_model/css_box_demo.html)
 - [CSS Font Stack](https://www.cssfontstack.com/)
+- [FLATICON](https://www.flaticon.com/)
+- [GIPHY](https://giphy.com/)
