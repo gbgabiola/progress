@@ -18,7 +18,7 @@ Course Created by Angela Yu
 - [x] [Intermediate HTML](02-html)
 - [x] [Introduction to CSS](03-css)
 - [x] [Intermediate CSS](03-css)
-- [ ] [Introduction to Bootstrap 4]()
+- [x] [Introduction to Bootstrap 4](04-bootstrap)
 - [ ] [Intermediate Bootstrap]()
 - [ ] [Introduction to Javascript ES6]()
 - [ ] [Intermediate Javascript]()
@@ -59,3 +59,5 @@ Course Created by Angela Yu
 - If you want to start your own startup by building your own websites and web apps.
 - If you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS
 - If you want to take ONE COURSE and learn everything you need to know about web development, take this course
+
+
