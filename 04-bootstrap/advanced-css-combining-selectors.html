@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Advanced CSS - Combining Selectors</title>
+  <style>
+    /* First h1 */
+    /* .container .title { color: red; } */
+
+    /* This doesn't work */
+    /* .container.title { color: red; } */
+
+    /* Targetting the first h1 */
+     /* h1#heading { color: red; } */
+
+     /* Targetting both of them */
+     h1.title { color: red; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="heading" class="title">Hello World!</h1>
+  </div>
+  <div class="container-fluid">
+    <h1 class="title">Good Bye World!</h1>
+  </div>
+</body>
+</html>
