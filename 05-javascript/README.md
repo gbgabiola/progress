@@ -197,7 +197,46 @@ name.length; // 7
   b = --a; // a = 1, b = 1
   ```
 
+### Functions
+
+**`function`** is a "subprogram" that can be _called_ by code external to the function. Like the program itself, a function is composed of a sequence of statements called the _function body_. Values can be _passed_ to a function, and the function will _return_ a value.
+
+```js
+// Declaring a function
+function name([param[, param[, ... param]]]) {
+   statements
+}
+
+// Calling the function
+name();
+```
+
+
+**`Math.floor()`** function returns the largest integer less than or equal to a given number.
+
+```js
+// Math.floor(x)
+Math.floor(5.95); // 5
+```
+
+**`Math.pow()`** function returns the `base` to the `exponent` power, that is, `base`<sup>`exponent`</sup>.
+
+```js
+// Math.pow(base, exponent)
+Math.pow(3, 2) // 9
+```
+
+**`Math.round()`** function returns the value of a number rounded to the nearest integer.
+
+```js
+// Math.round(x)
+Math.round(0.9)); // 1
+```
+
+
+
 ## Resources
 
 - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
+- [STANFORD KAREL](http://stanford.edu/~cpiech/karel/ide.html)
 - 
