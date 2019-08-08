@@ -7,6 +7,7 @@ The only course you need to learn to code and become a full-stack web developer.
 Course Created by Angela Yu
 
 ## What you'll learn
+
 - Be able to build ANY website you want
 - Craft a portfolio of websites to apply for junior developer jobs
 - Build fully-fledged websites and web apps for your startup or business
@@ -15,14 +16,15 @@ Course Created by Angela Yu
 - Learn professional developer best practices
 
 ## Course Content
-- [ ] Front-End Web Development
-- [ ] Introduction to HTML
-- [ ] Intermediate HTML
-- [ ] Introduction to CSS
-- [ ] Intermediate CSS
-- [ ] Introduction to Bootstrap 4
-- [ ] Intermediate Bootstrap
-- [ ] Introduction to Javascript ES6
+
+- [x] Front-End Web Development
+- [x] Introduction to HTML
+- [x] Intermediate HTML
+- [x] Introduction to CSS
+- [x] Intermediate CSS
+- [x] Introduction to Bootstrap 4
+- [x] Intermediate Bootstrap
+- [x] Introduction to Javascript ES6
 - [ ] Intermediate Javascript
 - [ ] The Document Object Model (DOM)
 - [ ] Boss Level Challenge 1 - The Dicee Game
@@ -45,16 +47,20 @@ Course Created by Angela Yu
 - [ ] Putting Everything Together
 - [ ] Deploying Your Web Application
 - [ ] Boss Level Challenge 4 - Blog Website Upgrade
+- [ ] Build Your Own RESTful API From Scratch
+- [ ] Authentication & Security
 - [ ] Bonus Module: Design School 101
 - [ ] Bonus Module: Ask Angela Anything
 
 ## Requirements
+
 - No programming experience needed - I'll teach you everything you need to know
 - A Mac or PC computer with access to the internet
 - No paid software required - all websites will be created with Atom (which is free)
 - I'll walk you through, step-by-step how to get all the software installed and set up
 
 ## Who this course is for:
+
 - If you want to learn to code through building fun and useful projects, then take this course.
 - If you want to start your own startup by building your own websites and web apps.
 - If you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS
