@@ -234,9 +234,191 @@ Math.round(0.9)); // 1
 ```
 
 
+## Intermediate JavaScript
+
+### Random Number Generation
+
+**Math.random()** function returns a floating-point, pseudo-random number in the range 0-1 (inclusive of 0, but not 1) with approximately uniform distribution over that range, which you can then scale to your desired range. The implementation selects the initial seed to the random number generation algorithm; it cannot be chosen or reset by the user.
+
+```js
+Math.random()); // a number between 0 and 1
+```
+
+### Control Statements Using If-Else Conditionals & Logic
+
+**`if` statement** executes a statement if a specified condition is _truthy_. If the condition is _falsy_, another statement can be executed.
+
+Multiple `**if...else**` statements can be nested to create an `else if` clause. **Note** that there is no `elseif` keyword in JavaScript.
+
+- **condition** is an expression that is considered to be either _truthy_ or _falsy_.
+- **statement1**  is executed if _condition_ is _truthy_. Can be any statement, including further nested `if` statements. To execute multiple statements, use a _block_ statement (`{` ... `}`) to group those statements. To execute no statements, use an _empty_ statement.
+- **statement2** is executed if _condition_ is _falsy_ and the `else` clause exists. Can be any statement, including block statements and further nested `if` statements.
+
+```js
+// Syntax
+if (condition1)
+  statement1
+else if (condition2)
+  statement2
+else
+  statementN
+
+if (x > 50) {
+  /* do the right thing */
+} else if (x > 5) {
+  /* do the right thing */
+} else {
+  /* do the right thing */
+}
+```
+
+### Comparators and Equality
+
+#### Equality Operators
+
+**Equality (`==`)** operator converts the operands if they are **not of the same type**, then applies strict comparison. If **both operands are objects**, then JavaScript compares internal references which are equal when operands refer to the same object in memory.
+
+```js
+// x == y
+1 == 1 // true
+```
+
+**Inequality (`!=`)** operator returns true if the operands are not equal. If the two operands **are not of the same type**, JavaScript attempts to convert the operands to an appropriate type for the comparison. If **both operands are objects**, then JavaScript compares internal references which are not equal when operands refer to different objects in memory.
+
+```js
+// x != y
+1 != 2 // true
+```
+
+**Identity / Strict Equality (`===`) operator** returns true if the operands are strictly equal **with no type conversion**.
+
+```js
+// x === y
+3 === '3' // false
+```
+
+**Non-Identity / Strict Inequality (`!==`)** operator returns true if the operands **are not equal and/or not of the same type**.
+
+```js
+// x !== y
+3 !== '3' // true
+```
+
+Use strict equality operators if the operands must be of a specific type as well as value or if the exact type of the operands is important. Otherwise, use the standard equality operators, which allow you to compare the identity of two operands even if they are not of the same type.
+
+#### Relational Operators
+
+**Greater than (`>`)** operator returns true if the left operand is greater than the right operand.
+
+```js
+// x > y
+4 > 3 // true
+```
+
+**Greater than or equal (`>=`)** operator returns true if the left operand is greater than or equal to the right operand.
+
+```js
+// x >= y
+4 >= 3 // true
+```
+
+**less than (`<`)** operator returns true if the left operand is less than the right operand.
+
+```js
+// x < y
+3 < 4 // true
+```
+
+**less than or equal (`<=`)** operator returns true if the left operand is less than or equal to the right operand.
+
+```js
+// x <= y
+3 <= 4 // true
+```
+
+### Combing Comparators
+
+Logical operators are typically used with `Boolean` values. When they are, they return a Boolean value. However, the `&&` and `||` operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value.
+
+
+| Operator   | Syntax           | Description                                                                                  |
+| :--------- | :--------------: | :------------------------------------------------------------------------------------------: |
+| AND (`&&`) | `expr1 && expr2` | If `expr1` can be converted to `true`, returns `expr2`; else, returns `expr1`.
+| OR (`||`)  | `expr1 || expr2` | If `expr1` can be converted to `true`, returns `expr1`; else, returns `expr2`.
+| NOT (`!`)  | `!expr`          | Returns `false` if its single operand can be converted to `true`; otherwise, returns `true`.
+
+```js
+true && false // false
+true || false // true
+!true // false
+```
+
+### Collections Working with Arrays
+
+**`Array`** object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
+
+
+```js
+// Create an Array
+var fruits = ['Apple', 'Banana'];
+console.log(fruits.length); // 2
+
+// Access (index into) an Array item
+var first = fruits[0]; // Apple
+```
+
+**`includes()`** method determines whether an array includes a certain value among its entries, returning `true` or `false` as appropriate.
+
+```js
+// arr.includes(valueToFind[, fromIndex])
+[1, 2, 3].includes(2); // true
+```
+
+### Adding Elements and Intermediate Array Techniques
+
+**`push()`** method adds one or more elements to the end of an array and returns the new length of the array.
+
+```js
+// arr.push(element1[, ...[, elementN]])
+
+var animals = ['pigs', 'goats', 'sheep'];
+console.log(animals.push('cows')); // 4
+console.log(animals); // ["pigs", "goats", "sheep", "cows"]
+```
+
+**`pop()`** method removes the **last** element from an array and returns that element. This method changes the length of the array.
+
+```js
+arr.pop()
+```
+
+### Control Statements
+
+**`while` statement** creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
+```js
+// while (condition)
+//   statement
+
+while (i < 2) {
+  console.log(i);
+  i++;
+}
+```
+
+**`for` statement** creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement to be executed in the loop.
+
+```js
+// for ([initialization]; [condition]; [final-expression])
+//   statement
+
+for (let i = 0; i < 9; i++) {
+  console.log(i);
+```
 
 ## Resources
 
 - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
 - [STANFORD KAREL](http://stanford.edu/~cpiech/karel/ide.html)
-- 
+- [Pseudorandom number generators](https://www.youtube.com/watch?v=GtOt7EBNEwQ) video by Khan Academy
+- [Why Can't Programmers... Program?](https://blog.codinghorror.com/why-cant-programmers-program/) blog post from Coding Horror
+- [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)
