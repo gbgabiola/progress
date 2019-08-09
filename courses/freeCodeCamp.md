@@ -1,5 +1,7 @@
 # List of all the Lessons and Projects I've Completed in [freeCodeCamp](https://www.freecodecamp.org/)
 
+[Project Solutions](https://github.com/genesisgabiola/freeCodeCamp-projects)
+
 You can earn each certification by completing its 5 final projects.
 
 - [ ] Responsive Web Design Certification (300 hours)
@@ -7,18 +9,18 @@ You can earn each certification by completing its 5 final projects.
   - [x] [Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)
   - [x] [Applied Visual Design](https://learn.freecodecamp.org/responsive-web-design/applied-visual-design)
   - [x] [Applied Accessibility](https://learn.freecodecamp.org/responsive-web-design/applied-accessibility)
-  - [ ] [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles)
-  - [ ] [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox)
-  - [ ] [CSS Grid](https://learn.freecodecamp.org/responsive-web-design/css-grid)
+  - [x] [Responsive Web Design Principles](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles)
+  - [x] [CSS Flexbox](https://learn.freecodecamp.org/responsive-web-design/css-flexbox)
+  - [x] [CSS Grid](https://learn.freecodecamp.org/responsive-web-design/css-grid)
   - [ ] [Responsive Web Design Projects](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects)
-    - [ ] [Build a Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+    - [x] [Build a Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
     - [ ] [Build a Survey Form](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
     - [ ] [Build a Product Landing Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
     - [ ] [Build a Technical Documentation Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
     - [ ] [Build a Personal Portfolio Webpage](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
   
 - [ ] Javascript Algorithms And Data Structures Certification (300 hours)
-  - [ ] [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
+  - [x] [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
   - [ ] [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6)
   - [ ] [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions)
   - [ ] [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
