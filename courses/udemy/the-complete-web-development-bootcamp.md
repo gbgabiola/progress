@@ -25,10 +25,9 @@ Course Created by Angela Yu
 - [x] Introduction to Bootstrap 4
 - [x] Intermediate Bootstrap
 - [x] Introduction to Javascript ES6
-- [ ] Intermediate Javascript
-- [ ] The Document Object Model (DOM)
-- [ ] Boss Level Challenge 1 - The Dicee Game
-- [ ] Grid Website
+- [x] Intermediate Javascript
+- [x] The Document Object Model (DOM)
+- [x] [Boss Level Challenge 1 - The Dicee Game](https://genesisgabiola.github.io/sandbox/dicee)
 - [ ] Advanced Javascript and DOM Manipulation
 - [ ] jQuery
 - [ ] Boss Level Challenge 2 - The Simon Game
