@@ -28,9 +28,9 @@ Course Created by Angela Yu
 - [x] Intermediate Javascript
 - [x] The Document Object Model (DOM)
 - [x] [Boss Level Challenge 1 - The Dicee Game](https://genesisgabiola.github.io/sandbox/dicee)
-- [ ] Advanced Javascript and DOM Manipulation
-- [ ] jQuery
-- [ ] Boss Level Challenge 2 - The Simon Game
+- [x] Advanced Javascript and DOM Manipulation
+- [x] jQuery
+- [x] [Boss Level Challenge 2 - The Simon Game](https://genesisgabiola.github.io/sandbox/simon-game)
 - [ ] The Unix Command Line
 - [ ] Backend Web Development
 - [ ] Node.js
