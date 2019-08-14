@@ -5,6 +5,7 @@ The only course you need to learn to code and become a full-stack web developer.
 Course Created by Angela Yu
 
 ## What you'll learn
+
 - Be able to build ANY website you want
 - Craft a portfolio of websites to apply for junior developer jobs
 - Build fully-fledged websites and web apps for your startup or business
@@ -13,6 +14,7 @@ Course Created by Angela Yu
 - Learn professional developer best practices
 
 ## Course Content
+
 - [x] [Front-End Web Development](01-front-end-web-development)
 - [x] [Introduction to HTML](02-html)
 - [x] [Intermediate HTML](02-html)
@@ -25,8 +27,8 @@ Course Created by Angela Yu
 - [x] [The Document Object Model (DOM)](06-dom)
 - [x] [Boss Level Challenge 1 - The Dicee Game](https://genesisgabiola.github.io/sandbox/dicee)
 - [x] [Advanced Javascript and DOM Manipulation](06-dom)
-- [ ] [jQuery](07-jquery)
-- [ ] [Boss Level Challenge 2 - The Simon Game]()
+- [x] [jQuery](07-jquery)
+- [x] [Boss Level Challenge 2 - The Simon Game](https://genesisgabiola.github.io/sandbox/simon-game)
 - [ ] [The Unix Command Line]()
 - [ ] [Backend Web Development]()
 - [ ] [Node.js]()
@@ -48,12 +50,14 @@ Course Created by Angela Yu
 - [ ] [Bonus Module: Ask Angela Anything]()
 
 ## Requirements
+
 - No programming experience needed - I'll teach you everything you need to know
 - A Mac or PC computer with access to the internet
 - No paid software required - all websites will be created with Atom (which is free)
 - I'll walk you through, step-by-step how to get all the software installed and set up
 
 ## Who this course is for:
+
 - If you want to learn to code through building fun and useful projects, then take this course.
 - If you want to start your own startup by building your own websites and web apps.
 - If you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS
