@@ -21,7 +21,7 @@ You can earn each certification by completing its 5 final projects.
   
 - [ ] Javascript Algorithms And Data Structures Certification (300 hours)
   - [x] [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
-  - [ ] [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6)
+  - [x] [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6)
   - [ ] [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions)
   - [ ] [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
   - [ ] [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
