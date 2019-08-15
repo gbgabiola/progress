@@ -32,7 +32,7 @@ Course Created by Angela Yu
 - [x] [The Unix Command Line](08-command-line)
 - [x] [Backend Web Development](09-backend-web-development)
 - [x] [Node.js](10-nodejs)
-- [ ] [Express.js with Node.js](10-nodejs)
+- [x] [Express.js with Node.js](10-nodejs)
 - [ ] [Git, Github and Version Control]()
 - [ ] [APIs - Application Programming Interfaces]()
 - [ ] [EJS]()
