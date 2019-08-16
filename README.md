@@ -33,7 +33,7 @@ Course Created by Angela Yu
 - [x] [Backend Web Development](09-backend-web-development)
 - [x] [Node.js](10-nodejs)
 - [x] [Express.js with Node.js](10-nodejs)
-- [ ] [Git, Github and Version Control]()
+- [x] [Git, Github and Version Control](11-git-and-github)
 - [ ] [APIs - Application Programming Interfaces]()
 - [ ] [EJS]()
 - [ ] [Boss Level Challenge 3 - Blog Website]()
