@@ -31,12 +31,12 @@ Course Created by Angela Yu
 - [x] Advanced Javascript and DOM Manipulation
 - [x] jQuery
 - [x] [Boss Level Challenge 2 - The Simon Game](https://genesisgabiola.github.io/sandbox/simon-game)
-- [ ] The Unix Command Line
-- [ ] Backend Web Development
-- [ ] Node.js
-- [ ] Express.js with Node.js
-- [ ] Git, Github and Version Control
-- [ ] APIs - Application Programming Interfaces
+- [x] The Unix Command Line
+- [x] Backend Web Development
+- [x] Node.js
+- [x] Express.js with Node.js
+- [x] Git, Github and Version Control
+- [x] APIs - Application Programming Interfaces
 - [ ] EJS
 - [ ] Boss Level Challenge 3 - Blog Website
 - [ ] Databases
