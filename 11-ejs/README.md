@@ -93,6 +93,36 @@
     - Use `Object.freeze()` to make object immutable
 - **Note** when you declare something `const` in JavaScript, it's not protecting the things that are INSIDE weather it's array or object
 
+## Express Routing Parameters
+
+- **Route parameters** are named URL segments that are used to capture the values specified at their position in the URL.
+  - The captured values are populated in the `req.params` object, with the name of the route parameter specified in the path as their respective keys.
+
+  ```js
+  Route path: /users/:userId/books/:bookId
+  Request URL: http://localhost:3000/users/34/books/8989
+  req.params: { "userId": "34", "bookId": "8989" }
+  ```
+
+  - To define routes with route parameters, simply specify the route parameters in the path of the route
+
+  ```js
+  app.get('/users/:userId/books/:bookId', function (req, res) {
+    res.send(req.params)
+  })
+  ```
+
+## Lodash
+
+- **Lodash** makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc. Lodash’s modular methods are great for:
+  - Iterating arrays, objects, & strings
+  - Manipulating & testing values
+  - Creating composite functions
+- `_` underscore is their preferred variable to use the library
+  - some people call it low dash
+- `_.lowerCase([string=''])` 
+  - converts string, as space separated words, and returns lower case string.
+
 ## Resources
 
 - [Gitignore and the absence of NPM Modules on GitHub Projects](https://github.com/contentful/the-example-app.nodejs)
