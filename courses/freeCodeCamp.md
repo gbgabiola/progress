@@ -22,7 +22,7 @@ You can earn each certification by completing its 5 final projects.
 - [ ] Javascript Algorithms And Data Structures Certification (300 hours)
   - [x] [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
   - [x] [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6)
-  - [ ] [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions)
+  - [x] [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions)
   - [ ] [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
   - [ ] [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
   - [ ] [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting)
@@ -71,7 +71,7 @@ You can earn each certification by completing its 5 final projects.
     - [ ] [Exercise Tracker](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/exercise-tracker)
     - [ ] [File Metadata Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice)
 
-- [ ] [Information Security And Quality Assurance Certification (300 hours)]()
+- [ ] Information Security And Quality Assurance Certification (300 hours)
   - [ ] [Information Security with HelmetJS](https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-with-helmetjs)
   - [ ] [Quality Assurance and Testing with Chai](https://learn.freecodecamp.org/information-security-and-quality-assurance/quality-assurance-and-testing-with-chai)
   - [ ] [Advanced Node and Express](https://learn.freecodecamp.org/information-security-and-quality-assurance/advanced-node-and-express)
