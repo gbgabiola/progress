@@ -37,7 +37,7 @@ A very gentle introduction, complete if feel you would benefit from it, skip if 
 
 | Courses                                                                                                                                                               |   Status   |   Evidence   |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            |            |
+| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            | WIP        | 
 | [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)                                                             |            |
 | [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)                                                            |            |
 | [Advanced JS: Games & Visualizations](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations)                                    |            |
@@ -51,8 +51,8 @@ Complete the [App Academy Open](https://open.appacademy.io/) free online Fullsta
 
 | Courses                                                                                                                                                               |   Status   |   Evidence   |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| Welcome To Coding                                                                                                                                                     |            |
-| Full Stack Online - Intro to Programming                                                                                                                              |            |
+| Welcome To Coding                                                                                                                                                     | 08-21-19   | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding)
+| Full Stack Online - Intro to Programming                                                                                                                              | WIP        |
 | Full Stack Online - Software Engineering Foundations                                                                                                                  |            |
 | Full Stack Online - Ruby                                                                                                                                              |            |
 | Full Stack Online - SQL                                                                                                                                               |            |
