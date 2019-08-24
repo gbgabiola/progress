@@ -23,7 +23,7 @@ You can earn each certification by completing its 5 final projects.
   - [x] [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
   - [x] [ES6](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6)
   - [x] [Regular Expressions](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions)
-  - [ ] [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
+  - [x] [Debugging](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging)
   - [ ] [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
   - [ ] [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting)
   - [ ] [Object Oriented Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming)
