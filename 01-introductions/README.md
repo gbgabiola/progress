@@ -32,8 +32,8 @@
 
 ### Setup Local Web Development Environment
 
-- Download and Install a Web Browser [Google Chrome](https://www.google.com/chrome/)
-- Download and Install Code Editor [Atom](https://atom.io/) or [vscode](https://code.visualstudio.com/download)
+- Download and Install a Web Browser Google Chrome
+- Download and Install Code Editor Atom or Visual Studio Code
 
 Atom Recommended Packages:
 
@@ -130,4 +130,8 @@ Some of the Frameworks to speed up the development:
 - Express 
 
 
-## Databases
+## Resources
+
+- [Google Chrome](https://www.google.com/chrome/)
+- [Atom](https://atom.io/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
