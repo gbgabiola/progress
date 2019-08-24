@@ -37,11 +37,11 @@ Course Created by Angela Yu
 - [x] Express.js with Node.js
 - [x] Git, Github and Version Control
 - [x] APIs - Application Programming Interfaces
-- [ ] EJS
-- [ ] Boss Level Challenge 3 - Blog Website
-- [ ] Databases
-- [ ] SQL
-- [ ] MongoDB
+- [x] EJS
+- [x] Boss Level Challenge 3 - Blog Website
+- [x] Databases
+- [x] SQL
+- [x] MongoDB
 - [ ] Mongoose
 - [ ] Putting Everything Together
 - [ ] Deploying Your Web Application
