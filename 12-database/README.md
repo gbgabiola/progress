@@ -38,7 +38,6 @@
 | Scales Vertically        | Horizontally Scalable
 
 
-
 ## SQL (Structured Query Language)
 
 ### Goal
@@ -189,6 +188,135 @@ The FOREIGN KEY constraint also prevents invalid data from being inserted into t
   ```
 
 
+## MongoDB
+
+### Goal
+
+- Serialization
+- How to model NoSQL data
+- Document Databases (MongoDB)
+- Create-Read-Update-Destroy (CRUD)
+- NoSQL Best Practices
+- Mongo Shell and command line use
+- Installing MongoDB
+- Mapping relationships with MongoDB
+- Using an object-data modelling library (Mongoose) to work easily with your data.
+
+### MongDB CRUD Operations in the Shell: Create
+
+- use the quick start guide to install mongoDB.
+- run `mongod` to start the local server for mongo database
+- run `mongo` to enter in mongoDB shell which is a way for us to interact with our databases on our local system using command line
+- `>` represent that you're already in mongo shell
+- use `help` command in the mongoDB shell to show a list of all commands
+- `show dbs` will lists all the database name that currently have on local system
+- `use <name of DB>` to create a new database, note that it won't appear when you run the `show dbs` command until it has some data in it.
+- run `db` to show current database
+- methods to insert documents into a collection:
+  - `insertOne` or `insertMany()` method
+- `collection` is the name of the collection
+- `db.collection.insertOne()` if doesn't currently exist by writing that line it will create the collection
+- collections are like tables in the SQL databases. It can hold multiple JSON documents.
+  - are collection of documents, a document is just a single data record, single row in the SQL database
+- `show collections` to show all collections in current database
+
+### MongoDB CRUD Operations in the Shell: Reading & Queries
+
+- use `find()` method to read data on database; `db.collection.find()`
+  - inside the `find` method you can pass a query filter or criteria
+  - accepts two parameters, `query` and `projection` which both are optional
+- Query Selectors
+  - Comparison
+    - `$eq` matches values that are equal to specified value
+    - `$gt` matches values that are greater than value
+    - `$gte` matches values greater than or equal to
+    - `$lt` matches values less than
+    - `$lte` matches values less than or equal
+  - Logical
+    - `$and` joins query clauses with a logical **AND** and returns all documents that match the conditions of both clauses
+    - `$or` joins query clauses with a logical **OR**
+    - `$not` inverts the effect of a query expression and returns that do not match
+  - `db.products.find({price: {$gt: 1}})` find all documents where price is greater than 1
+  - second parameter inside `find` method is a way for us to specify which fields in the data do we want back, by default it's set to `true`
+  - **Fields** or attributes are similar to columns in a SQL table.
+- `{}` is an empty document.
+
+### MongoDB CRUD Operations in the Shell: Update
+
+- use `db.collection.updateOne()` to update one of the records
+- `$set` to set a new field and value into the document
+  - `db.collection.updateOne({_id: 1}, {$set: {stock: 12}})` to add another field called stock with a value of 12, on the id matches that matches 1
+
+### MongoDB CRUD Operations in the Shell: Delete
+
+- `db.collection.deleteOne()`
+  - `db.collection.deleteOne({_id: 2})` will delete the record that matches id: 2
+- `db.dropDatabase()` to delete database, make sure you're inside the database you want to delete
+
+### Relationships in MongoDB
+
+- every document is represented by a set of curly braces (`{}`)
+- the style of embedding documents in each other is well suited to one to many relationship
+  - one product can have many reviews
+  - one user can create many comments
+
+  ```js
+  db.products.insert(
+    {
+      _id: 3,
+      name: "Rubber",
+      price: 1.30,
+      stock: 43,
+      reviews: [
+        {
+          author: "Sally",
+          rating: 5,
+          review: "Best rubber ever!"
+        },
+        {
+          author: "John",
+          rating: 5,
+          review: "Awesome rubber!"
+        }
+      ]
+    }
+  )
+  ```
+
+- another format is two products/documents on a products collection, pen and pencil and they have unique identifying ID which is 1 and 2 respectively
+- and then a collection of orders
+  - with orderNumber and productsOrdered which is an array that references the ID of the products/documents in the products collection
+
+```js
+{
+  _id: 1,
+  name: "Pen",
+  price: 1.20,
+  stock: 32
+}
+
+{
+  _id: 2,
+  name: "Pencil",
+  price: 0.80,
+  stock: 12
+}
+
+{
+  orderNumber: 3243,
+  productsOrdered: [1, 2]
+}
+```
+
+### Working with The Native MongoDB Driver
+
+- when creating a node app that needs to connect to a mongo database there are two options to choose from: **MongoDB Native Driver** or **ODM (Object Document Modeler/Mapper/Manager)** which one is **mongoose** package
+  - driver will enable mongoDB to interact with our application, depending on which language the application was developed you'll need to use a different driver
+- MongoDB Native Driver
+  - most developers rarely use Native MongoDB Driver, it's not because it's not good
+  - it works and allows a lot of personalization and set the mongoDB database with a high level control
+
+
 
 ## Resources
 
@@ -196,3 +324,6 @@ The FOREIGN KEY constraint also prevents invalid data from being inserted into t
 - [Internet Live Stats](http://www.internetlivestats.com/) - Internet Usage & Social Media Statistics
 - [W3School SQL Documentation](https://www.w3schools.com/sql/)
 - [SQL Plaground](https://sqliteonline.com/)
+- [MongoDB Documentation](https://docs.mongodb.com/guides/)
+- [MongoDB Manual](https://docs.mongodb.com/manual/)
+- [MongoDB NodeJS Driver](https://mongodb.github.io/node-mongodb-native/)

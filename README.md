@@ -39,7 +39,7 @@ Course Created by Angela Yu
 - [x] [Boss Level Challenge 3 - Blog Website]()
 - [x] [Databases](12-database/README.md#database-fundamentals)
 - [x] [SQL](12-database/README.md#sql-structured-query-language)
-- [ ] [MongoDB](12-database/README.md#mongodb)
+- [x] [MongoDB](12-database/README.md#mongodb)
 - [ ] [Mongoose](12-database/README.md#mongoose)
 - [ ] [Putting Everything Together]()
 - [ ] [Deploying Your Web Application]()
