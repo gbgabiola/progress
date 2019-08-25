@@ -42,7 +42,7 @@ Course Created by Angela Yu
 - [x] Databases
 - [x] SQL
 - [x] MongoDB
-- [ ] Mongoose
+- [x] Mongoose
 - [ ] Putting Everything Together
 - [ ] Deploying Your Web Application
 - [ ] Boss Level Challenge 4 - Blog Website Upgrade
