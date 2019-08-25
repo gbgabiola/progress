@@ -317,6 +317,36 @@ The FOREIGN KEY constraint also prevents invalid data from being inserted into t
   - it works and allows a lot of personalization and set the mongoDB database with a high level control
 
 
+## Mongoose
+
+- **Mongoose** is an Object Data Modeler/Mapper/Manager (ODM) for Node. 
+  - provides a simple validation query API to help you interact with MongoDB database.
+  - objective is to simplify the writing of validation code, business logic boilerplate and to make the code shorter and easier to work.
+  - think of mongoose as an organizer, when data comes back from the client, mongoose validates and structures your data based on your model(schema). You will always know how & what data is being stored in your database.
+- **Schema** is the document data structure and validation that is enforced via the application layer.
+  - let's say you have a sign up form on your page. You may not want to allow certain characters in the user name, or you may want to ensure the email address is valid when stored in your database.
+- **Models** are higher-order constructors that take a schema and create an instance of a document equivalent to records in a relational database.
+  - when saved, creates a Document in MongoDB with the properties as defined by the schema it is derived from.
+- `mongoose.connections.close` to close the database once we're done with it is a good practice
+- `min`: Number, creates a validator that checks if the value is greater than or equal to the given minimum.
+- `max`: Number, creates a validator that checks if the value is less than or equal to the given maximum.
+- `required` enable/disable the validator, or function that returns required boolean, or options object
+  - Parameters: required, [message] -> optional custom error message
+- `Model.updateOne()` Same as `update()`, except it does not support the `multi` or `overwrite` options.
+  - Parameters: filter, doc, [options]
+- `Model.deleteOne()` deletes the first document that matches `conditions` from the collection. Behaves like `remove()`, but deletes at most one document regardless of the `single` option.
+  - Parameters: conditions, [options], [callback]
+- `Model.deleteMany()` deletes all of the documents that match `conditions` from the collection. Behaves like `remove()`, but deletes all documents that match `conditions` regardless of the `single` option.
+  - Parameters: condition, [options], [callback]
+- `Model.findOne()` finds one document
+  - Parameters: [condition], [projection], [options], [callback]
+- `Model.findOneAndRemove()` finds a matching document, removes it, passing the found document (if any) to the callback.
+  - Parameters: conditions, [options], [callback]
+- `Model.findOneAndUpdate()` finds a matching document, updates it according to the `update` arg, passing any `options`, and returns the found document (if any) to the callback. The query executes if `callback` is passed else a Query object is returned.
+  - Parameters: [conditions], [update], [options], [callback]
+-  `$pull` operator from mongoDB removes from an existing array all instances of a value or values that match a specified condition.
+   -  `{ $pull: { <field1>: <value|condition>, <field2>: <value|condition>, ... } }`
+
 
 ## Resources
 
@@ -327,3 +357,5 @@ The FOREIGN KEY constraint also prevents invalid data from being inserted into t
 - [MongoDB Documentation](https://docs.mongodb.com/guides/)
 - [MongoDB Manual](https://docs.mongodb.com/manual/)
 - [MongoDB NodeJS Driver](https://mongodb.github.io/node-mongodb-native/)
+- [Mongoose: an alternative to the native MongoDB driver](https://mongoosejs.com/)
+- [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)

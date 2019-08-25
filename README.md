@@ -40,7 +40,7 @@ Course Created by Angela Yu
 - [x] [Databases](12-database/README.md#database-fundamentals)
 - [x] [SQL](12-database/README.md#sql-structured-query-language)
 - [x] [MongoDB](12-database/README.md#mongodb)
-- [ ] [Mongoose](12-database/README.md#mongoose)
+- [x] [Mongoose](12-database/README.md#mongoose)
 - [ ] [Putting Everything Together]()
 - [ ] [Deploying Your Web Application]()
 - [ ] [Boss Level Challenge 4 - Blog Website Upgrade]()
@@ -62,4 +62,3 @@ Course Created by Angela Yu
 - If you want to start your own startup by building your own websites and web apps.
 - If you are a seasoned programmer, then take this course to to get up to speed quickly with the latest frameworks and NodeJS
 - If you want to take ONE COURSE and learn everything you need to know about web development, take this course
-
