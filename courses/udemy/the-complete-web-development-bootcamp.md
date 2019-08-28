@@ -43,10 +43,10 @@ Course Created by Angela Yu
 - [x] SQL
 - [x] MongoDB
 - [x] Mongoose
-- [ ] Putting Everything Together
-- [ ] Deploying Your Web Application
-- [ ] Boss Level Challenge 4 - Blog Website Upgrade
-- [ ] Build Your Own RESTful API From Scratch
+- [x] Putting Everything Together
+- [x] Deploying Your Web Application
+- [x] [Boss Level Challenge 4 - Blog Website Upgrade](https://daily-journal-blog.herokuapp.com)
+- [x] Build Your Own RESTful API From Scratch
 - [ ] Authentication & Security
 - [ ] Bonus Module: Design School 101
 - [ ] Bonus Module: Ask Angela Anything
