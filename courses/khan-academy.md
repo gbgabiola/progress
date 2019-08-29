@@ -44,9 +44,6 @@
     - Computer, Laptop, iPad, Tablet, iPhone, Smartphones, etc...
 - **HTML (HyperText Markup Language)** is the standard markup language for documents designed to be displayed in a web browser.
   -  tags, starts (`<element>`) and ends (`</element>`) with angle bracket (`< >`).
-  - inside the html includes head tag and body tag
-  - head tag does't show on the page
-  - The closing tag always comes after the content of the tag - it's how the browser knows that you want the tag to end.
   - The contents of an HTML tag are the stuff that goes between the opening and closing tags.
   - Any content that is visible on the web page should go between the opening `<body>` tag and the closing `</body>` tag
   - Headings are based on most important to least important, `<h1>` to `<h6>`
@@ -64,6 +61,34 @@
   - `background-color` property sets the background color of an element.
   - **id selector** is came from one of the html elements with an attribute of `id="nameOfId"`, **Note**: ID should be unique
   - **class selector** is came from one of the html elements with an attribute of `class="nameOfClass"`, classes can be repeated to a number of elements to style them in the group
+- **More HTML tags**
+  - hypertext is a text connected to other text that the reader can immediately jump to.
+  - Tim Berners-Lee invented HTML, HTTP and etc, to connect text to other text.
+  - `<a>` or anchor tag to make a link or hyperlink
+    - `href` or hypertext reference attribute to add url or the address
+    - `target="_blank"` to make the link open to another window tab
+    - internal links are links on the same webpage targetting the id attribute, so it should start with `#` sign
+  - `<table>` to make a table
+    - `<thead>` to start the header, inside it `<tr>`, then `<th>` for the columns
+    - `<tbody` to add the contents of the table, `<tr>` for row and then add `<td>` for table data
+  - `<!-- comments -->` for humans to read, it can instructions for future maintainers of the site, browser/computers will ignore comments
+- **CSS text properties**
+  - CSS Zen Garden is an example of how powerful CSS is. It's a gallery of designs of different developers that uses the same HTML and add their own CSS.
+  - `font-family` specifies the font for an element.
+    - can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
+    - **family-name**:"`times`", "`courier`", "`arial`", etc.
+    - **generic-family**: "`serif`", "`sans-serif`", "`cursive`", "`fantasy`", "`monospace`".
+    - usually code editors uses `monospace` font which is a fixed width
+  - `font-size` sets the size of a font.
+    - `px` for pixels, `em` is a relative unit to his parent element
+  - `font-style` specifies the font style for a text, and is mostly used to specify italic text
+  - `font-weight` sets how thick or thin characters in text should be displayed.
+  - `font` is a shorthand property for: `font-style`, `font-weight`, `font-size` and `font-family`
+  - `line-height` specifies the height of a line.
+  - `text-align` specifies the horizontal alignment of text in an element.
+  - `text-decoration` specifies the decoration added to text
+    - values: `underline` or `none`
+  - **inheritance** controls what happens when no value is specified for a property on an element, until another property overrides it
 
 
 <!--
