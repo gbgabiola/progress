@@ -28,5 +28,5 @@ effectively.
   - Restrict Access
     - to certain areas of the website depending on the status of the user. E.g. Spotify or Netflix
     - charge a subscription for accessing certain parts of the website, then once the user pays, you have to update their account in your database to say that they have paid and they'll be allowed to access the, tv shows or songs that they're entitled to.
-
-
+- **Level 1**: Register Users with Username and Password
+  - Create a database of users and store username and password as plain text in the database
