@@ -55,11 +55,18 @@ effectively.
   - create a `.env` file in the root directory then add environment variables in the form of `NAME=VALUE`. E.g. `DB_HOST=localhost`
   - add the `node_modules` and `.env` file into `.gitignore` file
   - For deployment: you can add the environment variables as Config Variables into the their platform
+- **Level 3**: Hashing Passwords
+  - no longer requires an encryption key,
+  - **`hash`** functions are mathematical equations that are designed to make it almost impossible to go backwards or turn hash back into a password.
+  - turn the password into a hash and store that hash into the database
+  - password you typed produced a hash and compared it against the hash that we have stored in the database
+  - if those two hashes match then that must mean the  login password is the same as the registration password as well. And at no point in this process we store their password in plaintext or we abe to reverse the process to figure out the original password.
+  - `md5` package is a JavaScript function for hashing messages with MD5 which is a hashing algorithm
 
 
 ## Resources
 
-- [Mongoose Package](https://www.npmjs.com/package/mongoose)
+- [Mongoose package](https://www.npmjs.com/package/mongoose)
 - [Cryptii](https://cryptii.com/)
 - Numberphile Video on Enigma [Part 1](https://www.youtube.com/watch?v=G2_Q9FoD-oQ) and [Part 2](https://www.youtube.com/watch?v=V4V2bpZlqx8)
 - [mongoose-encryption package](https://www.npmjs.com/package/mongoose-encryption)
@@ -68,3 +75,4 @@ effectively.
 - [Developer AWS gets used by Litecoin miners](http://vertis.io/2013/12/16/unauthorised-litecoin-mining.html)
 - [dotenv package](https://www.npmjs.com/package/dotenv)
 - [gitignore and directories](https://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories)
+- [MD5 package](https://www.npmjs.com/package/md5)
