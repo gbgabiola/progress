@@ -48,7 +48,13 @@ effectively.
     - use the schema then add `encrypt` as a plugin to pass the secret as javaScript object: `userSchema.plugin(encypt, { secret: secret });`
     - make sure to add it to the schema before the `mongoose.model`
     - Using **Encrypt Only Certain Fields**: `userSchema.plugin(encypt, { secret: secret, encryptedFields: ['password'] });`
-
+- **Environment Variables** to keep secrets safe
+  - a simple file to keep sensitive variables such as encryption keys and API keys
+  - `doenv` package loads environment variables from `.env` file into `process.env`.
+  - require and config the package as early as possible `require('dotenv').config()`
+  - create a `.env` file in the root directory then add environment variables in the form of `NAME=VALUE`. E.g. `DB_HOST=localhost`
+  - add the `node_modules` and `.env` file into `.gitignore` file
+  - For deployment: you can add the environment variables as Config Variables into the their platform
 
 
 ## Resources
@@ -58,3 +64,7 @@ effectively.
 - Numberphile Video on Enigma [Part 1](https://www.youtube.com/watch?v=G2_Q9FoD-oQ) and [Part 2](https://www.youtube.com/watch?v=V4V2bpZlqx8)
 - [mongoose-encryption package](https://www.npmjs.com/package/mongoose-encryption)
 - [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)
+- [Bad Things Happen When You Don't Secure Your API Keys](https://www.theregister.co.uk/2015/01/06/dev_blunder_shows_github_crawling_with_keyslurping_bots/)
+- [Developer AWS gets used by Litecoin miners](http://vertis.io/2013/12/16/unauthorised-litecoin-mining.html)
+- [dotenv package](https://www.npmjs.com/package/dotenv)
+- [gitignore and directories](https://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories)
