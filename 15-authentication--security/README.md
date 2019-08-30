@@ -62,6 +62,18 @@ effectively.
   - password you typed produced a hash and compared it against the hash that we have stored in the database
   - if those two hashes match then that must mean the  login password is the same as the registration password as well. And at no point in this process we store their password in plaintext or we abe to reverse the process to figure out the original password.
   - `md5` package is a JavaScript function for hashing messages with MD5 which is a hashing algorithm
+- **Hacking 101**
+  - when hashing as a mathematical formula, number of your password increases the computation time it will take to crack it increases exponentially
+  - strong password with uppercase, lowercase, numbers, symbols, but most importantly long password
+  - don't use a dictionary word to avoid **dictionary attack**
+  - [Hash Toolkit Decrypter](https://hashtoolkit.com) to decrypt / reverse a hash in various formats into their original text.
+- **Level 4**: Salting and Hashing Passwords with bcrypt
+  - **Salting** generate a random set of characters along with the user's password gets combined then put through the **hash** function.
+  - **bcrypt** is another hashing algorithm which is the industry standard hashing algorithms that developers use to keep the user's passwords safe.
+  - **Salt rounds** concept is the number of time combing salting and hashing.
+    - every increase in the rounds, the amount of time that it takes to hash your password doubles.
+  - `bcrypt` package is peculiar about the version compatibility with node, check your node by: `node --version`
+  - 
 
 
 ## Resources
@@ -76,3 +88,11 @@ effectively.
 - [dotenv package](https://www.npmjs.com/package/dotenv)
 - [gitignore and directories](https://stackoverflow.com/questions/22924633/gitignore-is-not-ignoring-directories)
 - [MD5 package](https://www.npmjs.com/package/md5)
+- [Plaintext Offenders](https://plaintextoffenders.com/)
+- [Have I Been Pwned](https://haveibeenpwned.com/): Check if your email has been compromised in a data breach
+- [Most common passwords list by PasswordRandom](https://www.passwordrandom.com/most-popular-passwords)
+- [List of the most common passwords by Wikipedia](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)
+- [Check if your password is compromised](https://haveibeenpwned.com/)
+- [Password Strength Checker](http://password-checker.online-domain-tools.com/)
+- [Hacker Typer](http://hackertyper.com/)
+- [Node Website](https://nodejs.org/en/)
