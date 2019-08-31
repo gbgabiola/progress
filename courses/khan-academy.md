@@ -89,6 +89,36 @@
   - `text-decoration` specifies the decoration added to text
     - values: `underline` or `none`
   - **inheritance** controls what happens when no value is specified for a property on an element, until another property overrides it
+- **Web development tools**
+  - Using the browser developer tools
+    - The browser developer tools which are included in most modern browsers are a big favorite of most developers. Each browser differs in exactly which tools they provide, but they're more similar than they are different.
+    - **Inspecting HTML** is one great tool ability to right click on any element on a webpage and inspect the HTML for that element.
+    - **Inspecting CSS** using CSS inspector to check out which styles gets applied to an element and play with them yourself.
+  - Developing webpages outside of Khan Academy using other tools
+    - **Online editors** is similar to the khan academy's editor but with additional features.
+      - E.g. `JSBin`, `Repl.it`, `Glitch`, `Cloud9`, and `CodePen`.
+    - **Desktop editors** app is downloaded to your computer and saves the files to your hard drive.
+      - E.g. `Visual Studio Code`, `Atom`, `Sublime Text`, `Adobe Brackets`, and `Notepad++`.
+    - **Command-line editors** if you love typing and navigating with your keyboard instead of your mouse.
+      - Two popular command-line editors are `Emacs` and `Vim`, and they are often already installed on Unix-based systems like Macs and Linux.
+    - **Hosting your website on a server**
+      - When you visit websites on the internet, they are each hosted by a "server".
+      - **Server** is a computer located somewhere in the world that's connected to the internet, and that computer's job is to "serve" webpages to internet users that want to view them.
+      - Disadvantages on using khanAcademy server
+        1. your webpages have a bunch of Khan Academy user interface surrounding them
+        2. your webpage has "khanacademy.org" in the URL, and
+        3. you can only create single webpages, not multi-file websites.
+      - All of that is great when your goal is learning, but not ideal if your goal is to create a professional looking website, like a portfolio, resume, or shop.
+      - Many companies are "hosts" or "hosting providers", and they make money by letting people host your webpage files on their servers.
+      - You might also want your own domain name - like "khanacademy.org" or "yourownname.com". You can buy those from a "domain name registrar", pay a small amount each year to keep them around, and then point that domain to your server. 
+  - Hosting your website on Github
+    - [Github](http://github.com/) is a company that hosts "code repositories", collections of code for projects.
+      - Many of the code repositories are "open source", which means they're publicly available for the whole world to browse.
+      - Code repositories can contain all sorts of types of code, not just HTML and CSS - whatever code is needed to make the project work.
+      - Github has a feature called [Github Pages](https://pages.github.com/), which makes it easy and free for you to create a multi-file website hosted at yourusername.github.io.
+    - Sign up for a Github account
+    - Create a Github project for your website
+    - Upload multi-file websites to Github
 
 
 <!--
