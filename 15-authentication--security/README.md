@@ -73,7 +73,27 @@ effectively.
   - **Salt rounds** concept is the number of time combing salting and hashing.
     - every increase in the rounds, the amount of time that it takes to hash your password doubles.
   - `bcrypt` package is peculiar about the version compatibility with node, check your node by: `node --version`
-  - 
+- **Level 5**: **Cookies** and **Sessions** are used to store information
+  - **Cookies** are only stored on the client-side machine
+  - while **sessions** get stored on the client as well as a server.
+  - **Session** creates a file in a temporary directory on the server where registered **session** variables and their values are stored
+  - require `express-session`, `passport` & `passport-local-mongoose`
+  - `express-session` package stores only a session identifier on the client within a cookie and stores the session data on the server, typically in a database.
+    - **Middleware**
+    - In a Connect or Express-based application, `passport.initialize()` middleware is required to initialize Passport. If your application uses persistent login sessions, `passport.session()` middleware must also be used.
+    - `secret` is used to sign the session ID cookie
+    - `resave` forces the session to be saved back to the session store, even if the session was never modified during the request
+    - `saveUninitialized` forces a session to be saved to the store.
+  - `passport-local` package is a Username and password authentication strategy for Passport and Node.js
+  - `passport` package is Express compatible authentication middleware for Node.js.
+    - Passport's sole purpose is to authenticate requests, which it does through an extensible set of plugins known as _strategies_
+    - Passport does not mount routes or assume any particular database schema, which maximizes flexibility and allows application-level decisions to be made by the developer
+    - API is simple: you provide Passport a request to authenticate, and Passport provides hooks for controlling what occurs when authentication succeeds or fail
+  - `passport-local-mongoose` package is a Mongoose plugin that simplifies building username and password login with Passport
+    - `createStrategy()` Creates a configured passport-local `LocalStrategy` instance that can be used in passport.
+    - `serializeUser()` Generates a function that is used by Passport to serialize users into the session
+    - `deserializeUser()` Generates a function that is used by Passport to deserialize users into the session
+    - `register(user, password, cb)` Convenience method to register a new user instance with a given password. Checks if username is unique.
 
 
 ## Resources
