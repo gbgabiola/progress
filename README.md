@@ -37,9 +37,9 @@ A very gentle introduction, complete if feel you would benefit from it, skip if 
 
 | Courses                                                                                                                                                               |   Status   |   Evidence   |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            | 08/22/19   | [Notes](./courses/khan-academy.md#intro-to-js-drawing--animation)
-| [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)                                                             |            |
-| [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)                                                            |            |
+| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            | 08/22/19   | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/01-drawing--animation.md)
+| [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)                                                             | 09/05/19   | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/02-making-webpages.md)
+| [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)                                                            | WIP        | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/03-querying-and-managing-data.md)
 | [Advanced JS: Games & Visualizations](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations)                                    |            |
 | [HTML/JS: Making webpages interactive](https://www.khanacademy.org/computing/computer-programming/html-css-js)                                                        |            |
 | **Capstone**                                                                                                                                                          | **Status** | **Evidence** |
@@ -51,8 +51,8 @@ Complete the [App Academy Open](https://open.appacademy.io/) free online Fullsta
 
 | Courses                                                                                                                                                               |   Status   |   Evidence   |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| Welcome To Coding                                                                                                                                                     | 08-21-19   | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding)
-| Full Stack Online - Intro to Programming                                                                                                                              | WIP        |
+| Welcome To Coding                                                                                                                                                     | 08/21/19   | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding#welcome-to-coding)
+| Full Stack Online - Intro to Programming                                                                                                                              | WIP        | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/02-intro-to-programming#intro-to-programming-)
 | Full Stack Online - Software Engineering Foundations                                                                                                                  |            |
 | Full Stack Online - Ruby                                                                                                                                              |            |
 | Full Stack Online - SQL                                                                                                                                               |            |

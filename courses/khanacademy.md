@@ -4,7 +4,7 @@
 
 - [ ] [Computer Programming](https://www.khanacademy.org/computing/computer-programming)
   - [x] [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
-  - [ ] [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+  - [x] [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
   - [ ] [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)
   - [ ] [Advanced JS: Games & Visualizations](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations)
   - [ ] [Advanced JS: Natural Simulations](https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations)
