@@ -134,3 +134,6 @@ effectively.
 - [Passport Documentation](http://www.passportjs.org/docs/downloads/html/)
 - [Passport Stategies](http://www.passportjs.org/packages/)
 - [Passport strategy with Google using OAuth 2.0 API](http://www.passportjs.org/packages/passport-google-oauth20/)
+- [Install NVM](https://github.com/creationix/nvm)
+- [Passport](http://passportjs.org/)
+- [Google Developers](https://console.developers.google.com/apis/dashboard)

@@ -36,7 +36,7 @@ Course Created by Angela Yu
 - [x] [Git, Github and Version Control](08-cli-git-github#git-github-and-version-control)
 - [x] [APIs - Application Programming Interfaces](10-apis)
 - [x] [EJS](11-ejs)
-- [x] [Boss Level Challenge 3 - Blog Website]()
+- [x] [Boss Level Challenge 3 - Blog Website](https://daily-journal-blog.herokuapp.com/)
 - [x] [Databases](12-database/README.md#database-fundamentals)
 - [x] [SQL](12-database/README.md#sql-structured-query-language)
 - [x] [MongoDB](12-database/README.md#mongodb)
@@ -45,7 +45,7 @@ Course Created by Angela Yu
 - [x] [Deploying Your Web Application](13-deployment)
 - [x] [Boss Level Challenge 4 - Blog Website Upgrade](https://daily-journal-blog.herokuapp.com)
 - [x] [Build Your Own RESTful API From Scratch](14-restful-apis/README.md)
-- [ ] [Authentication & Security]()
+- [x] [Authentication & Security](15-authentication--security)
 - [ ] [Bonus Module: Design School 101]()
 - [ ] [Bonus Module: Ask Angela Anything]()
 
