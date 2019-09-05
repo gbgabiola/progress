@@ -28,9 +28,9 @@ effectively.
   - Restrict Access
     - to certain areas of the website depending on the status of the user. E.g. Spotify or Netflix
     - charge a subscription for accessing certain parts of the website, then once the user pays, you have to update their account in your database to say that they have paid and they'll be allowed to access the, tv shows or songs that they're entitled to.
-- **Level 1**: Register Users with Username and Password
+- **Level 1**: **Register Users with Username and Password**
   - Create a database of users and store username and password as plain text in the database
-- **Level 2**: Database Encryption
+- **Level 2**: **Database Encryption**
   - **encryption** is just scrambling something so that people can't tell what the original, unless they were in on the secret and they knew how to unscramble it
     - sending a secret message to someone and you both had a key to encode and decode the messages
   - **Enigma** machine is used during the world war 2, to encrypt the messages that the Germans send to each other, so when messages are intercepted to the radio, unless you have the same Enigma machine and knew the decoding key, or settings for the machine then you wouldn't be able to tell what's the message was.
@@ -55,7 +55,7 @@ effectively.
   - create a `.env` file in the root directory then add environment variables in the form of `NAME=VALUE`. E.g. `DB_HOST=localhost`
   - add the `node_modules` and `.env` file into `.gitignore` file
   - For deployment: you can add the environment variables as Config Variables into the their platform
-- **Level 3**: Hashing Passwords
+- **Level 3**: **Hashing Passwords**
   - no longer requires an encryption key,
   - **`hash`** functions are mathematical equations that are designed to make it almost impossible to go backwards or turn hash back into a password.
   - turn the password into a hash and store that hash into the database
@@ -67,7 +67,7 @@ effectively.
   - strong password with uppercase, lowercase, numbers, symbols, but most importantly long password
   - don't use a dictionary word to avoid **dictionary attack**
   - [Hash Toolkit Decrypter](https://hashtoolkit.com) to decrypt / reverse a hash in various formats into their original text.
-- **Level 4**: Salting and Hashing Passwords with bcrypt
+- **Level 4**: **Salting and Hashing Passwords with bcrypt**
   - **Salting** generate a random set of characters along with the user's password gets combined then put through the **hash** function.
   - **bcrypt** is another hashing algorithm which is the industry standard hashing algorithms that developers use to keep the user's passwords safe.
   - **Salt rounds** concept is the number of time combing salting and hashing.
@@ -94,6 +94,21 @@ effectively.
     - `serializeUser()` Generates a function that is used by Passport to serialize users into the session
     - `deserializeUser()` Generates a function that is used by Passport to deserialize users into the session
     - `register(user, password, cb)` Convenience method to register a new user instance with a given password. Checks if username is unique.
+- **level 6**: OAuth 2.0 API
+  - **OAuth (Open Authorization)** is an open standard for token-based authentication and authorization.
+  - allows an end user's account information to be used by third-party services, such as Facebook, Twitter, Google and etc, without exposing the user's password
+  - Why OAuth?
+    1. **Granular Access Levels** can access specific things from the third-party service
+    2. **Read/Read+Write Access**
+    3. **Revoke Access**
+  - How it Works
+    1. **Step 1: Setup Your App** in their developer console and in return will get an app or client ID, then will make their request to third-party service to authenticate our user
+    2. **Step 2: Redirect to Authentication** can give them an option to log in with third-party services
+    3. **Step 3: User Logs In** on the third-party service they chose
+    4. **Step 4: User Grants Permissions** review the permission that our app/site is asking for.
+    5. **Step 5: Receive Authorization Code** from the third-party service you have chosen, and allow us to check to make sure the user actually successfully signed on to third-party service
+    6. **Step 6: Exchange AuthCode for Access Token** and save it into our database, this is valid for a lot longer than the authentication token
+  - `passport-google-oauth20` module lets you authenticate using Google in your Node.js applications. By plugging into Passport, Google authentication can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express
 
 
 ## Resources
@@ -116,3 +131,6 @@ effectively.
 - [Password Strength Checker](http://password-checker.online-domain-tools.com/)
 - [Hacker Typer](http://hackertyper.com/)
 - [Node Website](https://nodejs.org/en/)
+- [Passport Documentation](http://www.passportjs.org/docs/downloads/html/)
+- [Passport Stategies](http://www.passportjs.org/packages/)
+- [Passport strategy with Google using OAuth 2.0 API](http://www.passportjs.org/packages/passport-google-oauth20/)
