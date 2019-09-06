@@ -47,7 +47,7 @@ Course Created by Angela Yu
 - [x] Deploying Your Web Application
 - [x] [Boss Level Challenge 4 - Blog Website Upgrade](https://daily-journal-blog.herokuapp.com)
 - [x] Build Your Own RESTful API From Scratch
-- [ ] Authentication & Security
+- [x] Authentication & Security
 - [ ] Bonus Module: Design School 101
 - [ ] Bonus Module: Ask Angela Anything
 
