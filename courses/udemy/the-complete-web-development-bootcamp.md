@@ -48,8 +48,8 @@ Course Created by Angela Yu
 - [x] [Boss Level Challenge 4 - Blog Website Upgrade](https://daily-journal-blog.herokuapp.com)
 - [x] Build Your Own RESTful API From Scratch
 - [x] Authentication & Security
-- [ ] Bonus Module: Design School 101
-- [ ] Bonus Module: Ask Angela Anything
+- [x] Bonus Module: Design School 101
+- [x] Bonus Module: Ask Angela Anything
 
 ## Requirements
 

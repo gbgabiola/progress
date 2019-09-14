@@ -13,8 +13,8 @@ My goals are to
 
 ## **Computer Science and Programming**
 
-Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)   
-Current Course: [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)  
+Current Book: [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
+Current Course: [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 
 ## Junior developer
 
@@ -25,7 +25,7 @@ If you want to develop the skills necessary to be 'job ready' for a junior devel
 Math will be relevant throughout the guide. Begin it as you start the guide, and incrementally work through it alongside the guide. (You need not finish this before moving to tier 0, or tier 1, but be actively working on it alongside them.)
 
 | Courses                                                       | Status | Evidence |
-| :------------------------------------------------------------ | :----: | :------: |
+| :------------------------------------------------------------ | :----: | :------- |
 | [Algebra I](https://www.khanacademy.org/math/algebra)         |        |
 | [Algebra II](https://www.khanacademy.org/math/algebra2)       |        |
 | [Trigonometry](https://www.khanacademy.org/math/trigonometry) |        |
@@ -35,24 +35,24 @@ Math will be relevant throughout the guide. Begin it as you start the guide, and
 
 A very gentle introduction, complete if feel you would benefit from it, skip if you'd rather dive right into tier 0
 
-| Courses                                                                                                                                                               |   Status   |   Evidence   |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            | 08/22/19   | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/01-drawing--animation.md)
-| [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)                                                             | 09/05/19   | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/02-making-webpages.md)
-| [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)                                                            | WIP        | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/03-querying-and-managing-data.md)
+| Courses                                                                                                                                                               |   Status   | Evidence                                                                                                                 |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------------------------------------------------------- |
+| [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)                                                            |  08/22/19  | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/01-drawing--animation.md)         |
+| [Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)                                                             |  09/05/19  | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/02-making-webpages.md)            |
+| [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)                                                            |    WIP     | [Notes](https://github.com/genesisgabiola/khanacademy/blob/master/computer-programming/03-querying-and-managing-data.md) |
 | [Advanced JS: Games & Visualizations](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations)                                    |            |
 | [HTML/JS: Making webpages interactive](https://www.khanacademy.org/computing/computer-programming/html-css-js)                                                        |            |
-| **Capstone**                                                                                                                                                          | **Status** | **Evidence** |
+| **Capstone**                                                                                                                                                          | **Status** | **Evidence**                                                                                                             |
 | Create a website highlighting what you learned and built during this tier. Use this as an opportunity to create a portfolio of your projects, notes, blog posts, etc. |            |
 
 ### Tier 0 - Web Development - Fullstack Bootcamp - App Academy Open
 
 Complete the [App Academy Open](https://open.appacademy.io/) free online Fullstack Bootcamp.
 
-| Courses                                                                                                                                                               |   Status   |   Evidence   |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| Welcome To Coding                                                                                                                                                     | 08/21/19   | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding#welcome-to-coding)
-| Full Stack Online - Intro to Programming                                                                                                                              | WIP        | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/02-intro-to-programming#intro-to-programming-)
+| Courses                                                                                                                                                               |   Status   | Evidence                                                                                                              |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :-------------------------------------------------------------------------------------------------------------------- |
+| Welcome To Coding                                                                                                                                                     |  08/21/19  | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding#welcome-to-coding)        |
+| Full Stack Online - Intro to Programming                                                                                                                              |    WIP     | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/02-intro-to-programming#intro-to-programming-) |
 | Full Stack Online - Software Engineering Foundations                                                                                                                  |            |
 | Full Stack Online - Ruby                                                                                                                                              |            |
 | Full Stack Online - SQL                                                                                                                                               |            |
@@ -61,16 +61,16 @@ Complete the [App Academy Open](https://open.appacademy.io/) free online Fullsta
 | Full Stack Online - React                                                                                                                                             |            |
 | Full Stack Online - Full Stack Project                                                                                                                                |            |
 | Full Stack Online - Job Search                                                                                                                                        |            |
-| **Capstone**                                                                                                                                                          | **Status** | **Evidence** |
+| **Capstone**                                                                                                                                                          | **Status** | **Evidence**                                                                                                          |
 | Create a website highlighting what you learned and built during this tier. Use this as an opportunity to create a portfolio of your projects, notes, blog posts, etc. |            |
 
 ### Tier 1 - Getting Started
 
 Deepen understanding of Web Development and begin learning Computer Science topics
 
-| Courses                                                                                                                                                                                                                                                                                                                                                        |   Status   |   Evidence   |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| [CS50's Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)                                                                                                                                                                                                                                       | WIP        |
+| Courses                                                                                                                                                                                                                                                                                                                                                        |   Status   | Evidence     |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------- |
+| [CS50's Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)                                                                                                                                                                                                                                       |    WIP     |
 | [How to Learn Math: For Students](https://lagunita.stanford.edu/courses/Education/EDUC115-S/Spring2014/about)                                                                                                                                                                                                                                                  |            |
 | [CS50's Web Programming with Python and JavaScript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)                                                                                                                                                                                                                               |            |
 | [Single Variable Calculus](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/) (more rigorous) or [Khan Academy Calculus I](https://www.khanacademy.org/math/calculus-1) and [Khan Academy Calculus II](https://www.khanacademy.org/math/calculus-2) (a more gentle introduction)                                             |            |
@@ -103,8 +103,8 @@ If you want to develop the skills necessary to move beyond junior to intermediat
 
 Dive deeper into the Computer Science topics which will prove useful throughout all programming
 
-| Courses                                                                                                                                                                                                            |   Status   |   Evidence   |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
+| Courses                                                                                                                                                                                                            |   Status   | Evidence     |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------- |
 | [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/)                                                   |            |
 | [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) |            |
 | [Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)       |            |
@@ -134,8 +134,8 @@ Dive deeper into the Computer Science topics which will prove useful throughout 
 
 Dive deeper yet, exploring algorithms and different programming paradigms
 
-| Courses                                                                                                                                                                                                                                                    |   Status   |   Evidence   |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
+| Courses                                                                                                                                                                                                                                                    |   Status   | Evidence     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------- |
 | [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821)                                                                                                                                                       |            |
 | [Probabilistic Systems Analysis and Applied Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)                                                |            |
 | [Algorithms: Design and Analysis, Part 2](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about)                                                                                                                         |            |
@@ -174,8 +174,8 @@ If you want to develop the skills necessary to move beyond intermediate to senio
 
 Wrap up by taking a look at some specific areas of computing to complete a breadth of knowledge that can be leveraged regardless of specialty
 
-| Courses                                                                                                                                                                                               |   Status   |   Evidence   |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
+| Courses                                                                                                                                                                                               |   Status   | Evidence     |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------- |
 | [Computation Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/index.htm)                                                  |            |
 | [Introduction to Databases - all mini-courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)                                                                                         |            |
 | [Differential Equations](https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/)                                                                                           |            |
@@ -205,7 +205,7 @@ Wrap up by taking a look at some specific areas of computing to complete a bread
 Wrap up by diving more deeply into your specialization(s). If you haven't already done an [Advanced Specialization](#advanced-specializations), strongly consider including it in this tier. Beyond that, feel free to laser focus on one specialization, practicing more in that area, or branch out and develop expertise across multiple specializations.
 
 | **Practice**                                                                                                                                                                    | **Status** | **Evidence** |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: | :----------: |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: | :----------- |
 | Complete a [Specialization](#specializations)                                                                                                                                   |            |
 | Complete a [Specialization](#specializations)                                                                                                                                   |            |
 | Complete a [Specialization](#specializations)                                                                                                                                   |            |
@@ -253,69 +253,70 @@ Both tiers and specializations will require 'Tier Programming Projects', you are
 
 ## Extras
 
-| Courses                                                                                                                                            |   Status   |   Evidence   |
-| :------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)         | 07-06-18   | N/A
-| [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)                                         | 07-31-18   | [Notes](./courses/udemy/advanced-css-and-sass.md)
-| [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)                                                          | 08-10-18   | [Notes](./courses/udemy/how-to-use-smart-goals.md)
-| [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)          | 10-16-18   | N/A
-| [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) | 10-19-18   | [Notes](./courses/udemy/pre-programming-everything-you-need-to-know-before-you-code.md)
-| [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/)                                                                  | 11-03-18   | N/A
-| [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)                                                          | 11-05-18   | [Notes](./courses/udemy/javascript-basics-for-beginners.md)
-| [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)             | 11-18-18   | [Notes](./courses/coursera/learning-how-to-learn.md)
-| [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning/)                          | 07-23-19   | [Notes](https://github.com/genesisgabiola/modern-html-css-from-the-beginning-including-sass)
-| [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)                                  | WIP        | [Notes](https://github.com/genesisgabiola/the-complete-web-development-bootcamp)
-| [CS50's Understanding Technology](https://www.edx.org/course/cs50s-understanding-technology-harvardx-cs50t)                                        | WIP        | [Notes](./courses/edx/cs50s-understanding-technology.md)
-| [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)                                 |            |
-| [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)                                                                    |            |
-| [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)                                                  |            |
-| [The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/)                                   |            | 
-| [The Complete Web Developer Course 2.0](https://www.udemy.com/the-complete-web-developer-course-2/)                                                |            | 
-| [The Modern Python 3 Bootcamp](https://www.udemy.com/the-modern-python3-bootcamp/)                                                                 |            | 
-| [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)   |            |
-| [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)                                                          |            |
-| [Learn and Understand NodeJS](https://www.udemy.com/understand-nodejs/)                                                                            |            |
-| [ES6 Javascript: The Complete Developer's Guide](https://www.udemy.com/javascript-es6-tutorial/)                                                   |            |
-| [Node with React: Fullstack Web Development](https://www.udemy.com/node-with-react-fullstack-web-development/)                                     |            |
-| [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/)                                        |            |
-| [Webpack 2: The Complete Developer's Guide](https://www.udemy.com/webpack-2-the-complete-developers-guide/)                                        |            |
-| [Modern React with Redux](https://www.udemy.com/react-redux/)                                                                                      |            |
-| [Advanced React and Redux: 2018 Edition](https://www.udemy.com/react-redux-tutorial/)                                                              |            |
-| [React 16 - The Complete Guide (incl. React Router 4 & Redux)](https://www.udemy.com/react-the-complete-guide-incl-redux/)                         |            |
-| [The Complete React Web Developer Course (with Redux)](https://www.udemy.com/react-2nd-edition/)                                                   |            |
-| [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)                               |            |
-| [Complete Python Bootcamp: Go from zero to hero in Python 3](https://www.udemy.com/complete-python-bootcamp/)                                      |            |
-| [Intro to JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)                                                                   |            |
-|                                                                                                                                                    |            |
+| Courses                                                                                                                                            |  Status  | Evidence                                                                                |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :-------------------------------------------------------------------------------------- |
+| [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)         | 07-06-18 | N/A                                                                                     |
+| [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)                                         | 07-31-18 | [Notes](./courses/udemy/advanced-css-and-sass.md)                                       |
+| [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)                                                          | 08-10-18 | [Notes](./courses/udemy/how-to-use-smart-goals.md)                                      |
+| [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)          | 10-16-18 | N/A                                                                                     |
+| [Pre-Programming: Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code/) | 10-19-18 | [Notes](./courses/udemy/pre-programming-everything-you-need-to-know-before-you-code.md) |
+| [Introduction to JavaScript](https://learn.co/tracks/introduction-to-javascript/)                                                                  | 11-03-18 | N/A                                                                                     |
+| [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)                                                          | 11-05-18 | [Notes](./courses/udemy/javascript-basics-for-beginners.md)                             |
+| [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn)             | 11-18-18 | [Notes](./courses/coursera/learning-how-to-learn.md)                                    |
+| [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning/)                          | 07-23-19 | [Notes](./courses/udemy/modern-html-and-css-from-the-beginning-including-sass.md)       |
+| [The Complete 2019 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)                                  | 09-14-19 | [Notes](./courses/udemy/the-complete-web-development-bootcamp.md)                       |
+| [Modern JavaScript From The Beginning](https://www.udemy.com/modern-javascript-from-the-beginning/)                                                |   WIP    | [Notes](./courses/udemy/modern-javascript-from-the-beginning.md)                        |
+| [CS50's Understanding Technology](https://www.edx.org/course/cs50s-understanding-technology-harvardx-cs50t)                                        |   WIP    | [Notes](./courses/edx/cs50s-understanding-technology.md)                                |
+| [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)                                 |          |
+| [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)                                                                    |          |
+| [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)                                                  |          |
+| [The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/)                                   |          |
+| [The Complete Web Developer Course 2.0](https://www.udemy.com/the-complete-web-developer-course-2/)                                                |          |
+| [The Modern Python 3 Bootcamp](https://www.udemy.com/the-modern-python3-bootcamp/)                                                                 |          |
+| [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)   |          |
+| [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)                                                          |          |
+| [Learn and Understand NodeJS](https://www.udemy.com/understand-nodejs/)                                                                            |          |
+| [ES6 Javascript: The Complete Developer's Guide](https://www.udemy.com/javascript-es6-tutorial/)                                                   |          |
+| [Node with React: Fullstack Web Development](https://www.udemy.com/node-with-react-fullstack-web-development/)                                     |          |
+| [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/)                                        |          |
+| [Webpack 2: The Complete Developer's Guide](https://www.udemy.com/webpack-2-the-complete-developers-guide/)                                        |          |
+| [Modern React with Redux](https://www.udemy.com/react-redux/)                                                                                      |          |
+| [Advanced React and Redux: 2018 Edition](https://www.udemy.com/react-redux-tutorial/)                                                              |          |
+| [React 16 - The Complete Guide (incl. React Router 4 & Redux)](https://www.udemy.com/react-the-complete-guide-incl-redux/)                         |          |
+| [The Complete React Web Developer Course (with Redux)](https://www.udemy.com/react-2nd-edition/)                                                   |          |
+| [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)                               |          |
+| [Complete Python Bootcamp: Go from zero to hero in Python 3](https://www.udemy.com/complete-python-bootcamp/)                                      |          |
+| [Intro to JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)                                                                   |          |
+|                                                                                                                                                    |          |
 
 <br>
 
-| Books                                                                                                                                             |   Status   |   Evidence   |
-| :------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: | :----------: |
-| [A Smarter Way to Learn JavaScript](https://www.amazon.com/Smarter-JavaScript-tech-assisted-approach-requires/dp/1497408180/ref=tmm_pap_swatch_0) | WIP        | [Notes](./books/a-smart-way-to-learn-javascript.md)
-| [The Complete Software Developer's Career Guide](https://www.amazon.com/Complete-Software-Developers-Career-Guide-ebook/dp/B073X6GNJ1)            | WIP        | [Notes](./books/the-complete-software-developers-career-guide.md)
-| [The JavaScript Handbook](https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/)                                       | WIP        | [Notes](./books/the-javascript-handbook.md)
-|                                                                                                                                                   |            |
+| Books                                                                                                                                             | Status | Evidence                                                          |
+| :------------------------------------------------------------------------------------------------------------------------------------------------ | :----: | :---------------------------------------------------------------- |
+| [A Smarter Way to Learn JavaScript](https://www.amazon.com/Smarter-JavaScript-tech-assisted-approach-requires/dp/1497408180/ref=tmm_pap_swatch_0) |  WIP   | [Notes](./books/a-smart-way-to-learn-javascript.md)               |
+| [The Complete Software Developer's Career Guide](https://www.amazon.com/Complete-Software-Developers-Career-Guide-ebook/dp/B073X6GNJ1)            |  WIP   | [Notes](./books/the-complete-software-developers-career-guide.md) |
+| [The JavaScript Handbook](https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/)                                       |  WIP   | [Notes](./books/the-javascript-handbook.md)                       |
+|                                                                                                                                                   |        |
 
 <br>
 
-| Projects                                                                                                                                                         |   Status   |   Evidence   |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: |
-| Basic Project                                                                                                                                                    | 07-07-18   | [Omnifood](https://genesisgabiola.github.io/omnifood/)
-| Basic Project                                                                                                                                                    | 07-19-18   | [Natours](https://genesisgabiola.github.io/natours/)
-| Basic Project                                                                                                                                                    | 07-26-18   | [Trillo](https://genesisgabiola.github.io/trillo/)
-| Basic Project                                                                                                                                                    | 07-31-18   | [Nexter](https://genesisgabiola.github.io/nexter/)
-| Basic Project                                                                                                                                                    | 07-10-19   | [HBS](https://genesisgabiola.github.io/hbs)
-| Basic Project                                                                                                                                                    | 07-13-19   | [bridgeledger](https://bridgeledger.netlify.com)
-| Basic Project                                                                                                                                                    | 07-19-19   | [TechNews](https://tech-news.netlify.com/)
-| Basic Project                                                                                                                                                    | 07-23-19   | [johndoe-portfolio](https://johndoe-portfolio.netlify.com/)
-| [Build a Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)                                 | 07-30-19   | [The Bible \| Tribute Page](http://genesisgabiola.github.io/tribute-page/)
-| Basic Project                                                                                                                                                    | 08-05-19   | [tinderPet](https://tinderpet.netlify.com/)
-| [Build a Survey Form](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form)                                   | WIP        | [Survey Form for Developers](http://genesisgabiola.github.io/survey-form/)
-| [Build a Product Landing Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)                 | WIP        | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/product-landing-page/)
-| [Build a Technical Documentation Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) | WIP        | [Technical Documentation Page](https://genesisgabiola.github.io/product-landing-page/)
-| [Build a Personal Portfolio Webpage](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)     | WIP        | [Portfolio](https://genesisgabiola.github.io/portfolio)
-|                                                                                                                                                                  |            |
+| Projects                                                                                                                                                         |  Status  | Evidence                                                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------------------------------------------------------------------------------------- |
+| Basic Project                                                                                                                                                    | 07-07-18 | [Omnifood](https://genesisgabiola.github.io/omnifood/)                                     |
+| Basic Project                                                                                                                                                    | 07-19-18 | [Natours](https://genesisgabiola.github.io/natours/)                                       |
+| Basic Project                                                                                                                                                    | 07-26-18 | [Trillo](https://genesisgabiola.github.io/trillo/)                                         |
+| Basic Project                                                                                                                                                    | 07-31-18 | [Nexter](https://genesisgabiola.github.io/nexter/)                                         |
+| Basic Project                                                                                                                                                    | 07-10-19 | [HBS](https://genesisgabiola.github.io/hbs)                                                |
+| Basic Project                                                                                                                                                    | 07-13-19 | [bridgeledger](https://bridgeledger.netlify.com)                                           |
+| Basic Project                                                                                                                                                    | 07-19-19 | [TechNews](https://tech-news.netlify.com/)                                                 |
+| Basic Project                                                                                                                                                    | 07-23-19 | [johndoe-portfolio](https://johndoe-portfolio.netlify.com/)                                |
+| [Build a Tribute Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)                                 | 07-30-19 | [The Bible \| Tribute Page](http://genesisgabiola.github.io/tribute-page/)                 |
+| Basic Project                                                                                                                                                    | 08-05-19 | [tinderPet](https://tinderpet.netlify.com/)                                                |
+| [Build a Survey Form](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form)                                   |   WIP    | [Survey Form for Developers](http://genesisgabiola.github.io/survey-form/)                 |
+| [Build a Product Landing Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)                 |   WIP    | [Product Landing Page \| CraftApp](https://genesisgabiola.github.io/product-landing-page/) |
+| [Build a Technical Documentation Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) |   WIP    | [Technical Documentation Page](https://genesisgabiola.github.io/product-landing-page/)     |
+| [Build a Personal Portfolio Webpage](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)     |   WIP    | [Portfolio](https://genesisgabiola.github.io/portfolio)                                    |
+|                                                                                                                                                                  |          |
 
 
 **Additional books can be found** [here](https://github.com/P1xt/speedstudy/blob/master/book-lists.md)
