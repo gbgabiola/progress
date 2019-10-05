@@ -22,7 +22,7 @@ Course Created by Brad Traversy
 - [x] Intro & Getting Started
 - [x] JavaScript Language Fundamentals
 - [x] DOM Manipulation & Events
-- [ ] [DOM Projects]()
+- [x] [DOM Projects](https://genesisgabiola.github.io/sandbox/)
 - [ ] Object Oriented JavaScript - ES5 & ES2015
 - [ ] [OOP Book List Project]()
 - [ ] Asynchronous JavaScript Ajax & Fetch API
