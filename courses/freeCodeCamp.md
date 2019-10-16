@@ -38,7 +38,7 @@ You can earn each certification by completing its 5 final projects.
 
 - [ ] Front End Libraries Certification (300 hours)]
   - [x] [Bootstrap](https://learn.freecodecamp.org/front-end-libraries/bootstrap)
-  - [ ] [jQuery]([02-jquery](https://learn.freecodecamp.org/front-end-libraries/jquery))
+  - [x] [jQuery]([02-jquery](https://learn.freecodecamp.org/front-end-libraries/jquery))
   - [ ] [Sass](https://learn.freecodecamp.org/front-end-libraries/sass)
   - [ ] [React](https://learn.freecodecamp.org/front-end-libraries/react)
   - [ ] [Redux](https://learn.freecodecamp.org/front-end-libraries/redux)
