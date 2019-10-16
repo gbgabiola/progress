@@ -37,7 +37,7 @@ You can earn each certification by completing its 5 final projects.
     - [ ] [Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register)
 
 - [ ] Front End Libraries Certification (300 hours)]
-  - [ ] [Bootstrap](https://learn.freecodecamp.org/front-end-libraries/bootstrap)
+  - [x] [Bootstrap](https://learn.freecodecamp.org/front-end-libraries/bootstrap)
   - [ ] [jQuery]([02-jquery](https://learn.freecodecamp.org/front-end-libraries/jquery))
   - [ ] [Sass](https://learn.freecodecamp.org/front-end-libraries/sass)
   - [ ] [React](https://learn.freecodecamp.org/front-end-libraries/react)
