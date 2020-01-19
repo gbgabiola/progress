@@ -8,8 +8,8 @@ Course Created by Brad Schiff
 
 ## Course Content
 
-- [x] Welcome To The Course!
-- [ ] The 10 Days of JavaScript: The Language Itself
+- [x] [Welcome To The Course!](01-introduction)
+- [ ] [The 10 Days of JavaScript: The Language Itself](02-the-language-itself/README.md)
 - [ ] Server Basics
 - [ ] Database Basics
 - [ ] Starting Our Complex App (App #2)
