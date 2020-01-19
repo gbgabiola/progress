@@ -60,3 +60,14 @@ It's the aspect that never changes regardless of environment.
 ### Why arrays are so important?
 
 - In addition to adding and removing items from an array, it's also very easy to sort an array alphabetically, quality or the most important of all.
+
+
+## Day 5: Making Decisions
+
+Computer programming uses `if` statements or similar conditional logic everywhere.
+
+- `else` statements are optional it's just a fall back, if the first condition is not true then the `else` will happen.
+- the area inside the parentheses is called a condition, which result to a value of either `true` or `false`.
+- greater than (`>`), less than (`<`), less than or equal to (`<=`), greater than or equal to (`>=`), equal to `==`, not equal to (`!=`)
+- Any number larger than zero, `true`, string with any content will be interpreted as `true`.
+- `while` loop will repeat itself as long as the conditional value is true.
