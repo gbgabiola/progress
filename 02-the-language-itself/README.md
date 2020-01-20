@@ -87,3 +87,15 @@ Learn about the useful higher-order functions that are part of the language itse
 - `addEventListener` method is a higher-order function because the second argument it expects to receive is a function.
 - some programming languages are _not_ allowed to pass a function as an argument
 - `forEach` method that accepts a function as an argument, and will run that function once for each item in the collection.
+
+
+## Day 7: Returning vs Mutating
+
+- Mutating just means changing or modifying the original array
+- `map` method is a higher-order function that accepts a function as an argument
+  - it will call the selected function once for each item in the array
+  - it does not mutate or change the array that you call it from, it simply returns a new array
+- `filter` method is very similar to `map` method a higher-order function
+  - it doesn't change or mutate the array we call it from, it simply returns a brand new array
+  - it call the function once for each item in the array
+  - difference with map, is doesn't specify exactly what should get added to the new array, instead we simply return `true` or `false`
