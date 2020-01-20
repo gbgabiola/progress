@@ -71,3 +71,19 @@ Computer programming uses `if` statements or similar conditional logic everywher
 - greater than (`>`), less than (`<`), less than or equal to (`<=`), greater than or equal to (`>=`), equal to `==`, not equal to (`!=`)
 - Any number larger than zero, `true`, string with any content will be interpreted as `true`.
 - `while` loop will repeat itself as long as the conditional value is true.
+
+
+## Day 6: Higher-Order Functions
+
+### What is a higher order function?
+
+A higher-order functions is a function that either:
+
+- Accepts a function as an argument
+- Return a function
+
+Learn about the useful higher-order functions that are part of the language itself (and not just web browser jargon).
+
+- `addEventListener` method is a higher-order function because the second argument it expects to receive is a function.
+- some programming languages are _not_ allowed to pass a function as an argument
+- `forEach` method that accepts a function as an argument, and will run that function once for each item in the collection.
