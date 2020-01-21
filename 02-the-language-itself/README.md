@@ -150,3 +150,8 @@ Learn about the useful higher-order functions that are part of the language itse
 - Semicolons is like a period to end a javaScript sentence
 - JavaScript language has automatic semicolon insertion, meaning it will automatically add semicolons
 - as long as keep organized with line breaks and whitespace we don't need to add semicolon manually
+
+
+## Day 10: Web Browser Practice
+
+Building To-Do App...

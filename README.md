@@ -1,15 +1,23 @@
-# [Learn JavaScript Full-Stack from Scratch]()
+# [Learn JavaScript Full-Stack from Scratch](https://www.udemy.com/course/learn-javascript-full-stack-from-scratch/)
+
+Understand the JavaScript language itself, Node.js, MongoDB, The Web Browser and More To Create Meaningful Applications
 
 Course Created by Brad Schiff
 
 
 ## What you'll learn
 
+- The JavaScript language itself
+- How to control the Web Browser with JavaScript
+- How to setup a server by using Node JS and Express
+- How to control a database (MongoDB) with JavaScript
+- How to implement user registration, log-in, log-out & user generated content
+
 
 ## Course Content
 
 - [x] [Welcome To The Course!](01-introduction)
-- [ ] [The 10 Days of JavaScript: The Language Itself](02-the-language-itself/README.md)
+- [x] [The 10 Days of JavaScript: The Language Itself](02-the-language-itself/README.md)
 - [ ] Server Basics
 - [ ] Database Basics
 - [ ] Starting Our Complex App (App #2)
@@ -26,7 +34,9 @@ Course Created by Brad Schiff
 
 ## Requirements
 
+- No prerequisite knowledge required; the only thing you need is a computer (that you are allowed to install software on) and an internet connection.
 
 
 ## Who this course is for:
 
+- Anyone who might be interested in starting a career in computer programming (no experience required).
