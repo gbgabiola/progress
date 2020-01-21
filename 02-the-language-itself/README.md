@@ -99,3 +99,22 @@ Learn about the useful higher-order functions that are part of the language itse
   - it doesn't change or mutate the array we call it from, it simply returns a brand new array
   - it call the function once for each item in the array
   - difference with map, is doesn't specify exactly what should get added to the new array, instead we simply return `true` or `false`
+
+
+## Day 8: Scope & Context
+
+**Scope** is the biggest source of confusion regarding **variables**.
+
+- `let` statement creates a variable within the current local scope, and it doesn't matter if that identifier or label name has been used in outer scope
+- remove the `let` keyword to update, mutate or change the value of the global scoped variable
+- scope moves in one direction, one way street inside code can reach outwards for variables but outside cannot reach inside for variables
+- biggest difference between `var` and `let` is _block_ and _function_ scope
+- `let` uses _block_ scope, whereas `var` uses _function_ scope
+- almost all other programming languages use _block_ scope instead of _function_ scope to less confusing code and problems overall
+
+**Context** is the biggest source of confusion regarding **object**.
+
+- `this` keyword points towards the _object_ that is _executing_ the current function
+  - keyword changes depending on the context
+- `Window` in the web browser is that root or global object, which contains all of the web browsers other objects
+- `call` method can be access from functions, to make the `this` keyword point towards the selected object
