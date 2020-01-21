@@ -118,3 +118,35 @@ Learn about the useful higher-order functions that are part of the language itse
   - keyword changes depending on the context
 - `Window` in the web browser is that root or global object, which contains all of the web browsers other objects
 - `call` method can be access from functions, to make the `this` keyword point towards the selected object
+
+
+## Day 9: Misc. Must Know Info
+
+### Anonymous functions
+
+- can be use when you know that you will only use it once, because it has no name and you have no way of referencing/calling it in your code
+
+### Arrow function
+
+- is a special type of function that uses alternate, cleaner or more minimalistic syntax
+- first feature is that when the body of a function sits on a single line, it will automatically return whatever we include in it
+- if you more than one parameters or you dont have parameter leave a parantheses, but if you only have one parameter remove the parentheses
+- second feature is that they do not have their own new `this` keyword the way that a regular function does, and arrow function use the same variable lookup strategy
+- do not change the value of the `this` keyword, whatever the `this` keyword was point in your current context that's still what is going to be pointing towards even inside of your function
+
+### Function hoisting
+
+- **function declaration** is where we use the keyword function with a name, this can be hoisted meaning ordering doesn't matter
+- unless you create a function with the actual keyword function and then a name, your function is not going to get hoisted
+- **Anonymous function** ordering matters, make sure to create the function first before calling it
+
+### Template literals
+
+- uses backticks (`) to wrap the string of text instead of regular quotes
+- to add an expressions or get the value of a variable in a template literal use a dollar sign (`$`) then curly braces (`{}`), put the expressions or variables inside the braces, e.g, `${myVar}`
+
+### Semicolons
+
+- Semicolons is like a period to end a javaScript sentence
+- JavaScript language has automatic semicolon insertion, meaning it will automatically add semicolons
+- as long as keep organized with line breaks and whitespace we don't need to add semicolon manually
