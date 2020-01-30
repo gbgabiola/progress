@@ -1,0 +1,15 @@
+{
+  "name": "npm-external-node-modules",
+  "version": "1.0.0",
+  "description": "This is intro to node and npm external node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genesis Gabiola",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}

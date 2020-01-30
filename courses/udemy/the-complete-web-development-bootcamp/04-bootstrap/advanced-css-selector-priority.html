@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Advanced CSS - Selector Priority</title>
+  <style>
+    /* Top to bottom rule for the HTML elements */
+    h1 {
+      color: red;
+      color: green;
+    }
+
+    /* Classes are more specific than HTML element */
+    .title { color: yellow; }
+
+    /* IDs are more specific than classes or HTML elements */
+    #heading { color: blue; }
+
+    /* Internal styles are more specific than IDs, Classes, or HTML elements */
+  </style>
+</head>
+<body>
+  <!-- Inline style are the most specific of them all -->
+  <h1 id="heading" class="title" style="color: orange;">Hello World</h1>
+</body>
+</html>

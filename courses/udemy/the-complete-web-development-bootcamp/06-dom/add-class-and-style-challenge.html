@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM</title>
+  <style>
+    .huge { font-size: 10rem; }
+  </style>
+</head>
+<body>
+  <h1>Hello</h1>
+  <a href="https://www.google.com">Google</a>
+  <input type="checkbox">
+  <button class="btn">Click Me</button>
+  <ul id="list">
+    <li class="item"><a href="https://www.google.com">Google</a></li>
+    <li class="item">Second</li>
+    <li class="item">Third</li>
+  </ul>
+
+  <script>
+    /*
+      Challenge: Create a class "huge" on css then set the font size to 10rem, when the class "huge" applied to any element it will change the text size to 10rem.
+      In javaScript applied that on h1 element.
+    */
+    document.querySelector("h1").classList.add("huge");
+  </script>
+</body>
+</html>
