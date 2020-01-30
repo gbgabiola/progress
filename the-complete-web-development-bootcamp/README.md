@@ -4,6 +4,7 @@ The only course you need to learn to code and become a full-stack web developer.
 
 Course Created by Angela Yu
 
+
 ## What you'll learn
 
 - Be able to build ANY website you want
@@ -12,6 +13,7 @@ Course Created by Angela Yu
 - Work as a freelance web developer
 - Understand the latest frameworks and technologies, including Bootstrap 4, MongoDB, NodeJS, Express, & etc.
 - Learn professional developer best practices
+
 
 ## Course Content
 
@@ -47,7 +49,8 @@ Course Created by Angela Yu
 - [x] [Build Your Own RESTful API From Scratch](14-restful-apis)
 - [x] [Authentication & Security](15-authentication--security)
 - [x] [Bonus Module: Design School 101](16-design-101)
-- [ ] [Bonus Module: Ask Angela Anything]()
+- [x] Bonus Module: Ask Angela Anything
+
 
 ## Requirements
 
@@ -55,6 +58,7 @@ Course Created by Angela Yu
 - A Mac or PC computer with access to the internet
 - No paid software required - all websites will be created with Atom (which is free)
 - I'll walk you through, step-by-step how to get all the software installed and set up
+
 
 ## Who this course is for:
 
