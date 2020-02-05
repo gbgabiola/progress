@@ -20,9 +20,9 @@ Course Created by Brad Schiff
 - [x] [The 10 Days of JavaScript: The Language Itself](02-the-language-itself/README.md)
 - [x] [Server Basics](03-server-basics/README.md)
 - [x] [Database Basics](04-database-basics)
-- [ ] Starting Our Complex App (App #2)
-- [ ] User Created Posts
-- [ ] Live Search Feature
+- [x] [Starting Our Complex App (App #2)](05-starting-complex-app)
+- [x] [User Created Posts](06-user-created-posts)
+- [ ] [Live Search Feature](07-live-search-feature)
 - [ ] Letting Users Follow Each Other
 - [ ] Live Chat (Socket.IO)
 - [ ] Live Validation for Registration Form
