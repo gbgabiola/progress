@@ -22,9 +22,9 @@ Course Created by Brad Schiff
 - [x] [Database Basics](04-database-basics)
 - [x] [Starting Our Complex App (App #2)](05-starting-complex-app)
 - [x] [User Created Posts](06-user-created-posts)
-- [ ] [Live Search Feature](07-live-search-feature)
-- [ ] Letting Users Follow Each Other
-- [ ] Live Chat (Socket.IO)
+- [x] [Live Search Feature](07-live-search-feature)
+- [x] [Letting Users Follow Each Other](08-letting-users-follow-each-other)
+- [x] [Live Chat (Socket.IO)](09-live-chat)
 - [ ] Live Validation for Registration Form
 - [ ] What is CSRF (Security)
 - [ ] Let's Create an API
