@@ -25,8 +25,8 @@ Course Created by Brad Schiff
 - [x] [Live Search Feature](07-live-search-feature)
 - [x] [Letting Users Follow Each Other](08-letting-users-follow-each-other)
 - [x] [Live Chat (Socket.IO)](09-live-chat)
-- [ ] Live Validation for Registration Form
-- [ ] What is CSRF (Security)
+- [x] [Live Validation for Registration Form](10-live-validation-for-registration-form)
+- [x] [What is CSRF (Security)](11-csrf-security)
 - [ ] Let's Create an API
 - [ ] Deploying Complex App to Heroku
 - [ ] Where Do We Go From Here
