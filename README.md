@@ -27,9 +27,9 @@ Course Created by Brad Schiff
 - [x] [Live Chat (Socket.IO)](09-live-chat)
 - [x] [Live Validation for Registration Form](10-live-validation-for-registration-form)
 - [x] [What is CSRF (Security)](11-csrf-security)
-- [ ] Let's Create an API
-- [ ] Deploying Complex App to Heroku
-- [ ] Where Do We Go From Here
+- [x] [Let's Create an API](12-api)
+- [x] [Deploying Complex App to Heroku](13-deployment)
+- [x] [Where Do We Go From Here](14-next-step-career-advice)
 
 
 ## Requirements
