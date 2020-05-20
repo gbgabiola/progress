@@ -3,7 +3,7 @@
 [Course Notes](https://github.com/genesisgabiola/app-academy-open)
 
 - [x] Welcome To Coding
-- [ ] Full Stack Online - Intro to Programming
+- [x] Full Stack Online - Intro to Programming
 - [ ] Full Stack Online - Software Engineering Foundations
 - [ ] Ruby
 - [ ] SQL

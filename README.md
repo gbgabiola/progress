@@ -49,10 +49,10 @@ A very gentle introduction, complete if feel you would benefit from it, skip if 
 
 Complete the [App Academy Open](https://open.appacademy.io/) free online Fullstack Bootcamp.
 
-| Courses                                                                                                                                                               |   Status   | Evidence                                                                                                              |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :-------------------------------------------------------------------------------------------------------------------- |
-| Welcome To Coding                                                                                                                                                     |  08/21/19  | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/01-welcome-to-coding#welcome-to-coding)        |
-| Full Stack Online - Intro to Programming                                                                                                                              |    WIP     | [Notes](https://github.com/genesisgabiola/app-academy-open/tree/master/02-intro-to-programming#intro-to-programming-) |
+| Courses                                                                                                                                                               |   Status   | Evidence                                                                                       |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :--------------------------------------------------------------------------------------------- |
+| Welcome To Coding                                                                                                                                                     | 03/28/2020 | [Notes](https://github.com/genesisgabiola/appacademy-open/tree/master/01-welcome-to-coding)    |
+| Full Stack Online - Intro to Programming                                                                                                                              | 05/20/2020 | [Notes](https://github.com/genesisgabiola/appacademy-open/tree/master/02-intro-to-programming) |
 | Full Stack Online - Software Engineering Foundations                                                                                                                  |            |
 | Full Stack Online - Ruby                                                                                                                                              |            |
 | Full Stack Online - SQL                                                                                                                                               |            |
@@ -61,7 +61,7 @@ Complete the [App Academy Open](https://open.appacademy.io/) free online Fullsta
 | Full Stack Online - React                                                                                                                                             |            |
 | Full Stack Online - Full Stack Project                                                                                                                                |            |
 | Full Stack Online - Job Search                                                                                                                                        |            |
-| **Capstone**                                                                                                                                                          | **Status** | **Evidence**                                                                                                          |
+| **Capstone**                                                                                                                                                          | **Status** | **Evidence**                                                                                   |
 | Create a website highlighting what you learned and built during this tier. Use this as an opportunity to create a portfolio of your projects, notes, blog posts, etc. |            |
 
 ### Tier 1 - Getting Started
