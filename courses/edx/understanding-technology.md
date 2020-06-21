@@ -766,117 +766,114 @@ Our data is under constant threat, but how can we defend ourselves?
 
 ### Two Factor Authentication
 
-- First factor is a password
-  - Historically, something "only" the user knows
-  - Can be guessed
-- Second factor should be fundamentally different
-  - Should be something you have
-    - An RSA device displays a unique value that is synced with a server  
-      <img src="https://cs50.harvard.edu/technology/notes/security/assets/rsa.png" alt="RSA" width="400px">  
-      - This number needs to be typed in too!
-      - As long as this device isn't stolen by someone with your password, they can't get in as easily
-    - Phones now run software that allows you to get a code and type them in
-- Should think about what websites you care about the most and enable two factor authentication
-  - Some companies can use sms (text messages)
+- first factor is a password
+  - historically, something "only" the user knows
+  - can be guessed
+- second factor should be fundamentally different
+  - should be something you have
+    - an RSA device displays a unique value that is synced with a server
+      - this number needs to be typed in too
+      - as long as this device isn't stolen by someone with your password, they can't get in as easily
+    - phones now run software that allows you to get a code and type them in
+- should think about what websites you care about the most and enable two factor authentication
+  - some companies can use sms (text messages)
 
 ### Network security
 
-- So many of our current networks are wireless
-  - You probably been conditioned to look for free wifi
-    - Sometimes still might not connect for various reasons
-- If the wireless connection has not padlock (no password to log in) the connection is not secure
-  - You may still visit https or secure websites
-  - However, everything you do on http sites can be seen
-- What to do?
-  - Don't use that network
-  - Use a VPN (Virtual Private Network)
-    - Connection to internet is encrypted
-      - With an unsecured connection, anyone can access your data
+- many of our current networks are wireless
+  - you probably been conditioned to look for free wifi
+    - sometimes still might not connect for various reasons
+- if the wireless connection has not padlock (no password to log in) the connection is not secure
+  - you may still visit https or secure websites
+  - however, everything you do on http sites can be seen
+- what to do?
+  - don't use that network
+  - use a VPN (Virtual Private Network)
+    - connection to internet is encrypted
+      - with an unsecured connection, anyone can access your data
 
 ### VPN
 
-- First establish encrypted connection to a server and let this server communicate for you
-  - The connection between the VPN server and website can still be insecure!
-- Because we are encrypting data through an algorithm, using a VPN can slow down speed
+- first establish encrypted connection to a server and let this server communicate for you
+  - connection between the VPN server and website can still be insecure
+- because we are encrypting data through an algorithm, using a VPN can slow down speed
 
 ### Firewall
 
-- A physical firewall is a wall between connected buildings that prevents the spread of fire
-- In the world of computer science, a firewall is software that looks at IP addresses and helps keep bad guys out and user data inside
-- Helps prevent people from accessing your computer
+- physical firewall is a wall between connected buildings that prevents the spread of fire
+- in the world of computer science, a firewall is software that looks at IP addresses and helps keep bad guys out and user data inside
+- helps prevent people from accessing your computer
 
 ### Encryption
 
-- Suppose I want to send a secret message for "HI"
+- suppose you want to send a secret message for "HI"
   - HI ➟ IJ
-  - Change each letter by 1
-  - The recipient needs to know how it changed to revert
+  - change each letter by 1
+  - the recipient needs to know how it changed to revert
 - Plaintext ➟ Cyphertext ➟ Plaintext
   - HI ➟ IJ ➟ HI
-- This is called a caesar cypher
-  - Rotational cyphers are not that secure
-    - Can be guessed easily
-    - Not used for internet encryption
-  - For this to work, recipient needs the key
-    - To know the key, we need to agree in advance
-      - Can't send it encrypted as well as they need the key!
+- this is called a caesar cypher
+  - rotational cyphers are not that secure
+    - can be guessed easily
+    - not used for internet encryption
+  - for this to work, recipient needs the key
+    - to know the key, you need to agree in advance
+      - can't send it encrypted as well as they need the key
 
 ### Public Key Cryptography
 
-- The last example with a caesar cypher is secret-key cryptography
-  - Only one key
-- In public key cryptography there are two keys, one public and one private
-  - Mathematical relationship between them
-  - Use public key to encrypt, private key to decrypt  
-    <img src="https://cs50.harvard.edu/technology/notes/security/assets/alicebob.png" alt="Alice and Bob" width="400px">  
+- the last example with a caesar cypher is secret-key cryptography
+  - only one key
+- in public key cryptography there are two keys, one public and one private
+  - mathematical relationship between them
+  - use public key to encrypt, private key to decrypt
   - Bob's private key can undo the effects of his public key
-  - When Bob responds...  
-    <img src="https://cs50.harvard.edu/technology/notes/security/assets/bob.png" alt="Bob Response" width="400px">  
+  - when Bob responds...
   - Bob sends a message using Alice's public key
-- Your browser has its own public and private keys
-  - So does websites like Google and Amazon
-    - This allows them to communicate securely with you
-- Often this processes is used to exchange a secret key
+- your browser has its own public and private keys
+  - so does websites like Google and Amazon
+    - this allows them to communicate securely with you
+- often this processes is used to exchange a secret key
 
 ### Phishing
 
 - Phishing attacks are when an adversary sends a somewhat official-looking email
-  - May contain a link asking for a password or account info
-  - The email may contain an elaborate backstory "justifying" the request
-  - The malicious email is trying to obtain information from you
-- Odds are that the link provided doesn't go to the website being claimed
-  - Can go to a website that looks legit
-    - People can just copy HTML
-- Results in giving up private information
-- It's healthy to distrust most email you get
-  - Don't follow links, type in the address for the company yourself
-  - Sketchy emails may have typographical errors
+  - may contain a link asking for a password or account info
+  - the email may contain an elaborate backstory "justifying" the request
+  - the malicious email is trying to obtain information from you
+- odds are that the link provided doesn't go to the website being claimed
+  - can go to a website that looks legit
+    - people can just copy HTML
+- results in giving up private information
+- it's healthy to distrust most email you get
+  - don't follow links, type in the address for the company yourself
+  - sketchy emails may have typographical errors
 
 ### Malware
 
 - Malicious software can also be sent via email
 - Windows is particularly vulnerable
-- Software can be injected into your browser and your computer to erase your hard drive, make your computer send spam, or hold your data hostage
-- Some malware encrypts your data and asks for large sums of money to get the key to decrypt it
-  - Key could not even work!
-  - This is called ransomware
+- software can be injected into your browser and your computer to erase your hard drive, make your computer send spam, or hold your data hostage
+- some malware encrypts your data and asks for large sums of money to get the key to decrypt it
+  - key could not even work!
+  - this is called ransomware
 - Malware can ultimately do anything on your computer
 
 ### Trust
 
-- At the end of the day, all of security and privacy boils down to trust
-  - People around you
-  - Algorithms/software
-  - Manufacturers
-- We've downloaded software with trust that it will only do what it claims
-  - Word could log your key strokes
+- at the end of the day, all of security and privacy boils down to trust
+  - people around you
+  - algorithms/software
+  - manufacturers
+- we've downloaded software with trust that it will only do what it claims
+  - word could log your key strokes
   - Chrome could monitor you even when not on Google's website
   - Snapchat could not delete posts after being seen
-- There have been cases where software was written to cover tracks of being monitored!
-- Who's to say the software we're using is actually doing what we say?
-- It's east to curl up into a ball and worry, but we need to decide who to trust
-- Security measures make it more difficult for someone to be malicious, but ultimately they can't guarantee privacy
-- You have to decide what data you're comfortable with storing, what you view on the internet, who to trust, and how much to trust them
+- there have been cases where software was written to cover tracks of being monitored!
+- who's to say the software we're using is actually doing what we say?
+- it's east to curl up into a ball and worry, but we need to decide who to trust
+- security measures make it more difficult for someone to be malicious, but ultimately they can't guarantee privacy
+- you have to decide what data you're comfortable with storing, what you view on the internet, who to trust, and how much to trust them
 
 
 ## Web Development
@@ -1379,5 +1376,6 @@ Our data is under constant threat, but how can we defend ourselves?
       - All your files will go in a folder on the server so that the webpage can be accessed on the internet
     - You can also buy a domain name and configure it to point to the web host
 - These building blocks are what allow you to put your content on the internet!
+
 
 <!-- ## Programming -->
