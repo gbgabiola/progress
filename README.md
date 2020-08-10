@@ -7,3 +7,4 @@
 - [x] [Headings](./headings.html)
 - [x] [Lists](./lists.html)
 - [x] [Tables](./tables.html)
+- [x] [Blocks](./blocks.html)
