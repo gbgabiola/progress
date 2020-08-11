@@ -10,3 +10,4 @@
 - [x] [Blocks](./blocks.html)
 - [x] [Links and References](./links-and-references.html)
 - [x] [Forms](./forms.html)
+- [x] [Styles and Scripts](./styles-and-scripts.html)
