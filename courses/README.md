@@ -16,4 +16,4 @@
 - [ ] [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - [ ] [freeCodeCamp](./freeCodeCamp.md)
 - [ ] [App Academy Open](./appacademy-open.md)
-- [ ] [Nodeschool](./nodeschool/learnyouhtml/README.md)
+- [ ] [Nodeschool](./nodeschool/README.md)
