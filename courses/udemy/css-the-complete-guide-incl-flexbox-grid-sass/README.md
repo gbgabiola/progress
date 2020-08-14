@@ -14,9 +14,9 @@ Course Created by Maximilian Schwarzmüller and Manuel Lorenz
 
 ## Course Content
 
-- [x] [Getting Started](./01-getting-started/README.md)
-- [x] [Diving Into the Basics of CSS](./02-basics-of-css/README.md)
-- [ ] Diving Deeper into CSS
+- [x] [Getting Started](./01-getting-started)
+- [x] [Diving Into the Basics of CSS](./02-basics-of-css)
+- [x] [Diving Deeper into CSS](./03-diving-deeper-into-css)
 - [ ] More on Selectors & CSS Features
 - [ ] Practicing the Basics
 - [ ] Positioning Elements with CSS
