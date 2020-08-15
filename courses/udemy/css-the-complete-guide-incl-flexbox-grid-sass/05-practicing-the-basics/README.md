@@ -1,0 +1,85 @@
+# Practicing the Basics
+
+- add styles to our plans
+  - add more content on HTML
+    - 3 articles for FREE, RECOMMENDED and PREMIUM plans
+  - add different background for the plans
+  - center everything
+  - add padding and margin
+  - leverage the `display: inline-block;` to remove the plans from being stacked
+  - add `width: 30%` to fit the 3 plans in one row
+  - `vertical-align: middle;` to ensure that all 3 plan are vertically alligned in the middle
+  - center the "Choose Your Plan" title
+- work on recommended plan
+  - change background color
+  - highlight the recommended plan
+  - add `box-shadow`
+    - `box-shadow: x-axis y-axis blur spread color;`
+- style the badge
+  - add a separate class on it
+  - reversed the font color and background color
+  - add a padding and a box-shadow
+  - round the corners by using border-radius
+- style the list
+  - remove the bullets, e.g., `list-style: none;`
+  - remove the padding and margin added by ul
+  - add top and bottom margin between list items 
+- work on title and price for the packages
+  - change the color of the plan title and price
+  - adjust also the recommended plan color
+- improve the action buttons
+  - change the background color and font color
+  - set `font: inherit;` to overwride the default style set by the browser
+  - add `border: 1.5px solid #0e4f1f;`
+  - add padding, border radius, and `font-weight: bold;`
+  - change the default `cursor` to `pointer`
+  - add hover effect and reverse the styles
+- `focus` has an `outline` property is like a border but not part of the box model
+- style the headline of the core features section
+  - apply the style for all section title
+  - overwride the style for section title so it doesn't look bad
+  - add background color, margin and padding
+- prepare the content of the key feature area
+  - add optional classes
+  - remove bullets, margin, padding, center them, and set `vertical-align: top;` to the list
+  - set `display: inline-block;` to list items and `width: 30%;` to make them all in one line
+  - add styles on its paragraph making the text color to white, bold, size to 20px, center them to make sure it's center into its box
+  - add a temporary background for the image placeholder inside the `div`
+    - add a width, height border and border-radius set to 50%
+    - `margin: 0 auto;` or `margin: auto;` to center element horizontally
+- add footer
+  - add a black background, padding and margin-top
+  - remove bullets, margin, padding and center the lists
+  - set `display: inline-block;` and `margin: 0 16px;` to list items
+  - overwride the style of the links by setting color to white and removing underline
+  - add hover and active effect color
+- add packages page
+  - copy the skeleton structure of the index into packages page and remove main content
+  - add another css file for packages page
+  - move shared styles to another css file
+- style the package links
+  - add padding top to the main element
+  - add package class for all section
+    - add a fix width of 80%, margin, border, and border-left to none
+  - set color to inherit, display to block, padding and text-decoration to none to the links
+- style package boxes
+  - set different color to subtitle
+  - add padding, border, font-size of 20px, `color: #0e4f1f;` and white background to paragraph
+  - add different ids and backgrounds for all sections
+  - add different color for title, subtitle of the premium section
+  - add box-shadow and border-color for hover and active effect in package class
+- `float` property overwrides the default positioning and push an element to left or right of the page
+  - meaning it takes it out of the document flow
+- add float to the package
+  - float the free plan box to the right
+    - then use a hack to fix postioning by adding `div` with `clearfix` class right after the element where we set the float then set `clear: both;`
+  - fix the border of the free plan and set the alignment to the right
+  - set borde-color to `!important` for the hover/active effect to overwride specificty
+- final touch
+  - center the `div` of the `article`s element
+    - set width to 80%, margin to auto, center the text
+
+
+## Resources
+
+- [float CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
