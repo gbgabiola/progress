@@ -1,0 +1,82 @@
+html {
+  background: #b3b3b3;
+  padding: 15px;
+  border: 5px solid white;
+  margin: 15px;
+  height: 200px;
+}
+
+body {
+  background: white;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 0;
+  height: 400px;
+}
+
+.navigation,
+.headline,
+.contact-us {
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+
+  position: fixed;
+}
+
+.headline div {
+  background: rgb(105, 105, 109);
+  color: white;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  width: 130px;
+}
+
+.navigation {
+  background: rgb(255, 109, 109);
+  top: 100px;
+  left: 100px;
+  width: 300px;
+}
+
+.headline {
+  background: rgb(77, 77, 248);
+  top: 150px;
+  left: 150px;
+  width: 270px;
+  height: 200px;
+
+  z-index: 99;
+}
+
+.contact-us {
+  background: rgb(69, 214, 69);
+  top: 180px;
+  left: 320px;
+  width: 180px;
+
+  z-index: 100;
+}
+
+.image-1 {
+  top: 200px;
+  left: 230px;
+
+  position: fixed;
+}
+
+.image-2 {
+  top: 230px;
+  left: 260px;
+
+  position: fixed;
+  z-index: 1000;
+}
+
+.image-3 {
+  top: 260px;
+  left: 300px;
+
+  position: fixed;
+}

@@ -19,7 +19,7 @@ Course Created by Maximilian Schwarzmüller and Manuel Lorenz
 - [x] [Diving Deeper into CSS](./03-diving-deeper-into-css)
 - [x] [More on Selectors & CSS Features](./04-selectors-and-css-features)
 - [x] [Practicing the Basics](./05-practicing-the-basics)
-- [ ] Positioning Elements with CSS
+- [x] [Positioning Elements with CSS](./06-positioning-elements)
 - [ ] Understanding Background Images & Images
 - [ ] Sizes & Units
 - [ ] Working with JavaScript & CSS
