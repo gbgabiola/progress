@@ -20,7 +20,7 @@ Course Created by Maximilian Schwarzmüller and Manuel Lorenz
 - [x] [More on Selectors & CSS Features](./04-selectors-and-css-features)
 - [x] [Practicing the Basics](./05-practicing-the-basics)
 - [x] [Positioning Elements with CSS](./06-positioning-elements)
-- [ ] Understanding Background Images & Images
+- [x] [Understanding Backgrounds & Images](./07-understanding-backgrounds-and-images)
 - [ ] Sizes & Units
 - [ ] Working with JavaScript & CSS
 - [ ] Making our Website Responsive
