@@ -43,8 +43,8 @@ Course Created by Colt Steele
 ## Course Content
 
 - [x] Introduction to this Course
-- [x] [Introduction to Front End Development](frontend.md)
-- [ ] Introduction to HTML
+- [x] Introduction to Front End Development
+- [x] Introduction to HTML
 - [ ] Intermediate HTML
 - [ ] Introduction to CSS
 - [ ] Intermediate CSS
