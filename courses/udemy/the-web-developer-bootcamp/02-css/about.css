@@ -1,0 +1,24 @@
+body {
+  /* background: url(http://trunkweed.com/uploads/posts/images/440135-black-and-white-marble-wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: pink;
+}
+
+h1 {
+  /* color: red; */
+  /* color: #FFFFFF; */
+  color: rgba(0, 200, 100, 0.8);
+
+  /* border-color: black;
+	border-width: 5px;
+  border-style: solid; */
+  border: 3px dashed rgb(255, 100, 80);
+}
+
+h4 {
+  /* color: purple; */
+  background: rgb(255, 100, 80);
+}
+
+/* li { color: green; } */
