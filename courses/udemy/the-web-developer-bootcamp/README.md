@@ -46,8 +46,8 @@ Course Created by Colt Steele
 - [x] Introduction to Front End Development
 - [x] Introduction to HTML
 - [x] Intermediate HTML
-- [ ] Introduction to CSS
-- [ ] Intermediate CSS
+- [x] Introduction to CSS
+- [x] Intermediate CSS
 - [ ] Bootstrap
 - [ ] Bootstrap 4!
 - [ ] Bootstrap 4: Flexbox and Layout
