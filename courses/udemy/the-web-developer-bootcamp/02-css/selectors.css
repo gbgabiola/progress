@@ -1,0 +1,44 @@
+/* Elements */
+li {
+  color: black;
+}
+
+/* Class */
+.list {
+  color: black;
+}
+
+/* ID */
+#links {
+  color: black;
+}
+
+/* Star */
+* {
+  border: 1px solid lightgrey;
+}
+
+/* Descendant Selector */
+li a {
+  color: red;
+}
+
+/* Adjacent Selector */
+h4 + ul {
+  border: 4px solid red;
+}
+
+/* Attribute Selector */
+/* input[type="checkbox"] */
+a[href="https://www.google.com"] {
+  background: pink;
+}
+
+/* nth of type */
+ul:nth-of-type(3) {
+  background: yellow;
+}
+
+li:nth-of-type(even) {
+  background: purple;
+}
