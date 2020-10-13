@@ -2,12 +2,38 @@
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Topics](#topics)
 - [History](#history)
 - [Document](#document)
 - [Comments](#comments)
 - [Elements](#elements)
 - [Attributes](#attributes)
 - [Entity References](#entity-references)
+
+
+## Topics
+
+- Crucial
+  - Paragraph Elements
+  - HTML Headings
+  - HTML Lists
+  - HTML Anchor Tags
+  - HTML Images
+  - HTML Boilerplate
+  - Understanding what HTML5 Actually is
+  - Block vs Inline Elements
+  - `<span>` and `<div>` elements
+  - Semantic Elements
+- Important
+  - Using MDN as a Resource
+  - The Chrome Inspector
+- Nice To Have
+  - VSCode Formatting On Save
+  - VSCode Tip: Emmet
+  - `<sub>` elements
+  - `<hr>` elements
+  - `<sup>` elements
+  - `<br>` elements
 
 
 ## History
