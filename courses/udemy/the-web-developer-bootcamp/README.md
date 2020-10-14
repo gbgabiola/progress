@@ -45,7 +45,7 @@ Course Created by Colt Steele
 - [x] Course Orientation
 - [x] An Introduction to Web Development
 - [x] HTML: The Essentials
-- [ ] HTML: Next Steps & Semantics
+- [x] HTML: Next Steps & Semantics
 - [ ] HTML: Forms & Tables
 - [ ] CSS: The Very Basics
 - [ ] The World of CSS Selectors

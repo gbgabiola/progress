@@ -4,11 +4,13 @@
 
 - [Topics](#topics)
 - [History](#history)
+- [HTML5](#html5)
 - [Document](#document)
 - [Comments](#comments)
 - [Elements](#elements)
 - [Attributes](#attributes)
-- [Entity References](#entity-references)
+- [Entity Codes](#entity-codes)
+- [Semantic Elements](#semantic-elements)
 
 
 ## Topics
@@ -43,22 +45,27 @@
 - allowed electronic linking of documents via hyperlinks
 
 
+## HTML5
+
+- living standard
+  - HTML standard is a document that describes the rules of HTML on how it should work
+- role of browsers
+  - browsers actually have to do the work and implement HTML according to those rules
+- HTML5
+  - latest evolution of the standard that defines HTML
+  - includes new elements & features for browsers to implement
+
+
 ## Document
 
 - individual elements combined to form an entire HTML page
-- **Doctype**: `<!DOCTYPE html>`
-  - required for every HTML document
-- **Root Element**: `<html>`
-  - wraps around all content on the entire page
-- **Head Element**: `<head>`
-  - provides general information about the document which user doesn't see on the page, e.g., keywords and descriptions that will appear in search results, CSS, character set declarations, etc.
+- `<!DOCTYPE html>` required for every HTML document
+- `<html>` **Root Element** wraps around all content on the entire page
+- `<head>` provides general information about the document which user doesn't see on the page, e.g., keywords and descriptions that will appear in search results, CSS, character set declarations, etc.
 - **Character Set**: `<meta charset="UTF-8">`
   - allows document to use "utf-8" character set, which includes most characters from all known human languages
-- **Title**: `<title>`
-  - sets the title that appears in browser tab
-  - appears as the search result in Google
-- **Body**: `<body>`
-  - contains all the contents that is visible to the user
+- `<title>` appears in browser tab and as the search result in Google
+- `<body>` contains all the contents that is visible to the user
 
 
 ## Comments
@@ -74,12 +81,12 @@
 
 ### Block Elements
 
-- forms a visible block on a page, e.g., paragraphs, lists, navigation menus, footers, etc.
+- take up a whole "block" of space which will cause to add a new line
 - **Paragraph**: `<p>`
-- **Divider**: `<hr>`
+- **Divider**: Horizontal Rule `<hr>`
 - **Headings**: `<h1>` to `<h6>`
-  - **NOTE**: As a general rule, try to have only one `<h1>` tag in your HTML document, and it should be the biggest text element on the page
-- Generic **Container**: `<div>`
+  - **Note**: try to have only one `<h1>` tag in a HTML document, and it should be the biggest text element on the page
+- generic block **Container**: `<div>`
 - **Lists** (each item within a type of list needs to be identified by the `<li>` tag):
 - **Ordered Lists**: `<ol>`
 - **Unordered Lists**: `<ul>`
@@ -124,10 +131,10 @@
 
 ### Inline Elements
 
-- contained within block level elements and do not cause new lines to appear
+- doesn't cause new lines, it fits in alongside other elements
 - **Italics**: `<em>`
 - **Bold**: `<strong>`
-- Generic **Container**: `<span>`
+- generic inline **Container**: `<span>`
 
 
 ### Empty Elements
@@ -156,11 +163,37 @@ Contains only a single tag.
     - may be written as: `<input type="text" disabled>`
 
 
-## Entity References
+## Entity Codes
 
-- make special HTML syntax characters appear as normal text
+- start with an ampersand and end with a semicolon
+- used to display reserved characters, that normally would be invalid
+- used in place of difficult to type characters
+- browser interprets them and render the character instead
 - `<` = `&lt;`
 - `>` = `&gt;`
 - `"` = `&quot;`
 - `'` = `&apos;`
 - `&` = `&amp;`
+- `♠` = `&spades;`
+- `♥` = `&hearts;`
+
+
+## Semantic Elements
+
+- semantic
+  - describes the elements meaning to both browser and developer
+  - easy to understand, important for screen readers and improving accessibility 
+  - essential for Search Engine Optimization (SEO)
+- `<main>` represents the main content  
+- `<nav>` provides navigation links 
+- `<section>` represents a standalone section
+- `<article>` self-contained composition in a document, independently distributable or reusable
+- `<aside>` represents a portion of a document which is indirectly related to the document's main content, frequently presented as sidebars
+- `<header>` used for introductory content
+- `<footer>` typically contains information about the author, copyright data or links to related documents
+- `time` represents a specific period in time with optional `datetime` attribute
+- `figure` represents self-contained content with optional `figcaption` element
+- `<summary>`
+- `<details>`
+- `<abbr>`
+- `<data>`
