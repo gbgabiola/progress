@@ -46,7 +46,7 @@ Course Created by Colt Steele
 - [x] An Introduction to Web Development
 - [x] HTML: The Essentials
 - [x] HTML: Next Steps & Semantics
-- [ ] HTML: Forms & Tables
+- [x] HTML: Forms & Tables
 - [ ] CSS: The Very Basics
 - [ ] The World of CSS Selectors
 - [ ] The CSS Box Model
