@@ -2,19 +2,40 @@
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Topics](#topics)
 - [The General Rule](#the-general-rule)
 - [CSS Location](#css-location)
+- [Color Systems](#color-systems)
+- [Backgrounds](#backgrounds)
+- [Text Properties](#text-properties)
 - [Specificity](#specificity)
 - [The Box Model](#the-box-model)
-- [Colors](#colors)
-- [Backgrounds](#backgrounds)
 - [Borders](#borders)
-- [Fonts](#fonts)
 - [Floats](#floats)
+
+
+## Topics
+
+- **Crucial**
+  - Conceptual Overview of CSS
+  - Basic CSS Syntax
+  - Including Styles Correctly
+  - Color Systems: RGB, Hex, etc.
+  - `font-family` property
+- **Important**
+  - _Common Text Properties_
+- **Nice To Have**
+  - 
+
+
+- 
 
 
 ## The General Rule
 
+- CSS
+  - Cascading Style Sheets
+  - language for describing how documents are presented visually, how they are arranged and styled
 - `selector { property: value; }`
 - **Three Basic Selectors**
   - **Element** selectors select all instances of a given element, e.g., `div` is a CSS element selector that will modify the properties of all `<div>` HTML tags
@@ -37,8 +58,82 @@
 
 ## CSS Location
 
-- CSS should generally be saved to its own file, but can also be included in the HTML head by using the `<style>`
-- preferred method is to use a `<link>` tag in the HTML head to refer to the separate file containing CSS: `<link rel="stylesheet" href="filename.css">`
+- inline styles
+  - write styles directly inline on each element
+  - **not a good practice** most of the time
+- `<style>` element
+  - write styles inside `<style>` element
+  - impossible to share styles between documents
+  - **not recommended either**
+- external stylesheet
+  - write styles in a `.css` file and include a `<link>` element in the `<head>` of html document
+  - **preferred method**
+
+
+## Color Systems
+
+- **named colors**
+  - modern browsers supports 140 named color
+  - e.g., `hotpink`, `mediumorchid`, `firebrick`, `darkkhaki`, `gold`, `mediumaquamarine`, `lightskyblue`, `tomato`
+- **RGB** system
+  - red, green, and blue channels
+  - each ranging from 0-255, e.g.: `color: rgb(0, 0, 255)`;
+- **Hexadecimal** system
+  - combines the octothorpe (`#`) with a string of 6 hexadecimal "numbers"
+  - each ranges from 0-255 but represented with hexadecimal (0-F), e.g.: `color: #5FE2D1;`
+  - follows an RGB scheme in which the first two numbers modify the amount of "red", the second two modify "green", and the last two modify "blue"
+- **Transparent** through the **RGBA** system
+  - RGB but with an alpha (transparency) channel ranging from 0.0-1.0, e.g.: `color: rgba(255, 59, 63, .8);`
+
+
+## Backgrounds
+
+- follows the same format as colors
+- `background` property can also set a background image, e.g.: `background: url(http://www.website.com/image.png);`
+  - prevent the background from Repeating an image: `background-repeat: no-repeat;`
+  - allow the background image to Stretch out across the entire body: `background-size: cover;`
+
+
+## Text Properties
+
+- `text-align` property controls where an element's text is aligned on the page
+  - `left`, `right`, and `center`
+- `font-weight` property specifies how thick or thin the font appears
+  - involves absolute values of `normal` or `bold`
+  - relative (to parent) values of `lighter` and `bolder`
+  - can also be assigned a numeric value in increments of 100 from "100" to "900" depending on the font itself
+- `text-decoration` property is used to give or remove text effects
+  - `underline`, `none`, `overline`, or `line-through`
+- `line-height` property controls the height of a given line
+  - larger font will result in larger spacing
+  - `normal`, and different units can be used
+- `letter-spacing` property controls the horizontal spacing behavior between text characters
+  - `normal`, and different units can be used
+- `font-size` property specifies how big the font appears
+- font units
+  - **relative**
+    - `em` unit dynamically sets font size in relation to a parent
+element
+    - `rem` unit sets font size in relation to the "root" element on the page
+    - `vh`
+    - `vw`
+    - `%`
+    - and more
+  - **absolute**
+    - `px` commonly used absolute units
+      - `1px` doesn't necessarily equal the width of exactly one pixel
+      - not recommended for responsive websites
+    - `pt`
+    - `cm`
+    - `in`
+    - `mm`
+  - **Note**:
+    - what constitutes the "standard" `1em` (i.e., the default font size on a page without CSS markup) varies from browser to browser, although the size is typically around `16px`
+      - to ensure uniformity among browsers, it is useful to set the body's font size at the outset
+- `font-family` property specifies the font for an element
+  - while not always necessary, you may sometimes have to put quotation marks around the font name, particularly when the font name begins with a number
+  - [CSS Font Stack](https://www.cssfontstack.com/) shows what percentages of operating systems have a given system font
+  - better to use [Google Fonts](https://fonts.google.com/), choose a font, and embed the font's stylesheet link in HTML `<head>` prior to the CSS link
 
 
 ## Specificity
@@ -69,23 +164,6 @@
 - **Note**: By setting the `margin` property to `auto` on the left and right, an element will automatically be horizontally centered: `margin: 0 auto;`
 
 
-## Colors
-
-- **Hexadecimal** system combines the octothorpe (`#`) with a string of 6 hexadecimal "numbers" from 0-F, e.g.: `color: #5FE2D1;`
-  - follows an RGB scheme in which the first two numbers modify the amount of "red", the second two modify "green", and the last two modify "blue"
-- **RGB** system: 3 channels consisting of red, green, and blue, with each ranging from 0-255, e.g.: `color: rgb(0, 0, 255)`;
-- **Transparent** through the **RGBA** system
-  - RGB but with an alpha (transparency) channel ranging from 0.0-1.0, e.g.: `color: rgba(255, 59, 63, .8);`
-
-
-## Backgrounds
-
-- follows the same format as colors, e.g., `background: #5FE2D1`;
-- `background` property can also set a background image, e.g.: `background: url(http://www.website.com/image.png);`
-  - prevent the background from Repeating an image: `background-repeat: no-repeat;`
-  - allow the background image to Stretch out across the entire body: `background-size: cover;`
-
-
 ## Borders
 
 - three key properties: `width` (typically in pixels), `color`, and `style` (solid, dotted, or dashed)
@@ -100,29 +178,6 @@
   ```
 
 - shorthand syntax may also be used: `border: 5px solid purple;`
-
-
-## Fonts
-
-- **Font-Family** specifies the font for an element: `font-family: Arial;`
-  - while not always necessary, you may sometimes have to put quotation marks around the font name, particularly when the font name begins with a number
-  - [CSS Font Stack](https://www.cssfontstack.com/) shows what percentages of operating systems have a given system font (useful for choosing a safe bet on system compatibility)
-    - better to use [Google Fonts](https://fonts.google.com/), choose a font, and embed the font's stylesheet link in HTML `<head>` prior to the CSS link, e.g.: `<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">`
-- **Font-Size** specifies how big the font appears (typically in pixels): `font-size: 22px;`
-  - `em` unit dynamically sets font size in relation to a parent
-element
-  - `rem` unit sets font size in relation to the "root" element on the page
-  - **Note**:
-    - what constitutes the "standard" `1em` (i.e., the default font size on a page without CSS markup) varies from browser to browser, although the size is typically around `16px`
-      - to ensure uniformity among browsers, it is useful to set the body's font size at the outset
-- **Font-Weight** specifies how thick or thin the font appears
-  - typically involves absolute values of `normal` or `bold`, or relative (to parent) values of `lighter` and `bolder`, but can also be assigned a numeric value in increments of 100 generally from "100" to "800" depending on the font itself
-- **Line-Height** controls the height of a given line
-  - larger font will result in larger spacing)
-- **Text-Align** controls where an element's text is aligned on the page
-  - typically `left`, `right`, and `center`
-- **Text-Decoration** is used to give text effects
-  - such as `underline`, `overline`, or `line-through`
 
 
 ## Floats

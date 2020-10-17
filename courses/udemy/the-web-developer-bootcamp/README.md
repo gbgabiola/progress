@@ -47,7 +47,7 @@ Course Created by Colt Steele
 - [x] HTML: The Essentials
 - [x] HTML: Next Steps & Semantics
 - [x] HTML: Forms & Tables
-- [ ] CSS: The Very Basics
+- [x] CSS: The Very Basics
 - [ ] The World of CSS Selectors
 - [ ] The CSS Box Model
 - [ ] Other Assorted Useful CSS Properties

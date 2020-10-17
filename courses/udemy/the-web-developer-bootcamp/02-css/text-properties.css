@@ -1,0 +1,31 @@
+h1 {
+  /* text-align: left;
+  text-align: right;
+  text-align: justify; */
+  text-align: center;
+  /* font-weight: normal;
+  font-weight: lighter; */
+  font-weight: 400;
+  /* text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: #f78120 underline; */
+  text-decoration: #f78120 underline wavy;
+  letter-spacing: 15px;
+  font-size: 80px;
+  /* font-family: Verdana;
+  font-family: Arial;
+  font-family: 'Segoe UI', Futura, Arial, sans-serif;
+  font-family: fantasy; */
+  font-family: monospace;
+}
+
+p {
+  /* text-align: right;
+  font-weight: bold; */
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}
