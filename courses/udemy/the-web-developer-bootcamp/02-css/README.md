@@ -8,6 +8,7 @@
 - [Color Systems](#color-systems)
 - [Backgrounds](#backgrounds)
 - [Text Properties](#text-properties)
+- [Selectors](#selectors)
 - [Specificity](#specificity)
 - [The Box Model](#the-box-model)
 - [Borders](#borders)
@@ -22,13 +23,20 @@
   - Including Styles Correctly
   - Color Systems: RGB, Hex, etc.
   - `font-family` property
+  - Element Selector
+  - Class Selector
+  - ID Selector
+  - Descendant Selector
+  - _CSS Specificity_
 - **Important**
   - _Common Text Properties_
+  - Adjacent Selector
+  - Direct Descendant Selector
+  - Attribute Selector
+  - Pseudo Selector
+  - Pseudo Classes
 - **Nice To Have**
   - 
-
-
-- 
 
 
 ## The General Rule
@@ -36,24 +44,6 @@
 - CSS
   - Cascading Style Sheets
   - language for describing how documents are presented visually, how they are arranged and styled
-- `selector { property: value; }`
-- **Three Basic Selectors**
-  - **Element** selectors select all instances of a given element, e.g., `div` is a CSS element selector that will modify the properties of all `<div>` HTML tags
-  - **ID** selector selects a unique element with an octothorpe (`#`) symbol (only one per page)
-  - **Class** selector selects all elements in a given class, prepend with a period (`.`)
-- **Five More Advanced Selectors**
-  - **Star** (`*`) selector applies to every element on the page
-  - **Descendant** selector applies to selectors that have been _nested_ under another, e.g., `ul li a`
-    - **ID** or **Class** may be used within a **Descendant** selector
-    - use `>` combinator to select only the _direct_ first-tier child, e.g., `.container > ul`
-  - **Adjacent** (`+`) selector selects only the element that comes _immidiately_ after another element (_sibling_ element), e.g., `h4 + ul`
-    - `~` more generalized sibling combinator can also be used to select _all_ `<ul>` tags after any `<h4>` tag, e.g., `h4 ~ ul`
-  - **Attribute** selector will allow the selection of any element based off of any attribute, e.g., `a[href="https://www.google.com/"]`
-    - can also be used to select all images of a particular source, or all inputs of a particular type, e.g., `input[type="checkbox"]`
-    - [MDN Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) for a complete list of attribute selectors
-  - **Nth-of-Type** selector takes a specific number and selects the "-nth" instance of an element, e.g., `li:nth-of-type(2)`
-    - use `even` or `odd` instead of a specific number to select every other tag
-- check [The 30 CSS Selectors You Must Memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) for more advanced selectors
 
 
 ## CSS Location
@@ -134,6 +124,41 @@ element
   - while not always necessary, you may sometimes have to put quotation marks around the font name, particularly when the font name begins with a number
   - [CSS Font Stack](https://www.cssfontstack.com/) shows what percentages of operating systems have a given system font
   - better to use [Google Fonts](https://fonts.google.com/), choose a font, and embed the font's stylesheet link in HTML `<head>` prior to the CSS link
+
+
+## Selectors
+
+- `selector { property: value; }`
+- **Universal** (`*`) selector applies to every element on the page
+- **Element** selectors select all instances of a given element, e.g., `div` is a CSS element selector that will modify the properties of all `<div>` HTML tags
+- **Selector List** combines multiple selectors in a list separated by comma (`,`)
+- **ID** selector selects a unique element with an octothorpe (`#`) symbol (only one per page)
+- **Class** selector selects all elements in a given class, prepend with a period (`.`)
+- **Descendant** selector applies to selectors that have been _nested_ under another, e.g., `li a`
+  - **ID** or **Class** may be used within a **Descendant** selector
+- **Adjacent** (`+`) selector selects only the element that comes _immediately_ after another element (_sibling_ element), e.g., `h1 + p`
+  - `~` more generalized sibling combinator can also be used to select _all_ `<ul>` tags after any `<h4>` tag, e.g., `h4 ~ ul`
+- **Direct Child** (`>`) combinator selects only the _direct_ first-tier child, e.g., `.container > ul`
+- **Attribute** selector allows the selection of any element based on any attributes, e.g., `a[href="https://www.google.com/"]`
+  - can also be used to select all images of a particular source, or all inputs of a particular type, e.g., `input[type="checkbox"]`
+  - [MDN Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) for a complete list of attribute selectors
+- **Pseudo Classes** are keyword added to a selector that specifies a special state of the selected element(s)
+  - `:active` starts when user presses down the primary mouse button
+  - `:checked` selector toggled the element to an _on_ state
+  - `:first`
+  - `:first-child`
+  - `:hover` triggered when user hovers over an element
+  - `:not()`
+  - `:nth-child()`
+  - `:nth-of-type()` takes a specific number and selects the "-nth" instance of an element, e.g., `li:nth-of-type(2)`
+    - use `even` or `odd` instead of a specific number to select every other tag
+- **Pseudo Elements** are keyword added to a selector that lets you style a particular part of selected element(s)
+  - `::after`
+  - `::before`
+  - `::first-letter`
+  - `::first-line`
+  - `::selection`
+- check [The 30 CSS Selectors You Must Memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) for more advanced selectors
 
 
 ## Specificity
