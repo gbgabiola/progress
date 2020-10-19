@@ -48,7 +48,7 @@ Course Created by Colt Steele
 - [x] HTML: Next Steps & Semantics
 - [x] HTML: Forms & Tables
 - [x] CSS: The Very Basics
-- [ ] The World of CSS Selectors
+- [x] The World of CSS Selectors
 - [ ] The CSS Box Model
 - [ ] Other Assorted Useful CSS Properties
 - [ ] Responsive CSS & Flexbox

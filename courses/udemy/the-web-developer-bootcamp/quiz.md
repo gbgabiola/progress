@@ -3,6 +3,7 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Quiz 1: Color Quiz](#quiz-1-color-quiz)
+- [Quiz 2: Specificity Quiz](#quiz-2-specificity-quiz)
 
 
 ## Quiz 1: Color Quiz
@@ -21,3 +22,94 @@ Question 2: Which of the following hex color codes is equivalent to `rgb(255,255
 - [ ] `#facedf`
 - [ ] `#000000`
 - [x] `#ffffff`
+
+
+## Quiz 2: Specificity Quiz
+
+Question 1: Given the following HTML markup:
+
+```html
+<ul>
+  <li class="nav-link">Home</li>
+</ul>
+```
+
+And these CSS styles:
+
+```css
+li {
+  color:orange;
+}
+.nav-link {
+  color: magenta;
+}
+ul li {
+  color: blue;
+}
+```
+
+What color will the `<li>` element be?
+
+- [ ] orange
+- [x] magenta
+- [ ] blue
+
+Question 2: Given this html markup:
+
+```html
+<p>
+  <button id="submit" class="btn">Submit</button>
+</p>
+```
+
+And these CSS styles:
+
+```css
+#submit {
+  color: blue;
+}
+ 
+.btn {
+  color: pink;
+}
+ 
+p button.btn {
+  color: purple;
+}
+```
+
+What color will the button end up?
+
+- [x] blue
+- [ ] pink
+- [ ] purple
+
+Question 3: Given the following HTML:
+
+```html
+<section class="about">
+  <h2 class="heading">Welcome To My Page</h2>
+</section>
+```
+
+And these styles:
+
+```css
+.about .heading {
+  color: orange;
+}
+ 
+.about h2.heading {
+  color: pink;
+}
+ 
+section.about .heading {
+  color: yellow;
+}
+```
+
+What color will the h2 end up?
+
+- [ ] orange
+- [ ] pink
+- [x] yellow

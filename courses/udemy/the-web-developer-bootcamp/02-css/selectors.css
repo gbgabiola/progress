@@ -70,11 +70,6 @@ a[href*='google'] {
 }
 
 /* PSEUDO CLASSES */
-.post button:hover {
-  background-color: #e63946;
-  color: #f1faee;
-}
-
 a:hover {
   text-decoration: underline;
 }
@@ -95,3 +90,25 @@ h2::first-letter {
 p::first-line {
   color: purple;
 }
+
+p::selection {
+  background-color: #fcbf49;
+}
+
+/* SPECIFICITY */
+/* h1, h2 { color: yellow; } */
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+button:hover {
+  /* font-size: 10px; */
+  background-color: olive;
+}
+
+/* !important */
+/* button {
+  background-color: magenta !important;
+} */

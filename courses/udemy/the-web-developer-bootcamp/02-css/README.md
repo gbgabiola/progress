@@ -3,7 +3,7 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Topics](#topics)
-- [The General Rule](#the-general-rule)
+- [CSS Basics](#css-basics)
 - [CSS Location](#css-location)
 - [Color Systems](#color-systems)
 - [Backgrounds](#backgrounds)
@@ -39,11 +39,11 @@
   - 
 
 
-## The General Rule
+## CSS Basics
 
-- CSS
-  - Cascading Style Sheets
-  - language for describing how documents are presented visually, how they are arranged and styled
+- Cascading Style Sheets (CSS)
+  - cascade is the order of styles that are declared and linked
+- language for describing how documents are presented visually, how they are arranged and styled
 
 
 ## CSS Location
@@ -157,18 +157,22 @@ element
   - `::before`
   - `::first-letter`
   - `::first-line`
-  - `::selection`
+  - `::selection` applies styles to the part of a document that has been highlighted by the user
 - check [The 30 CSS Selectors You Must Memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) for more advanced selectors
 
 
 ## Specificity
 
-- means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied
+- browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied
+  - measure of how specific a given selector is
+  - the more specific selector _wins_
   - e.g., if the body is styled to have red text, but a paragraph within the body is styled to have green text, then the text will be green because the green text style is more relevant to the specific paragraph than the general body
 - list of selector types increases by specificity (magnitudes of 10):
-  1. **Type** selectors (e.g., `li`) and **pseudo-element** (e.g., `:before`)
-  2. **Class** selectors (e.g., `.box`), **Attributes** selectors (e.g., `[type="text"]`) and **pseudo-classes** (e.g., `:hover`)
-  3. **ID** selectors (e.g., `#header`)
+  1. **Element** and **Pseudo-Element** selectors
+  2. **Class**, **Attributes** and **Pseudo-Class** selectors
+  3. **ID** selectors
+  4. Inline Styles & `!important`
+     - not recommended because it ignores specificity
 - [Specificity Calculator](https://specificity.keegan.st/)
 
 
