@@ -1,0 +1,82 @@
+html {
+  /* font-size: 10px; */
+  font-size: 30px;
+}
+
+/* section, */
+#percentages {
+  background-color: #6d6875;
+  /* width: 400px; */
+  width: 800px;
+  height: 800px;
+}
+
+#percentages div {
+  background-color: #e5989b;
+  /* width: 50%;
+  height: 50%; */
+  width: 70%;
+  height: 20%;
+}
+
+/* h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+} */
+
+/* article, */
+#ems {
+  /* font-size: 30px;
+  font-size: 10px;
+  font-size: 20px;
+  font-size: 50px; */
+  font-size: 15px;
+}
+
+#ems h2 {
+  /* font-size: 2em; */
+  font-size: 5em;
+  margin-left: 1em;
+}
+
+#ems h3 {
+  font-size: 1.5em;
+}
+
+#ems p {
+  font-size: 1em;
+}
+
+#ems ul {
+  /* font-size: 0.7em; */
+  font-size: 1.5em;
+}
+
+button {
+  /* font-size: 30px;
+  padding: 0 30px;
+  border-radius: 15px; */
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: #2a9d8f;
+  color: white;
+}
+
+#rems h2 {
+  font-size: 3rem;
+}
+
+#rems h3 {
+  font-size: 2rem;
+}
+
+#rems ul {
+  /* font-size: 0.8rem; */
+  font-size: 1.5rem;
+}
+
+#rems button {
+  font-size: 1.5rem;
+}

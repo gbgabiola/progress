@@ -11,7 +11,6 @@
 - [Selectors](#selectors)
 - [Specificity](#specificity)
 - [The Box Model](#the-box-model)
-- [Borders](#borders)
 - [Floats](#floats)
 
 
@@ -28,6 +27,12 @@
   - ID Selector
   - Descendant Selector
   - _CSS Specificity_
+  - Width & Height
+  - Border
+  - Padding
+  - Margin
+  - _Display Property_
+  - _Units - Percentages, EMS, & REMS_
 - **Important**
   - _Common Text Properties_
   - Adjacent Selector
@@ -36,7 +41,7 @@
   - Pseudo Selector
   - Pseudo Classes
 - **Nice To Have**
-  - 
+  - Border Radius
 
 
 ## CSS Basics
@@ -78,7 +83,7 @@
 
 ## Backgrounds
 
-- follows the same format as colors
+- follows the same format as `color`
 - `background` property can also set a background image, e.g.: `background: url(http://www.website.com/image.png);`
   - prevent the background from Repeating an image: `background-repeat: no-repeat;`
   - allow the background image to Stretch out across the entire body: `background-size: cover;`
@@ -102,12 +107,19 @@
 - `font-size` property specifies how big the font appears
 - font units
   - **relative**
-    - `em` unit dynamically sets font size in relation to a parent
-element
-    - `rem` unit sets font size in relation to the "root" element on the page
+    - `em` unit dynamically sets font size in relation to a parent element
+      - with `font-size`, `1em` equals the `font-size` of the parent, `2em` equals is twice the `font-size` of the parent, etc.
+      - with other properties, `2em` is equal to the computed `font-size` of the element itself
+      - **Note**: They can stack, grow or short very quickly
+    - `rem` unit (root ems) is relative to the **root html element**'s on the page
+      - often easier to work with
+      - if root `font-size` is `20px`, `1rem` is always `20px`, `2rem` is always `40px`, etc.
     - `vh`
     - `vw`
-    - `%`
+    - percentages (`%`) are always relative to some other value
+      - sometimes it's a value from the parent and other times it's a value from the element itself
+      - `width: 50%`: half the width of the parent
+      - `line-height: 50%`: half the `font-size` of the element itself
     - and more
   - **absolute**
     - `px` commonly used absolute units
@@ -178,35 +190,39 @@ element
 
 ## The Box Model
 
-- each element is represented as a box and described using the standard "box model", which has four edges:
-  1. Content
-  2. Padding
-     - space between the border and the element within the border
-  3. Border
-  4. Margin
-     - space between the border and everything outside of the border
-- Content edge can be controlled by setting the `width` and `height` properties in `px` or `%` (percentage in relation to the parent element), which in turn pushes out the border edge as well, as there is direct contact between the content and border (if no padding has yet been set)
-  - using `max-width` property in conjunction with `width`, you can tell the browser to make an element's width a certain percentage, but cap that width to a maximum number of pixels
-- space can be added between the content edge and border edge (and between the border edge and the next element's edge) by using the `padding` and `margin` properties respectively (`px` or `%`)
-  - by default, padding and borders are set to go around all edges of an element, but can be limited by using more specific properties for top, right, bottom, and left, such as `padding-left` or `margin-top`
-  - alternatively, shorthand can be used (setting top property, and the remainder moving in a clockwise fashion): `margin: 20px 40px 60px 80px;`
-- **Note**: By setting the `margin` property to `auto` on the left and right, an element will automatically be horizontally centered: `margin: 0 auto;`
-
-
-## Borders
-
-- three key properties: `width` (typically in pixels), `color`, and `style` (solid, dotted, or dashed)
-  - all three properties must be present in order for a border to take effect, e.g.:
-
-  ```css
-  p {
-    border-width: 5px;
-    border-style: solid;
-    border-color: purple;
-  }
-  ```
-
-- shorthand syntax may also be used: `border: 5px solid purple;`
+- each element is described using the standard "box model" with four edges:
+  - Content Box, Padding, Border, Margin
+  - **Content Box**
+    - Content edge can be controlled by setting the `width` and `height` properties in `px` or `%` (percentage in relation to the parent element), which in turn pushes out the border edge as well, as there is direct contact between the content and border (if no padding has yet been set)
+    - using `max-width` property in conjunction with `width`, you can tell the browser to make an element's width a certain percentage, but cap that width to a maximum number of pixels
+  - **Padding** is a space between the content box and the border of an element
+  - **Border**
+  - **Margin** is a space between the border and everything outside of the border
+- `border` is a shorthand property for:
+  - `border-width` property controls the thickness, pixels are commonly used because generally borders are gonna be small
+  - `border-color` property controls the color
+  - `border-style` property controls the line style, `solid`, `dotted`, `dashed`, `solid`, etc
+- `border-radius` property rounds the corners of an element's outer border edge
+- `padding` is a shorthand property for: `padding-top`, `padding-right`, `padding-bottom`, and `padding-left`
+  - 1 value: apply to all four sides
+  - 2 values: vertical | horizontal
+  - 3 values: top | horizontal | bottom
+  - 4 values: top | right | bottom | left
+  - these values also applies to `margin` property
+- `margin` is a shorthand property for: `margin-top`, `margin-right`, `margin-bottom`, and `margin-left`
+- `box-sizing` property sets how the total width and height of an element is calculated
+  - `content-box` is the default behavior
+  - `border-box` tells the browser to account for any border and padding
+- `display` property changed the behavior of an element to be treated as:
+  - `inline`
+    - width & height are ignored
+    - margin & padding push elements away horizontally but not vertically
+  - `block`
+    - block elements break the flow of a document
+    - width, height, margin, & padding are respected
+  - `inline-block`
+    - behaved like an inline element except width, height, margin, & padding are respected
+- **Note**: Setting `margin` to `auto` on the left and right, an element will automatically be horizontally centered: `margin: 0 auto;`
 
 
 ## Floats

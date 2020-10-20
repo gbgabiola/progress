@@ -49,7 +49,7 @@ Course Created by Colt Steele
 - [x] HTML: Forms & Tables
 - [x] CSS: The Very Basics
 - [x] The World of CSS Selectors
-- [ ] The CSS Box Model
+- [x] The CSS Box Model
 - [ ] Other Assorted Useful CSS Properties
 - [ ] Responsive CSS & Flexbox
 - [ ] Pricing Panel Project
