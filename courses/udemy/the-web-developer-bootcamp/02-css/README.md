@@ -11,6 +11,8 @@
 - [Selectors](#selectors)
 - [Specificity](#specificity)
 - [The Box Model](#the-box-model)
+- [Positioning](#positioning)
+- [Other Useful Properties](#other-useful-properties)
 - [Floats](#floats)
 
 
@@ -33,6 +35,8 @@
   - Margin
   - _Display Property_
   - _Units - Percentages, EMS, & REMS_
+  - Transitions
+  - _Position Property_
 - **Important**
   - _Common Text Properties_
   - Adjacent Selector
@@ -40,8 +44,12 @@
   - Attribute Selector
   - Pseudo Selector
   - Pseudo Classes
+  - Opacity & Alpha Channel
+  - Google Fonts
+  - _The Full Story On The Background Property_
 - **Nice To Have**
   - Border Radius
+  - _Transforms_
 
 
 ## CSS Basics
@@ -72,21 +80,41 @@
   - e.g., `hotpink`, `mediumorchid`, `firebrick`, `darkkhaki`, `gold`, `mediumaquamarine`, `lightskyblue`, `tomato`
 - **RGB** system
   - red, green, and blue channels
-  - each ranging from 0-255, e.g.: `color: rgb(0, 0, 255)`;
+  - each ranging from 0-255, e.g., `color: rgb(0, 0, 255)`;
 - **Hexadecimal** system
   - combines the octothorpe (`#`) with a string of 6 hexadecimal "numbers"
-  - each ranges from 0-255 but represented with hexadecimal (0-F), e.g.: `color: #5FE2D1;`
+  - each ranges from 0-255 but represented with hexadecimal (0-F), e.g., `color: #5FE2D1;`
   - follows an RGB scheme in which the first two numbers modify the amount of "red", the second two modify "green", and the last two modify "blue"
-- **Transparent** through the **RGBA** system
-  - RGB but with an alpha (transparency) channel ranging from 0.0-1.0, e.g.: `color: rgba(255, 59, 63, .8);`
+- **Transparent**
+  - RGB with alpha (transparency) channel ranging from 0.0-1.0, e.g., `color: rgba(255, 59, 63, .8);`
+  - `opacity` property sets the opacity of an element
+    - opacity is the degree to which content behind an element is hidden
+    - opposite of transparency
+  - adding two byte hex value (0-F) to hexadecimal for transparency, e.g., `#00cca0b9`
 
 
 ## Backgrounds
 
 - follows the same format as `color`
-- `background` property can also set a background image, e.g.: `background: url(http://www.website.com/image.png);`
-  - prevent the background from Repeating an image: `background-repeat: no-repeat;`
-  - allow the background image to Stretch out across the entire body: `background-size: cover;`
+- `background` is a shorthand property for:
+  - `background-attachment`
+  - `background-clip`
+  - `background-color`
+  - `background-image`
+  - `background-origin`
+  - `background-position` property sets the initial position for each background image
+    - keyword values: `top`, `bottom`, `left`, `right`, `center`
+    - global values: `inherit`, `initial`, `unset`
+  - `background-repeat` property sets how background images are repeated
+    - keyword values: `repeat-x`, `repeat-y`, `repeat`, `space`, `round`, `no-repeat`
+    - two-values: horizontal | vertical
+    - global values: `inherit`, `initial`, `unset`
+  - `background-size` property sets the size of the element's background image
+    - keyword values: `cover` and `contain`
+    - one value: sets the width of the image and height becomes `auto`
+    - two values: sets the width and height of the image
+    - global values: `inherit`, `initial` and `unset`
+- `<bg-size>` value may only be included immediately after `<position>`, separated with the `/` character
 
 
 ## Text Properties
@@ -223,6 +251,44 @@
   - `inline-block`
     - behaved like an inline element except width, height, margin, & padding are respected
 - **Note**: Setting `margin` to `auto` on the left and right, an element will automatically be horizontally centered: `margin: 0 auto;`
+
+
+## Positioning
+
+- `position` property sets how an element is positioned in a document
+  - `top`, `right`, `bottom`, and `left` properties determine the final location of positioned elements except for `static`
+  - `static` (default) value positions the element according to the normal flow of the document
+    - `top`, `right`, `bottom`, `left`, and `z-index` properties have _no effect_
+  - `relative` value position the element according to the normal flow of the document
+    - offset _relative_ to _itself_ based on `top`, `right`, `bottom`, and `left` properties
+  - `absolute` and `fixed` values remove the element from the normal document flow
+    - no space is created for the element in the page layout
+    - `absolute` is positioned relative to its closest positioned ancestor, if any; otherwise, placed relative to the initial containing block
+      - creates new stacking context when the value of `z-index` is not `auto`
+        - margins of absolutely positioned boxes do not collapse with other margins
+    - `fixed` is positioned relative to the initial containing block established by the viewport
+      - except when one of its ancestors has a `transform`, `perspective`, or `filter` property set to something other than `none`, which case that ancestor behaves as the containing block 
+  - `sticky` value position the element according to the normal flow of the document
+    - offset relative to its _nearest scrolling ancestor_ and containing block
+    - offset does not affect the position of any other elements
+
+
+## Other Useful Properties
+
+- `transition` is a shorthand property for:
+  - `transition-property` specifies the name(s) of the CSS properties to which transitions should be applied
+  - `transition-duration` specifies the duration over which transitions should occur
+  - `transition-timing-function` specifies a function to define how intermediate values for properties are computed
+    - keyword values: `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, `step-start`, `step-end`
+    - function values: `steps()`, `cubic-bezier()`
+    - multiple timing functions: `ease`, `step-start`, `cubic-bezier()`
+    - global values: `inherit`, `initial`, `unset`
+  - `transition-delay` defines how long to wait between the time a property is changed and the transition actually begins
+- `transform` property lets you rotate, scale, skew, or translate an element
+  - keyword value: `none`
+  - function values: `matrix()`, `matrix3d()`, `perspective()`, `rotate()`, `rotate3d()`, `rotateX()`, `rotateY()`, `rotateZ()`, `translate()`, `translate3d()`, `translateX()`, `translateY()`, `translateZ()`, `scale()`, `scale3d()`, `scaleX()`, `scaleY()`, `scaleZ()`, `skew()`, `skewX()`, `skewY()`
+  - multiple function values: `translateX() rotate() translateY()`, `perspective() translate() rotateY()`
+  - global values: `inherit`, `initial`, `unset`
 
 
 ## Floats
