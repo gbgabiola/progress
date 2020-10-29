@@ -1,0 +1,7 @@
+.square:nth-of-type(even) {
+  background-color: black;
+}
+
+.square:nth-of-type(odd) {
+  background-color: red;
+}

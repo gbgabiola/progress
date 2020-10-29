@@ -1,6 +1,6 @@
 # [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 
-The only course you need to learn web development - HTML, CSS, JS, Node, and More!
+COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!
 
 Course Created by Colt Steele
 
@@ -42,6 +42,65 @@ Course Created by Colt Steele
 
 ## Course Content
 
+- [x] Course Orientation
+- [x] An Introduction to Web Development
+- [x] HTML: The Essentials
+- [x] HTML: Next Steps & Semantics
+- [x] HTML: Forms & Tables
+- [x] CSS: The Very Basics
+- [x] The World of CSS Selectors
+- [x] The CSS Box Model
+- [x] Other Assorted Useful CSS Properties
+- [ ] Responsive CSS & Flexbox
+- [ ] Pricing Panel Project
+- [ ] CSS Frameworks: Bootstrap
+- [ ] JavaScript Basics!
+- [ ] JavaScript Strings and More
+- [ ] JavaScript Decision Making
+- [ ] JavaScript Arrays
+- [ ] JavaScript Object Literals
+- [ ] Repeating Stuff With Loops
+- [ ] NEW: Introducing Functions
+- [ ] Leveling Up Our Functions
+- [ ] Callbacks & Array Methods
+- [ ] Newer JavaScript Features
+- [ ] Introducing The World Of The DOM
+- [ ] The Missing Piece: DOM Events
+- [ ] Score Keeper CodeAlong
+- [ ] Async JavaScript: Oh Boy!
+- [ ] AJAX and API's
+- [ ] Mastering The Terminal
+- [ ] Our First Brush With Node
+- [ ] Exploring Modules & The NPM Universe
+- [ ] Creating Servers With Express
+- [ ] Creating Dynamic HTML With Templating
+- [ ] Defining RESTful Routes
+- [ ] Our First Database: MongoDB
+- [ ] Connecting To Mongo With Mongoose
+- [ ] Putting It All Together: Mongoose With Express
+- [ ] YelpCamp: Campgrounds CRUD
+- [ ] Middleware: The Key To Express
+- [ ] YelpCamp: Adding Basic Styles
+- [ ] Handling Errors In Express Apps
+- [ ] YelpCamp: Errors & Validating Data
+- [ ] Data Relationships With Mongo
+- [ ] Mongo Relationships With Express
+- [ ] YelpCamp: Adding The Reviews Model
+- [ ] Express Router & Cookies
+- [ ] Express Session & Flash
+- [ ] YelpCamp: Restructuring & Flash
+- [ ] Authentication From "Scratch"
+- [ ] YelpCamp: Adding In Authentication
+- [ ] YelpCamp: Basic Authorization
+- [ ] YelpCamp: Controllers & Star Ratings
+- [ ] YelpCamp: Image Upload
+- [ ] YelpCamp: Adding Maps
+- [ ] YelpCamp: Fancy Cluster Map
+- [ ] YelpCamp: Common Security Issues
+- [ ] YelpCamp: Deploying
+- [ ] LEGACY CONTENT (The Old Version Of This Course)
+
+<!-- 
 - [x] Introduction to this Course
 - [x] Introduction to Front End Development
 - [x] Introduction to HTML
@@ -81,7 +140,7 @@ Course Created by Colt Steele
 - [ ] YelpCamp: UI Improvements
 - [ ] Git and Github
 - [ ] Deploying
-- [ ] JavaScript: The Tricky Stuff
+- [ ] JavaScript: The Tricky Stuff -->
 
 
 ## Requirements
