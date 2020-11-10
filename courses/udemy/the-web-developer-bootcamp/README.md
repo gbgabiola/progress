@@ -51,7 +51,7 @@ Course Created by Colt Steele
 - [x] The World of CSS Selectors
 - [x] The CSS Box Model
 - [x] Other Assorted Useful CSS Properties
-- [ ] Responsive CSS & Flexbox
+- [x] Responsive CSS & Flexbox
 - [ ] Pricing Panel Project
 - [ ] CSS Frameworks: Bootstrap
 - [ ] JavaScript Basics!

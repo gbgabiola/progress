@@ -15,6 +15,8 @@
 - [Other Useful Properties](#other-useful-properties)
 - [Floats](#floats)
 - [Flexbox](#flexbox)
+- [Responsive Design](#responsive-design)
+- [Media Queries](#media-queries)
 
 
 ## Topics
@@ -355,3 +357,39 @@
   - `flex-grow` property controls the amount of available space an element should take up
   - `flex-shrink` property defines the ability to shrink item if necessary
   - `flex-basis` property defines the default size of an element before the remaining space is distributed
+
+
+## Responsive Design
+
+- **problem**
+  - as a mobile devices and tablets became widely available
+  - how to create websites that looks good on all screen sizes
+- **one approach**
+  - before, very common to create separate stylesheets for different devices
+  - or even completely different websites for each size
+- **enter responsive**
+  - now, create ONE website and stylesheet that responds to different device sizes and features
+
+
+## Media Queries
+
+- allows us to modify our styles depending on particular parameters like screen width or device type
+- usually used with `min-width` property
+- combined condition using `and` keyword
+- devices category and breakpoint width
+  - mobile (portrait): 320px, 375px, 414px
+  - mobile (landscape): 568px, 667px, 736px, 812px
+  - tablet (portrait): 768px, 834px
+  - tablet (landscape): 1024px, 1112px
+  - laptop displays: 1366px, 1440px
+  - desktop displays: 1680px, 1920px
+- using `min-width`
+  - small devices: landscape phones, 576px and up
+  - medium devices: tablets, 768px and up
+  - large devices: desktops, 992px and up
+  - extra large devicesL large desktops, 1200px and up
+- using `max-width`
+  - small devices: landscape phones, less than 768px
+  - medium devices: tablets, less than 992px
+  - large devices: desktops, 992px and up
+  - extra large devicesL large desktops, 1200px and up
