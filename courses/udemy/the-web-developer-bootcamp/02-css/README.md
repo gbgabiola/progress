@@ -14,6 +14,9 @@
 - [Positioning](#positioning)
 - [Other Useful Properties](#other-useful-properties)
 - [Floats](#floats)
+- [Flexbox](#flexbox)
+- [Responsive Design](#responsive-design)
+- [Media Queries](#media-queries)
 
 
 ## Topics
@@ -37,6 +40,15 @@
   - _Units - Percentages, EMS, & REMS_
   - Transitions
   - _Position Property_
+  - _Media Queries_
+  - FOCUS ON CONCEPTS, NOT MEMORIZING THE PROPERTIES!
+  - Flex Shorthand
+  - _Flex-basis, grow, and shrink_
+  - _Align-Items_
+  - Flex-wrap
+  - _Align-content and align-self_
+  - _Justify-Content_
+  - _Flex-Direction_
 - **Important**
   - _Common Text Properties_
   - Adjacent Selector
@@ -299,3 +311,85 @@
   - and shifted to the left or right until it touches the edge of its containing box, or another floated element
 - when `<img>` tags are laid out in a consecutive sequence, HTML automatically places some small amount of white space between the images
   - `float` can be used to remove that white space
+
+
+## Flexbox
+
+- Flexbox is one-dimensional layout method for laying out items in rows or columns
+  - addition to CSS, included to address common layout frustrations
+  - allows us to distribute space dynamically across elements of an unknown size, hence then term "flex"
+- change the container `display` to `flex` to use the flexbox properties
+- main-axis goes from left-to-right
+- cross-axis goes from top-to-bottom
+- `flex-direction` property allows us to decide the main-axis direction
+  - `row` (default) which goes from left-to-right
+  - `row-reverse` will make our main-axis go from right-to-left
+  - `column` goes from top-to-bottom
+  - `column-reverse` goes from bottom-to-top
+- `justify-content` property determines how the element/content is distributed across the main-axis
+  - `flex-start`
+  - `flex-end`
+  - `center` the content along the main-axis
+  - `space-between` takes all the space and distribute between the elements but not on the outside edges
+  - `space-evenly` takes all the space and distribute between the elements evenly
+  - `space-around` items are evenly distributed in the line with equal space around them
+- `flex-wrap` property determines whether to wrap the elements along the main-axis onto a new line if it's horizontal or a new column if it'a a vertical main-axis
+  - `nowrap` (default) all flex items will be on one line
+  - `wrap` flex items will wrap onto multiple lines, from top to bottom
+  - `wrap-reverse` flex items will wrap onto multiple lines from bottom to top
+- `align-items` property determines how the element/content is distributed across the cross-axis
+  - `stretch` (default) fill the container
+  - `flex-start` items are placed at the start of the cross axis
+  - `flex-end` items are placed at the end of the cross axis
+  - `center` items in the cross-axis
+  - `baseline` align items in their baselines align
+- `align-content` property aligns a container's lines within when there is extra space in the cross-axis
+  - only takes effect on multi-line flexible containers, where `flex-flow` is set to either `wrap` or `wrap-reverse`
+  - `flex-start` packed items to the start of the container
+  - `flex-end` packed items to the end of the container
+  - `center` centered items in the container
+  - `space-between` evenly distributed items
+  - `space-around` evenly distributed items with equal space around each line
+  - `stretch` lines stretch to take up the remaining space
+- `align-self` property allows the default alignment to be overridden for individual items
+  - same values with `align-items` property
+- `flex` is a shorthand property for:
+  - `flex-grow` property controls the amount of available space an element should take up
+  - `flex-shrink` property defines the ability to shrink item if necessary
+  - `flex-basis` property defines the default size of an element before the remaining space is distributed
+
+
+## Responsive Design
+
+- **problem**
+  - as a mobile devices and tablets became widely available
+  - how to create websites that looks good on all screen sizes
+- **one approach**
+  - before, very common to create separate stylesheets for different devices
+  - or even completely different websites for each size
+- **enter responsive**
+  - now, create ONE website and stylesheet that responds to different device sizes and features
+
+
+## Media Queries
+
+- allows us to modify our styles depending on particular parameters like screen width or device type
+- usually used with `min-width` property
+- combined condition using `and` keyword
+- devices category and breakpoint width
+  - mobile (portrait): 320px, 375px, 414px
+  - mobile (landscape): 568px, 667px, 736px, 812px
+  - tablet (portrait): 768px, 834px
+  - tablet (landscape): 1024px, 1112px
+  - laptop displays: 1366px, 1440px
+  - desktop displays: 1680px, 1920px
+- using `min-width`
+  - small devices: landscape phones, 576px and up
+  - medium devices: tablets, 768px and up
+  - large devices: desktops, 992px and up
+  - extra large devicesL large desktops, 1200px and up
+- using `max-width`
+  - small devices: landscape phones, less than 768px
+  - medium devices: tablets, less than 992px
+  - large devices: desktops, 992px and up
+  - extra large devicesL large desktops, 1200px and up
