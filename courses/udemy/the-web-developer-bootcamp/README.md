@@ -52,8 +52,8 @@ Course Created by Colt Steele
 - [x] The CSS Box Model
 - [x] Other Assorted Useful CSS Properties
 - [x] Responsive CSS & Flexbox
-- [ ] Pricing Panel Project
-- [ ] CSS Frameworks: Bootstrap
+- [x] Pricing Panel Project
+- [x] CSS Frameworks: Bootstrap
 - [ ] JavaScript Basics!
 - [ ] JavaScript Strings and More
 - [ ] JavaScript Decision Making
@@ -99,48 +99,6 @@ Course Created by Colt Steele
 - [ ] YelpCamp: Common Security Issues
 - [ ] YelpCamp: Deploying
 - [ ] LEGACY CONTENT (The Old Version Of This Course)
-
-<!-- 
-- [x] Introduction to this Course
-- [x] Introduction to Front End Development
-- [x] Introduction to HTML
-- [x] Intermediate HTML
-- [x] Introduction to CSS
-- [x] Intermediate CSS
-- [ ] Bootstrap
-- [ ] Bootstrap 4!
-- [ ] Bootstrap 4: Flexbox and Layout
-- [ ] Introduction to JavaScript
-- [ ] JavaScript Basics: Control Flow
-- [ ] JavaScript Basics: Functions
-- [ ] JavaScript Basics: Arrays
-- [ ] JavaScript Basics: Objects
-- [ ] DOM Manipulation
-- [ ] Advanced DOM Manipulation
-- [ ] Color Game Project
-- [ ] Intro to jQuery
-- [ ] Advanced jQuery
-- [ ] Todo List Projects
-- [ ] OPTIONAL Project: Patatap Clone
-- [ ] Backend Basics
-- [ ] The Command Line
-- [ ] Node JS
-- [ ] Server Side Frameworks
-- [ ] Intermediate Express
-- [ ] Working With API's
-- [ ] YelpCamp: Basics
-- [ ] YelpCamp: Data Persistance
-- [ ] RESTful Routing
-- [ ] Data Associations
-- [ ] YelpCamp: Comments
-- [ ] Authentication
-- [ ] YelpCamp: Adding Authentication
-- [ ] YelpCamp: Cleaning Up
-- [ ] YelpCamp: Update and Destroy
-- [ ] YelpCamp: UI Improvements
-- [ ] Git and Github
-- [ ] Deploying
-- [ ] JavaScript: The Tricky Stuff -->
 
 
 ## Requirements
