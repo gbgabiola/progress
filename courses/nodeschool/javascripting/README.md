@@ -1,0 +1,22 @@
+# JavaScripting
+
+- [ ] Introduction
+- [ ] Variables
+- [ ] Strings
+- [ ] String Length
+- [ ] Revising Strings
+- [ ] Numbers
+- [ ] Rounding Numbers
+- [ ] Number to Strings
+- [ ] If Statement
+- [ ] For Loop
+- [ ] Arrays
+- [ ] Array Filtering
+- [ ] Accessing Array Values
+- [ ] Looping Through Arrays
+- [ ] Objects
+- [ ] Object Properties
+- [ ] Object Keys
+- [ ] Functions
+- [ ] Function Arguments
+- [ ] Scope
