@@ -8,5 +8,6 @@
 - [x] [Modern HTML & CSS From The Beginning (Including Sass)](./modern-html-css-from-the-beginning-including-sass/README.md)
 - [x] [The Complete 2019 Web Development Bootcamp](./the-complete-web-development-bootcamp/README.md)
 - [x] [Learn JavaScript: Full-Stack from Scratch](./learn-js-full-stack-from-scratch/README.md)
+- [ ] [Become a WordPress Developer: Unlocking Power With Code](become-a-wordpress-developer)
 - [ ] [CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)](./css-the-complete-guide-incl-flexbox-grid-sass/README.md)
 - [ ] [Modern JavaScript From The Beginning](./modern-javascript-from-the-beginning.md)
