@@ -10,7 +10,7 @@ Course Created by Academind
 - [x] introduction
 - [x] Optional JavaScript - A Quick Refresher
 - [x] Understanding the Basics
-- [ ] Improved Development Workflow and Debugging
+- [x] Improved Development Workflow and Debugging
 - [ ] Working with Express.js
 - [ ] Working with Dynamic Content & Adding Templating Engines
 - [ ] The Model View Controller (MVC)
@@ -113,3 +113,39 @@ Course Created by Academind
 - **Poll** retrieves new I/O events, execute their callbacks
   - **Check** executes `setImmediate()` callbacks
 - **Close Callbacks** executes all _close_ event callbacks
+
+
+## NPM & Packages
+
+- npm
+  - npm stands for "Node Package Manager" and allows us to manage our Node project and its dependencies
+  - can initialize a project with `npm init` 
+  - npm scripts can be defined in the `package.json` to give us _shortcuts_ to common tasks/commands
+- 3rd Party Package
+  - Node projects typically don't just use core modules and custom code but also third-party packages
+  - can install via npm
+  - can differentiate between
+    - production dependencies
+    - development dependencies (`--save-dev` or `-D`)
+    - global dependencies (`-g`)
+- Local Project
+- Our Code
+- Core Node Packages
+- Dependencies (3rd Party) installed & managed via npm
+  - express
+  - body-parser
+
+
+## Type of Errors
+
+- Syntax, Runtime and Logical errors can break our app
+- Syntax and Runtime errors throw (helpful) error messages (with line numbers)
+- Logical errors can be fixed with testing and the help of the debugger
+
+
+## Debugging
+
+- Use VS Code Node debugger to step into our code and go through it step by step
+- Analyze variable values at runtime
+- Look into (and manipulate) variables at runtime
+- Set breakpoint (i.e., respect the async/event-driven nature)

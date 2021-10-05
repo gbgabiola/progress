@@ -1,0 +1,17 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "description": "NPM Script Section",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "keywords": [],
+  "author": "Genesis Gabiola",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
