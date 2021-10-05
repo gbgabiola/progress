@@ -9,7 +9,7 @@ Course Created by Academind
 
 - [x] introduction
 - [x] Optional JavaScript - A Quick Refresher
-- [ ] Understanding the Basics
+- [x] Understanding the Basics
 - [ ] Improved Development Workflow and Debugging
 - [ ] Working with Express.js
 - [ ] Working with Dynamic Content & Adding Templating Engines
@@ -56,3 +56,60 @@ Course Created by Academind
 - Versatile Language
   - Runs in browser & directly on a PC/server
   - Can perform a broad variety of tasks
+
+
+## How the Web Works
+
+- Client
+- Request
+- Server
+- Response
+- Client
+
+
+## Program Lifecycle & Event Loop
+
+- Node.js runs non-blocking JS code and uses on event-driven code (**Event Loop**) for running logic
+- A Node.js program exits as soon as there is no more work to do
+- **Note**: `createServer()` event never finishes by default
+
+
+## Asychronous Code
+
+- JS code is non-blocking
+- Use callbacks and events
+  - Order changes
+
+
+## Requests & Responses
+
+- Parse request data in chunks (Streams & Buffers)
+- Avoid _double responses_
+
+
+## Node.js Core Modules
+
+- Node.js ships with multiple core modules
+  - `http` launches a server, send requests
+  - `https` launches a SSL server
+  - `fs`
+  - `path`
+  - `os`
+- Core modules can be imported into any file to be used there
+- Import via `require('module')` 
+
+
+## Node Module System
+
+- Import via `require('./path-to-file')` for custom files
+  - `require('module')` for core & third-party modules
+- Export via `module.exports` or just `exports` for multiple exports
+
+
+## The Event Loop
+
+- **Timers** executes `setTimeout`, `setInterval` Callbacks
+  - **Pending Callbacks** executes I/O related Callbacks that were deferred, e.g., Disk & Network Operations (~Blocking Operations)
+- **Poll** retrieves new I/O events, execute their callbacks
+  - **Check** executes `setImmediate()` callbacks
+- **Close Callbacks** executes all _close_ event callbacks
