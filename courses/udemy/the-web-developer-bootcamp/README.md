@@ -54,7 +54,8 @@ Course Created by Colt Steele
 - [x] Responsive CSS & Flexbox
 - [x] Pricing Panel Project
 - [x] CSS Frameworks: Bootstrap
-- [ ] JavaScript Basics!
+- [x] OPTIONAL Museum Of Candy Project
+- [x] JavaScript Basics!
 - [ ] JavaScript Strings and More
 - [ ] JavaScript Decision Making
 - [ ] JavaScript Arrays
@@ -69,6 +70,7 @@ Course Created by Colt Steele
 - [ ] Score Keeper CodeAlong
 - [ ] Async JavaScript: Oh Boy!
 - [ ] AJAX and API's
+- [ ] Prototypes, Classes, & OOP
 - [ ] Mastering The Terminal
 - [ ] Our First Brush With Node
 - [ ] Exploring Modules & The NPM Universe
@@ -96,8 +98,10 @@ Course Created by Colt Steele
 - [ ] YelpCamp: Image Upload
 - [ ] YelpCamp: Adding Maps
 - [ ] YelpCamp: Fancy Cluster Map
+- [ ] YelpCamp: Style Clean Up
 - [ ] YelpCamp: Common Security Issues
 - [ ] YelpCamp: Deploying
+- [ ] The End :(
 - [ ] LEGACY CONTENT (The Old Version Of This Course)
 
 

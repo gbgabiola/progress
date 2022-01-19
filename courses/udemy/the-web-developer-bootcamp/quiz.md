@@ -4,6 +4,8 @@
 
 - [Quiz 1: Color Quiz](#quiz-1-color-quiz)
 - [Quiz 2: Specificity Quiz](#quiz-2-specificity-quiz)
+- [Quiz 3: Variables Quiz](#quiz-3-variables-quiz)
+- [Quiz 4: Quick Variable Quiz](#quiz-4-quick-variable-quiz)
 
 
 ## Quiz 1: Color Quiz
@@ -113,3 +115,56 @@ What color will the h2 end up?
 - [ ] orange
 - [ ] pink
 - [x] yellow
+
+
+## Quiz 3: Variables Quiz
+
+Question 1: What is the value of `score` after the following code runs?
+
+```js
+let score = 5;
+score + 4;
+```
+
+- [ ] 9
+- [ ] 4
+- [x] 5
+
+Question 2: What is the value of `bankBalance` after the following code runs:
+
+```js
+let bankBalance = 100;
+bankBalance /= 2;
+bankBalance += 10;
+```
+
+- [ ] 100
+- [ ] 50
+- [ ] 110
+- [x] 60
+
+Question 3: What is the value of age after the following code runs?
+
+```js
+const age = 64;
+age++;
+```
+
+- [ ] 65
+- [x] 64
+- [ ] 63
+
+
+## Quiz 4: Quick Variable Quiz
+
+Question 1: Which one of the following variables contains a valid boolean:
+
+- [ ] `let isHappy = 'true';`
+- [ ] `let isHappy = True;`
+- [x] `let isHappy = true;`
+
+Question 2: Which one of the following variable declarations follows JavaScript variable naming conventions?
+
+- [ ] `let high_score = 107;`
+- [ ] `let high-score = 107;`
+- [x] `let highScore = 107;`
