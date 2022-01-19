@@ -1,4 +1,4 @@
-# [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
+# [The Web Developer Bootcamp 2022](https://www.udemy.com/the-web-developer-bootcamp/)
 
 COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!
 
@@ -56,7 +56,7 @@ Course Created by Colt Steele
 - [x] CSS Frameworks: Bootstrap
 - [x] OPTIONAL Museum Of Candy Project
 - [x] JavaScript Basics!
-- [ ] JavaScript Strings and More
+- [x] JavaScript Strings and More
 - [ ] JavaScript Decision Making
 - [ ] JavaScript Arrays
 - [ ] JavaScript Object Literals

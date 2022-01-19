@@ -6,6 +6,7 @@
 - [Quiz 2: Specificity Quiz](#quiz-2-specificity-quiz)
 - [Quiz 3: Variables Quiz](#quiz-3-variables-quiz)
 - [Quiz 4: Quick Variable Quiz](#quiz-4-quick-variable-quiz)
+- [Quiz 5: Strings Basics Quiz](#quiz-5-strings-basics-quiz)
 
 
 ## Quiz 1: Color Quiz
@@ -168,3 +169,46 @@ Question 2: Which one of the following variable declarations follows JavaScript 
 - [ ] `let high_score = 107;`
 - [ ] `let high-score = 107;`
 - [x] `let highScore = 107;`
+
+
+## Quiz 5: Strings Basics Quiz
+
+Question 1: Given the following string:
+
+```js
+const animal = "hippopotamus"
+```
+
+Which character am I accessing?
+
+```js
+animal[7]
+```
+
+- [ ] "o"
+- [x] "t"
+- [ ] "p"
+
+Question 2: What is stored in the `combo` variable?
+
+```js
+const city = 'Kyoto';
+const country = 'Japan';
+const combo = city + country;
+```
+
+- [ ] "Kyoto Japan"
+- [x] "KyotoJapan"
+- [ ] "Kyoto"
+
+Question 3: What does the following return?
+
+```js
+let year = "1998";
+year + 1;
+```
+
+- [ ] "1998"
+- [ ] 1999
+- [ ] NaN
+- [x] "19981"
