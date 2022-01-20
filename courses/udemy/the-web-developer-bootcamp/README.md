@@ -57,7 +57,7 @@ Course Created by Colt Steele
 - [x] OPTIONAL Museum Of Candy Project
 - [x] JavaScript Basics!
 - [x] JavaScript Strings and More
-- [ ] JavaScript Decision Making
+- [x] JavaScript Decision Making
 - [ ] JavaScript Arrays
 - [ ] JavaScript Object Literals
 - [ ] Repeating Stuff With Loops

@@ -5,6 +5,7 @@
 - [Topics](#topics)
 - [Basics](#basics)
 - [Strings and More](#strings-and-more)
+- [Decision Making](#decision-making)
 
 
 ## Topics
@@ -21,6 +22,13 @@
   - Undefined & Null
   - _String Methods_
   - String Template Literals
+  - Comparison Operators
+  - Running JavaScript From a File
+  - _Conditionals: If, Else-If, and Else_
+  - Truth-y and False-y Values
+  - _Logical AND_
+  - _Logical OR_
+  - _Logical NOT_
 - **Important**
   - _Random Numbers and the Math Object_
 - **Nice To Have**
@@ -112,3 +120,45 @@
   - `Math.floor(x)`
   - `Math.ceil(x)`
   - `Math.random()` gives us a random decimal between 0 and 1 (non-inclusive)
+
+
+## Decision Making
+
+- **Comparison Operators**
+  - `>` greater than
+  - `<` less than
+  - `>=` greater than or equal to
+  - `<=` less than or equal to
+  - `==` equality
+    - Checks for equality of value, but not equality of type
+    - It coerces both values to the same type and then compares them
+    - This can lead to some unexpected results
+  - `!=` not equal
+  - `===` strict equality
+    - Checks for equality of value and type
+  - `!==` strict not-equality
+- **Console, Alert, & Prompt**
+  - `console.log()`
+  - `alert()`
+  - `prompt()`
+- **Conditionals**
+  - **If Statement** only runs code if given condition is true
+  - **Else If** only runs if the first condition is false
+  - **Else** only run if nothing else was true
+  - **Nesting conditionals** are conditionals inside conditionals
+- **Truthy and Falsy Values**
+  - Falsy values:
+    - false
+    - 0
+    - "" (empty string)
+    - null
+    - undefined
+    - NaN
+  - Everything else is truthy!
+- **Logical Operators**
+  - **AND** (`&&`) both sides must be true, for the entire thing to be true
+  - **OR** (`||`) if one side is true, the entire thing is true
+  - **NOT** (`!`) expression return true if expression is false 
+- **Switch**
+  - Switch statement is another control-flow statement that can replace multiple if statements
+  - 

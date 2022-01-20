@@ -7,6 +7,7 @@
 - [Quiz 3: Variables Quiz](#quiz-3-variables-quiz)
 - [Quiz 4: Quick Variable Quiz](#quiz-4-quick-variable-quiz)
 - [Quiz 5: Strings Basics Quiz](#quiz-5-strings-basics-quiz)
+- [Quiz 6: Comparison Quiz](#quiz-6-comparison-quiz)
 
 
 ## Quiz 1: Color Quiz
@@ -212,3 +213,33 @@ year + 1;
 - [ ] 1999
 - [ ] NaN
 - [x] "19981"
+
+
+## Quiz 6: Comparison Quiz
+
+Question 1: What does the following code evaluate to?
+
+```js
+3 <= 2
+```
+
+- [ ] true
+- [x] false
+- 
+Question 2: What does the following code evaluate to?
+
+```js
+9 == '9'
+```
+
+- [x] true
+- [ ] false
+
+Question 3: What does the following code evaluate to?
+
+```js
+-5 >= -6
+```
+
+- [x] true
+- [ ] false
