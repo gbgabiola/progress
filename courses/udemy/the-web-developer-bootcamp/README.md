@@ -58,7 +58,7 @@ Course Created by Colt Steele
 - [x] JavaScript Basics!
 - [x] JavaScript Strings and More
 - [x] JavaScript Decision Making
-- [ ] JavaScript Arrays
+- [x] JavaScript Arrays
 - [ ] JavaScript Object Literals
 - [ ] Repeating Stuff With Loops
 - [ ] NEW: Introducing Functions

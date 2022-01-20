@@ -6,6 +6,7 @@
 - [Basics](#basics)
 - [Strings and More](#strings-and-more)
 - [Decision Making](#decision-making)
+- [Arrays](#arrays)
 
 
 ## Topics
@@ -29,8 +30,14 @@
   - _Logical AND_
   - _Logical OR_
   - _Logical NOT_
+  - _Array Basics - Creating and Updating_
+  - Push & Pop
+  - Shift & Unshift
 - **Important**
   - _Random Numbers and the Math Object_
+  - Concat, IndexOf
+  - _Slice & Splice_
+  - Multi Dimensional Arrays
 - **Nice To Have**
 
 
@@ -146,6 +153,8 @@
   - **Else If** only runs if the first condition is false
   - **Else** only run if nothing else was true
   - **Nesting conditionals** are conditionals inside conditionals
+  - **Switch**
+    - Switch statement is another control-flow statement that can replace multiple if statements
 - **Truthy and Falsy Values**
   - Falsy values:
     - false
@@ -159,6 +168,31 @@
   - **AND** (`&&`) both sides must be true, for the entire thing to be true
   - **OR** (`||`) if one side is true, the entire thing is true
   - **NOT** (`!`) expression return true if expression is false 
-- **Switch**
-  - Switch statement is another control-flow statement that can replace multiple if statements
-  - 
+
+
+## Arrays
+
+- **Arrays**
+  - Ordered collections of values
+    - List of comments on IG
+    - Collection of levels in a game
+    - Songs in a playlist
+  - First Data Structure
+  - Array of strings, numbers and mixed
+  - Arrays are indexed
+    - each element has a corresponding index (counting starts at 0)
+  - The values can as long as the reference remains the same
+  - Nested arrays lets us store arrays inside other arrays
+- **Array Methods**
+  - `push(value)` adds value to the END of an array
+  - `pop()` removes and returns last value in array
+  - `unshift(value)` adds value to START of an array
+  - `shift()` removes and returns first element in an array
+  - `concat()` merges arrays
+  - `includes()` looks for a value
+  - `indexOf()` returns the first index where element can be found, else -1
+  - `join()` creates a string from an array
+  - `reverse()` reverses an array 
+  - `slice()` copies a portion of an array
+  - `splice()` removes/replaces elements
+  - `sort()` sorts an array
