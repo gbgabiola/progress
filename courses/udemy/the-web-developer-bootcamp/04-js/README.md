@@ -7,6 +7,7 @@
 - [Strings and More](#strings-and-more)
 - [Decision Making](#decision-making)
 - [Arrays](#arrays)
+- [Object Literals](#object-literals)
 
 
 ## Topics
@@ -33,6 +34,8 @@
   - _Array Basics - Creating and Updating_
   - Push & Pop
   - Shift & Unshift
+  - _Creating and Working With Object Literals_
+  - _Nesting Arrays and Objects_
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
@@ -181,7 +184,7 @@
   - Array of strings, numbers and mixed
   - Arrays are indexed
     - each element has a corresponding index (counting starts at 0)
-  - The values can as long as the reference remains the same
+  - The values can change as long as the reference remains the same
   - Nested arrays lets us store arrays inside other arrays
 - **Array Methods**
   - `push(value)` adds value to the END of an array
@@ -196,3 +199,15 @@
   - `slice()` copies a portion of an array
   - `splice()` removes/replaces elements
   - `sort()` sorts an array
+
+
+## Object Literals
+
+- **Objects**
+  - Second Data Structure
+  - Collections of _properties_
+  - **Properties** are a key-value pair
+    - Can change as long as the reference remains the same
+  - Rather than accessing data using an index we use custom keys
+  - **Valid Keys** - All keys are converted to strings
+    - Except for Symbols

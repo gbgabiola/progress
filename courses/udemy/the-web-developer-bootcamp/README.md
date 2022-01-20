@@ -59,7 +59,7 @@ Course Created by Colt Steele
 - [x] JavaScript Strings and More
 - [x] JavaScript Decision Making
 - [x] JavaScript Arrays
-- [ ] JavaScript Object Literals
+- [x] JavaScript Object Literals
 - [ ] Repeating Stuff With Loops
 - [ ] NEW: Introducing Functions
 - [ ] Leveling Up Our Functions
