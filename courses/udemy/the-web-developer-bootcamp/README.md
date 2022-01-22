@@ -60,7 +60,7 @@ Course Created by Colt Steele
 - [x] JavaScript Decision Making
 - [x] JavaScript Arrays
 - [x] JavaScript Object Literals
-- [ ] Repeating Stuff With Loops
+- [x] Repeating Stuff With Loops
 - [ ] NEW: Introducing Functions
 - [ ] Leveling Up Our Functions
 - [ ] Callbacks & Array Methods

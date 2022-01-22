@@ -8,6 +8,7 @@
 - [Decision Making](#decision-making)
 - [Arrays](#arrays)
 - [Object Literals](#object-literals)
+- [Repeating Stuff With Loops](#repeating-stuff-with-loops)
 
 
 ## Topics
@@ -36,12 +37,19 @@
   - Shift & Unshift
   - _Creating and Working With Object Literals_
   - _Nesting Arrays and Objects_
+  - **For Loops**
+  - _While Loops_
+  - The Break Keyword
+  - For...Of Loops
+  - **Iterating Arrays**
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
   - _Slice & Splice_
   - Multi Dimensional Arrays
+  - **Nested Loops**
 - **Nice To Have**
+  - Iterating Objects
 
 
 ## Basics
@@ -211,3 +219,43 @@
   - Rather than accessing data using an index we use custom keys
   - **Valid Keys** - All keys are converted to strings
     - Except for Symbols
+
+
+## Repeating Stuff With Loops
+
+- Loops allow us to repeat code
+  - Print `'hello'` 10 times
+  - Sum all numbers in an array
+- There are multiple types:
+  - for loop
+  - while loop
+  - for...of loop
+  - for...in loop
+- **For Loops**
+  ```js
+  for ([initialExpression]; [conditional]; [incrementExpression]) {
+    ...
+  }
+  ```
+- **Looping Over Arrays**
+  - Start at index 0 and continue looping until last index (`length - 1`)
+- **Nested Loops** are loops inside another loop
+- **While Loops** continues to run as
+long as the condition is true
+  ```js
+  [initialExpression]
+  while ([conditional]) {
+    ...
+    [incrementExpression]
+  }
+  ```
+- **For...Of Loops** is an easy way of iterating over arrays (or other iterable objects)
+  ```js
+  for (variable of iterable) {
+    statement
+  }
+  ```
+  - IE not supported
+  - Nested For...Of
+- **For...In Loops**
+  - Iterates over all enumerable properties of an object
