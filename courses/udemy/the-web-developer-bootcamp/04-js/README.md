@@ -9,6 +9,7 @@
 - [Arrays](#arrays)
 - [Object Literals](#object-literals)
 - [Repeating Stuff With Loops](#repeating-stuff-with-loops)
+- [Functions](#functions)
 
 
 ## Topics
@@ -42,6 +43,10 @@
   - The Break Keyword
   - For...Of Loops
   - **Iterating Arrays**
+  - _Working With Arguments_
+  - _Function Return Values_
+  - _Defining Functions_
+  - **Functions Exercises**
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
@@ -259,3 +264,27 @@ long as the condition is true
   - Nested For...Of
 - **For...In Loops**
   - Iterates over all enumerable properties of an object
+
+
+## Functions
+
+- **Functions** are reusable procedures
+  - Allow us to write reusable, modular code
+  - We define a "chunk" of code that we can then execute at a later point
+  - Used all ALL THE TIME
+- 2 Step Process
+  - Define
+    ```js
+    function funcName() {
+      // do something
+    }
+    ```
+  - Run
+    ```js
+    function();
+    ```
+- **Arguments** are inputs we accept from functions
+  - Function accepts multiple arguments
+- **Return** statement
+  - We can store built-in methods **return** values in a variable
+  - Ends function execution AND specifies the value to be returned by that function
