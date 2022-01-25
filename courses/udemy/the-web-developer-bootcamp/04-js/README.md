@@ -47,12 +47,20 @@
   - _Function Return Values_
   - _Defining Functions_
   - **Functions Exercises**
+  - _Function Scope_
+  - _Block Scope_
+  - _Lexical Scope_
+  - Function Expressions
+  - **Higher Order Functions**
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
   - _Slice & Splice_
   - Multi Dimensional Arrays
   - **Nested Loops**
+  - **Returning Functions**
+  - **The Keyword "this"**
+  - _Adding Methods To Objects_
 - **Nice To Have**
   - Iterating Objects
 
@@ -288,3 +296,18 @@ long as the condition is true
 - **Return** statement
   - We can store built-in methods **return** values in a variable
   - Ends function execution AND specifies the value to be returned by that function
+- **Scope**
+  - Variable "visibility"
+  - The location where a variable is defined dictates _where we have access to that variable_
+  - **Function Scope**
+    - Variables in a function are only accessible to that function
+  - **Block Scope**
+    - All that have curly braces except functions
+    - Variables inside a block are only accessible to that block
+  - **Lexical Scope**
+    - An inner function nested inside of parent function has access to the variables/scope defined in the outer/parent function inside of inner function
+- **Function Expressions** are another way of defining a function
+  - Store an anonymous function in a variable
+  - Execute the name of a variable which
+  - Techinically functions are objects behind the scenes
+    - Every function has the option of having a name

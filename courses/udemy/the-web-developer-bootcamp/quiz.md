@@ -8,6 +8,7 @@
 - [Quiz 4: Quick Variable Quiz](#quiz-4-quick-variable-quiz)
 - [Quiz 5: Strings Basics Quiz](#quiz-5-strings-basics-quiz)
 - [Quiz 6: Comparison Quiz](#quiz-6-comparison-quiz)
+- [Quiz 7: Function Scope Quiz](#quiz-7-function-scope-quiz)
 
 
 ## Quiz 1: Color Quiz
@@ -205,7 +206,7 @@ const combo = city + country;
 Question 3: What does the following return?
 
 ```js
-let year = "1998";
+let year = '1998';
 year + 1;
 ```
 
@@ -243,3 +244,58 @@ Question 3: What does the following code evaluate to?
 
 - [x] true
 - [ ] false
+
+
+## Quiz 7: Function Scope Quiz
+
+Question 1: What is printed to the console when this code runs?
+
+```js
+let animal = 'Giant Pacific Octopus';
+function observe(){
+  let animal = 'Pajama Squid';
+  console.log(animal);
+}
+observe();
+```
+
+- [ ] "Giant Pacific Octopus"
+- [x] "Pajama Squid"
+
+Question 2: What is the result of running the following code:
+
+```js
+const creature = 'Common Sea Dragon';
+ 
+function scubaDive(){
+  const creature = 'Spanish Dancer'; // A type of sea slug
+  console.log(creature);
+}
+ 
+scubaDive();
+```
+
+- [ ] "Common Sea Dragon" is printed
+- [x] "Spanish Dancer" is printed
+- [ ] An error is thrown because "creature" has already been assigned, and we can't reuse the identifier. Can't have two constants with the same name!
+
+Question 3: What two values are printed to the console:
+
+```js
+let deadlyAnimal = 'Blue-Ringed Octopus';
+ 
+function handleAnimal() {
+  let deadlyAnimal = 'Scorpionfish';
+  console.log(deadlyAnimal);
+}
+
+handleAnimal();
+console.log(deadlyAnimal);
+```
+
+- [ ] `"Blue-Ringed Octopus"`  
+      `"Blue-Ringed Octopus"`
+- [ ] `"Scorpionfish"`  
+      `"Scorpionfish"`
+- [x] `"Scorpionfish"`  
+      `"Blue-Ringed Octopus"`
