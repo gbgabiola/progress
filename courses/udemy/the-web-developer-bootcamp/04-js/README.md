@@ -311,3 +311,17 @@ long as the condition is true
   - Execute the name of a variable which
   - Techinically functions are objects behind the scenes
     - Every function has the option of having a name
+- **Higher Order Functions** are functions that operate on/with other functions
+  - Accept other functions as arguments
+  - Return a function
+    - Factory function is a function that makes a function for us
+- **Methods** are functions added as properties on objects
+  - Every method is a function, but not every function is a method
+  - We can add a function as a property value
+- **`this`** in Methods
+  - Access other properties on the same object
+  - Value of `this` depends on the invocation context of the function it is used in
+  - `window` is a top level object in JS
+- **Try/Catch**
+  - Catch errors and preventing them from breaking or stopping the execution of our code
+    - If there is an error grab it and stop it from propagating outwards and crashing everything

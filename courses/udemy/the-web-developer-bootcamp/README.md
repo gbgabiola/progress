@@ -62,7 +62,7 @@ Course Created by Colt Steele
 - [x] JavaScript Object Literals
 - [x] Repeating Stuff With Loops
 - [x] NEW: Introducing Functions
-- [ ] Leveling Up Our Functions
+- [x] Leveling Up Our Functions
 - [ ] Callbacks & Array Methods
 - [ ] Newer JavaScript Features
 - [ ] Introducing The World Of The DOM
