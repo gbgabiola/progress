@@ -10,6 +10,7 @@
 - [Object Literals](#object-literals)
 - [Repeating Stuff With Loops](#repeating-stuff-with-loops)
 - [Functions](#functions)
+- [Callbacks & Array Methods](#callbacks--array-methods)
 
 
 ## Topics
@@ -52,6 +53,9 @@
   - _Lexical Scope_
   - Function Expressions
   - **Higher Order Functions**
+  - _ForEach_
+  - _Map_
+  - _Arrow Functions_
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
@@ -61,8 +65,11 @@
   - **Returning Functions**
   - **The Keyword "this"**
   - _Adding Methods To Objects_
+  - _Filter_
 - **Nice To Have**
   - Iterating Objects
+  - _Some & Every_
+  - **Reduce**
 
 
 ## Basics
@@ -325,3 +332,36 @@ long as the condition is true
 - **Try/Catch**
   - Catch errors and preventing them from breaking or stopping the execution of our code
     - If there is an error grab it and stop it from propagating outwards and crashing everything
+
+
+## Callbacks & Array Methods
+
+- ...
+- Passing function to another function
+- **ForEach**
+  - Accepts a callback function
+  - Calls the function once per element in the array
+  - Do something once per element in an array
+  - Used a lot before the released of `for...of` loop
+- **Map**
+  - Creates a new array with the results of calling a callback on every element in the array
+- **Arrow Functions**
+  - "Syntactically compact alternative" to a regular function expression
+  - Newer and shorter syntax for defining function expressions
+  - Allows us write functions without writing the keyword function
+  - We can have empty parens if there's no parameters/arguments
+  - Parens are optional when only have single parameter/argument
+  - **Implicit Returns** only work if only have one expression in the function body
+- **setTimeout and setInterval**
+  - `setTimeout` accepts callback and number of milliseconds
+    - delaying
+    - waiting
+    - pausing execution
+    - postponing execution for later dates
+    - scheduling something
+  - `setInterval` infinitely repeat something at an interval
+    - accepts callback and number of milliseconds
+    - `clearInterval` is needed to stop the interval
+- **Filter** creates a new array with all elements that pass the test implemented by the provided function
+    
+- **Reduce** is a useful array method
