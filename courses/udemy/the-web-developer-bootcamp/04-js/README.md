@@ -336,7 +336,6 @@ long as the condition is true
 
 ## Callbacks & Array Methods
 
-- ...
 - Passing function to another function
 - **ForEach**
   - Accepts a callback function
@@ -362,6 +361,14 @@ long as the condition is true
   - `setInterval` infinitely repeat something at an interval
     - accepts callback and number of milliseconds
     - `clearInterval` is needed to stop the interval
-- **Filter** creates a new array with all elements that pass the test implemented by the provided function
-    
-- **Reduce** is a useful array method
+- **Filter** creates a _new_ array with all elements that pass the test implemented by the provided function
+- **Every** tests whether _all_ elements in the array pass the provided function and returns a Boolean value
+- **Some** returns true if _any_ of the array elements pass the test function
+- **Reduce** executes a reducer function on each element of the array, _resulting in a single value_
+  - Accepts two parameters which gonna be the 1st argument
+    - Accumulator or total
+    - Current Value
+  - 2nd argument can be set as initial value of accumulator
+- **Arrow Functions & '`this`'**
+  - Keyword '`this`' values behaves differently in arrow functions
+  - Keyword '`this`' in arrow functions refers to the value of '`this`' when the function is created

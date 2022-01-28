@@ -63,7 +63,7 @@ Course Created by Colt Steele
 - [x] Repeating Stuff With Loops
 - [x] NEW: Introducing Functions
 - [x] Leveling Up Our Functions
-- [ ] Callbacks & Array Methods
+- [x] Callbacks & Array Methods
 - [ ] Newer JavaScript Features
 - [ ] Introducing The World Of The DOM
 - [ ] The Missing Piece: DOM Events
