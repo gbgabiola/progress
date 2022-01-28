@@ -11,6 +11,7 @@
 - [Repeating Stuff With Loops](#repeating-stuff-with-loops)
 - [Functions](#functions)
 - [Callbacks & Array Methods](#callbacks--array-methods)
+- [Newer Features](#newer-features)
 
 
 ## Topics
@@ -56,6 +57,9 @@
   - _ForEach_
   - _Map_
   - _Arrow Functions_
+  - Spread With Arrays
+  - Spread With Objects
+  - Destructuring
 - **Important**
   - _Random Numbers and the Math Object_
   - Concat, IndexOf
@@ -66,6 +70,9 @@
   - **The Keyword "this"**
   - _Adding Methods To Objects_
   - _Filter_
+  - Default Params
+  - Spread In Function Calls
+  - Rest Params
 - **Nice To Have**
   - Iterating Objects
   - _Some & Every_
@@ -372,3 +379,23 @@ long as the condition is true
 - **Arrow Functions & '`this`'**
   - Keyword '`this`' values behaves differently in arrow functions
   - Keyword '`this`' in arrow functions refers to the value of '`this`' when the function is created
+
+
+## Newer Features
+
+- **Default Params** sets an optional parameter value for a function
+- **Spread** allows an iterable to be expanded in places where elements are expected
+  - expands an iterable into a list of arguments
+  - In **Array Literals** it spreads the elements from one array into a new created array
+  - In **Object Literals** it copies properties from one object into another object literal
+- **The Arguments Object**
+  - Available inside every function
+  - It's an _array-like_ object
+    - Has a length property
+    - Does not have array methods like push/pop
+  - Contains all the arguments passed to the function
+  - Not available inside of arrow functions
+- **Rest** Params collects all remaining arguments into an actual array
+- **Destructuring** a short, clean syntax to _unpack_ into a distinct variables:
+  - Values from arrays
+  - Properties from objects
