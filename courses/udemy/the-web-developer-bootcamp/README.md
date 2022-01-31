@@ -65,7 +65,7 @@ Course Created by Colt Steele
 - [x] Leveling Up Our Functions
 - [x] Callbacks & Array Methods
 - [x] Newer JavaScript Features
-- [ ] Introducing The World Of The DOM
+- [x] Introducing The World Of The DOM
 - [ ] The Missing Piece: DOM Events
 - [ ] Score Keeper CodeAlong
 - [ ] Async JavaScript: Oh Boy!

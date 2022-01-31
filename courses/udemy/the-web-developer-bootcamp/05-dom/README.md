@@ -43,19 +43,24 @@
   - `classList`
   - `getAttribute()`
   - `setAttribute()`
-  - `appendChild()`
-  - `append()`
-  - `prepend()`
-  - `removeChild()`
-  - `remove()`
-  - `createElement`
+  - Create new element
+    - `createElement`
+    - `appendChild()`
+    - `append()` can be used to append text
+      - Append more than one element
+    - `prepend()`
+    - `inserAdjacentElement()`
+  - Remove element
+    - `removeChild()`
+    - `remove()`
   - `innerText`
   - `textContent`
   - `innerHTML`
   - `value`
-  - `parentElement`
-  - `children`
-  - `nextSibling`
-  - `previousSibling`
+  - Traversing
+    - `parentElement`
+    - `children`
+    - `nextSibling`
+    - `previousSibling`
   - `style`
 - `window.getComputedStyle()` provides the current styles of the given element
