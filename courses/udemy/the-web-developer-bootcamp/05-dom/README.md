@@ -4,6 +4,7 @@
 
 - [Topics](#topics)
 - [The DOM](#the-dom)
+- [DOM Events](#dom-events)
 
 
 ## Topics
@@ -17,10 +18,16 @@
   - _Changing Styles_
   - classList
   - _Creating/Removing Elements_
+  - Introducing Events
+  - _addEventListener_
+  - _Forms Events_
 - **Important**
-  - ...
   - _Manipulating Attributes_
   - _Traversing the DOM_
+  - _Keyboard Events_
+  - _Input & Change Events_
+  - _Event Bubbling_
+  - **Event Delegation**
 - **Nice To Have**
   - ...
 
@@ -64,3 +71,32 @@
     - `previousSibling`
   - `style`
 - `window.getComputedStyle()` provides the current styles of the given element
+
+
+## DOM Events
+
+- **Events** responding to user inputs and actions
+  - 3 ways to register event handlers
+    - Inline event handlers
+    - Event handler properties
+    - `addEventListener()` specify event type and a callback to run
+- Event Properties
+  - clicks
+  - drags
+  - drops
+  - hovers
+  - scrolls
+  - form submission
+  - key presses
+  - focus/blur
+  - mouse wheel
+  - double click
+  - copying
+  - pasting
+  - audio start
+  - screen resize
+  - printing
+- **`this` keyword with Events**
+  -  Arrow functions do not have their own `this` context
+-  **Keyboard Events**
+-  **Event Object**

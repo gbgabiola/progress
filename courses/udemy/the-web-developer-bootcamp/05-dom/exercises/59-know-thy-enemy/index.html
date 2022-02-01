@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inline Events</title>
+    <!--LEAVE THESE LINES ALONE, PLEASE! THEY MAKE THE LIVE PREVIEW WORK!-->
+    <script
+      src="node_modules/babel-polyfill/dist/polyfill.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <h1 onclick="console.log('boo')">Inline Events Suck...</h1>
+    <button id="btn" onclick="console.log('clicked')">Click Me</button>
+  </body>
+</html>
+
+<!--
+In this exercise, I'm asking you to write some inline event handlers WHICH IS NOT SOMETHING I RECOMMEND, but hopefully it will illustrate to you just how annoying it can be.
+In index.html, you'll find an <h1> element and a <button>.
+Please add two inline click handlers directly in the html:
+  - When the h1 is clicked, you should print "boo"
+  - When the button is clicked, you should print "clicked"
+-->
