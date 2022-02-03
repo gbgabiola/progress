@@ -98,5 +98,11 @@
   - printing
 - **`this` keyword with Events**
   -  Arrow functions do not have their own `this` context
--  **Keyboard Events**
--  **Event Object**
+- **Keyboard Events**
+- **Event Object**
+- **Form Events & PreventDefault**
+  - `preventDefault` prevents the default behavior triggered by a given event
+- **Input & Change Events**
+- **Event Bubbling**
+  - `stopPropagation()` prevents event from bubbling up
+- **Delegation**
