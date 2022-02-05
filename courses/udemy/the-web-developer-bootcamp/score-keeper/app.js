@@ -13,10 +13,11 @@ const p2 = {
 const resetButton = document.querySelector('#resetButton');
 const winningScoreSelect = document.querySelector('#playTo');
 
-let winningScore = 5;
+let winningScore = 3;
 let isGameOver = false;
+let gameMatches = 0;
 
-function updateScores(player, opponent) {
+const updateScores = (player, opponent) => {
   if (!isGameOver) {
     player.score += 1;
     if (player.score === winningScore) {
@@ -25,16 +26,30 @@ function updateScores(player, opponent) {
       opponent.display.classList.add('has-text-danger');
       player.button.disabled = true;
       opponent.button.disabled = true;
+      gameMatches += 1;
     }
-    player.display.textContent = player.score;
+    if (player.score === opponent.score && player.score === winningScore - 1) {
+      winningScore++;
+    }
   }
-}
+  player.display.textContent = player.score;
+};
 
-p1.button.addEventListener('click', function () {
+const reset = () => {
+  isGameOver = false;
+  for (let p of [p1, p2]) {
+    p.score = 0;
+    p.display.textContent = p.score;
+    p.display.classList.remove('has-text-success', 'has-text-danger');
+    p.button.disabled = false;
+  }
+};
+
+p1.button.addEventListener('click', () => {
   updateScores(p1, p2);
 });
 
-p2.button.addEventListener('click', function () {
+p2.button.addEventListener('click', () => {
   updateScores(p2, p1);
 });
 
@@ -44,13 +59,3 @@ winningScoreSelect.addEventListener('change', function () {
 });
 
 resetButton.addEventListener('click', reset);
-
-function reset() {
-  isGameOver = false;
-  for (let p of [p1, p2]) {
-    p.score = 0;
-    p.display.textContent = p.score;
-    p.display.classList.remove('has-text-success', 'has-text-danger');
-    p.button.disabled = false;
-  }
-}
