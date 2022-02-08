@@ -67,8 +67,8 @@ Course Created by Colt Steele
 - [x] Newer JavaScript Features
 - [x] Introducing The World Of The DOM
 - [x] The Missing Piece: DOM Events
-- [ ] Score Keeper CodeAlong
-- [ ] Async JavaScript: Oh Boy!
+- [x] Score Keeper CodeAlong
+- [x] Async JavaScript: Oh Boy!
 - [ ] AJAX and API's
 - [ ] Prototypes, Classes, & OOP
 - [ ] Mastering The Terminal
