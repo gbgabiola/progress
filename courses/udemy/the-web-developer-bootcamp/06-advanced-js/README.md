@@ -4,6 +4,7 @@
 
 - [Topics](#topics)
 - [Async JS](#async-js)
+- [AJAX and API's](#ajax-and-apis)
 
 
 ## Topics
@@ -11,12 +12,18 @@
 - **Crucial**
   - **Working With Promises**
   - _Async Functions_
+  - Working With API's
+  - Intro to JSON
+  - _Working With Axios_
 - **Important**
   - **The Call Stack**
   - _Callback Hell_
+  - Postman
+  - _The Fetch API_
 - **Nice To Have**
   - **Understanding WebAPI's**
   - **Creating Our Own Promises**
+  - **Making XHRs**
 
 
 ## Async JS
@@ -54,3 +61,47 @@
 - **await** keyword
   - We can only use the await keyword inside of functions declared with async
   - await will pause the execution of the function, _waiting for a promise to be resolved_
+
+
+## AJAX and API's
+
+- **AJAX** - Asynchronous JavaScript And XML (Extensible Markup Language)
+  - Not common these days
+- Requests
+  - XMLHttp
+  - Fetch
+  - Axios
+- **APIs** - Application Programming Interface
+- **AJAJ** - Asynchronous JavaScript And **JSON** (JavaScript Object Notation)
+  - data format made for code or other computers to consume
+  - JSON data are a long series of strings
+  - `JSON.parse()` method parses JSON string (data) into JS object
+  - `JSON.stringify()` method converts JS object into JSON string
+- **HTTP Response Status Codes**
+  - Informational responses (100-199)
+  - Successful responses (200-299)
+    - 200 OK
+    - 201 Created
+    - 202 Accepted
+    - etc...
+  - Redirection messages (300-399)
+    - 301 Moved Permanently
+  - Client error responses (400-499)
+    - 400 Bad Request
+    - 401 Unauthorized
+    - 403 Forbidden
+    - 404 Not Found
+    - etc...
+  - Server error responses (500-599)
+    - 500 Internal Server Error
+    - etc...
+- **Query Strings & Headers**
+- **XHR** XMLHttpRequest
+  - The _original_ way of sending requests via JS
+  - Does not support promises (lots of callbacks)
+  - Hard to remember
+- **Fetch API**
+  - The newer way of making requests via JS
+  - Supports promises
+  - Not supported in IE
+- **Axios** is library for making HTTP requests
