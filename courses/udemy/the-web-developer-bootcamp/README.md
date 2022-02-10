@@ -70,7 +70,7 @@ Course Created by Colt Steele
 - [x] Score Keeper CodeAlong
 - [x] Async JavaScript: Oh Boy!
 - [x] AJAX and API's
-- [ ] Prototypes, Classes, & OOP
+- [x] Prototypes, Classes, & OOP
 - [ ] Mastering The Terminal
 - [ ] Our First Brush With Node
 - [ ] Exploring Modules & The NPM Universe

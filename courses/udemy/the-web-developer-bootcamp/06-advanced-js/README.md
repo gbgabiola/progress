@@ -5,6 +5,7 @@
 - [Topics](#topics)
 - [Async JS](#async-js)
 - [AJAX and API's](#ajax-and-apis)
+- [Prototypes, Classes, & OOP](#prototypes-classes--oop)
 
 
 ## Topics
@@ -15,15 +16,21 @@
   - Working With API's
   - Intro to JSON
   - _Working With Axios_
+  - _Object Prototypes (the concept)_
+  - _Defining Classes_
+  - _Extends & Super_
 - **Important**
   - **The Call Stack**
   - _Callback Hell_
   - Postman
   - _The Fetch API_
+  - **The "new" keyword (the 4 things it does)**
 - **Nice To Have**
   - **Understanding WebAPI's**
   - **Creating Our Own Promises**
   - **Making XHRs**
+  - _Defining Constructor Functions (the "old" way)_
+  - **Converting Colors & Associated Crazy Math**
 
 
 ## Async JS
@@ -105,3 +112,32 @@
   - Supports promises
   - Not supported in IE
 - **Axios** is library for making HTTP requests
+
+
+## Prototypes, Classes, & OOP
+
+- Prototypes are template object for certain objects
+  - Contains a lot of methods that every certain objects have access to
+  - We can create multiple objects that share the same prototype to get access to the same method without their own copy
+  - We can overwrite an existing methods
+  - `String.prototype` is a _template object_ for every single string
+  - `Array.prototype`
+  - `__proto__` is a reference
+    - Property name of the current object
+- **Object Oriented Programming (OOP)**
+  - Organizing code, designing, and structuring applications by breaking things up into distinct patterns (recipe) of objects
+- **Factory Functions** creates and returns an object every time it is called
+  - Resulting objects all follow the same pattern (recipe)
+  - Not commonly used and not ideal way of doing it
+- **Constructor Functions** with `new`operator
+  1. Creates a blank, plain JavaScript object
+  2. Adds a property to the new object (`__proto__`) that links to the constructor function's prototype object
+  3. Binds the newly created object instance as the `this` context
+  4. Returns `this` if the function doesn't return an object
+- **Classes** are a template for creating objects
+  - syntactic sugar for constructor functions
+  - `constructor` method creates and initializes an object instance of the class
+- **Extends & Super Keywords**
+  - `extends` keyword is used to create a class that is a child of another class
+  - `super` keyword is used to access and call functions on an object's parent
+    - Can only be called in the `constructor`
