@@ -71,7 +71,7 @@ Course Created by Colt Steele
 - [x] Async JavaScript: Oh Boy!
 - [x] AJAX and API's
 - [x] Prototypes, Classes, & OOP
-- [ ] Mastering The Terminal
+- [x] Mastering The Terminal
 - [ ] Our First Brush With Node
 - [ ] Exploring Modules & The NPM Universe
 - [ ] Creating Servers With Express
