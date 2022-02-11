@@ -72,7 +72,7 @@ Course Created by Colt Steele
 - [x] AJAX and API's
 - [x] Prototypes, Classes, & OOP
 - [x] Mastering The Terminal
-- [ ] Our First Brush With Node
+- [x] Our First Brush With Node
 - [ ] Exploring Modules & The NPM Universe
 - [ ] Creating Servers With Express
 - [ ] Creating Dynamic HTML With Templating
