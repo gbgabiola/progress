@@ -4,6 +4,7 @@
 
 - [Topics](#topics)
 - [Node Basics](#node-basics)
+- [Modules & NPM](#modules--npm)
 
 
 ## Topics
@@ -12,11 +13,20 @@
   - _Installation_
   - The Node REPL
   - Running Node Files
+  - Module.Exports
+  - Requiring Modules
+  - Using NPM
+  - Installing Packages
+  - Creating Package.json files
 - **Important**
   - Process
 - **Nice To Have**
   - _argv_
   - **File System Module**
+  - The Dad Jokes Package
+  - Rainbow Package
+  - The Figlet Package
+  - _Franc Package_
 
 
 ## Node Basics
@@ -46,3 +56,14 @@
   - Synchronous APIs block the Node.js event loop and further JavaScript execution until the operation is complete
   - `fs.mkdirSync()`
   - `fs.writeFileSync()`
+
+
+## Modules & NPM
+
+- `module.exports`
+- `index.js` entry point for Node.js
+- **NPM** (Node Package Manager)
+  1. A library of thousands of packages published by other developers that we can use for free
+  2. A command line tool to easily install and mange those packages in our Node projects
+- `package.json` contains metadata information about the project
+  - Contains a list of dependencies
