@@ -74,7 +74,7 @@ Course Created by Colt Steele
 - [x] Mastering The Terminal
 - [x] Our First Brush With Node
 - [x] Exploring Modules & The NPM Universe
-- [ ] Creating Servers With Express
+- [x] Creating Servers With Express
 - [ ] Creating Dynamic HTML With Templating
 - [ ] Defining RESTful Routes
 - [ ] Our First Database: MongoDB
