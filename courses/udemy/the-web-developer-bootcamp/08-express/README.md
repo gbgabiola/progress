@@ -5,6 +5,7 @@
 - [Topics](#topics)
 - [Creating Servers With Express](#creating-servers-with-express)
 - [Templating](#templating)
+- [RESTful Routes](#restful-routes)
 
 
 ## Topics
@@ -21,8 +22,14 @@
   - **EJS Loops & Conditionals**
   - Serving Static Assets
   - _Creating Partials_
+  - GET vs. POST Requests
+  - Parsing Request Body
+  - _Handling Post Requests in Express_
+  - **Forms + Express**
 - **Important**
   - Nodemon
+  - _Method Override_
+  - **RESTful Routing**
 - **Nice To Have**
 
 
@@ -93,3 +100,37 @@
   - Used to Avoid writing html boilerplates manually for every `.ejs` files
   - Remember that paths are very important especially for the assets of the app
     - `/` means to look in the root directory
+
+
+## RESTful Routes
+
+- **GET vs. POST requests**
+  - GET
+    - Used to retrieve information
+    - Data is sent via query string
+    - Information is plainly visible in the URL
+    - Limited amount of data can be sent
+  - POST
+    - Used to post data to the server
+    - Used to write/create/update
+    - Data is sent via request body, not a query string
+    - Can send any sort of data (JSON)
+- **Parsing the Request Body** with express built-in middleware functions:
+  - `express.urlencoded([options])` parses incoming requests with urlencoded payloads and is based on `body-parser` package
+  - `express.json([options])` parses incoming requests with JSON payloads
+- **REST (REpresentational State Transfer)** is an architectural style or paradigms for distributed hypermedia systems
+  - Set of guidelines for how a client + server communicates and perform CRUD (Create, Read, Update, Destroy) operations on a given resource
+  - Treats data on the server-side as resource than can be CRUDed
+  - Most common ways of approaching REST in in formatting the URLs and HTTP verbs in the applications
+  - **Note**: browser forms don't support PUT or DELETE requests, they return it as a GET
+    - Include `method-override` package to change that, e.g., Add `?_method=PUT` to the action afterwards
+
+  |  Name   |         Path         |   Verb   |              Purpose               |
+  | :-----: | :------------------: | :------: | :--------------------------------: |
+  |  Index  |     `/comments`      |  `GET`   |        Display all comments        |
+  |   New   |   `/comments/new`    |  `GET`   |     Form to create new comment     |
+  | Create  |     `/comments`      |  `POST`  |   Creates new comment on server    |
+  |  Show   |   `/comments/:id`    |  `GET`   |  Details for one specific comment  |
+  |  Edit   | `/comments/:id/edit` |  `GET`   |   Form to edit specific comment    |
+  | Update  |   `/comments/:id`    | `PATCH`  | Updates specific comment on server |
+  | Destroy |   `/comments/:id`    | `DELETE` | Delete specific comment on server  |

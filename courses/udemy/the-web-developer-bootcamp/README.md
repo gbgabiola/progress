@@ -76,7 +76,7 @@ Course Created by Colt Steele
 - [x] Exploring Modules & The NPM Universe
 - [x] Creating Servers With Express
 - [x] Creating Dynamic HTML With Templating
-- [ ] Defining RESTful Routes
+- [x] Defining RESTful Routes
 - [ ] Our First Database: MongoDB
 - [ ] Connecting To Mongo With Mongoose
 - [ ] Putting It All Together: Mongoose With Express
