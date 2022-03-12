@@ -4,6 +4,7 @@
 
 - [Topics](#topics)
 - [MongoDB](#mongodb)
+- [Mongoose](#mongoose)
 
 
 ## Topics
@@ -15,10 +16,19 @@
   - _Mongo Finding/Querying_
   - _Mongo Updates_
   - _Mongo Deletions_
+  - The Role of ORM/ODM's
+  - Connecting Mongoose to Mongo
+  - _Defining A Model_
+  - _Mongoose CRUD_
+  - _Schema Constraints_
 - **Important**
   - Databases Basics
   - SQL vs. NoSQL
+  - _Model Instance & Static Methods_
+  - **Mongoose Middleware**
 - **Nice To Have**
+  - **Mongoose Virtuals**
+
 
 
 ## MongoDB
@@ -122,3 +132,97 @@
   - `db.collection.deleteMany()` deletes all documents from the collection
     - It can also use condition `<field>:<value>` expressions in the query filter document
   - `db.collection.deleteOne({ <field>:<value> })` deletes single documents from the collection that matches a condition
+
+
+## Mongoose
+
+- **ODM (Object Data/Document Mapper)**
+  - ODMs like Mongoose map documents coming from a database into usable JavaScript objects
+  - Mongoose provides ways for us to model out our application data and define a schema
+    - It offers easy ways to validate data and build complex queries from the comfort of JS
+- `insertMany([])`
+- **Finding With Mongoose**
+  - `find()`
+  - `findOne`
+  - `findById()`
+- **Updating With Mongoose**
+  - `update()`
+  - `updateOne()`
+  - `updateMany()`
+  - `findOneAndUpdate()` returns the old version data
+    - add options to return the new updated version 
+  - `updateById()`
+- **Deleting With Mongoose**
+  - `remove()` displays a deprecated warning, recommended to use `deleteOne` or `deleteMany`
+  - `deleteOne()`
+  - `deleteMany()`
+  - `findOneAndDelete()` displays the movie that has been deleted
+  - `findByIdAndDelete()`
+  - `findByIdAndRemove()`
+- **Mongoose Schema Validations**
+  - Operation Buffering allows us to start using models we defined immediately without waiting mongoose to be connected
+  - **SchemaType** options can be defined instead plain type
+    - `type`
+    - `required`
+    - `default`
+    - `enum` Array, creates a validator that checks if the value is in the given array
+    - etc...
+  - Additional Schema Constraints
+    - String
+      - `lowercase`
+      - `uppercase`
+      - `trim`
+      - `match` can be used to pass a regular expression pattern for the strings
+      - `enum`
+      - `minlength`
+      - `maxlength`
+    - Number
+      - `min`
+      - `max`
+      - `enum`
+    - Date
+- **Validating Mongoose Updates**
+  - `runValidators` option set to true to still apply validations when updating items
+  - Validations are applied automatically when something is created
+- **Mongoose Validation Errors**
+  - Built-in Validators
+  - Pass an array
+    - First value will be the real value of the item
+    - Second value will be string for a custom error message
+  - Check also for error handling messaging packages
+  - Validation on a
+    - client-side before sending the data to the server
+    - server-side before getting the data in a database
+- **Model Instance Methods**
+  - Operates on individual instances of a model
+  - Methods and functions tasks is to
+    - reduce duplication
+    - make the code more reusable
+    - and modular
+  - Organizational construct
+    - Organizing and associating logic with actual model and its information
+- **Model Static Methods**
+  - `this` in static method refers to model class itself
+  - Fancy way of finding, updating, creating, and deleting things
+  - Usually built on top of existing model methods
+- **Mongoose Virtual**
+  - A virtual is a property that is not stored in MongoDB
+  - Virtuals are typically used for computed properties on documents
+    - Gives us ability to add properties to schema that don't exist in the database
+  - Getters transform data in MongoDB into a more user friendly form
+  - Setters transform user data before it gets to MongoDB
+- **Mongoose Middleware**
+  - `pre` and `post` hooks
+  - Middleware are functions which are passed control during execution of asynchronous functions
+  - 4 Types of Middleware
+    - document middleware
+    - model middleware
+    - aggregate middleware
+    - query middleware
+  - Some of the middleware:
+    - `validate`
+    - `save`
+    - `remove`
+    - `updateOne`
+    - `deleteOne`
+    - `init`

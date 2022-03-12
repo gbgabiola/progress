@@ -78,7 +78,7 @@ Course Created by Colt Steele
 - [x] Creating Dynamic HTML With Templating
 - [x] Defining RESTful Routes
 - [x] Our First Database: MongoDB
-- [ ] Connecting To Mongo With Mongoose
+- [x] Connecting To Mongo With Mongoose
 - [ ] Putting It All Together: Mongoose With Express
 - [ ] YelpCamp: Campgrounds CRUD
 - [ ] Middleware: The Key To Express
