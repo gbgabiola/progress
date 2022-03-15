@@ -5,6 +5,7 @@
 - [Topics](#topics)
 - [MongoDB](#mongodb)
 - [Mongoose](#mongoose)
+- [Mongoose With Express](#mongoose-with-express)
 
 
 ## Topics
@@ -21,6 +22,13 @@
   - _Defining A Model_
   - _Mongoose CRUD_
   - _Schema Constraints_
+  - _Integrating Mongoose With Express_
+  - _Defining Our Model_
+  - Products Index
+  - Product Details
+  - _Creating Products_
+  - **Updating Products**
+  - Deleting Products
 - **Important**
   - Databases Basics
   - SQL vs. NoSQL
@@ -28,7 +36,7 @@
   - **Mongoose Middleware**
 - **Nice To Have**
   - **Mongoose Virtuals**
-
+  - **Filtering By Category**
 
 
 ## MongoDB
@@ -226,3 +234,7 @@
     - `updateOne`
     - `deleteOne`
     - `init`
+
+
+## Mongoose With Express
+

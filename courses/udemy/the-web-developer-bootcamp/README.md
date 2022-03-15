@@ -79,7 +79,7 @@ Course Created by Colt Steele
 - [x] Defining RESTful Routes
 - [x] Our First Database: MongoDB
 - [x] Connecting To Mongo With Mongoose
-- [ ] Putting It All Together: Mongoose With Express
+- [x] Putting It All Together: Mongoose With Express
 - [ ] YelpCamp: Campgrounds CRUD
 - [ ] Middleware: The Key To Express
 - [ ] YelpCamp: Adding Basic Styles
