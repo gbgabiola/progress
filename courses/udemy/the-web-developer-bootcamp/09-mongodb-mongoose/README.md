@@ -5,7 +5,6 @@
 - [Topics](#topics)
 - [MongoDB](#mongodb)
 - [Mongoose](#mongoose)
-- [Mongoose With Express](#mongoose-with-express)
 
 
 ## Topics
@@ -234,7 +233,3 @@
     - `updateOne`
     - `deleteOne`
     - `init`
-
-
-## Mongoose With Express
-
