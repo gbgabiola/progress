@@ -80,8 +80,8 @@ Course Created by Colt Steele
 - [x] Our First Database: MongoDB
 - [x] Connecting To Mongo With Mongoose
 - [x] Putting It All Together: Mongoose With Express
-- [ ] YelpCamp: Campgrounds CRUD
-- [ ] Middleware: The Key To Express
+- [x] YelpCamp: Campgrounds CRUD
+- [x] Middleware: The Key To Express
 - [ ] YelpCamp: Adding Basic Styles
 - [ ] Handling Errors In Express Apps
 - [ ] YelpCamp: Errors & Validating Data
