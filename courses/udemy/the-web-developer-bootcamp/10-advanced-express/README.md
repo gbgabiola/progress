@@ -4,6 +4,7 @@
 
 - [Topics](#topics)
 - [Middleware](#middleware)
+- [Handling Errors](#handling-errors)
 
 
 ## Topics
@@ -11,7 +12,12 @@
 - **Crucial**
   - _The concept of Middleware_
   - _Defining Custom Middleware_
+  - _Defining Custom Error Handlers_
+  - **Handling Async Errors**
+  - _Defining Custom Error Class_
 - **Important**
+  - Express' Built-In Error Handler
+  - _Working With Mongoose Errors_
 - **Nice To Have**
   - Morgan Logging Middleware
 
@@ -34,3 +40,23 @@
   - `res` -> response obj
   - `next` -> next thing that needs to be done
     - If present, express knows automatically what to do next and handles this
+
+
+## Handling Errors
+
+- **Error Handling** refers to how Express catches and processes errors that occur both sync and async
+- Express comes with a default built-in error handler
+  - Added at the end of the middleware function stack
+- **Defining Custom Error Handlers**
+  - Define error-handling middleware functions with four arguments, `(err, req, res, next)`
+  - Pasing anything to the `next()` will be regard as an error and will skip any remaining non-error handling route and middleware functions
+- **Custom Error Class**
+  - Error class with `status` and `message` parameter
+- **Handling Async Errors**
+  - Pass to the `next()` for Errors returned from async functions invoked by route handlers and middleware
+  - Use `try...catch`
+- **Define Async Utility**
+- **Diffentiating Mongoose Errors**
+  - `CastError` things that can't be cast into an `ObjectId`
+  - `ValidationError`, e.g., leaving things blank
+- Intercept any particular error types then modify or build new errors based upon them
