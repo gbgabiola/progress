@@ -82,10 +82,10 @@ Course Created by Colt Steele
 - [x] Putting It All Together: Mongoose With Express
 - [x] YelpCamp: Campgrounds CRUD
 - [x] Middleware: The Key To Express
-- [ ] YelpCamp: Adding Basic Styles
-- [ ] Handling Errors In Express Apps
-- [ ] YelpCamp: Errors & Validating Data
-- [ ] Data Relationships With Mongo
+- [x] YelpCamp: Adding Basic Styles
+- [x] Handling Errors In Express Apps
+- [x] YelpCamp: Errors & Validating Data
+- [x] Data Relationships With Mongo
 - [ ] Mongo Relationships With Express
 - [ ] YelpCamp: Adding The Reviews Model
 - [ ] Express Router & Cookies

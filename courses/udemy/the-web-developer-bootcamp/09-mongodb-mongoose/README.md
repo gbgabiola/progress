@@ -5,6 +5,7 @@
 - [Topics](#topics)
 - [MongoDB](#mongodb)
 - [Mongoose](#mongoose)
+- [Data Relationships With Mongo](#data-relationships-with-mongo)
 
 
 ## Topics
@@ -28,14 +29,20 @@
   - _Creating Products_
   - **Updating Products**
   - Deleting Products
+  - _One to Few_
+  - **One to Many**
+  - **One to Bajillions**
+  - Populate
 - **Important**
   - Databases Basics
   - SQL vs. NoSQL
   - _Model Instance & Static Methods_
   - **Mongoose Middleware**
+  - **Mongo Schema Design**
 - **Nice To Have**
   - **Mongoose Virtuals**
   - **Filtering By Category**
+  - _SQL Relationships Overview_
 
 
 ## MongoDB
@@ -233,3 +240,93 @@
     - `updateOne`
     - `deleteOne`
     - `init`
+
+
+## Data Relationships With Mongo
+
+### SQL Relationships Overview
+
+#### One to Many
+
+|  User  |           |          |
+| :----: | :-------: | :------: |
+| **id** | **first** | **last** |
+|   1    |   Tommy   |   Cash   |
+|   2    |   Tina    |  Turner  |
+|   3    |  Janice   |  Joplin  |
+
+
+|  Post  |                     |          |          |         |
+| :----: | :-----------------: | :------: | :------: | :-----: |
+| **id** |      **title**      | **link** | **date** | user_id |
+|   1    | My First Chiken Egg |          |          |    3    |
+
+#### Many to Many
+
+| Movie  |               |          |
+| :----: | :-----------: | :------: |
+| **id** |   **title**   | **year** |
+|   1    | The Favourite |   2018   |
+|   2    |  The Lobster  |   2015   |
+|   3    |   In Bruges   |   2008   |
+
+| Actor  |           |          |
+| :----: | :-------: | :------: |
+| **id** | **first** | **last** |
+|   1    |  Olivia   |  Colman  |
+|   2    | Nicholas  |  Hoult   |
+|   3    |   Colin   | Farrell  |
+
+|     Role     |              |
+| :----------: | :----------: |
+| **movie_id** | **actor_id** |
+|      1       |      1       |
+|      1       |      2       |
+|      2       |      1       |
+|      2       |      3       |
+|      3       |      3       |
+
+
+### Mongos Way
+
+- **One to Few**
+  - Embed the data directly in the document
+
+  ```js
+  {
+    name: 'Tommy Cash',
+    savedAddresses: [
+      { street: 'Rahukohtu 3', city: 'Tallinn', country: 'Estonia' },
+      { street: 'Rävala 5', city: 'Tallinn', country: 'Estonia' }
+    ]
+  }
+  ```
+
+- **One to Many**
+  - One option is to store data separately, then store references to document ID's somewhere inside the parent
+  - `populate()` method is used to populate the whole details of an item instead of just an id
+
+  ```js
+  {
+    farmName: 'Full Belly Farms',
+    location: 'Guinda, CA',
+    produce: [
+      ObjectID('2819781267781'),
+      ObjectID('1828678675667'),
+      ObjectID('8187777231283'),
+    ]
+  }
+  ```
+
+- **One to Bajillions**
+  - With thousands or more documents, it's more efficient to store a reference to the parent on the child document
+
+  ```js
+  {
+    tweetText: 'lol I just crashed my car because I was tweeting',
+    tags: ['stupid', 'moron', 'yolo'],
+    user: ObjectID('2133243243128')
+  }
+  ```
+
+- [6 Rules of Thumb for MongoDB Schema Design](https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-3)
