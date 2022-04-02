@@ -33,12 +33,16 @@
   - **One to Many**
   - **One to Bajillions**
   - Populate
+  - **Deleting With Mongo Middleware**
 - **Important**
   - Databases Basics
   - SQL vs. NoSQL
   - _Model Instance & Static Methods_
   - **Mongoose Middleware**
   - **Mongo Schema Design**
+  - _Defining Our Farm & Product Models_
+  - _Creating Farms_
+  - _Farms Show Page_
 - **Nice To Have**
   - **Mongoose Virtuals**
   - **Filtering By Category**

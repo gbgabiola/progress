@@ -86,7 +86,7 @@ Course Created by Colt Steele
 - [x] Handling Errors In Express Apps
 - [x] YelpCamp: Errors & Validating Data
 - [x] Data Relationships With Mongo
-- [ ] Mongo Relationships With Express
+- [x] Mongo Relationships With Express
 - [ ] YelpCamp: Adding The Reviews Model
 - [ ] Express Router & Cookies
 - [ ] Express Session & Flash
