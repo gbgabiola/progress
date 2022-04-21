@@ -5,6 +5,8 @@
 - [Topics](#topics)
 - [Middleware](#middleware)
 - [Handling Errors](#handling-errors)
+- [Express Router](#express-router)
+- [Cookies](#cookies)
 
 
 ## Topics
@@ -15,11 +17,16 @@
   - _Defining Custom Error Handlers_
   - **Handling Async Errors**
   - _Defining Custom Error Class_
+  - _Express Router Basics_
+  - _Understanding Cookies_
+  - Cookie Parser
 - **Important**
   - Express' Built-In Error Handler
   - _Working With Mongoose Errors_
+  - _Signed Cookies_
 - **Nice To Have**
   - Morgan Logging Middleware
+  - **HMAC Signing**
 
 
 ## Middleware
@@ -60,3 +67,21 @@
   - `CastError` things that can't be cast into an `ObjectId`
   - `ValidationError`, e.g., leaving things blank
 - Intercept any particular error types then modify or build new errors based upon them
+
+
+## Express Router
+
+- `router` object is an isolated instance of middleware and routes
+  - mini-application capable only of performing middleware and routing functions
+- `router.use()` to apply some kind of middle to the whole route
+
+
+## Cookies
+
+- Cookies are little bits of information that are stored in a user's browser when browsing a particular website
+- Once a cookie is set, a user's browser will send the cookie on every subsequent request to the site
+- Cookies allow use to make HTTP stateful
+- `cookie-parser` npm package parses `Cookie` header and populate `req.cookies`
+  - optionally may signed by passing `secret` string  which assigns `req.secret`
+- signed cookies are digital signature cryptographic signature not to encrypt or hide information instead it is to verify its integrity (haven't change like wax seal)
+- [HMAC Generator / Tester Tool](https://www.freeformatter.com/hmac-generator.html) computes a **Hash-based message authentication codes (HMAC)** using a secret key

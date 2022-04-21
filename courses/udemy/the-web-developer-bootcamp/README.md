@@ -87,8 +87,8 @@ Course Created by Colt Steele
 - [x] YelpCamp: Errors & Validating Data
 - [x] Data Relationships With Mongo
 - [x] Mongo Relationships With Express
-- [ ] YelpCamp: Adding The Reviews Model
-- [ ] Express Router & Cookies
+- [x] YelpCamp: Adding The Reviews Model
+- [x] Express Router & Cookies
 - [ ] Express Session & Flash
 - [ ] YelpCamp: Restructuring & Flash
 - [ ] Authentication From "Scratch"
