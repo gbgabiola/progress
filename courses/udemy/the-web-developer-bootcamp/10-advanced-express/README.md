@@ -7,6 +7,7 @@
 - [Handling Errors](#handling-errors)
 - [Express Router](#express-router)
 - [Cookies](#cookies)
+- [Sessions](#sessions)
 
 
 ## Topics
@@ -20,10 +21,13 @@
   - _Express Router Basics_
   - _Understanding Cookies_
   - Cookie Parser
+  - _Conceptual Overview of Session_
+  - _Setting Up Express Session_
 - **Important**
   - Express' Built-In Error Handler
   - _Working With Mongoose Errors_
   - _Signed Cookies_
+  - _Integrating Flash Messages_
 - **Nice To Have**
   - Morgan Logging Middleware
   - **HMAC Signing**
@@ -85,3 +89,15 @@
   - optionally may signed by passing `secret` string  which assigns `req.secret`
 - signed cookies are digital signature cryptographic signature not to encrypt or hide information instead it is to verify its integrity (haven't change like wax seal)
 - [HMAC Generator / Tester Tool](https://www.freeformatter.com/hmac-generator.html) computes a **Hash-based message authentication codes (HMAC)** using a secret key
+
+
+## Sessions
+
+- **Cookies** are not very practical (or secure) to store a lot of data client-side, cons:
+  - limit maximum size
+  - size of a cookie (how much does it store)
+- **Sessions** are a server-side data store that we use to make HTTP stateful
+  - Instead of storing data using cookies, we store the data on the server-side and then send the browser a cookie that can be used to retrieve the data
+- `express-session` module is an HTTP server-side framework used to create and manage a session middleware
+  - `secret` option is used to encode and decode the information in the session
+  - `resave` and `saveUninitialized` options are required to remove deprecated warning
