@@ -8,6 +8,7 @@
 - [Express Router](#express-router)
 - [Cookies](#cookies)
 - [Sessions](#sessions)
+- [Flash](#flash)
 
 
 ## Topics
@@ -101,3 +102,13 @@
 - `express-session` module is an HTTP server-side framework used to create and manage a session middleware
   - `secret` option is used to encode and decode the information in the session
   - `resave` and `saveUninitialized` options are required to remove deprecated warning
+
+
+## Flash
+
+- **Flash** messages is used to send or share a message to a user on a page that is not permanently there
+  - Will be removed when page is refreshed 
+  - Typically used in combination with redirects
+- `connect-flash` module
+  - `req.flash()` function that can be used for flash messages
+  - `res.locals` is an object that contains local variables for the response, scoped to the request only and therefore just available for the views rendered during that request or response cycle

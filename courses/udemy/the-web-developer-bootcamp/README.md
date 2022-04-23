@@ -89,7 +89,7 @@ Course Created by Colt Steele
 - [x] Mongo Relationships With Express
 - [x] YelpCamp: Adding The Reviews Model
 - [x] Express Router & Cookies
-- [ ] Express Session & Flash
+- [x] Express Session & Flash
 - [ ] YelpCamp: Restructuring & Flash
 - [ ] Authentication From "Scratch"
 - [ ] YelpCamp: Adding In Authentication
