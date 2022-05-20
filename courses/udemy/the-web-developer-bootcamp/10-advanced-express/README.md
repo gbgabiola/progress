@@ -9,6 +9,7 @@
 - [Cookies](#cookies)
 - [Sessions](#sessions)
 - [Flash](#flash)
+- [Authentication](#authentication)
 
 
 ## Topics
@@ -24,11 +25,17 @@
   - Cookie Parser
   - _Conceptual Overview of Session_
   - _Setting Up Express Session_
+  - Authentication vs. Authorization
+  - _How To (Not) Store Passwords_
+  - **Working With Bcrypt**
 - **Important**
   - Express' Built-In Error Handler
   - _Working With Mongoose Errors_
   - _Signed Cookies_
   - _Integrating Flash Messages_
+  - _Auth Demo_
+  - **Understanding Hashing Functions**
+  - **Password Salts**
 - **Nice To Have**
   - Morgan Logging Middleware
   - **HMAC Signing**
@@ -112,3 +119,27 @@
 - `connect-flash` module
   - `req.flash()` function that can be used for flash messages
   - `res.locals` is an object that contains local variables for the response, scoped to the request only and therefore just available for the views rendered during that request or response cycle
+
+
+## Authentication
+
+- **Authentication** is the process of verifying who a particular user is
+  - username/password
+  - security questions
+  - facial recognition
+  - etc.
+- **Authorization** is verifying what a specific user has access to
+  - Authorized after a user has been authenticated
+  - Meaning, "Now that we know who you are, here is what you are allowed to do and NOT allowed to do"
+- Rules #1: Never Store Passwords
+- **Hashing** Rather than storing a password in the database, we run the password through a _hashing function_ first and then store the result in the database
+- **Hashing functions** are functions that map input data of some arbitrary size to fixed-size output values
+- Cryptographic Hash Function
+  1. One-way function which is infeasible to invert
+  2. Small change in input yields large change in the output
+  3. Deterministic - same input yields same output
+  4. Unlikely to find 2 outputs with same value
+  5. Password Hash Functions are deliberately SLO
+- **Salt** is a random value added to the password before we hash it
+  - Helps ensure unique hashes and mitigate common attacks
+- bcrypt
