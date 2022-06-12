@@ -1,0 +1,50 @@
+# Getting Started
+
+- React
+  - A client-side JavaScript library
+  - All about building modern, reactive user interfaces
+  - Declarative, component-focused approach 
+  - Traditional: web apps clicks link and wait for a new page to load
+    - Click a button and wait for some action to complete
+  - Nowadays, mobile and desktop apps happen instantly, no need to wait for new pages to load or actions to start
+- SPA with React
+  - Widget approach on a multi-page application
+    - React can be used to _control parts_ of HTML pages or entire pages
+    - Some pages are still_ rendered on and served by a backend server_
+  - Single Page Applications (SPAs) approach
+    - React can also be used to _control the entire frontend_ of a web application
+    - Server _only sends one HTML page_, thereafter, React takes over and controls the UI
+- React Alternatives
+  - Angular
+    - Complete component-based UI framework, packed with features
+    - Uses TypeScript
+    - Can be overkill for small projects
+  - React.js
+    - Lean and focused component-based UI library
+    - Certain features (e.g., routing) are added via community packages
+  - Vue.js
+    - Complete component-based UI framework, includes most core features
+    - A bit less popular than React & Angular
+- Course Outline
+  - Basics & Foundation (Introducing Key Features)
+    - Components & Building UI
+    - Working with Events & Data: “props” and “state”
+    - Styling React Apps & Components
+    - Introduction into “React Hooks”
+  - Advanced Concepts (Building for Production)
+    - Side Effects, “Refs” & More React Hooks
+    - React’s Context API & Redux
+    - Forms, Http Requests & “Custom Hooks”
+    - Routing, Deployment, NextJS & More
+  - Summaries & Refresher (Optimizing your Time)
+    - JavaScript Refresher
+    - ReactJS Summary
+- Two Ways of taking the Course
+  - Standard Approach
+    - Start the course with lecture 1
+    - Skip JS if not needed
+    - Use React summary module to summarize or to refresh knowledge in the future
+  - Summary Approach
+    - Skip forward to the React summary module
+    - Optionally take JS if needed
+    - Go through the entire course after summary module and / or if you got more time in the future

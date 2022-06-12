@@ -15,7 +15,7 @@ Course Created by Maximilian Schwarzmüller of Academind
 
 ## Course Content
 
-- [ ] Getting Started
+- [x] Getting Started
 - [ ] JavaScript Refresher
 - [ ] React Basics & Working with Components
 - [ ] React State & Working with Events
