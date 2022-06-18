@@ -28,3 +28,5 @@
 - Uppercase elements are custom made by you or other developers
 - Only one root element per return stateme or JSX code snippet
 - `class` is `className` in ReactJS
+- `{}` is used to pass a normal JS expression
+- **Props** is like a parameter that can be used to pass data stored in other components
