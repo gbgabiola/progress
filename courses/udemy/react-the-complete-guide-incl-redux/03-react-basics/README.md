@@ -30,3 +30,5 @@
 - `class` is `className` in ReactJS
 - `{}` is used to pass a normal JS expression
 - **Props** is like a parameter that can be used to pass data stored in other components
+- Split components into multiple smaller components
+- Components without attributes can be written as self-closing element 
