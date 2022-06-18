@@ -16,6 +16,16 @@
 - `index.js` is usually or by default the main file of ReactJS
 - `index.html` inside `public` folder is where the ReactJS will be rendered (inside the `div` with id `root`)
 - JavaScript XML (**JSX**) is a HTML inside a JS code
+- Component Tree
+  - `<App />` which is rendered into single HTML page
+    - `<Header />`
+    - `<Tasks />`
+      - `<Task />`
+      - `<Task />`
+      - `<Task />`
+- Component naming convention is _Pascal_
+- Lowercase elements are built-in HTML elements
+- Uppercase elements are custom made by you or other developers
 
 - React & Components
 - React Core Syntax & JSX
