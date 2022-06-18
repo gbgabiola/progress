@@ -26,6 +26,7 @@
 - Component naming convention is _Pascal_
 - Lowercase elements are built-in HTML elements
 - Uppercase elements are custom made by you or other developers
+- Only one root element per return stateme or JSX code snippet
 
 - React & Components
 - React Core Syntax & JSX
