@@ -32,3 +32,6 @@
 - **Props** is like a parameter that can be used to pass data stored in other components
 - Split components into multiple smaller components
 - Components without attributes can be written as self-closing element 
+- Composition is building a user interface from smaller building blocks
+- Wrapper components are components that surround unknownn components and prove a default structure to display the child components
+  - Extract code duplications into wrapper components
