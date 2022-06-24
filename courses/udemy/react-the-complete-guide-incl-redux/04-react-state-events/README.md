@@ -31,3 +31,4 @@
     return { ...prevState, enteredTitle: event.target.value };
   })
   ``` 
+- `preventDefault()` prevents the default behavior of the form which submits it upon click
