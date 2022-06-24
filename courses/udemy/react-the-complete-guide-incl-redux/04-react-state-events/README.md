@@ -23,3 +23,5 @@
     - Http response
     - Timer, e.g., `setTimeout()`
 - React hooks must only be called inside a component functions
+- `event` object is automatically passed as parameter to the event Handler
+  - `value` property holds the current value from the input
