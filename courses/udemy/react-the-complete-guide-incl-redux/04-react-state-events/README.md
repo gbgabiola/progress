@@ -25,3 +25,9 @@
 - React hooks must only be called inside a component functions
 - `event` object is automatically passed as parameter to the event Handler
   - `value` property holds the current value from the input
+- **Note**: Whenever we need to update the state that depends on the previous state use this kind of syntax:
+  ```js
+  setUserInput(prevState => {
+    return { ...prevState, enteredTitle: event.target.value };
+  })
+  ``` 
