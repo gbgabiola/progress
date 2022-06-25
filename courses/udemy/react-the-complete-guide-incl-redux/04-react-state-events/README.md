@@ -32,3 +32,6 @@
   })
   ``` 
 - `preventDefault()` prevents the default behavior of the form which submits it upon click
+- Stateful vs Stateless (Presentational)
+  - Almost all React apps has couple of components that manage some state
+  - Stateless (Presentation or Dumb) components has no internal state, its purpose is to output some data

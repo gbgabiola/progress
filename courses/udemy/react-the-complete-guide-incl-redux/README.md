@@ -18,7 +18,7 @@ Course Created by Maximilian Schwarzmüller of Academind
 - [x] Getting Started
 - [x] JavaScript Refresher
 - [x] React Basics & Working with Components
-- [ ] React State & Working with Events
+- [x] React State & Working with Events
 - [ ] Rendering Lists & Conditional Content
 - [ ] Styling React Components
 - [ ] Debugging React Apps
