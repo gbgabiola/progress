@@ -19,7 +19,7 @@ Course Created by Maximilian Schwarzmüller of Academind
 - [x] JavaScript Refresher
 - [x] React Basics & Working with Components
 - [x] React State & Working with Events
-- [ ] Rendering Lists & Conditional Content
+- [x] Rendering Lists & Conditional Content
 - [ ] Styling React Components
 - [ ] Debugging React Apps
 - [ ] Time to Practice: A Complete Practice Project
