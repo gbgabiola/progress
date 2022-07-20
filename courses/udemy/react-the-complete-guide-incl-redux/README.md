@@ -20,10 +20,10 @@ Course Created by Maximilian Schwarzmüller of Academind
 - [x] React Basics & Working with Components
 - [x] React State & Working with Events
 - [x] Rendering Lists & Conditional Content
-- [ ] Styling React Components
-- [ ] Debugging React Apps
-- [ ] Time to Practice: A Complete Practice Project
-- [ ] Diving Deeper: Working with Fragments, Portals, and "Refs"
+- [x] Styling React Components
+- [x] Debugging React Apps
+- [x] Time to Practice: A Complete Practice Project
+- [x] Diving Deeper: Working with Fragments, Portals, and "Refs"
 - [ ] Advanced: Handling Side Effects, Using Reducers, & Using the ContextAPI
 - [ ] Practice Project: Building a Food Order App
 - [ ] A Look Behind the Scenes of React & Optimization Techniques
