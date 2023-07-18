@@ -20,6 +20,13 @@ app.set('views', 'views');
 app.use(express.urlencoded({ extended: true }));
 app.use(session({ secret: 'notagoodsecret' }));
 
+const requireLogin = (req, res, next) => {
+  if (!req.session.user_id) {
+    return res.redirect('/login');
+  }
+  next();
+};
+
 app.get('/', (req, res) => {
   res.send('THIS IS THE HOME PAGE');
 });
@@ -56,11 +63,18 @@ app.post('/login', async (req, res) => {
   }
 });
 
-app.get('/secret', (req, res) => {
-  if (!req.session.user_id) {
-    res.redirect('/login');
-  }
-  res.send('THIS IS SECRET! YOU CANNOT SEE ME UNLESS YOU ARE LOGGED IN!');
+app.post('/logout', (req, res) => {
+  // req.session.user_id = null;
+  req.session.destroy();
+  res.redirect('/login');
+});
+
+app.get('/secret', requireLogin, (req, res) => {
+  res.render('secret');
+});
+
+app.get('/topsecret', requireLogin, (req, res) => {
+  res.send('Top Secret');
 });
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}...`));
